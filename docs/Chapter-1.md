@@ -29,3 +29,65 @@ Desarrollar soluciones tecnológicas que permitan a las empresas constructoras y
 #### Visión
 
 Ser la plataforma HaaS/SaaS de referencia en Latinoamérica para la gestión y fiscalización ambiental de proyectos de infraestructura vial, destacando por su innovación, escalabilidad, y por ofrecer datos ambientales inalterables que generan confianza mutua entre constructoras y entes fiscalizadores.
+
+### 1.1.2. Perfiles de los Miembros del Equipo
+<a id="1-1-2-perfiles-de-los-miembros-del-equipo"></a>
+
+| Foto | Apellido y Nombre | 
+| --- | --- | 
+| |Eduardo Martín Guillén Chávez |
+| |Andy Alfredo Hipolito Salcedo Muñpoz |
+| | |
+| | |
+| | |
+
+
+## 1.2 Solution Profile
+<a id="1-2-solution-profile"></a>
+
+*EcoRoad* es una plataforma digital integral basada en un modelo SaaS, diseñada para dar soporte a los procesos de monitoreo, control y auditoría ambiental en proyectos de infraestructura vial. Permite a empresas constructoras y consultoras ambientales registrar indicadores ambientales, detectar automáticamente incumplimientos normativos y visualizar en tiempo real, sobre un mapa geolocalizado, el estado de salud ambiental de sus obras.
+
+### 1.2.1 Antecedentes y Problemática
+<a id="1-2-1-antecedentes-y-problematica"></a>
+
+La actividad constructora es uno de los motores más dinámicos de la economía peruana, con la obra pública —donde la infraestructura vial tiene un peso importante— como uno de los principales impulsores del crecimiento sectorial (CAPECO, 2025). La ejecución de estos proyectos está sujeta a un marco normativo ambiental cada vez más exigente, fiscalizado para el subsector transportes por la Dirección de Gestión Ambiental del MTC, mientras que la elaboración de los instrumentos de gestión ambiental requeridos recae en consultoras inscritas en el Registro Nacional de Consultoras Ambientales (RNCA) de SENACE, que agrupa a 1,293 consultoras habilitadas a nivel nacional (SENACE, 2024). A pesar de este marco, la digitalización del monitoreo ambiental en obra sigue siendo incipiente, mientras el OEFA avanza hacia una fiscalización más estricta apoyada en monitoreo continuo (OEFA, 2025).
+
+#### What / ¿QUÉ?
+
+EcoRoad busca resolver la fragmentación y el registro manual de datos ambientales durante la ejecución de proyectos viales, integrando tableros geolocalizados en tiempo real, un motor automatizado de alertas e incidencias y un dashboard de control multi-proyecto en un único sistema.
+
+#### When / ¿CUÁNDO?
+
+Esta necesidad es crítica en el contexto actual, en el que la fiscalización ambiental avanza hacia una mayor exigencia tecnológica y en el que la reactivación de la inversión vial incrementa el número de obras activas que requieren monitoreo simultáneo.
+
+#### Where / ¿DÓNDE?
+
+Ocurre principalmente en los proyectos de infraestructura vial ejecutados en el Perú, tanto en zonas urbanas como en tramos interprovinciales, así como en las oficinas centrales de las empresas constructoras y consultoras que supervisan dichos proyectos de forma remota.
+
+#### Who / ¿QUIÉN?
+
+Afecta principalmente a las empresas constructoras que ejecutan las obras viales y deben evidenciar el cumplimiento ambiental ante entidades fiscalizadoras (MTC, OEFA), y a las consultoras ambientales encargadas de diseñar y ejecutar los planes de monitoreo.
+
+#### Why / ¿POR QUÉ?
+
+Porque las infracciones ambientales no detectadas a tiempo generan sanciones económicas, restricciones para participar en licitaciones públicas y daño reputacional. Centralizar el monitoreo y automatizar la detección de incumplimientos reduce el riesgo regulatorio y optimiza el tiempo dedicado a auditorías.
+
+#### How / ¿CÓMO?
+
+Mediante EcoRoad, una plataforma web centralizada en la nube donde el personal de campo registra los indicadores ambientales, el motor automatizado los compara contra los límites normativos y, ante una superación, genera una alerta y crea un ticket de incidencia visible en los tableros y el dashboard geolocalizados.
+
+#### How Much / ¿CUÁNTO?
+
+El modelo de ingresos es de tipo SaaS, mediante planes de suscripción escalables: *Base, **Profesional* y *Enterprise*, diferenciados por número de proyectos, usuarios y funcionalidades de análisis incluidas.
+
+### 1.2.2 Lean UX Process
+<a id="1-2-2-lean-ux-process"></a>
+
+#### 1.2.2.1. Lean UX Problem Statements
+<a id="1-2-2-1-lean-ux-problem-statements"></a>
+
+El estado actual de *la gestión ambiental en proyectos de infraestructura vial* se ha enfocado principalmente en *el registro manual y disperso de indicadores ambientales, sin herramientas de análisis automatizado ni visualización centralizada, lo que provoca **detección tardía de incumplimientos normativos, mayor exposición a sanciones y auditorías lentas y costosas.* Esta situación afecta a *empresas constructoras y consultoras ambientales*, quienes dependen de métodos desactualizados para monitorear y documentar el cumplimiento ambiental de sus proyectos.
+
+Lo que los productos o servicios existentes no logran resolver es la *centralización digital, en tiempo real, del monitoreo ambiental y la gestión de incidencias en proyectos viales. Nuestro producto, **EcoRoad*, abordará esta brecha mediante una plataforma web SaaS que centraliza el registro de indicadores ambientales, detecta automáticamente las superaciones normativas y ofrece tableros geolocalizados para visualizar múltiples proyectos en simultáneo.
+
+Nuestro enfoque inicial estará dirigido a *empresas constructoras medianas y grandes que ejecutan proyectos viales en el Perú, así como a **consultoras ambientales registradas en el RNCA*. Sabremos que tenemos éxito cuando observemos una reducción medible en el tiempo de detección de incumplimientos, mayor cantidad de incidencias resueltas antes de una fiscalización externa, y una reducción en el tiempo dedicado a preparar auditorías.
