@@ -91,3 +91,89 @@ El estado actual de *la gestión ambiental en proyectos de infraestructura vial*
 Lo que los productos o servicios existentes no logran resolver es la *centralización digital, en tiempo real, del monitoreo ambiental y la gestión de incidencias en proyectos viales. Nuestro producto, **EcoRoad*, abordará esta brecha mediante una plataforma web SaaS que centraliza el registro de indicadores ambientales, detecta automáticamente las superaciones normativas y ofrece tableros geolocalizados para visualizar múltiples proyectos en simultáneo.
 
 Nuestro enfoque inicial estará dirigido a *empresas constructoras medianas y grandes que ejecutan proyectos viales en el Perú, así como a **consultoras ambientales registradas en el RNCA*. Sabremos que tenemos éxito cuando observemos una reducción medible en el tiempo de detección de incumplimientos, mayor cantidad de incidencias resueltas antes de una fiscalización externa, y una reducción en el tiempo dedicado a preparar auditorías.
+
+#### 1.2.2.2. Lean UX Assumptions
+<a id="1-2-2-2-lean-ux-assumptions"></a>
+
+##### A. Business Assumptions
+
+1. *Creemos que nuestros clientes necesitan:* un sistema de monitoreo ambiental centralizado y en tiempo real para sus proyectos viales.
+2. *Estas necesidades se resuelven con:* una plataforma SaaS que registra indicadores ambientales, detecta automáticamente incumplimientos normativos y visualiza el estado de los proyectos en un mapa.
+3. *Nuestros primeros clientes serán:* empresas constructoras medianas y consultoras ambientales que ejecutan proyectos viales en Lima y otras regiones del Perú.
+4. *Valor #1 esperado:* reducir el riesgo de sanciones por incumplimiento normativo mediante la detección temprana de incidencias.
+5. *Beneficios adicionales:* optimización del tiempo de auditoría, trazabilidad de los datos ambientales y mejora de la reputación institucional.
+6. *Adquisición:* alianzas con gremios del sector construcción (CAPECO), referidos entre consultoras ambientales y marketing digital dirigido a gerentes de proyecto.
+7. *Ingresos:* suscripción mensual o anual bajo planes escalables (Base, Profesional, Enterprise).
+8. *Competencia principal:* hojas de cálculo, sistemas de gestión documental genéricos y soluciones de monitoreo ambiental orientadas a otros sectores (minería, hidrocarburos).
+9. *Ventaja competitiva:* especialización en el dominio de proyectos viales, con motor de alertas automatizado y visualización geolocalizada nativa.
+10. *Mayor riesgo de producto:* que los equipos de campo no adopten el registro digital y continúen usando métodos manuales en paralelo.
+11. *Mitigación:* diseñar una interfaz simple y rápida de usar en campo, integrada con los flujos de trabajo ya existentes de los equipos de monitoreo.
+
+###### B. User Assumptions
+
+*- ¿Quién es el usuario?* Responsables de gestión ambiental, supervisores de obra y consultores ambientales.
+
+*- ¿Dónde encaja el producto?* En el proceso diario de monitoreo y control ambiental de un proyecto vial en ejecución.
+
+*- Problema a resolver:* la falta de visibilidad en tiempo real del cumplimiento normativo ambiental.
+
+*- Uso típico:* registro de mediciones de campo, revisión de alertas, consulta de tableros y generación de reportes para auditorías.
+
+*- Características importantes:* alertas automáticas, geolocalización, generación de reportes y acceso multiusuario por proyecto.
+
+*- Look & feel:* interfaz simple tipo dashboard, con codificación por color según nivel de riesgo (semáforo), pensada para uso rápido en campo desde dispositivos móviles.
+
+##### C. User Outcome & Benefit Assumptions
+
+- Los responsables de gestión ambiental identifican incidencias antes de que escalen a una infracción formal.
+- Los supervisores de obra reducen el tiempo dedicado a consolidar reportes manuales.
+- Las consultoras ambientales entregan informes de auditoría con mayor rapidez y respaldo de datos trazables.
+- Los equipos de campo perciben la plataforma como una herramienta que simplifica su trabajo diario, no como una carga adicional.
+
+##### D. Business Outcome Assumptions
+
+- Incremento en el número de empresas suscritas a los planes Profesional y Enterprise.
+- Reducción medible en el tiempo promedio de detección de incumplimientos normativos entre los clientes activos.
+- Aumento en la tasa de renovación de suscripciones tras el primer ciclo de facturación.
+- Mayor volumen de proyectos gestionados por cliente a lo largo del tiempo.
+
+##### E. Feature Assumptions
+
+1. *Tableros Geolocalizados en Tiempo Real:* mapean los proyectos y muestran el estado de los indicadores ambientales (aire, ruido, agua) por punto de monitoreo.
+2. *Generador de Reportes de Auditoría Automático:* consolida el histórico de indicadores e incidencias en documentación exportable para fiscalizaciones.
+3. *Sistema de Alertas Tempranas:* compara los datos ingresados frente a los límites normativos y crea automáticamente un ticket de incidencia ante una superación.
+4. *Dashboard de Control Geolocalizado Multi-Proyecto:* consolida el estado ambiental de múltiples proyectos viales en un mismo mapa.
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+<a id="1-2-2-3-lean-ux-hypothesis-statements"></a>
+
+##### Visualización y Control Centralizado
+
+Creemos que lograremos una detección más temprana de superaciones normativas y una mejor priorización de los recursos de supervisión, si los responsables de gestión ambiental y supervisores de obra obtienen visibilidad inmediata y geolocalizada del estado de los indicadores ambientales de sus proyectos, con tableros geolocalizados en tiempo real.
+
+##### Automatización de Reporteo
+
+Creemos que lograremos una reducción en el tiempo y costo de preparación de auditorías, si los equipos de gestión ambiental y consultoras ambientales obtienen documentación consolidada y trazable del histórico de indicadores e incidencias de un proyecto, con un generador de reportes de auditoría automático.
+
+##### Estandarización de Procesos
+
+Creemos que lograremos una reducción en el tiempo de respuesta ante incumplimientos normativos y una gestión de incidencias más consistente entre proyectos, si los responsables de gestión ambiental reciben notificaciones inmediatas y un registro automático de incidencias ante una superación de los límites normativos, con un sistema de alertas tempranas.
+
+##### Optimización de Recursos
+
+Creemos que lograremos una gestión más eficiente de carteras de múltiples proyectos viales, si las empresas constructoras y consultoras ambientales que gestionan varios proyectos acceden a una visualización consolidada del estado ambiental de todos sus proyectos en un solo mapa, con un dashboard de control geolocalizado multi-proyecto.
+
+#### 1.2.2.4. Lean UX Canvas
+<a id="1-2-2-4-lean-ux-canvas"></a>
+
+
+## 1.3 Segmentos Objetivos
+<a id="1-3-segmentos-objetivos"></a>
+
+### Segmento 1: Consultoras y supervisoras ambientales
+
+Responsables de gestión ambiental, jefes de proyecto e ingenieros residentes dentro de empresas constructoras y consultoras ambientales, encargados de supervisar el cumplimiento normativo de uno o varios proyectos viales. Suelen tener entre 30 y 55 años, formación en ingeniería civil, ambiental o afines, y reportan directamente a la gerencia de operaciones o de gestión ambiental de su empresa. Para el subsector transportes, la fiscalización ambiental de estos proyectos está a cargo de la Dirección de Gestión Ambiental del MTC (SPDA, 2024), lo que hace de este perfil un usuario directamente responsable ante la entidad reguladora.
+
+### Segmento 2: Empresas constructoras viales
+
+Empresas constructoras y consultoras ambientales que gestionan simultáneamente varios proyectos de infraestructura vial y requieren una visión consolidada del estado ambiental de toda su cartera, más allá del seguimiento obra por obra. El sector constructor peruano ha mostrado una recuperación sostenida en 2024-2025, impulsada por la obra pública vial (CAPECO, 2025), y el Registro Nacional de Consultoras Ambientales agrupa a 1,293 consultoras habilitadas a nivel nacional (SENACE, 2024), lo que evidencia un mercado amplio de organizaciones con potencial de gestionar múltiples proyectos a la vez.
