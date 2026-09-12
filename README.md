@@ -32,7 +32,7 @@
     <td>Apellidos y Nombres</td>
   </tr>
   <tr>
-    <td>U</td>
+    <td>U202421413</td>
     <td>Guillen Chavez Eduardo Martín</td>
   </tr>
   <tr>
@@ -41,7 +41,7 @@
   </tr>
   <tr>
   <tr>
-    <td>U</td>
+    <td>U20241E417</td>
     <td>Salcedo Muñoz Andy Alfredo Hipolito</td>
   </tr>
   <tr>

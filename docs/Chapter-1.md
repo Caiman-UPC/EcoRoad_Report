@@ -34,10 +34,10 @@ Ser la plataforma HaaS/SaaS de referencia en Latinoamérica para la gestión y f
 <a id="1-1-2-perfiles-de-los-miembros-del-equipo"></a>
 
 | Foto | Apellido y Nombre | 
-| --- | --- | 
-| |Eduardo Martín Guillén Chávez |
-| |Andy Alfredo Hipolito Salcedo Muñpoz |
-| | |
+| :---: | :--- | 
+| <img src="../assets/Chapter-1/Eduardo.png" alt="Eduardo Martin Guillen Chavez" width="100"/> | Eduardo Martín Guillén Chávez |
+| <img src="../assets/Chapter-1/Andy.png" alt="Andy Alfredo Hipólito Salcedo Muñoz" width="100"/> | Andy Alfredo Hipolito Salcedo Muñoz |
+| <img src="../assets/Chapter-1/Cristina.jpeg" alt="Cristina" width="100"/> | Cristina Marcela Yarleque Ruiz |
 | | |
 | | |
 
