@@ -200,8 +200,13 @@ Preguntas complementarias:
 2.2.3. Análisis de entrevistas.
 
 2.3. Needfinding.
+### 2.3.1. User Personas
+<a id="2-3-1-user-personas"></a>
 
-2.3.1. User Personas.
+**Segmento 1: Empresas constructoras viales**
+
+Para las empresas constructoras se elaboró el User Persona Diego Davalos. Se consideraron factores como su edad, su rol operativo y de mitigación ambiental en proyectos viales, su experiencia en la gestión de frentes de obra y su necesidad de optimizar procesos de registro preventivo de indicadores ambientales (aire, ruido, agua). Sus principales frustraciones giran en torno a la falta de un sistema automatizado para el monitoreo en tiempo real, la dependencia de registros manuales dispersos y la dificultad para recopilar evidencia ante auditorías imprevistas. Asimismo, se tomó en cuenta su familiaridad con herramientas móviles en campo y la necesidad de contar con una solución ágil y resistente a problemas de conectividad que le permita mitigar riesgos y evitar multas o paralizaciones de obra.
+
 
 2.3.2. User Task Matrix.
 
