@@ -139,8 +139,60 @@ Con base en el análisis de las fortalezas, debilidades, oportunidades y amenaza
     * *Táctica:* Establecer un esquema de datos desacoplado por Bounded Contexts y gobernanza de roles (RBAC) con módulos independientes. La constructora utiliza un módulo operativo de mitigación interna, mientras la empresa supervisora accede a un panel de auditoría de solo lectura con telemetría inalterable, resolviendo la desconfianza estructural entre ambas entidades.
     * *Táctica:* Exponer un RESTful Web API documentado bajo OpenAPI para permitir la futura interoperabilidad e integración de métricas ambientales de EcoRoad dentro de los paneles corporativos y herramientas BIM de las grandes constructoras.
 
-2.2. Entrevistas.
+## 2.2. Entrevistas.
+###   2.2.1 Diseño de Entrevistas
+<a id="2-2-1-diseno-de-entrevistas"></a>
 
+####   Preguntas presentacion
+
+- ¿Hola cúal es tu nombre y edad?
+- ¿Cuál es tu cargo actual y hace cuánto tiempo te desempeñas en él?
+- ¿Cuáles son tus principales responsabilidades del día a día en relación con la gestión o supervisión ambiental del proyecto?
+- ¿Cuáles son tus principales responsabilidades del día a día en relación con la gestión o supervisión ambiental del proyecto?
+
+### Segmento 1: Líderes o jefes de gestión de proyectos
+
+#### Preguntas principales:
+
+1. ¿Cómo es tu proceso actual para registrar los indicadores ambientales (aire, ruido, agua) en obra?
+
+2. ¿Qué herramientas usas hoy para ese registro (Excel, papel, algún software, apps)?
+3. Cuéntame sobre la última vez que detectaste un posible incumplimiento normativo: ¿cómo te enteraste y qué pasos siguieron después?
+4. ¿Cuánto tiempo suele pasar entre que ocurre una superación de un límite normativo y el momento en que alguien se entera de ella?
+5. Cuéntame cómo preparas la documentación cuando viene una fiscalización o auditoría ambiental.
+6. ¿Qué tan seguido revisas el estado ambiental de tu(s) proyecto(s) y qué necesitas ver para sentir que tienes control de la situación?
+   Cuéntame cómo preparas la documentación cuando viene una fiscalización o auditoría ambiental.
+7. ¿Qué parte de ese proceso de auditoría te consume más tiempo o te genera más estrés?
+8. ¿Ha pasado alguna vez que un incumplimiento se detectara tarde? ¿Qué consecuencias tuvo?
+9.  Si pudieras cambiar una sola cosa de cómo monitoreas el cumplimiento ambiental hoy, ¿qué cambiarías?
+10. ¿Cómo te comunicas con tu equipo de campo cuando necesitas que registren una medición o reporten una incidencia?
+
+Preguntas complementarias:
+
+11. ¿Quién más en tu organización necesita ver esta información y con qué frecuencia se la compartes?
+12. ¿Has usado o probado alguna herramienta digital para esto antes? ¿Qué te gustó o no te gustó de ella?
+13. ¿Desde qué dispositivo sueles trabajar cuando estás en campo (celular, tablet, laptop) y qué tan buena es la conectividad en esas zonas?
+
+Segmento 2: Empresas que trabajan con múltiples proyectos
+
+Preguntas principales:
+1. ¿Cómo hace tu empresa hoy para tener una visión general del estado ambiental de todos los proyectos que manejan al mismo tiempo?
+2. ¿Quién dentro de la organización necesita esa visión consolidada y para qué la usa?
+3. Cuéntame cómo es el proceso cuando la gerencia pide un reporte del estado de cumplimiento de varios proyectos a la vez.
+4. ¿Qué tan fácil o difícil es comparar el desempeño ambiental entre dos proyectos distintos hoy en día?
+5. ¿Han tenido casos en que un problema en un proyecto pasó desapercibido por no tener visibilidad centralizada? Cuéntame qué pasó.
+6. ¿Cómo deciden a qué proyecto darle prioridad de atención cuando hay varias incidencias abiertas al mismo tiempo?
+7. ¿Qué información necesitan las áreas de gerencia o dirección para tomar decisiones sobre riesgo regulatorio?
+8. ¿Cómo manejan hoy la relación entre la consultora ambiental y la constructora cuando ambas trabajan sobre el mismo proyecto?
+9. ¿Qué impacto ha tenido para la empresa una sanción o infracción ambiental en el pasado (tiempo, dinero, reputación, licitaciones)?
+10. Si tuvieras que justificar internamente una inversión en una herramienta de monitoreo ambiental, ¿qué argumentos usarías?
+
+Preguntas complementarias:
+
+11. ¿Cuántas personas de tu organización estarían involucradas en el uso de una herramienta así (roles, cantidad aproximada)?
+12. ¿Cómo es hoy el proceso de onboarding cuando un proyecto nuevo se suma a la cartera de la empresa?
+13. ¿Qué tan dispuesta estaría tu empresa a pagar una suscripción mensual/anual por una herramienta que resuelva esto, y qué factores pesarían más en esa decisión (precio, cantidad de proyectos, soporte)?
+          
 2.2.1. Diseño de entrevistas.
 
 2.2.2. Registro de entrevistas.
