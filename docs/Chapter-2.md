@@ -323,3 +323,23 @@ Tras la exploración inicial, el equipo procedió a estructurar y ordenar cronol
 
 
 2.5. Ubiquitous Language
+
+Con el propósito de mantener una comunicación transparente, estandarizada y libre de ambigüedades entre todos los miembros del equipo y los stakeholders, se establece el siguiente glosario de términos y conceptos propios del dominio de negocio —excluyendo terminología técnica de ingeniería de software—, fundamentado en los principios del Domain-Driven Design de Eric Evans. Mantener un glosario de esta naturaleza completo y actualizado asegura que tanto los desarrolladores como los expertos en el dominio operen bajo el mismo entendimiento conceptual.
+
+A continuación, se detallan los términos clave del dominio socioambiental vial:
+
+- Environmental Monitoring (Monitoreo Ambiental): Proceso sistemático de medición, registro y evaluación de variables críticas de impacto (como ruido, calidad de aire y agua) en los frentes de obra vial.
+
+- Road Construction Company (Empresa Constructoras Viales): Organización ejecutora responsable de la operación táctica en la pista y del cumplimiento de los compromisos ambientales operativos.
+
+- Environmental Supervision Consulting Firm (Empresa Consultora Supervisora): Organización encargada de fiscalizar, consolidar y auditar la gestión socioambiental de múltiples proyectos viales por encargo del Estado.
+
+- Site Resident (Residente de Obra): Profesional de campo responsable de la ejecución de las obras y de la supervisión directa del cumplimiento de las normativas ambientales en la vía.
+
+- Environmental Supervisor (Supervisor Ambiental): Especialista encargado de verificar que los contratistas cumplan con los estándares normativos exigidos por las entidades regulatorias.
+
+- Regulatory Audit (Auditoría Regulatoria): Proceso de revisión y fiscalización oficial de la documentación e indicadores socioambientales por parte de los entes estatales (como MTC o SENACE).
+
+- Threshold Deviation (Desvío de Umbral): Superación de los límites máximos permisibles establecidos para los indicadores ambientales durante la ejecución de las obras.
+
+- Compliance Report (Reporte de Cumplimiento): Documento oficial consolidado que detalla el estado de la gestión ambiental de los proyectos para su presentación ante las autoridades competentes.
