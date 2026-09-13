@@ -297,11 +297,15 @@ Para desarrollar los Empathy Maps, se tomaron como base los hallazgos e informac
 **Segmento 1: Empresas constructoras viales**
 
 En este mapa se analizó a Diego Dávalos, un ingeniero civil de campo y residente de obra con la responsabilidad de garantizar la ejecución táctica y el cumplimiento ambiental operativo en los tramos viales. Se identificó que piensa constantemente en la necesidad de simplificar su trabajo en la pista y teme cometer errores de registro que deriven en multas severas. Escucha las exigencias de la consultora supervisora y los reclamos de su cuadrilla, y observa un entorno rudo y cambiante con herramientas manuales obsoletas y carpetas desorganizadas. Diego expresa la necesidad de contar con una herramienta móvil rápida que funcione sin conexión, y actúa recorriendo los frentes, tomando notas físicas y compilando datos a última hora. Su dolor principal es la conectividad intermitente, la ausencia de un sistema centralizado y el estrés por la recopilación manual, mientras que su ganancia esperada es lograr una aplicación móvil con modo offline, alertas automáticas y mayor control operativo para las auditorías.
-
+<div align="center"><img src="../assets/Chapter-2/EmpathyDiego.jpg" alt="Gráfico Estadístico Administradores" width="80%"></div>
+<br>
 
 **Segmento 2: Empresas supervisoras ambientales y consultoras**
 
 En este mapa se analizó a Gisela Chávez, una jefa de supervisión ambiental y consultora senior con la responsabilidad de fiscalizar y consolidar múltiples proyectos viales en paralelo. Ella piensa en la necesidad de contar con una plataforma centralizada para evitar errores al cruzar bases de datos complejas. Escucha las exigencias normativas del MTC y SENACE y las presiones de la alta gerencia, y observa un entorno de oficina con múltiples correos, carpetas desordenadas y hojas de Excel kilométricas. Gisela suele expresar la necesidad de obtener datos limpios y oportunos sin tener que lidiar con la asimetría de información de los contratistas, y actúa enviando correos de seguimiento, presionando por informes y cruzando cifras manualmente. Su dolor principal es la ausencia de visibilidad en tiempo real y el alto riesgo de error humano en los reportes, mientras que su ganancia esperada es disponer de un panel gerencial centralizado, automatización de informes oficiales y mayor control estratégico.
+<div align="center"><img src="../assets/Chapter-2/EmpathyGisela.jpg" alt="Gráfico Estadístico Administradores" width="80%"></div>
+<br>
+
 2.4. Big Picture Event Storming.
 
 2.5. Ubiquitous Language
