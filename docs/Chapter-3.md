@@ -92,16 +92,14 @@
 ### 3.2. Impact Mapping
 <a id="3-2-impact-mapping"></a>
 
-## IMPACT MAPPING 1
+En esta sección se presenta el desglose estratégico del modelo de negocio de EcoRoad mediante la técnica de **Impact Mapping**, vinculando la meta de negocio SMART con los cambios de comportamiento requeridos en los segmentos de cliente, las soluciones funcionales provistas y las historias de usuario asociadas.
 
-
-## IMPACT MAPPING 2
-
+<p align="center">
+  <img src="../assets/Chapter-3/Impact_map.png" alt="Impact Mapping Consolidado - EcoRoad" width="100%"/>
+</p>
 
 ### 3.3. Product Backlog
 <a id="3-3-product-backlog"></a>
-
-## 3.3. Product Backlog
 
 | # Orden | User Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
 |---|---|---|---|---|
@@ -162,7 +160,3 @@
 | 55 | US07 | Notificaciones Push Landing | Como usuario de EcoRoad, quiero aceptar notificaciones del navegador para recibir alertas de incumplimientos sin ingresar a la plataforma. | 5 |
 | 56 | US31 | Paginación de Resultados | Como Frontend, quiero resultados paginados en los listados de indicadores/incidencias para optimizar el rendimiento. | 3 |
 | 57 | US37 | Limitación de Peticiones (Rate Limiting) | Como Admin, quiero limitar peticiones por IP para evitar ataques de denegación de servicio. | 5 |
-
-3.2. Impact Mapping.
-
-3.3. Product Backlog.
