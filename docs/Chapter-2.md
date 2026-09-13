@@ -307,6 +307,7 @@ En este mapa se analizó a Gisela Chávez, una jefa de supervisión ambiental y 
 <br>
 
 2.4. Big Picture Event Storming.
+
 Step 1 – Free Exploration
 
 En esta fase inicial de exploración libre, el equipo llevó a cabo una sesión de ideación colaborativa intensiva sobre un lienzo digital en blanco. El objetivo principal fue mapear de forma abierta y sin restricciones metodológicas todos los acontecimientos, puntos de contacto, actores y situaciones críticas que ocurren a lo largo del ciclo de vida del monitoreo socioambiental en los tramos viales. Durante este acercamiento inicial, se identificaron de manera espontánea los principales dolores operativos, como la fricción en el registro manual de datos, la dependencia de canales de comunicación informales y la complejidad de compilar información dispersa para los entes reguladores.
