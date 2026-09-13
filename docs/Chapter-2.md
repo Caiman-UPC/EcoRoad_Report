@@ -207,6 +207,10 @@ Preguntas complementarias:
 
 Para las empresas constructoras se elaboró el User Persona Diego Davalos. Se consideraron factores como su edad, su rol operativo y de mitigación ambiental en proyectos viales, su experiencia en la gestión de frentes de obra y su necesidad de optimizar procesos de registro preventivo de indicadores ambientales (aire, ruido, agua). Sus principales frustraciones giran en torno a la falta de un sistema automatizado para el monitoreo en tiempo real, la dependencia de registros manuales dispersos y la dificultad para recopilar evidencia ante auditorías imprevistas. Asimismo, se tomó en cuenta su familiaridad con herramientas móviles en campo y la necesidad de contar con una solución ágil y resistente a problemas de conectividad que le permita mitigar riesgos y evitar multas o paralizaciones de obra.
 
+**Segmento 2: Empresas supervisoras ambientales y consultoras**
+
+Para las consultoras y supervisoras se elaboró el User Persona Gisela Chavez. Se consideraron factores como su cargo directivo en la fiscalización de múltiples proyectos viales a nivel nacional, su experiencia en auditorías regulatorias y su necesidad de contar con una visión centralizada y consolidada del cumplimiento ambiental. Sus principales frustraciones se relacionan con la asimetría de información entre la constructora y la consultora, la falta de reportes automatizados para la gerencia y el riesgo reputacional ante posibles sanciones. Asimismo, se tomó en cuenta su uso de herramientas gerenciales y la necesidad de una plataforma basada en datos inalterables que asegure la transparencia y eficiencia en la supervisión multisitio.
+
 
 2.3.2. User Task Matrix.
 
