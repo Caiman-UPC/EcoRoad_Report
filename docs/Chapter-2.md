@@ -277,6 +277,19 @@ Si analizamos cómo se comportan ambos perfiles a partir de la matriz, saltan a 
 
 2.3.3. User Journey Mapping.
 
+**Segmento 1: Empresas constructoras viales**
+
+El recorrido actual de Diego se centra en la ejecución física de la obra vial y comprende las siguientes etapas principales: 1. Planificación inicial y despliegue en campo, 2. Monitoreo diario de indicadores ambientales (aire, ruido, agua), 3. Detección y respuesta ante una alerta o desvío, y 4. Preparación de evidencias para auditorías o inspecciones imprevistas.
+Durante este ciclo, el punto más crítico ocurre en las etapas 2 y 4. Al depender de registros manuales y planillas de Excel dispersas, Diego experimenta una alta frustración debido a la intermitencia de conectividad en zonas alejadas y al riesgo latente de enterarse tarde de una superación de límites normativos. La necesidad de recopilar papeles y fotos sueltas para armar carpetas de cumplimiento genera una carga de estrés considerable antes de cada fiscalización del Estado.
+<div align="center"><img src="../assets/Chapter-2/JourneyMapDiego.png" alt="Gráfico Estadístico Administradores" width="80%"></div>
+<br>
+
+**Segmento 2: Empresas supervisoras ambientales y consultoras**
+
+El recorrido de Gisela abarca una perspectiva directiva y de fiscalización macro, dividida en: 1. Incorporación y onboarding de un nuevo proyecto vial a la cartera, 2. Supervisión periódica y seguimiento multisitio, 3. Solicitud de reportes de cumplimiento a las constructoras, y 4. Consolidación de informes oficiales para la gerencia y entidades de control (MTC/SENACE).
+El mayor cuello de botella en el viaje de Gisela se concentra en las etapas 2 y 3. Debido a la asimetría de información y a la falta de una plataforma centralizada, recopilar y unificar los reportes de múltiples proyectos al mismo tiempo le demanda cruzar correos y llamadas de forma constante. Esto la expone a demoras operativas y a un alto riesgo reputacional si algún problema ambiental pasa desapercibido por la falta de visibilidad en tiempo real.
+<div align="center"><img src="../assets/Chapter-2/JourneyMapGisela.png" alt="Gráfico Estadístico Administradores" width="80%"></div>
+<br>
 2.3.4. Empathy Mapping.
 
 2.4. Big Picture Event Storming.
