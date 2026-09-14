@@ -29,7 +29,22 @@ La arquitectura de información de EcoRoad está diseñada para garantizar una n
 
 4.2.2. Labeling Systems.
 
-4.2.3. SEO Tags and Meta Tags
+### 4.2.3. SEO Tags and Meta Tags
+<a id="4-2-3-seo-tags-and-meta-tags"></a>
+
+Para asegurar la visibilidad en motores de búsqueda y la correcta compartición en canales digitales B2B, se establecen los siguientes metadatos principales para la experiencia web de EcoRoad:
+
+* **Landing Page (Sitio Web Estático):**
+    * **Title:** `EcoRoad by Caiman | Monitoreo y Cumplimiento Ambiental en Infraestructura Vial`
+    * **Meta Description:** `Plataforma HaaS/SaaS líder en el Perú para la gestión ambiental vial. Automatiza sensores IoT en comodato, alertas de umbrales y reportes de auditoría para constructoras y supervisoras.`
+    * **Meta Keywords:** `monitoreo ambiental vial, cumplimiento normativo OEFA MTC, sensores IoT construcción, gestión ambiental carreteras, auditoría ambiental RPA.`
+    * **Meta Author:** `Caiman Tech Startup`
+
+* **Web Application (Plataforma Privada):**
+    * **Title:** `EcoRoad App | Gestión y Fiscalización Ambiental en Tiempo Real`
+    * **Meta Description:** `Panel de control privado para el seguimiento de indicadores ambientales, mapa geolocalizado de tramos viales y resolución de incidencias operativas.`
+    * **Meta Keywords:** `dashboard ambiental, tramos viales, tablero kanban incidencias, reportes PDF auditoría.`
+    * **Meta Author:** `Caiman Tech Startup`
 
 4.2.4. Searching Systems.
 
