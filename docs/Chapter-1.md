@@ -192,10 +192,12 @@ Creemos que lograremos una gestión más eficiente de carteras de múltiples pro
 ## 1.3 Segmentos Objetivos
 <a id="1-3-segmentos-objetivos"></a>
 
-### Segmento 1: Consultoras y supervisoras ambientales
+EcoRoad está dirigida a dos segmentos B2B específicos relacionados con la ejecución, mejora y conservación de la infraestructura vial[cite: 3]:
 
-Responsables de gestión ambiental, jefes de proyecto e ingenieros residentes dentro de empresas constructoras y consultoras ambientales, encargados de supervisar el cumplimiento normativo de uno o varios proyectos viales. Suelen tener entre 30 y 55 años, formación en ingeniería civil, ambiental o afines, y reportan directamente a la gerencia de operaciones o de gestión ambiental de su empresa. Para el subsector transportes, la fiscalización ambiental de estos proyectos está a cargo de la Dirección de Gestión Ambiental del MTC (SPDA, 2024), lo que hace de este perfil un usuario directamente responsable ante la entidad reguladora.
+### Segmento 1: Empresas constructoras viales
 
-### Segmento 2: Empresas constructoras viales
+Son empresas encargadas de ejecutar proyectos de construcción de nuevas carreteras y otras obras de infraestructura vial[cite: 3]. Utilizarán EcoRoad para monitorear en tiempo real el impacto ambiental generado por sus actividades mediante sensores IoT, identificar riesgos ambientales oportunamente y gestionar de manera centralizada las incidencias y acciones correctivas que se presenten durante la ejecución de sus obras[cite: 3]. La plataforma les permite administrar múltiples proyectos desde una misma cuenta, facilitando la trazabilidad y el cumplimiento operativo[cite: 3].
 
-Empresas constructoras y consultoras ambientales que gestionan simultáneamente varios proyectos de infraestructura vial y requieren una visión consolidada del estado ambiental de toda su cartera, más allá del seguimiento obra por obra. El sector constructor peruano ha mostrado una recuperación sostenida en 2024-2025, impulsada por la obra pública vial (CAPECO, 2025), y el Registro Nacional de Consultoras Ambientales agrupa a 1,293 consultoras habilitadas a nivel nacional (SENACE, 2024), lo que evidencia un mercado amplio de organizaciones con potencial de gestionar múltiples proyectos a la vez.
+### Segmento 2: Empresas de mantenimiento y rehabilitación vial
+
+Son empresas encargadas de realizar actividades de conservación, mejora y rehabilitación de vías de transporte terrestre existentes[cite: 3]. Utilizarán EcoRoad para supervisar las condiciones ambientales durante sus operaciones en campo y gestionar los riesgos específicos asociados a estas labores[cite: 3]. Al igual que las constructoras, podrán centralizar la información ambiental y el control de diferentes proyectos y frentes de trabajo desde una sola plataforma SaaS[cite: 3].
