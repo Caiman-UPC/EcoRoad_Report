@@ -9,15 +9,23 @@ Capítulo IV: Product Design
 ## 4.2. Information Architecture
 <a id="4-2-information-architecture"></a>
 
-La arquitectura de información organiza, estructura y rotula los contenidos de EcoRoad para facilitar la navegación intuitiva de los usuarios (Diego Dávalos y Gisela Chávez), asegurando un acceso eficiente a las vistas operativas y de fiscalización según sus roles.
+La arquitectura de información de EcoRoad está diseñada para garantizar una navegación fluida, intuitiva y eficiente, permitiendo que tanto los ingenieros de campo (constructoras) como los auditores (supervisoras) accedan con rapidez al valor de la plataforma y a sus herramientas de gestión y fiscalización.
 
 ### 4.2.1. Organization Systems
 <a id="4-2-1-organization-systems"></a>
 
-El sistema de organización se estructura bajo un modelo **jerárquico y contextual desacoplado por contextos acotados (*Bounded Contexts*)**:
-* **Nivel Global / Portafolio:** Vista superior orientada a gerentes y PMO para la supervisión multi-proyecto y salud ambiental general del portafolio vial.
-* **Nivel de Proyecto Específico:** Contenedor central que agrupa los tramos viales, puntos de monitoreo geolocalizados, histórico de indicadores y el tablero de incidencias.
-* **Nivel de Módulos Funcionales (RBAC):** Separación lógica entre el módulo operativo de mitigación interna (para constructoras) y el panel de auditoría de solo lectura (para consultoras supervisoras).
+* **Jerarquía de Contenidos:** La estructura de la información fluye de lo general a lo específico. En la Landing Page pública se prioriza la propuesta de valor HaaS/SaaS y los beneficios de Caiman, mientras que en la Web Application la jerarquía organiza el portafolio global de proyectos viales hasta llegar al detalle micro de cada tramo, punto de monitoreo e incidencia.
+
+* **Secciones Principales de la Aplicación:** La plataforma se divide en módulos funcionales clave:
+    * **Dashboard Global:** Vista ejecutiva y multi-proyecto con indicadores de salud ambiental.
+    * **Mapa Interactivo:** Visualización geolocalizada de tramos viales y pines semafóricos.
+    * **Gestión de Proyectos:** Alta, configuración y administración de frentes de obra viales.
+    * **Puntos de Monitoreo:** Registro de telemetría y parámetros físicos (aire, ruido, agua).
+    * **Tablero de Incidencias:** Flujo Kanban para el seguimiento y resolución de desvíos normativos con evidencia multimedia.
+    * **Reportes y Auditorías:** Generación automatizada de expedientes y exportación en formato PDF.
+    * **Configuración y Suscripción:** Gestión de planes (Base, Profesional, Enterprise) y control de accesos basados en roles (RBAC).
+
+* **Agrupación de Contenidos:** Los datos operativos se agrupan lógicamente por severidad y contexto temporal. Las alertas y tickets críticos se destacan mediante códigos de color estandarizados (semáforo), permitiendo un escaneo visual rápido sin saturar al operador de campo.
 
 4.2.2. Labeling Systems.
 
