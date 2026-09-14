@@ -65,7 +65,7 @@ Convertirnos en la plataforma SaaS líder en gestión y monitoreo ambiental para
 ### 1.2.1 Antecedentes y Problemática
 <a id="1-2-1-antecedentes-y-problematica"></a>
 
-La actividad constructora es uno de los motores más dinámicos de la economía peruana, con la obra pública —donde la infraestructura vial tiene un peso importante— como uno de los principales impulsores del crecimiento sectorial (CAPECO, 2025). La ejecución de estos proyectos está sujeta a un marco normativo ambiental cada vez más exigente, fiscalizado para el subsector transportes por la Dirección de Gestión Ambiental del MTC, mientras que la elaboración de los instrumentos de gestión ambiental requeridos recae en consultoras inscritas en el Registro Nacional de Consultoras Ambientales (RNCA) de SENACE, que agrupa a 1,293 consultoras habilitadas a nivel nacional (SENACE, 2024). A pesar de este marco, la digitalización del monitoreo ambiental en obra sigue siendo incipiente, mientras el OEFA avanza hacia una fiscalización más estricta apoyada en monitoreo continuo (OEFA, 2025).
+La actividad constructora es uno de los motores más dinámicos de la economía peruana, con la obra pública —donde la infraestructura vial tiene un peso importante— como uno de los principales impulsores del crecimiento sectorial (CAPECO, 2025). La ejecución de estos proyectos está sujeta a un marco normativo ambiental cada vez más exigente, fiscalizado para el subsector transportes por la Dirección de Gestión Ambiental del MTC, mientras que la gestión ambiental y los planes de mitigación requeridos recaen en las propias empresas ejecutoras y de conservación vial bajo la fiscalización del MTC y OEFA., que agrupa a 1,293 consultoras habilitadas a nivel nacional (SENACE, 2024). A pesar de este marco, la digitalización del monitoreo ambiental en obra sigue siendo incipiente, mientras el OEFA avanza hacia una fiscalización más estricta apoyada en monitoreo continuo (OEFA, 2025).
 
 #### What / ¿QUÉ?
 
@@ -81,7 +81,7 @@ Ocurre principalmente en los proyectos de infraestructura vial ejecutados en el 
 
 #### Who / ¿QUIÉN?
 
-Afecta principalmente a las empresas constructoras que ejecutan las obras viales y deben evidenciar el cumplimiento ambiental ante entidades fiscalizadoras (MTC, OEFA), y a las consultoras ambientales encargadas de diseñar y ejecutar los planes de monitoreo.
+Afecta principalmente a las empresas constructoras y a las empresas de mantenimiento y rehabilitación vial que ejecutan y conservan las obras viales, las cuales deben evidenciar el cumplimiento ambiental y gestionar los riesgos operativos ante entidades fiscalizadoras (MTC, OEFA).
 
 #### Why / ¿POR QUÉ?
 
