@@ -6,9 +6,18 @@ Capítulo IV: Product Design
 
 4.1.2. Web Style Guidelines.
 
-4.2. Information Architecture.
+## 4.2. Information Architecture
+<a id="4-2-information-architecture"></a>
 
-4.2.1. Organization Systems.
+La arquitectura de información organiza, estructura y rotula los contenidos de EcoRoad para facilitar la navegación intuitiva de los usuarios (Diego Dávalos y Gisela Chávez), asegurando un acceso eficiente a las vistas operativas y de fiscalización según sus roles.
+
+### 4.2.1. Organization Systems
+<a id="4-2-1-organization-systems"></a>
+
+El sistema de organización se estructura bajo un modelo **jerárquico y contextual desacoplado por contextos acotados (*Bounded Contexts*)**:
+* **Nivel Global / Portafolio:** Vista superior orientada a gerentes y PMO para la supervisión multi-proyecto y salud ambiental general del portafolio vial.
+* **Nivel de Proyecto Específico:** Contenedor central que agrupa los tramos viales, puntos de monitoreo geolocalizados, histórico de indicadores y el tablero de incidencias.
+* **Nivel de Módulos Funcionales (RBAC):** Separación lógica entre el módulo operativo de mitigación interna (para constructoras) y el panel de auditoría de solo lectura (para consultoras supervisoras).
 
 4.2.2. Labeling Systems.
 
