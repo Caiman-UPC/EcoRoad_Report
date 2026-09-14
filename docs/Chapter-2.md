@@ -34,12 +34,12 @@
       <td style="font-weight: bold;">Overview</td>
       <td>Plataforma HaaS/SaaS integrada con red propia de sensores IoT en comodato para monitoreo ambiental (aire, ruido, agua) y gestión preventiva en obras viales.</td>
       <td>Plataforma SaaS australiana especializada en monitoreo ambiental continuo (ruido, polvo, vibración) para construcción y minería.</td>
-      <td>Proveedor global especializado en instrumentación y monitores IoT de nivel de ruido y calidad del aire para monitoreo ambiental.</td>
+      <td>Proveedor global especializado en instrumentación y monitorización IoT de nivel de ruido y calidad del aire para monitoreo ambiental.</td>
       <td>Suite integral de software basada en la nube para la gestión de proyectos de construcción, flujos de trabajo BIM y control documental.</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
-      <td>Modelo HaaS sin inversión inicial de hardware, rol de árbitro neutral con telemetría inalterable y motor de mitigación preventiva para constructoras y supervisoras.</td>
+      <td>Modelo HaaS sin inversión inicial de hardware, automatización de acciones correctivas y motor de mitigación preventiva para constructoras y empresas de mantenimiento vial.</td>
       <td>Automatización del procesamiento de datos ambientales de campo con algoritmos de reconocimiento de eventos de ruido mediante IA.</td>
       <td>Equipos de medición de alta robustez, precisión instrumental y cumplimiento estricto de estándares internacionales de calibración sonora.</td>
       <td>Integración nativa y madura con modelos BIM (Revit/Civil 3D), gestión de calidad global y amplia adopción corporativa en el sector.</td>
@@ -48,14 +48,14 @@
     <tr>
       <td rowspan="2" align="center" style="font-weight: bold; vertical-align: middle;">Perfil de Marketing</td>
       <td style="font-weight: bold;">Mercado objetivo</td>
-      <td>Empresas constructoras viales medianas/grandes y consultoras supervisoras ambientales registradas (RNCA/SENACE) en Perú y LatAm.</td>
+      <td>Empresas constructoras viales y empresas de mantenimiento y rehabilitación vial que operan múltiples proyectos en Perú y LatAm.</td>
       <td>Contratistas generales de edificación e infraestructura pesada en Australia, Nueva Zelanda, Reino Unido y Norteamérica.</td>
       <td>Consultores acústicos, autoridades municipales, firmas ambientales y proyectos industriales a nivel internacional.</td>
       <td>Empresas constructoras de gran envergadura, consorcios de ingeniería, firmas de diseño y entidades públicas a nivel global.</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Estrategias de marketing</td>
-      <td>Alianzas con gremios sectoriales (CAPECO), prospección directa B2B a consultoras del RNCA y conferencias de infraestructura vial.</td>
+      <td>Alianzas con gremios sectoriales (CAPECO), prospección directa B2B a gerentes de operaciones de constructoras y concesionarias viales.</td>
       <td>Inbound marketing, casos de éxito en megaproyectos urbanos, marketing de contenidos sobre sostenibilidad y webinars técnicos.</td>
       <td>Venta consultiva técnica B2B, presencia en ferias de instrumentación acústica/ambiental y red de distribuidores de hardware.</td>
       <td>Campañas masivas B2B, certificaciones profesionales oficiales, red de partners globales y promociones integradas en el ecosistema Autodesk.</td>
@@ -64,21 +64,21 @@
     <tr>
       <td rowspan="3" align="center" style="font-weight: bold; vertical-align: middle;">Perfil de Producto</td>
       <td style="font-weight: bold;">Productos & Servicios</td>
-      <td>Red de sensores IoT (ruido, material particulado, calidad de agua), tablero geolocalizado multitramo, sistema de tickets preventivos y reportes legales en PDF.</td>
+      <td>Red de sensores IoT (ruido, material particulado, calidad de agua, vibraciones), tablero geolocalizado multitramo, sistema de incidencias y reportes legales en PDF.</td>
       <td>Dispositivos de monitoreo SiteHive (Hexanode), software cloud con mapas en tiempo real, alertas por correo/SMS y reportes de cumplimiento.</td>
       <td>Equipos de medición física (sonómetros Sonitus EM2010, monitores de polvo) integrados a su plataforma web Sonitus Cloud de análisis histórico.</td>
       <td>Módulos de Autodesk Build, BIM Collaborate, Docs y Takeoff; herramientas de incidencias generales (RFI), planos y control de avance.</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Precios & Costos</td>
-      <td>Suscripción dual HaaS mensual o anual (planes Base, Profesional, Enterprise) que incluye hardware, soporte y calibración de fábrica.</td>
+      <td>Suscripción dual HaaS mensual o anual (planes Starter, Professional, Enterprise) que incluye software, soporte y alquiler flexible de sensores IoT.</td>
       <td>Suscripción SaaS por dispositivo activo al mes/año; el hardware requiere alquiler por separado o compra directa del kit.</td>
       <td>Venta directa de hardware (costo de capital elevado por equipo) más suscripción periódica por acceso a la plataforma Sonitus Cloud.</td>
       <td>Licenciamiento por usuario/mes o esquema corporativo por volumen de facturación del proyecto (tarifas premium elevadas).</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Canales de distribución (Web y/o Móvil)</td>
-      <td>Plataforma Web responsiva accesible vía navegador de escritorio y móvil, con despliegue de hardware directo en tramos viales.</td>
+      <td>Plataforma Web responsiva accesible vía navegador de escritorio y móvil, con despliegue de hardware directo en frentes de obra vial.</td>
       <td>Aplicación Web para navegador y versión optimizada para navegadores móviles.</td>
       <td>Plataforma Web (Sonitus Cloud) y distribución física de sensores a través de canales logísticos y representantes locales.</td>
       <td>Aplicación Web de escritorio, aplicaciones móviles dedicadas (iOS y Android) y extensiones de escritorio integradas.</td>
@@ -90,7 +90,7 @@
     </tr>
     <tr>
       <td style="font-weight: bold;">Fortalezas</td>
-      <td>Modelo de ingresos HaaS (cero CapEx en sensores para el cliente), módulos desacoplados para constructora y supervisora con datos inalterables.</td>
+      <td>Modelo de ingresos HaaS flexible (cero CapEx forzoso en sensores), flujo completo desde detección IoT hasta cierre de acciones correctivas y gestión multi-proyecto.</td>
       <td>Plataforma de software intuitiva, algoritmos avanzados de clasificación de fuentes de ruido y marca validada en mercados desarrollados.</td>
       <td>Alta precisión de hardware, sensores certificados bajo normas IEC/ISO y larga vida útil de los equipos en campo.</td>
       <td>Posición dominante del mercado global, ecosistema de software interconectado y solidez técnica/financiera corporativa.</td>
@@ -104,14 +104,14 @@
     </tr>
     <tr>
       <td style="font-weight: bold;">Oportunidades</td>
-      <td>Normativas ambientales peruanas más rigurosas (fiscalización continua MTC/OEFA) y necesidad de mitigar riesgos de sanciones en obras viales.</td>
+      <td>Normativas ambientales peruanas más rigurosas (fiscalización continua MTC/OEFA) y necesidad de mitigar riesgos de multas en constructoras y concesionarias.</td>
       <td>Expansión hacia regulaciones de descarbonización e iniciativas ESG en obras de infraestructura civil internacional.</td>
       <td>Crecimiento de proyectos de ciudades inteligentes y ordenanzas municipales de control estricto de contaminación sonora.</td>
       <td>Adquisición o integración de plugins IoT de terceros para centralizar mediciones ambientales dentro de Autodesk Construction Cloud.</td>
     </tr>
     <tr>
       <td style="font-weight: bold;">Amenazas</td>
-      <td>Reticencia cultural al cambio tecnológico en obras de provincias y demoras administrativas en la adopción por parte de consultoras públicas.</td>
+      <td>Reticencia cultural al cambio tecnológico en obras de provincias y demoras administrativas en la adopción por parte de operadoras tradicionales.</td>
       <td>Entrada de proveedores de hardware de bajo costo con capacidades de software genéricas.</td>
       <td>Competidores locales que ofrecen calibración y alquiler de instrumental tradicional a tarifas reducidas por jornada.</td>
       <td>Desarrollo de módulos nativos de gestión ambiental y sostenibilidad dentro de la suite de Autodesk a corto plazo.</td>
