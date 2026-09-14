@@ -196,7 +196,7 @@ EcoRoad está dirigida a dos segmentos B2B específicos relacionados con la ejec
 
 ### Segmento 1: Empresas constructoras viales
 
-Son empresas encargadas de ejecutar proyectos de construcción de nuevas carreteras y otras obras de infraestructura vial[cite: 3]. Utilizarán EcoRoad para monitorear en tiempo real el impacto ambiental generado por sus actividades mediante sensores IoT, identificar riesgos ambientales oportunamente y gestionar de manera centralizada las incidencias y acciones correctivas que se presenten durante la ejecución de sus obras[cite: 3]. La plataforma les permite administrar múltiples proyectos desde una misma cuenta, facilitando la trazabilidad y el cumplimiento operativo[cite: 3].
+Son empresas encargadas de ejecutar proyectos de construcción de carreteras y otras obras de infraestructura vial, representadas por sus equipos de operaciones y residentes de obra. Utilizarán EcoRoad para monitorear el impacto ambiental generado por sus actividades, identificar riesgos y gestionar oportunamente las incidencias ambientales que puedan presentarse durante la ejecución de sus proyectos. La plataforma les permitirá administrar múltiples proyectos desde una misma cuenta, visualizar el estado ambiental de cada uno y realizar seguimiento de las alertas, incidencias y acciones correctivas correspondientes.
 
 ### Segmento 2: Empresas de mantenimiento y rehabilitación vial
 
