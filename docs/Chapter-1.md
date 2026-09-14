@@ -2,33 +2,48 @@
 
 ## Introducción
 
-El presente proyecto tiene como finalidad el diseño, desarrollo e implementación de una solución **HaaS/SaaS** (Hardware as a Service + Software as a Service), compuesta por un RESTful API de elaboración interna y una Web Application integrada con dicho API, con el objetivo de resolver problemáticas reales del sector de infraestructura vial en el ámbito de la gestión y el cumplimiento ambiental. Esta solución se construye bajo un enfoque de ingeniería de software moderna, incorporando metodologías ágiles, diseño centrado en el usuario (Lean UX) y una arquitectura orientada a servicios.
+La presente sección introduce el proyecto EcoRoad, una propuesta tecnológica orientada a mejorar la gestión y el monitoreo ambiental en proyectos de infraestructura vial. En este capítulo se presenta el perfil de la startup, su propósito y las principales características que definen la solución propuesta.
 
-En el contexto actual, las empresas constructoras y las consultoras/supervisoras ambientales que participan en proyectos viales enfrentan desafíos relacionados con el registro, procesamiento y control en tiempo real de indicadores ambientales (aire, ruido, agua), especialmente en obras donde aún predominan procesos manuales, semi-digitalizados o dependientes de reportes que pueden ser alterados o entregados fuera de tiempo. Estas limitaciones generan retrasos en la detección de incumplimientos normativos, mayor exposición a sanciones, procesos de auditoría lentos y costosos, y una desconfianza estructural entre quien ejecuta la obra y quien la fiscaliza.
+EcoRoad surge ante la necesidad de contar con una gestión ambiental más oportuna, centralizada y trazable durante la ejecución, mantenimiento y rehabilitación de proyectos viales. La propuesta busca aprovechar tecnologías como el Internet de las Cosas (IoT) para recopilar información ambiental en tiempo 
+real y transformarla en acciones que permitan atender oportunamente los riesgos identificados.
 
-Frente a este escenario, el presente proyecto propone el desarrollo de **EcoRoad**, un ecosistema digital que centraliza —mediante una red propia de sensores IoT— el registro de indicadores ambientales, automatiza la detección de incumplimientos normativos mediante un motor de alertas preventivas, y visualiza en tiempo real el estado ambiental de múltiples proyectos viales, contribuyendo a la mejora de la eficiencia operativa de las constructoras y a la reducción del riesgo regulatorio y de esfuerzo de fiscalización de las supervisoras ambientales.
+Asimismo, se presenta el enfoque de EcoRoad como una plataforma web bajo un modelo SaaS, diseñada para que las empresas puedan gestionar múltiples proyectos desde un mismo entorno digital. La solución integra el monitoreo de indicadores ambientales con la detección de riesgos, generación de alertas, gestión de incidencias, seguimiento de acciones correctivas y registro de evidencias.
+
+De esta manera, el capítulo permite comprender la identidad y finalidad de EcoRoad, así como el valor que busca aportar a las empresas vinculadas con la ejecución y conservación de infraestructura vial.
+
 
 ## 1.1 Startup Profile
+<a id="1-1-Startup-Profile"></a>
 
-La presente sección describe el contexto general de la startup responsable del desarrollo de la solución propuesta. Se presenta una visión general de la organización, su enfoque tecnológico y propuesta de valor, así como la caracterización de los integrantes del equipo, destacando sus perfiles y roles dentro del proyecto.
+El perfil de la startup permite establecer las características fundamentales de EcoRoad y definir el enfoque que orienta el desarrollo de la propuesta. En esta sección se presenta la identidad de la plataforma, su propósito y 
+la forma en que busca responder a las necesidades de gestión ambiental presentes en los proyectos de infraestructura vial.
+
+EcoRoad se plantea como una solución tecnológica B2B enfocada en empresas relacionadas con la construcción, mantenimiento y rehabilitación de vías. 
+Su propuesta combina una plataforma web SaaS con dispositivos IoT para centralizar información ambiental, analizar las mediciones obtenidas y facilitar la gestión de los riesgos e incidencias identificados durante las operaciones.
+
+La propuesta de EcoRoad se centra en pasar de un enfoque basado únicamente en la recopilación y visualización de datos a uno orientado a la gestión. Para ello, 
+la plataforma conecta el monitoreo ambiental con un flujo de respuesta que comprende la detección del riesgo, generación de alertas, creación y seguimiento de incidencias, ejecución de acciones correctivas, registro de evidencias y cierre de los eventos.
+
+Este enfoque busca proporcionar a las empresas una herramienta que les permita mantener la información ambiental de sus proyectos organizada, accesible y trazable, 
+facilitando la toma de decisiones y el seguimiento de las acciones realizadas frente a los riesgos detectados.
+
 
 ### 1.1.1 Descripción de la Startup
+<a id="1-1-1-Descripción-de-la-Startup"></a>
 
-**Caiman** es una startup tecnológica enfocada en el desarrollo de soluciones digitales bajo un modelo híbrido **HaaS/SaaS**, orientadas a la gestión y el cumplimiento ambiental en el sector de infraestructura vial. Su propuesta de valor se centra en transformar el registro manual, disperso y potencialmente manipulable de datos ambientales en un ecosistema automatizado en tiempo real, alimentado por una red propia de sensores IoT, accesible, escalable y adaptable a distintos tamaños de operación empresarial.
+EcoRoad es una plataforma web SaaS diseñada para transformar la gestión ambiental en el sector de infraestructura vial. A diferencia de las soluciones tradicionales que solo visualizan datos, EcoRoad integra 
+dispositivos IoT en tiempo real para capturar indicadores críticos (aire, ruido, agua, vibraciones) y los convierte automáticamente en un flujo de trabajo trazable: desde la detección del 
+riesgo y la emisión de alertas, hasta la asignación de acciones correctivas y el registro de evidencias en campo.
 
-El nombre **Caiman** hace alusión al caimán como especie bioindicadora: su presencia y bienestar reflejan el equilibrio ambiental del ecosistema que habita, de la misma manera en que la plataforma desarrollada por la startup busca reflejar, en tiempo real y con datos inalterables, el estado de salud ambiental de cada proyecto vial que monitorea, actuando como un observador neutral entre las partes.
+Orientada a empresas constructoras y de conservación vial, la plataforma permite centralizar múltiples proyectos en un solo lugar. Su modelo de negocio se basa en 
+planes de suscripción mensuales o anuales (Starter, Professional y Enterprise) adaptados a la escala de cada cliente, complementado con un esquema flexible de alquiler independiente de sensores IoT. Así, EcoRoad no es solo una herramienta de monitoreo, sino un ecosistema integral que impulsa una ingeniería civil preventiva, transparente y sostenible.
 
-El modelo de negocio de Caiman es inherentemente escalable y de **doble ingreso (dual revenue)**: la plataforma vende suscripciones independientes a los dos actores que operan sobre una misma obra vial —la empresa constructora y la empresa supervisora/consultora ambiental— cada una con un módulo exclusivo, financieramente separado, sostenido mediante planes segmentados (Base, Profesional y Enterprise) que permiten el crecimiento de la startup a la par del crecimiento de sus clientes, sin incrementos proporcionales en los costos operativos.
+**Misión**
+Desarrollar soluciones tecnológicas robustas, eficientes y centradas en la gestión ambiental, que permitan a las empresas constructoras y de conservación vial gestionar sus operaciones de manera transparente y en tiempo real. En EcoRoad nos enfocamos en la innovación constante, la integración de tecnologías IoT y la transformación de datos en acciones correctivas trazables, con el fin de mitigar riesgos ambientales y contribuir a una gestión más sostenible de los proyectos de infraestructura vial.
 
-En el marco de este proyecto, la startup desarrolla **EcoRoad**, una plataforma HaaS/SaaS que provee tanto el hardware de sensores ambientales como el software de gestión, dirigida principalmente a empresas constructoras y empresas supervisoras/consultoras ambientales que buscan, respectivamente, evitar infracciones normativas y automatizar la fiscalización de obras viales.
+**Visión**
+Convertirnos en la plataforma SaaS líder en gestión y monitoreo ambiental para el sector de infraestructura vial en Latinoamérica, integrando tecnologías emergentes como el Internet de las Cosas y la analítica automatizada de datos. Aspiramos a transformar la gestión ambiental de los proyectos viales en un proceso dinámico, predictivo y preventivo, contribuyendo al desarrollo de una infraestructura vial más sostenible.
 
-#### Misión
-
-Desarrollar soluciones tecnológicas que permitan a las empresas constructoras y a las empresas supervisoras ambientales del sector vial optimizar el monitoreo, control y cumplimiento de sus obligaciones ambientales, mediante datos captados por sensores IoT propios, en tiempo real, automatización de alertas preventivas y visualización geolocalizada, actuando como árbitro tecnológico neutral entre ambas partes.
-
-#### Visión
-
-Ser la plataforma HaaS/SaaS de referencia en Latinoamérica para la gestión y fiscalización ambiental de proyectos de infraestructura vial, destacando por su innovación, escalabilidad, y por ofrecer datos ambientales inalterables que generan confianza mutua entre constructoras y entes fiscalizadores.
 
 ### 1.1.2. Perfiles de los Miembros del Equipo
 <a id="1-1-2-perfiles-de-los-miembros-del-equipo"></a>
