@@ -129,59 +129,54 @@ Para posicionar a EcoRoad frente a la competencia internacional (como SiteHive y
 * **Gestión Multi-Proyecto para Concesionarias y Constructoras:** Se despliega una arquitectura pensada para que las empresas ejecutoras y de mantenimiento vial gestionen múltiples frentes de obra simultáneamente desde una única cuenta centralizada y un mapa geolocalizado unificado, optimizando el control que ejercen los residentes de obra y jefes de operaciones.
 * **Estrategia Comercial B2B Dirigida:** La prospección se enfoca directamente en gerentes de operaciones, gerentes de proyectos y residentes de obra de constructoras y empresas de conservación vial, apoyándose en alianzas estratégicas con gremios sectoriales (como CAPECO) y demostrando una reducción directa en el riesgo de paralizaciones y sanciones regulatorias ante el MTC y el OEFA.
 
-## 2.2. Entrevistas.
-###   2.2.1 Diseño de Entrevistas
+## 2.2. Entrevistas
+<a id="2-2-entrevistas"></a>
+
+### 2.2.1. Diseño de Entrevistas
 <a id="2-2-1-diseno-de-entrevistas"></a>
 
-####   Preguntas presentacion
+Las entrevistas semiestructuradas tienen como objetivo validar las hipótesis del problema, comprender los flujos de trabajo actuales y evaluar la disposición de adopción tecnológica frente a la propuesta de EcoRoad. Las preguntas se estructuran en una fase inicial de presentación y bloques diferenciados para cada uno de los dos segmentos objetivo.
 
-- ¿Hola cúal es tu nombre y edad?
-- ¿Cuál es tu cargo actual y hace cuánto tiempo te desempeñas en él?
-- ¿Cuáles son tus principales responsabilidades del día a día en relación con la gestión o supervisión ambiental del proyecto?
-- ¿Cuáles son tus principales responsabilidades del día a día en relación con la gestión o supervisión ambiental del proyecto?
+#### Preguntas de Presentación (Transversales)
+* ¿Cuál es tu nombre y edad?
+* ¿Cuál es tu cargo actual y hace cuánto tiempo te desempeñas en él?
+* ¿Cuáles son tus principales responsabilidades del día a día en relación con la gestión o supervisión ambiental del proyecto vial?
 
-### Segmento 1: Líderes o jefes de gestión de proyectos
+---
 
-#### Preguntas principales:
+#### Segmento 1: Empresas Constructoras Viales
 
-1. ¿Cómo es tu proceso actual para registrar los indicadores ambientales (aire, ruido, agua) en obra?
+**Preguntas Principales:**
+* ¿Cómo es tu proceso actual para registrar los indicadores ambientales (aire, ruido, agua, vibraciones) en obra? ¿Qué herramientas usas hoy para ese registro (Excel, papel, planillas internas)?
+* Cuéntame sobre la última vez que detectaste un posible incumplimiento normativo en la ejecución de la obra: ¿cómo te enteraste y qué pasos siguieron después?
+* ¿Cuánto tiempo suele pasar entre que ocurre una superación de un límite normativo en campo y el momento en que el equipo directivo o de operaciones se entera de ella?
+* Cuéntame cómo preparas la documentación ambiental cuando se aproxima una fiscalización de una entidad reguladora (como OEFA o MTC). ¿Qué parte de ese proceso te consume más tiempo o te genera mayor estrés?
+* ¿Ha pasado alguna vez que un incumplimiento o riesgo ambiental en la construcción se detectara tarde? ¿Qué consecuencias operativas o económicas tuvo?
+* ¿Cómo se comunica el equipo de campo con la oficina técnica cuando se necesita registrar una medición urgente o reportar una incidencia imprevista en el frente de obra?
+* ¿Desde qué dispositivo sueles trabajar cuando estás recorriendo los frentes viales (celular, tablet, laptop) y qué tan confiable es la conectividad en esas zonas de trabajo?
 
-2. ¿Qué herramientas usas hoy para ese registro (Excel, papel, algún software, apps)?
-3. Cuéntame sobre la última vez que detectaste un posible incumplimiento normativo: ¿cómo te enteraste y qué pasos siguieron después?
-4. ¿Cuánto tiempo suele pasar entre que ocurre una superación de un límite normativo y el momento en que alguien se entera de ella?
-5. Cuéntame cómo preparas la documentación cuando viene una fiscalización o auditoría ambiental.
-6. ¿Qué tan seguido revisas el estado ambiental de tu(s) proyecto(s) y qué necesitas ver para sentir que tienes control de la situación?
-   Cuéntame cómo preparas la documentación cuando viene una fiscalización o auditoría ambiental.
-7. ¿Qué parte de ese proceso de auditoría te consume más tiempo o te genera más estrés?
-8. ¿Ha pasado alguna vez que un incumplimiento se detectara tarde? ¿Qué consecuencias tuvo?
-9.  Si pudieras cambiar una sola cosa de cómo monitoreas el cumplimiento ambiental hoy, ¿qué cambiarías?
-10. ¿Cómo te comunicas con tu equipo de campo cuando necesitas que registren una medición o reporten una incidencia?
+**Preguntas Complementarias:**
+* ¿Quién más en tu organización necesita ver esta información ambiental y con qué frecuencia se la compartes?
+* ¿Has usado o probado alguna herramienta digital para el control de obras o cumplimiento normativo antes? ¿Qué te gustó o no te gustó de ella?
 
-Preguntas complementarias:
+---
 
-11. ¿Quién más en tu organización necesita ver esta información y con qué frecuencia se la compartes?
-12. ¿Has usado o probado alguna herramienta digital para esto antes? ¿Qué te gustó o no te gustó de ella?
-13. ¿Desde qué dispositivo sueles trabajar cuando estás en campo (celular, tablet, laptop) y qué tan buena es la conectividad en esas zonas?
+#### Segmento 2: Empresas de Mantenimiento y Rehabilitación Vial
 
-Segmento 2: Empresas que trabajan con múltiples proyectos
+**Preguntas Principales:**
+* ¿Cómo hace tu empresa hoy para tener una visión general y centralizada del estado ambiental de los múltiples tramos o proyectos de mantenimiento que manejan al mismo tiempo?
+* ¿Quién dentro de la organización necesita esa visión consolidada de cartera y para qué la utiliza en el día a día?
+* Cuéntame cómo es el proceso cuando la gerencia o la entidad comitente exige un reporte del estado de cumplimiento ambiental de varios frentes de conservación a la vez.
+* ¿Qué tan fácil o difícil es comparar el desempeño ambiental y operativo entre dos proyectos de rehabilitación distintos hoy en día?
+* ¿Han tenido casos en los que un problema ambiental en un tramo en mantenimiento pasó desapercibido por no contar con una visibilidad centralizada? Cuéntame qué sucedió.
+* ¿Cómo deciden a qué frente de obra darle prioridad de atención cuando hay varias incidencias o alertas ambientales abiertas de manera simultánea?
+* ¿Qué impacto ha tenido para la empresa una sanción o amonestación ambiental en el pasado (retrasos, costos, impacto en licitaciones públicas)?
+* Si tuvieras que justificar internamente una inversión en una plataforma SaaS de monitoreo ambiental y gestión de incidencias, ¿qué argumentos cuantitativos o cualitativos usarías?
 
-Preguntas principales:
-1. ¿Cómo hace tu empresa hoy para tener una visión general del estado ambiental de todos los proyectos que manejan al mismo tiempo?
-2. ¿Quién dentro de la organización necesita esa visión consolidada y para qué la usa?
-3. Cuéntame cómo es el proceso cuando la gerencia pide un reporte del estado de cumplimiento de varios proyectos a la vez.
-4. ¿Qué tan fácil o difícil es comparar el desempeño ambiental entre dos proyectos distintos hoy en día?
-5. ¿Han tenido casos en que un problema en un proyecto pasó desapercibido por no tener visibilidad centralizada? Cuéntame qué pasó.
-6. ¿Cómo deciden a qué proyecto darle prioridad de atención cuando hay varias incidencias abiertas al mismo tiempo?
-7. ¿Qué información necesitan las áreas de gerencia o dirección para tomar decisiones sobre riesgo regulatorio?
-8. ¿Cómo manejan hoy la relación entre la consultora ambiental y la constructora cuando ambas trabajan sobre el mismo proyecto?
-9. ¿Qué impacto ha tenido para la empresa una sanción o infracción ambiental en el pasado (tiempo, dinero, reputación, licitaciones)?
-10. Si tuvieras que justificar internamente una inversión en una herramienta de monitoreo ambiental, ¿qué argumentos usarías?
-
-Preguntas complementarias:
-
-11. ¿Cuántas personas de tu organización estarían involucradas en el uso de una herramienta así (roles, cantidad aproximada)?
-12. ¿Cómo es hoy el proceso de onboarding cuando un proyecto nuevo se suma a la cartera de la empresa?
-13. ¿Qué tan dispuesta estaría tu empresa a pagar una suscripción mensual/anual por una herramienta que resuelva esto, y qué factores pesarían más en esa decisión (precio, cantidad de proyectos, soporte)?
+**Preguntas Complementarias:**
+* ¿Cuántas personas de tu organización estarían involucradas en el uso de una herramienta de este tipo (roles y cantidad aproximada de usuarios)?
+* ¿Cómo se gestiona actualmente el proceso de incorporación (*onboarding*) cuando un nuevo proyecto de mantenimiento o rehabilitación se suma a la cartera de la empresa?
+* ¿Qué tan dispuesta estaría tu empresa a adoptar un esquema de suscripción (mensual/anual) combinado con alquiler flexible de sensores IoT en comodato, y qué factores pesarían más en esa decisión?
 
 2.2.2. Registro de entrevistas.
 
