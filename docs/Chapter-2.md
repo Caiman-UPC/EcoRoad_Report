@@ -192,11 +192,10 @@ Para las empresas constructoras se elaboró el User Persona Diego Davalos. Se co
 <div align="center"><img src="../assets/Chapter-2/DiegoDávalos.png" alt="Gráfico Estadístico Administradores" width="80%"></div>
 <br>
 
-**Segmento 2: Empresas supervisoras ambientales y consultoras**
+**Segmento 2: Empresas de mantenimiento y rehabilitación vial**
 
-Para las consultoras y supervisoras se elaboró el User Persona Gisela Chavez. Se consideraron factores como su cargo directivo en la fiscalización de múltiples proyectos viales a nivel nacional, su experiencia en auditorías regulatorias y su necesidad de contar con una visión centralizada y consolidada del cumplimiento ambiental. Sus principales frustraciones se relacionan con la asimetría de información entre la constructora y la consultora, la falta de reportes automatizados para la gerencia y el riesgo reputacional ante posibles sanciones. Asimismo, se tomó en cuenta su uso de herramientas gerenciales y la necesidad de una plataforma basada en datos inalterables que asegure la transparencia y eficiencia en la supervisión multisitio.
-
-<div align="center"><img src="../assets/Chapter-2/GiselaChavez.png" alt="Gráfico Estadístico Administradores" width="80%"></div>
+Para las empresas de mantenimiento y rehabilitación vial se elaboró el User Persona Piero Deza. Se consideraron factores como su rol de residente y supervisor de campo en la conservación de infraestructura de transporte existente, su experiencia en la gestión multisitio de frentes de trabajo dispersos y su necesidad de contar con un control operativo centralizado. Sus principales frustraciones se relacionan con la falta de visibilidad en tiempo real por la dispersión geográfica, la pérdida de tiempo en la búsqueda manual de registros fragmentados y el estrés ante imprevistos en vías abiertas al tráfico. Asimismo, se tomó en cuenta su uso de herramientas móviles y de escritorio, y la necesidad de una plataforma SaaS que permita gestionar alertas preventivas, automatizar el registro de evidencias y asegurar la eficiencia en la ejecución de los proyectos.
+<div align="center"><img src="../assets/Chapter-2/PieroDezaUser.png" alt="Gráfico Estadístico Administradores" width="80%"></div>
 <br>
 
 2.3.2. User Task Matrix.
@@ -286,10 +285,10 @@ En este mapa se analizó a Diego Dávalos, un ingeniero civil de campo y residen
 <div align="center"><img src="../assets/Chapter-2/EmpathyDiego.jpg" alt="Gráfico Estadístico Administradores" width="80%"></div>
 <br>
 
-**Segmento 2: Empresas supervisoras ambientales y consultoras**
+**Segmento 2: Empresas de mantenimiento y rehabilitación vial**
 
-En este mapa se analizó a Gisela Chávez, una jefa de supervisión ambiental y consultora senior con la responsabilidad de fiscalizar y consolidar múltiples proyectos viales en paralelo. Ella piensa en la necesidad de contar con una plataforma centralizada para evitar errores al cruzar bases de datos complejas. Escucha las exigencias normativas del MTC y SENACE y las presiones de la alta gerencia, y observa un entorno de oficina con múltiples correos, carpetas desordenadas y hojas de Excel kilométricas. Gisela suele expresar la necesidad de obtener datos limpios y oportunos sin tener que lidiar con la asimetría de información de los contratistas, y actúa enviando correos de seguimiento, presionando por informes y cruzando cifras manualmente. Su dolor principal es la ausencia de visibilidad en tiempo real y el alto riesgo de error humano en los reportes, mientras que su ganancia esperada es disponer de un panel gerencial centralizado, automatización de informes oficiales y mayor control estratégico.
-<div align="center"><img src="../assets/Chapter-2/EmpathyGisela.jpg" alt="Gráfico Estadístico Administradores" width="80%"></div>
+En este mapa se analizó a Piero Deza, un residente de mantenimiento vial y supervisor de campo con la responsabilidad de gestionar múltiples frentes de trabajo y labores de conservación en vías terrestres existentes. Él piensa que una plataforma centralizada simplificaría drásticamente su trabajo diario, aunque a veces teme la resistencia al cambio del personal operativo. Escucha las quejas frecuentes de transeúntes por el polvo y ruido de la maquinaria, los reclamos de la gerencia exigiendo mayor eficiencia y las advertencias sobre normativas ambientales, y observa un entorno dinámico con frentes de trabajo dispersos, maquinaria pesada operando en vías abiertas al tráfico y un escritorio saturado de carpetas físicas y reportes fragmentados. Piero suele expresar la necesidad de contar con una visión centralizada de todos los frentes para gestionar las alertas a tiempo y evitar que los problemas escalen, y actúa recorriendo constantemente las carreteras, anotando datos en libretas bajo presión y coordinando urgencias por mensajería móvil. Su dolor principal es la falta de visibilidad centralizada debido a la dispersión geográfica y la pérdida de tiempo buscando registros manuales dispersos, mientras que su ganancia esperada es disponer de una plataforma SaaS que unifique el monitoreo de diversos frentes, automatice los reportes de campo y le otorgue mayor control operativo y tranquilidad.
+<div align="center"><img src="../assets/Chapter-2/PieraDezaEmpathy.png" alt="Gráfico Estadístico Administradores" width="80%"></div>
 <br>
 
 2.4. Big Picture Event Storming.
