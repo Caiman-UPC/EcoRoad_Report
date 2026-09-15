@@ -200,14 +200,13 @@ Para las empresas de mantenimiento y rehabilitación vial se elaboró el User Pe
 
 2.3.2. User Task Matrix.
 
-A continuación, se detalla la matriz con las actividades principales que tanto Diego Davalos como Gisela Chavez ejecutan en su día a día laboral, enfocadas estrictamente en sus responsabilidades de gestión y supervisión, sin depender de ninguna herramienta digital o software en particular.
-
+A continuación, se detalla la matriz con las actividades principales que tanto el representante del Segmento 1 como Piero Deza (Segmento 2) ejecutan en su día a día laboral, enfocadas estrictamente en sus responsabilidades de gestión y supervisión, sin depender de ninguna herramienta digital o software en particular.
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%; font-family:Arial, sans-serif; text-align:center;">
   <thead>
     <tr style="background-color:#eef3f7;">
       <th rowspan="2">Tarea (Task)</th>
-      <th colspan="2">Diego Davalos (Segmento 1)</th>
-      <th colspan="2">Gisela Chavez (Segmento 2)</th>
+      <th colspan="2">Diego Dávalos (Segmento 1)</th>
+      <th colspan="2">Piero Deza (Segmento 2)</th>
     </tr>
     <tr style="background-color:#eef3f7;">
       <th>Frecuencia</th>
@@ -220,12 +219,12 @@ A continuación, se detalla la matriz con las actividades principales que tanto 
     <tr>
       <td style="text-align:left;">Monitorear los indicadores ambientales (aire, ruido, agua) en obra</td>
       <td>Daily</td><td>High</td>
-      <td>Weekly</td><td>High</td>
+      <td>Daily</td><td>High</td>
     </tr>
     <tr>
       <td style="text-align:left;">Registrar evidencia fotográfica y documentar acciones correctivas</td>
       <td>Frequent</td><td>High</td>
-      <td>Occasionally</td><td>Medium</td>
+      <td>Frequent</td><td>High</td>
     </tr>
     <tr>
       <td style="text-align:left;">Preparar carpetas o reportes para auditorías y fiscalizaciones gubernamentales</td>
@@ -233,16 +232,14 @@ A continuación, se detalla la matriz con las actividades principales que tanto 
       <td>Periodic</td><td>High</td>
     </tr>
     <tr>
-      <td style="text-align:left;">Consolidar el estado ambiental de múltiples proyectos de manera simultánea</td>
+      <td style="text-align:left;">Consolidar el estado ambiental de múltiples frentes de trabajo de manera simultánea</td>
       <td>Rare</td><td>Medium</td>
       <td>Daily</td><td>High</td>
     </tr>
     <tr>
-      <td style="text-align:left;">Integrar y unificar criterios ambientales ante la incorporación de un nuevo proyecto</td>
+      <td style="text-align:left;">Integrar y unificar criterios ambientales ante la incorporación de un nuevo tramo o frente vial</td>
       <td>Rare</td><td>Medium</td>
-      <td>Rare</td><td>High</td>
-    </tr>
-    <tr>
+      <td>Periodic</td><td>High</td>
     </tr>
   </tbody>
 </table>
@@ -251,12 +248,11 @@ A continuación, se detalla la matriz con las actividades principales que tanto 
 
 Si analizamos cómo se comportan ambos perfiles a partir de la matriz, saltan a la vista ciertos contrastes interesantes entre sus rutinas:
 
--Las tareas más pesadas y críticas: Para los dos perfiles, armar y poner a punto los expedientes de auditoría o fiscalización gubernamental es una prioridad indiscutible. La diferencia está en el día a día: mientras Diego se la pasa revisando los medidores ambientales en la misma pista para que la obra no pare, Gisela prefiere levantar la vista y revisar el panorama completo de varios proyectos a la vez cada semana.
+- Las tareas más pesadas y críticas: Para los dos perfiles, armar y poner a punto los expedientes de auditoría o fiscalización gubernamental es una prioridad indiscutible. La diferencia está en el día a día: mientras Diego se la pasa revisando los medidores ambientales en la misma pista para que la obra nueva no pare, Piero prefiere levantar la vista y gestionar el panorama completo de los múltiples frentes de trabajo dispersos a lo largo de las vías en conservación.
 
--En qué se parecen: Los dos sufren con el mismo dolor de cabeza. Para ambos, rendir cuentas ante el MTC o el SENACE es un proceso tenso donde la exigencia es máxima, y coinciden en que hoy en día lidian con demasiado papeleo suelto o información que no está conectada entre sí cuando intentan armar los reportes de obra.
+- En qué se parecen: Los dos sufren con el mismo dolor de cabeza. Para ambos, rendir cuentas ante las entidades regulatorias es un proceso tenso donde la exigencia es máxima, y coinciden en que hoy en día lidian con demasiado papeleo suelto o información que no está conectada entre sí cuando intentan armar los reportes de obra.
 
--En qué se diferencian radicalmente: Todo se reduce a la perspectiva. Diego vive el día a día apagando incendios operativos: toma fotos a cada rato, documenta correcciones rápidas y actúa de inmediato ante cualquier alerta. Gisela, en cambio, maneja una visión mucho más gerencial y macro; ella no pisa tanto el campo, sino que exige datos duros y trazables a las constructoras para auditar toda su cartera de proyectos sin perderse en detalles operativos.
-
+- En qué se diferencian radicalmente: Todo se reduce a la perspectiva. Diego vive el día a día apagando incendios operativos en la ejecución de obra nueva: toma fotos a cada rato, documenta correcciones rápidas y actúa de inmediato ante cualquier alerta en terreno. Piero, en cambio, maneja una visión de gestión multisitio en vías abiertas al tráfico; le toca coordinar constantemente con sus cuadrillas de mantenimiento frente a las quejas de transeúntes, buscando unificar la información dispersa de sus diferentes tramos carreteros.
 <div style="page-break-after: always;"></div>
 
 2.3.3. User Journey Mapping.
