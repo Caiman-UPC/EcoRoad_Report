@@ -142,7 +142,7 @@ Nuestro enfoque inicial estará dirigido a *empresas constructoras y de mantenim
 
 - Los responsables de gestión ambiental identifican incidencias antes de que escalen a una infracción formal.
 - Los supervisores de obra reducen el tiempo dedicado a consolidar reportes manuales.
-- Las consultoras ambientales entregan informes de auditoría con mayor rapidez y respaldo de datos trazables.
+- Las empresas constructoras y de mantenimiento entregan informes de auditoría con mayor rapidez y respaldo de datos trazables.
 - Los equipos de campo perciben la plataforma como una herramienta que simplifica su trabajo diario, no como una carga adicional.
 
 ##### D. Business Outcome Assumptions
