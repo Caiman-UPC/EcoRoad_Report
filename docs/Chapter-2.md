@@ -122,22 +122,12 @@
 ### 2.1.2. Estrategias y tácticas frente a competidores
 <a id="2-1-2-estrategias-y-tacticas-frente-a-competidores"></a>
 
-Con base en el análisis de las fortalezas, debilidades, oportunidades y amenazas identificadas en el Competitive Analysis Landscape, EcoRoad define una serie de estrategias y tácticas comerciales, tecnológicas y de producto para consolidar su ventaja competitiva frente a los actores establecidos en el mercado:
+Para posicionar a EcoRoad frente a la competencia internacional (como SiteHive y Sonitus Systems) y a las soluciones generalistas de gestión de proyectos (como Autodesk Construction Cloud), Caiman implementa las siguientes estrategias y tácticas competitivas:
 
-* **Estrategias frente a competidores de hardware especializado (Sonitus Systems y proveedores tradicionales):**
-    * *Estrategia:* Superar la barrera de entrada que representa la inversión de capital inicial (CapEx) en instrumentación física, transformando el monitoreo ambiental en un servicio integral accesible.
-    * *Táctica:* Implementar un modelo comercial de Hardware as a Service (HaaS), entregando los kits de sensores IoT en comodato bajo planes de suscripción mensual o anual. Los sensores son devueltos a Kaimán tras concluir la obra, eliminando costos de depreciación, almacenamiento y calibración instrumental para las constructoras y consultoras.
-    * *Táctica:* Diferenciarse del monitoreo pasivo tradicional mediante el desarrollo de un motor reactivo y preventivo de incidencias. En lugar de limitarse a exportar tablas numéricas de telemetría, EcoRoad dispara tickets de acción inmediata con evidencia fotográfica cuando los parámetros alcanzan niveles de alerta temprana (umbral amarillo).
-
-* **Estrategias frente a plataformas SaaS internacionales (SiteHive):**
-    * *Estrategia:* Capitalizar la adaptación local a los marcos regulatorios peruanos y latinoamericanos, ofreciendo una estructura de costos competitiva para obras viales de economías emergentes.
-    * *Táctica:* Parametrizar de fábrica los Estándares de Calidad Ambiental (ECA) peruanos para ruido, aire (PM10/PM2.5) y efluentes según la normativa del MTC y el OEFA, permitiendo la generación de reportes técnicos automatizados con validez para auditorías oficiales.
-    * *Táctica:* Implementar mecanismos de persistencia local y sincronización asíncrona mediante protocolos ligeros (MQTT/HTTP) en la capa de ingesta de datos, mitigando la intermitencia de red celular común en tramos viales interprovinciales.
-
-* **Estrategias frente a suites integrales de gestión de obra (Autodesk Construction Cloud):**
-    * *Estrategia:* Posicionarse como una solución verticalizada de alta especialización ambiental que actúa como observador neutral de la obra, evitando competir directamente con software generalista de gestión de planos o presupuestos.
-    * *Táctica:* Establecer un esquema de datos desacoplado por Bounded Contexts y gobernanza de roles (RBAC) con módulos independientes. La constructora utiliza un módulo operativo de mitigación interna, mientras la empresa supervisora accede a un panel de auditoría de solo lectura con telemetría inalterable, resolviendo la desconfianza estructural entre ambas entidades.
-    * *Táctica:* Exponer un RESTful Web API documentado bajo OpenAPI para permitir la futura interoperabilidad e integración de métricas ambientales de EcoRoad dentro de los paneles corporativos y herramientas BIM de las grandes constructoras.
+* **Estrategia de Costos y Accesibilidad (Modelo HaaS):** A diferencia de competidores que exigen la compra directa y costosa de hardware de medición (Inversión de Capital o CapEx elevado), Caiman ofrece un esquema flexible de alquiler de sensores IoT en comodato adaptado a las necesidades específicas de cada obra vial. Esto elimina la barrera financiera de entrada para empresas constructoras medianas y de conservación vial.
+* **Enfoque Vertical y Operativo (Más allá del Visor Pasivo):** Mientras que los proveedores tradicionales de hardware ambiental (Sonitus Systems) actúan meramente como visores pasivos de telemetría y las herramientas BIM (Autodesk) se enfocan en diseño y control documental general, EcoRoad integra el monitoreo IoT directamente con un flujo completo de respuesta operativa: *detección de riesgo → alerta automática → creación de ticket de incidencia → asignación de acción correctiva → registro de evidencia y cierre*.
+* **Gestión Multi-Proyecto para Concesionarias y Constructoras:** Se despliega una arquitectura pensada para que las empresas ejecutoras y de mantenimiento vial gestionen múltiples frentes de obra simultáneamente desde una única cuenta centralizada y un mapa geolocalizado unificado, optimizando el control que ejercen los residentes de obra y jefes de operaciones.
+* **Estrategia Comercial B2B Dirigida:** La prospección se enfoca directamente en gerentes de operaciones, gerentes de proyectos y residentes de obra de constructoras y empresas de conservación vial, apoyándose en alianzas estratégicas con gremios sectoriales (como CAPECO) y demostrando una reducción directa en el riesgo de paralizaciones y sanciones regulatorias ante el MTC y el OEFA.
 
 ## 2.2. Entrevistas.
 ###   2.2.1 Diseño de Entrevistas
