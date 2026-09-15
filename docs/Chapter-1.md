@@ -126,9 +126,9 @@ Nuestro enfoque inicial estará dirigido a *empresas constructoras y de mantenim
 
 ###### B. User Assumptions
 
-*- ¿Quién es el usuario?* Responsables de gestión ambiental, supervisores de obra y consultores ambientales.
+*- ¿Quién es el usuario?* Responsables de gestión ambiental, ingenieros residentes de obra y supervisores de campo.
 
-*- ¿Dónde encaja el producto?* En el proceso diario de monitoreo y control ambiental de un proyecto vial en ejecución.
+*- ¿Dónde encaja el producto?* En el proceso diario de monitoreo y control ambiental de un proyecto vial en ejecución o conservación.
 
 *- Problema a resolver:* la falta de visibilidad en tiempo real del cumplimiento normativo ambiental.
 
