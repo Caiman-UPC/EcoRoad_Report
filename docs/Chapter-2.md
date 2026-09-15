@@ -264,7 +264,7 @@ Durante este ciclo, el punto más crítico ocurre en las etapas 2 y 4. Al depend
 <div align="center"><img src="../assets/Chapter-2/JourneyMapDiego.png" alt="Gráfico Estadístico Administradores" width="80%"></div>
 <br>
 
-**Segmento 2: Empresas supervisoras ambientales y consultoras**
+**Segmento 2: Empresas de mantenimiento y rehabilitación vial**
 
 El recorrido de Piero abarca una perspectiva operativa de campo y control multisitio, dividida en: 1. Incorporación y configuración inicial de los tramos viales en mantenimiento, 2. Monitoreo diario de las condiciones ambientales frente a la operación de maquinaria pesada, 3. Detección temprana y atención de alertas o quejas por emisiones de polvo y ruido, y 4. Generación y consolidación de reportes ejecutivos de cumplimiento para la gerencia.
 
