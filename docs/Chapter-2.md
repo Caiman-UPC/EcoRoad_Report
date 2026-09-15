@@ -309,23 +309,17 @@ Tras la exploración inicial, el equipo procedió a estructurar y ordenar cronol
 
 
 2.5. Ubiquitous Language
+<a id="2-5-ubiquitous-language"></a>
 
-Con el propósito de mantener una comunicación transparente, estandarizada y libre de ambigüedades entre todos los miembros del equipo y los stakeholders, se establece el siguiente glosario de términos y conceptos propios del dominio de negocio —excluyendo terminología técnica de ingeniería de software—, fundamentado en los principios del Domain-Driven Design de Eric Evans. Mantener un glosario de esta naturaleza completo y actualizado asegura que tanto los desarrolladores como los expertos en el dominio operen bajo el mismo entendimiento conceptual.
+Con el propósito de mantener una comunicación transparente, estandarizada y libre de ambigüedades entre todos los miembros del equipo y los stakeholders, se establece el siguiente glosario de términos y conceptos propios del dominio de negocio, fundamentado en los principios del Domain-Driven Design de Eric Evans. Mantener un glosario de esta naturaleza completo y actualizado asegura que tanto los desarrolladores como los expertos en el dominio operen bajo el mismo entendimiento conceptual.
 
-A continuación, se detallan los términos clave del dominio socioambiental vial:
+A continuación, se detallan los términos clave del dominio socioambiental vial actualizados para nuestros segmentos objetivo (Empresas Constructoras Viales y Empresas de Mantenimiento y Rehabilitación Vial):
 
-- Environmental Monitoring (Monitoreo Ambiental): Proceso sistemático de medición, registro y evaluación de variables críticas de impacto (como ruido, calidad de aire y agua) en los frentes de obra vial.
-
-- Road Construction Company (Empresa Constructoras Viales): Organización ejecutora responsable de la operación táctica en la pista y del cumplimiento de los compromisos ambientales operativos.
-
-- Environmental Supervision Consulting Firm (Empresa Consultora Supervisora): Organización encargada de fiscalizar, consolidar y auditar la gestión socioambiental de múltiples proyectos viales por encargo del Estado.
-
-- Site Resident (Residente de Obra): Profesional de campo responsable de la ejecución de las obras y de la supervisión directa del cumplimiento de las normativas ambientales en la vía.
-
-- Environmental Supervisor (Supervisor Ambiental): Especialista encargado de verificar que los contratistas cumplan con los estándares normativos exigidos por las entidades regulatorias.
-
-- Regulatory Audit (Auditoría Regulatoria): Proceso de revisión y fiscalización oficial de la documentación e indicadores socioambientales por parte de los entes estatales (como MTC o SENACE).
-
-- Threshold Deviation (Desvío de Umbral): Superación de los límites máximos permisibles establecidos para los indicadores ambientales durante la ejecución de las obras.
-
-- Compliance Report (Reporte de Cumplimiento): Documento oficial consolidado que detalla el estado de la gestión ambiental de los proyectos para su presentación ante las autoridades competentes.
+* **Environmental Monitoring (Monitoreo Ambiental):** Proceso sistemático de medición, registro y evaluación de variables críticas de impacto (como ruido, material particulado PM10/PM2.5, calidad de agua y vibraciones) mediante sensores IoT en los frentes de obra o tramos viales.
+* **Road Construction Company (Empresa Constructora Vial):** Organización ejecutora responsable de la construcción de nuevas carreteras y de la gestión operativa y ambiental de los frentes de obra.
+* **Road Maintenance and Rehabilitation Company (Empresa de Mantenimiento y Rehabilitación Vial):** Organización encargada de la conservación, mejora y rehabilitación de infraestructura vial existente, responsable de mitigar los impactos ambientales diarios generados por maquinaria pesada en vías abiertas al tráfico.
+* **Site Resident (Residente de Obra / Residente de Mantenimiento):** Profesional de campo responsable de la ejecución de los proyectos viales o labores de conservación, encargado de supervisar directamente el cumplimiento de las normativas ambientales y la atención de incidencias en la vía.
+* **Regulatory Audit (Auditoría Regulatoria):** Proceso de revisión y fiscalización oficial de la documentación, registros históricos e indicadores socioambientales por parte de los entes reguladores competentes (como el MTC o el OEFA).
+* **Threshold Deviation (Desvío de Umbral):** Superación automática de los límites máximos permisibles (ECA u otros umbrales normativos) detectada por el sistema IoT para los indicadores ambientales durante las operaciones.
+* **Environmental Incident (Incidencia Ambiental):** Evento crítico generado a partir de una superación de umbrales que requiere la apertura de un ticket operativo, la asignación de una acción correctiva y el registro de evidencias fotográficas en campo.
+* **Compliance Report (Reporte de Cumplimiento):** Documento oficial y automatizado generado por la plataforma que consolida el histórico de indicadores, alertas e incidencias para su presentación ante auditorías internas o fiscalizaciones externas.
