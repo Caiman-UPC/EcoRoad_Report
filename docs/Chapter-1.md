@@ -51,10 +51,10 @@ Convertirnos en la plataforma SaaS líder en gestión y monitoreo ambiental para
 | Foto | Apellido y Nombre | 
 | :---: | :--- | 
 | <img src="../assets/Chapter-1/Eduardo.png" alt="Eduardo Martin Guillen Chavez" width="100"/> | Eduardo Martín Guillén Chávez |
-| <img src="../assets/Chapter-1/Andy.png" alt="Andy Alfredo Hipólito Salcedo Muñoz" width="100"/> | Andy Alfredo Hipolito Salcedo Muñoz |
+| <img src="../assets/Chapter-1/Andy.png" alt="Andy Alfredo Hipólito Salcedo Muñoz" width="100"/> | Andy Alfredo Hipolito Salcedo Muñoz | 
 | <img src="../assets/Chapter-1/Cristina.jpeg" alt="Cristina" width="100"/> | Cristina Marcela Yarleque Ruiz |
-| | |
-| | |
+| <img src="../assets/Chapter-1/Miguel.jpeg" alt="Miguel" width="100"/> | Miguel Angel Junior Roman Lopez |
+| <img src="../assets/Chapter-1/Alisse.jpeg" alt="Miguel" width="100"/> | Alisee Muriel Torres Juárez |
 
 
 ## 1.2 Solution Profile
