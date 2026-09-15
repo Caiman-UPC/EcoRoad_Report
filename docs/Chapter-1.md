@@ -114,10 +114,10 @@ Nuestro enfoque inicial estará dirigido a *empresas constructoras y de mantenim
 
 1. *Creemos que nuestros clientes necesitan:* un sistema de monitoreo ambiental centralizado y en tiempo real para sus proyectos viales.
 2. *Estas necesidades se resuelven con:* una plataforma SaaS que registra indicadores ambientales, detecta automáticamente incumplimientos normativos y visualiza el estado de los proyectos en un mapa.
-3. *Nuestros primeros clientes serán:* empresas constructoras medianas y consultoras ambientales que ejecutan proyectos viales en Lima y otras regiones del Perú.
+3. *Nuestros primeros clientes serán:* empresas constructoras y de conservación vial que operan en Lima y otras regiones del Perú.
 4. *Valor #1 esperado:* reducir el riesgo de sanciones por incumplimiento normativo mediante la detección temprana de incidencias.
 5. *Beneficios adicionales:* optimización del tiempo de auditoría, trazabilidad de los datos ambientales y mejora de la reputación institucional.
-6. *Adquisición:* alianzas con gremios del sector construcción (CAPECO), referidos entre consultoras ambientales y marketing digital dirigido a gerentes de proyecto.
+6. *Adquisición:* alianzas con gremios del sector construcción (CAPECO), referidos sectoriales y marketing digital dirigido a gerentes de operaciones y proyectos.
 7. *Ingresos:* suscripción mensual o anual bajo planes escalables (Base, Profesional, Enterprise).
 8. *Competencia principal:* hojas de cálculo, sistemas de gestión documental genéricos y soluciones de monitoreo ambiental orientadas a otros sectores (minería, hidrocarburos).
 9. *Ventaja competitiva:* especialización en el dominio de proyectos viales, con motor de alertas automatizado y visualización geolocalizada nativa.
