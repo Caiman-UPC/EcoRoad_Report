@@ -271,9 +271,10 @@ Durante este ciclo, el punto más crítico ocurre en las etapas 2 y 4. Al depend
 
 **Segmento 2: Empresas supervisoras ambientales y consultoras**
 
-El recorrido de Gisela abarca una perspectiva directiva y de fiscalización macro, dividida en: 1. Incorporación y onboarding de un nuevo proyecto vial a la cartera, 2. Supervisión periódica y seguimiento multisitio, 3. Solicitud de reportes de cumplimiento a las constructoras, y 4. Consolidación de informes oficiales para la gerencia y entidades de control (MTC/SENACE).
-El mayor cuello de botella en el viaje de Gisela se concentra en las etapas 2 y 3. Debido a la asimetría de información y a la falta de una plataforma centralizada, recopilar y unificar los reportes de múltiples proyectos al mismo tiempo le demanda cruzar correos y llamadas de forma constante. Esto la expone a demoras operativas y a un alto riesgo reputacional si algún problema ambiental pasa desapercibido por la falta de visibilidad en tiempo real.
-<div align="center"><img src="../assets/Chapter-2/JourneyMapGisela.png" alt="Gráfico Estadístico Administradores" width="80%"></div>
+El recorrido de Piero abarca una perspectiva operativa de campo y control multisitio, dividida en: 1. Incorporación y configuración inicial de los tramos viales en mantenimiento, 2. Monitoreo diario de las condiciones ambientales frente a la operación de maquinaria pesada, 3. Detección temprana y atención de alertas o quejas por emisiones de polvo y ruido, y 4. Generación y consolidación de reportes ejecutivos de cumplimiento para la gerencia.
+
+El mayor cuello de botella en el viaje de Piero se concentra en las etapas 2 y 3. Debido a la dispersión geográfica de los frentes de trabajo en vías abiertas al tráfico y a la dependencia de registros manuales fragmentados, recopilar evidencias y coordinar acciones correctivas inmediatas le demanda una sobrecarga operativa de llamadas y visitas de campo constantes. Esto lo expone a retrasos en la mitigación de riesgos y a posibles amonestaciones operativas por la falta de visibilidad centralizada en tiempo real.
+<div align="center"><img src="../assets/Chapter-2/JourneyMapPiero.png" alt="Gráfico Estadístico Administradores" width="80%"></div>
 <br>
 2.3.4. Empathy Mapping.
 
