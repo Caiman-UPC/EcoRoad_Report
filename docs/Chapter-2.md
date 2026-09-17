@@ -291,13 +291,13 @@ En este mapa se analizó a Piero Deza, un residente de mantenimiento vial y supe
 
 Step 1 – Free Exploration
 
-En esta fase inicial de exploración libre, el equipo llevó a cabo una sesión de ideación colaborativa intensiva sobre un lienzo digital en blanco. El objetivo principal fue mapear de forma abierta y sin restricciones metodológicas todos los acontecimientos, puntos de contacto, actores y situaciones críticas que ocurren a lo largo del ciclo de vida del monitoreo socioambiental en los tramos viales. Durante este acercamiento inicial, se identificaron de manera espontánea los principales dolores operativos, como la fricción en el registro manual de datos, la dependencia de canales de comunicación informales y la complejidad de compilar información dispersa para los entes reguladores.
+En esta primera etapa, el equipo realizó una sesión de lluvia de ideas para capturar todos los eventos relevantes dentro del dominio, sin preocuparse por el orden o la jerarquía. El objetivo principal fue representar los acontecimientos reales del negocio, de manera independiente a cualquier función técnica o relacionada con un sistema.
 <div align="center"><img src="../assets/Chapter-2/Steep1.jpg" alt="Gráfico Estadístico Administradores" width="80%"></div>
 <br>
 
 Step 2 – Structured Organization
 
-Tras la exploración inicial, el equipo procedió a estructurar y ordenar cronológicamente los eventos de izquierda a derecha en un flujo continuo dividido en fases operativas clave para el monitoreo socioambiental en los tramos viales. Asimismo, se agruparon los acontecimientos bajo marcos específicos para delimitar las etapas del proceso.
+Después de listar los eventos, el equipo los organizó en flujos de negocio lógicos que reflejan las principales etapas en la operación de monitoreo ambiental y gestión de incidencias en proyectos de construcción y mantenimiento vial. Esta estructura ayudó a identificar los procesos clave y las áreas de mejora que posteriormente podrían abordarse mediante soluciones digitales o de gestión.
 <div align="center"><img src="../assets/Chapter-2/Steep2.jpg" alt="Gráfico Estadístico Administradores" width="80%"></div>
 <br>
 
@@ -308,13 +308,25 @@ Tras la exploración inicial, el equipo procedió a estructurar y ordenar cronol
 
 Con el propósito de mantener una comunicación transparente, estandarizada y libre de ambigüedades entre todos los miembros del equipo y los stakeholders, se establece el siguiente glosario de términos y conceptos propios del dominio de negocio, fundamentado en los principios del Domain-Driven Design de Eric Evans. Mantener un glosario de esta naturaleza completo y actualizado asegura que tanto los desarrolladores como los expertos en el dominio operen bajo el mismo entendimiento conceptual.
 
-A continuación, se detallan los términos clave del dominio socioambiental vial actualizados para nuestros segmentos objetivo (Empresas Constructoras Viales y Empresas de Mantenimiento y Rehabilitación Vial):
+| Term                                                   | Definition |
+|:-------------------------------------------------------| :--- |
+| Environmental Monitoring                               | Systematic process of continuously measuring, recording, and evaluating physical impact variables (noise, PM10/PM2.5 particulate matter, water quality, and vibrations) across road construction or maintenance sites. |
+| Road Construction Company                     | Executing organization responsible for building new highways and managing active construction sites and preventive socio-environmental compliance. |
+| Road Maintenance and Rehabilitation Company   | Organization in charge of conserving, improving, and rehabilitating existing road infrastructure, responsible for mitigating environmental impacts caused by heavy machinery on open-traffic roads. |
+| Site Resident                                 | Field professional responsible for technical project execution or road conservation tasks, directly supervising environmental regulatory compliance and incident response on-site. |
+| Environmental Quality Standard / ECA Threshold | Maximum permissible limit for contaminants or physical parameters established by national regulations that must not be exceeded during road operations. |
+| Threshold Deviation                           | Automatic detection of an environmental measurement exceeding maximum permissible limits (ECA or normative thresholds) captured by IoT sensors during field operations. |
+| Environmental Incident                      | Critical event triggered by a threshold deviation requiring the creation of an operational ticket, assignment of corrective action, and submission of field evidence. |
+| Corrective Action                             | Technical or mitigative procedure executed on-site (such as road wetting, installation of acoustic barriers, or machinery maintenance) to return environmental parameters to permitted levels. |
+| Field Evidence                                | Photographic or documentary evidence captured on-site by the field crew to substantiate the execution of a corrective action prior to formally closing an incident ticket. |
+| Field Crew                                    | Operational team deployed along road sections responsible for executing construction/maintenance work and applying environmental mitigation actions. |
+| Regulatory Audit                             | Official inspection and review process of documentation, historical logs, and socio-environmental indicators conducted by authorized regulatory entities (such as MTC or OEFA). |
+| Compliance Report                            | Official, automated document generated by the platform that consolidates the historical record of indicators, alerts, and resolved incidents for presentation during internal or external audits. |
+| Multi-Site Road Control                    | Operational capability to centrally monitor and manage the environmental compliance and performance of multiple geographically dispersed road sections and work fronts simultaneously. |
 
-* **Environmental Monitoring (Monitoreo Ambiental):** Proceso sistemático de medición, registro y evaluación de variables críticas de impacto (como ruido, material particulado PM10/PM2.5, calidad de agua y vibraciones) mediante sensores IoT en los frentes de obra o tramos viales.
-* **Road Construction Company (Empresa Constructora Vial):** Organización ejecutora responsable de la construcción de nuevas carreteras y de la gestión operativa y ambiental de los frentes de obra.
-* **Road Maintenance and Rehabilitation Company (Empresa de Mantenimiento y Rehabilitación Vial):** Organización encargada de la conservación, mejora y rehabilitación de infraestructura vial existente, responsable de mitigar los impactos ambientales diarios generados por maquinaria pesada en vías abiertas al tráfico.
-* **Site Resident (Residente de Obra / Residente de Mantenimiento):** Profesional de campo responsable de la ejecución de los proyectos viales o labores de conservación, encargado de supervisar directamente el cumplimiento de las normativas ambientales y la atención de incidencias en la vía.
-* **Regulatory Audit (Auditoría Regulatoria):** Proceso de revisión y fiscalización oficial de la documentación, registros históricos e indicadores socioambientales por parte de los entes reguladores competentes (como el MTC o el OEFA).
-* **Threshold Deviation (Desvío de Umbral):** Superación automática de los límites máximos permisibles (ECA u otros umbrales normativos) detectada por el sistema IoT para los indicadores ambientales durante las operaciones.
-* **Environmental Incident (Incidencia Ambiental):** Evento crítico generado a partir de una superación de umbrales que requiere la apertura de un ticket operativo, la asignación de una acción correctiva y el registro de evidencias fotográficas en campo.
-* **Compliance Report (Reporte de Cumplimiento):** Documento oficial y automatizado generado por la plataforma que consolida el histórico de indicadores, alertas e incidencias para su presentación ante auditorías internas o fiscalizaciones externas.
+
+
+
+
+
+
