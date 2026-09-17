@@ -7,10 +7,10 @@
 ### 2.1.1 Analisis Competitivo
 <a id="2-1-1-analisis-competitivo"></a>
 
-<table border="1">
+<table style="border: 1px solid ; border-collapse: collapse; width: 100%;">
   <thead>
     <tr>
-      <th colspan="6" align="left"><strong>Competitive Analysis Landscape</strong></th>
+       <th colspan="6" style="border: 1px solid ; text-align: left; padding: 8px;"><strong>Competitive Analysis Landscape</strong></th>
     </tr>
     <tr>
       <td style="font-weight: bold; width: 18%;">¿Por qué llevar a cabo este análisis?</td>
@@ -164,19 +164,19 @@ Las entrevistas semiestructuradas tienen como objetivo validar las hipótesis de
 #### Segmento 2: Empresas de Mantenimiento y Rehabilitación Vial
 
 **Preguntas Principales:**
-* ¿Cómo hace tu empresa hoy para tener una visión general y centralizada del estado ambiental de los múltiples tramos o proyectos de mantenimiento que manejan al mismo tiempo?
-* ¿Quién dentro de la organización necesita esa visión consolidada de cartera y para qué la utiliza en el día a día?
-* Cuéntame cómo es el proceso cuando la gerencia o la entidad comitente exige un reporte del estado de cumplimiento ambiental de varios frentes de conservación a la vez.
-* ¿Qué tan fácil o difícil es comparar el desempeño ambiental y operativo entre dos proyectos de rehabilitación distintos hoy en día?
-* ¿Han tenido casos en los que un problema ambiental en un tramo en mantenimiento pasó desapercibido por no contar con una visibilidad centralizada? Cuéntame qué sucedió.
-* ¿Cómo deciden a qué frente de obra darle prioridad de atención cuando hay varias incidencias o alertas ambientales abiertas de manera simultánea?
-* ¿Qué impacto ha tenido para la empresa una sanción o amonestación ambiental en el pasado (retrasos, costos, impacto en licitaciones públicas)?
-* Si tuvieras que justificar internamente una inversión en una plataforma SaaS de monitoreo ambiental y gestión de incidencias, ¿qué argumentos cuantitativos o cualitativos usarías?
+* ¿Cómo registran actualmente los indicadores ambientales durante los trabajos de mantenimiento o rehabilitación de una vía? ¿Utilizan Excel, formatos físicos, fotografías u otra herramienta?
+* Cuéntame sobre la última vez que durante un trabajo de mantenimiento o rehabilitación detectaron un problema ambiental, como exceso de ruido, polvo, residuos o vibraciones. ¿Cómo se dieron cuenta y qué hicieron después?
+* ¿Qué tan rápido se enteran los responsables del proyecto cuando una medición ambiental supera un límite permitido durante los trabajos?
+* ¿Cómo hacen actualmente el seguimiento de las acciones que deben realizar cuando se detecta un problema ambiental? ¿Cómo saben si la incidencia ya fue atendida o continúa pendiente?
+* Cuando trabajan en diferentes tramos o zonas de una carretera, ¿cómo organizan y relacionan las mediciones ambientales con el lugar exacto donde fueron tomadas?
+* Cuéntame cómo preparan los registros y evidencias ambientales que deben presentar al finalizar una actividad de mantenimiento o rehabilitación. ¿Qué parte del proceso les resulta más complicada?
+* ¿Ha ocurrido alguna vez que una incidencia ambiental no se haya comunicado a tiempo o se haya perdido información sobre ella? ¿Qué consecuencias tuvo para el proyecto?
+* Cuando el personal está trabajando directamente en la carretera, ¿cómo comunica una medición, problema o incidencia al responsable que se encuentra en la oficina?
 
 **Preguntas Complementarias:**
-* ¿Cuántas personas de tu organización estarían involucradas en el uso de una herramienta de este tipo (roles y cantidad aproximada de usuarios)?
-* ¿Cómo se gestiona actualmente el proceso de incorporación (*onboarding*) cuando un nuevo proyecto de mantenimiento o rehabilitación se suma a la cartera de la empresa?
-* ¿Qué tan dispuesta estaría tu empresa a adoptar un esquema de suscripción (mensual/anual) combinado con alquiler flexible de sensores IoT en comodato, y qué factores pesarían más en esa decisión?
+
+* ¿Cómo almacenan actualmente las fotografías, mediciones y documentos que sirven como evidencia de las actividades realizadas?
+* ¿Desde qué dispositivo suelen registrar información durante los trabajos de campo (celular, tablet, laptop) y qué dificultades tienen con la conectividad en las zonas donde trabajan?
 
 2.2.2. Registro de entrevistas.
 
@@ -264,7 +264,7 @@ Durante este ciclo, el punto más crítico ocurre en las etapas 2 y 4. Al depend
 <div align="center"><img src="../assets/Chapter-2/JourneyMapDiego.png" alt="Gráfico Estadístico Administradores" width="80%"></div>
 <br>
 
-**Segmento 2: Empresas supervisoras ambientales y consultoras**
+**Segmento 2: Empresas de mantenimiento y rehabilitación vial**
 
 El recorrido de Piero abarca una perspectiva operativa de campo y control multisitio, dividida en: 1. Incorporación y configuración inicial de los tramos viales en mantenimiento, 2. Monitoreo diario de las condiciones ambientales frente a la operación de maquinaria pesada, 3. Detección temprana y atención de alertas o quejas por emisiones de polvo y ruido, y 4. Generación y consolidación de reportes ejecutivos de cumplimiento para la gerencia.
 
