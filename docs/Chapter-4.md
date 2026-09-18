@@ -230,38 +230,44 @@ Agrupa la consolidación de los datos históricos de monitoreo, alertas e incide
 
 4.6.2. Software Architecture Context Diagram.
 
-En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema de software *EcoRoad* como una “caja negra” y en las interacciones que mantiene con sus usuarios y con otros sistemas externos.
+En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema de software **EcoRoad** como una “caja negra” y en las interacciones que mantiene con sus usuarios, sus dispositivos de campo y con otros sistemas externos.
 
-El Context Diagram muestra al *EcoRoad Software System* como un recuadro en el centro, rodeado por los principales actores y sistemas con los que se comunica:
+El *Context Diagram* muestra al **EcoRoad Software System** como un recuadro en el centro, rodeado por los principales actores y sistemas con los que se comunica:
 
-* **Site Resident**: usuario interno principal responsable de registrar proyectos viales, monitorear alertas ambientales en tiempo real, asignar acciones de remediación a las cuadrillas y autorizar el cierre de incidencias socioambientales.
+* **Site Resident**: usuario interno principal (ingeniero residente o supervisor de obra) responsable de registrar proyectos viales, monitorear alertas ambientales en tiempo real, asignar acciones de remediación a las cuadrillas y autorizar el cierre de incidencias socioambientales.
 * **Regulatory Auditor**: usuario externo o entidad fiscalizadora (MTC / OEFA) que accede a la plataforma para revisar expedientes de cumplimiento y validar el acatamiento normativo del Plan de Manejo Ambiental.
-* **IoT Sensor Node**: dispositivo físico de campo distribuido en los frentes de obra que captura continuamente datos de telemetría (material particulado, ruido, calidad de agua y vibraciones) y los transmite en tiempo real al sistema central.
-* **Payment System (Stripe / Niubiz)**: sistema externo encargado de procesar las suscripciones y los pagos por el uso de la plataforma SaaS y el arrendamiento del hardware IoT.
-* **Google Maps API / GIS**: servicio externo de mapas utilizado para proporcionar funciones de geolocalización, trazado de tramos carreteros y ubicación espacial de los sensores.
-* **Notification Service (SendGrid / Twilio)**: servicio de mensajería encargado de enviar notificaciones e instructivos automáticos por correo electrónico y SMS ante desvíos de umbrales normativos ECA.
+* **IoT Sensor Node**: dispositivo físico de campo distribuido en los frentes de obra que captura continuamente datos de telemetría (material particulado PM10/PM2.5, ruido, calidad de agua y vibraciones) y los transmite en tiempo real al sistema central.
+* **Payment System (Stripe / Niubiz)**: sistema externo encargado de procesar las suscripciones B2B y los pagos asociados al uso de la plataforma SaaS y al arrendamiento del hardware IoT (modelo HaaS).
+* **Google Maps API / GIS**: servicio de mapas utilizado para obtener la geolocalización, el trazado de tramos carreteros y la ubicación espacial de los nodos sensores en las obras.
+* **Notification Service (SendGrid / Twilio)**: servicio de mensajería utilizado para enviar notificaciones e instructivos automáticos por correo electrónico y SMS ante desvíos de umbrales normativos ECA.
 
-En el diagrama se representan las relaciones y dependencias entre estos elementos mediante flujos unidireccionales y bidireccionales, destacando cómo los usuarios e instrumentos de campo interactúan directamente con EcoRoad,
-mientras que el sistema central se encarga de orquestar las integraciones con los servicios externos de pagos, mapas, notificaciones y fiscalización regulatoria. Esta vista permite delimitar claramente el alcance del sistema y su ecosistema tecnológico antes de profundizar en los detalles de contenedores y componentes.
+En el diagrama se representan las relaciones entre estos elementos, destacando que tanto los usuarios humanos (**Site Resident** y **Regulatory Auditor**) como los instrumentos de campo (**IoT Sensor Node**) interactúan directamente con **EcoRoad**, mientras que el sistema central se encarga de orquestar las integraciones con los servicios externos (pagos, mapas y notificaciones). Esta vista permite entender el alcance del sistema, los límites de responsabilidad y el ecosistema en el que se inserta **EcoRoad** antes de entrar a detalles de implementación.
 
-<div align="center"><img src="../assets/Chapter-4/ContextDiagram.jpg" alt="Software Architecture Context Diagram"></div>
+
+<div align="center"><img src="../assets/Chapter-4/DiagramaContexto.jpg" alt="Software Architecture Context Diagram"></div>
 <br>
 
 4.6.3. Software Architecture Container Diagrams.
 
-En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema de software **EcoRoad** como una “caja negra” y en las interacciones que mantiene con sus usuarios y con otros sistemas externos.
+En el nivel de contenedores, la atención se desplaza desde “quién usa el sistema” hacia “cómo se organiza internamente el sistema en aplicaciones y fuentes de datos”. El *Container Diagram* muestra los elementos de alto nivel de la arquitectura de **EcoRoad**, sus responsabilidades principales y la forma en que se comunican entre sí y con los sistemas externos.
 
-El *Context Diagram* muestra al **EcoRoad Software System** como un recuadro en el centro, rodeado por los principales actores y sistemas con los que se comunica:
+La arquitectura lógica de **EcoRoad** se estructura en los siguientes contenedores:
 
-* **Site Resident**: usuario interno principal responsable de registrar proyectos viales, monitorear alertas ambientales en tiempo real, asignar acciones de remediación a las cuadrillas y autorizar el cierre de incidencias socioambientales.
-* **Regulatory Auditor**: usuario externo o entidad fiscalizadora (MTC / OEFA) que accede a la plataforma para revisar expedientes de cumplimiento y validar el acatamiento normativo del Plan de Manejo Ambiental.
-* **IoT Sensor Node**: dispositivo físico de campo distribuido en los frentes de obra que captura continuamente datos de telemetría (material particulado, ruido, calidad de agua y vibraciones) y los transmite en tiempo real al sistema central.
-* **Payment System (Stripe / Niubiz)**: sistema externo encargado de procesar las suscripciones y los pagos por el uso de la plataforma SaaS y el arrendamiento del hardware IoT.
-* **Google Maps API / GIS**: servicio externo de mapas utilizado para proporcionar funciones de geolocalización, trazado de tramos carreteros y ubicación espacial de los sensores.
-* **Notification Service (SendGrid / Twilio)**: servicio de mensajería encargado de enviar notificaciones e instructivos automáticos por correo electrónico y SMS ante desvíos de umbrales normativos ECA.
+* **Landing Page**: aplicación web estática que presenta la propuesta de valor de **EcoRoad** (modelo híbrido HaaS/SaaS) para empresas constructoras y de conservación vial, guía a nuevos usuarios y redirige a la aplicación principal. Está desarrollada con tecnologías web estándar (HTML5, CSS3 y JavaScript) y se despliega en un entorno orientado a contenido estático.
+* **Single Page Application (SPA)**: aplicación web principal, implementada en Angular, donde interactúan el **Site Resident** y el **Regulatory Auditor**. Este contenedor concentra la experiencia de usuario, las vistas y la lógica de presentación para los 8 contextos del dominio (*Commercial &amp; Subscription Management*, *Identity &amp; Access Management - IAM*, *Project &amp; Road Site Management*, *Monitoring Asset &amp; Deployment*, *Environmental Telemetry &amp; Monitoring*, *Alerting &amp; Risk Evaluation*, *Incident &amp; Remediation Management*, y *Compliance &amp; Audit Reporting*).
+* **API Application**: backend implementado con Spring Boot, que expone una API REST, gestiona la ingesta continua de telemetría IoT y encapsula la lógica de negocio, reglas de evaluación de umbrales normativos ECA y orquestación de procesos. Este contenedor agrupa los módulos backend por contexto (*Subscription Backend*, *IAM Backend*, *Project Backend*, *Asset Management Backend*, *Telemetry Backend*, *Alert Engine Backend*, *Incident Backend* y *Compliance Reporting Backend*).
+* **Database**: base de datos relacional (PostgreSQL / MySQL), donde se persiste la información estructurada del sistema: proyectos viales, tramos carreteros, nodos sensores, mediciones telemétricas (material particulado PM10/PM2.5, ruido, agua y vibraciones), reglas de alerta ECA, tickets de incidencias, evidencias fotográficas, expedientes de cumplimiento, cuentas de usuario y suscripciones.
 
-En el diagrama se representan las relaciones y dependencias entre estos elementos mediante flujos unidireccionales y bidireccionales, destacando cómo los usuarios e instrumentos de campo interactúan directamente con EcoRoad, mientras que el sistema central se encarga de orquestar las integraciones con los servicios externos de pagos, mapas, notificaciones y fiscalización regulatoria. Esta vista permite delimitar claramente el alcance del sistema y su ecosistema tecnológico antes de profundizar en los detalles de contenedores y componentes.
-<div align="center"><img src="../assets/Chapter-4/Container.jpg" alt="Incident & Remediation Management Context"></div>
+En el diagrama se observa que:
+
+* Los usuarios humanos (**Site Resident** y **Regulatory Auditor**) acceden primero a la **Landing Page**, la cual redirige a la **SPA** tras el proceso de autenticación.
+* Los dispositivos físicos **IoT Sensor Node** transmiten lecturas telemétricas en tiempo real directamente hacia la **API Application** mediante protocolos de comunicación como MQTT o HTTPS.
+* La **SPA** se comunica exclusivamente con la **API Application** mediante peticiones HTTP/HTTPS con mensajes JSON, siguiendo un estilo REST.
+* La **API Application** persiste y consulta datos en la **Database** mediante JDBC y mapeo objeto–relacional (JPA/Hibernate).
+* Tanto la **SPA** como la **API Application** interactúan con los sistemas externos: el **Payment System (Stripe / Niubiz)** para el cobro de suscripciones y arrendamiento de hardware, la **Google Maps API** para la geolocalización y trazado espacial de tramos viales, y el **Notification Service (SendGrid / Twilio)** para el envío automático de notificaciones de alerta por correo electrónico y SMS.
+
+Esta vista resume la distribución de responsabilidades entre las capas de presentación (Landing Page y SPA), lógica e ingesta (API Application) y persistencia (Database), detallando sus tecnologías clave. A través de flujos unidireccionales y bidireccionales, el diagrama delimita el alcance de EcoRoad, mostrando cómo interactúan los usuarios y sensores, y cómo el sistema central orquesta las integraciones externas de pagos, mapas, notificaciones y fiscalización.
+<div align="center"><img src="../assets/Chapter-4/DiagrmaContainer2.png" alt="Incident & Remediation Management Context"></div>
 <br>
 
 4.6.4. Software Architecture Components Diagrams.
