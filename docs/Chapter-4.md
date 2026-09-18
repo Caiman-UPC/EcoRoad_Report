@@ -228,6 +228,9 @@ El Context Diagram muestra al *EcoRoad Software System* como un recuadro en el c
 * **Google Maps API / GIS**: servicio externo de mapas utilizado para proporcionar funciones de geolocalización, trazado de tramos carreteros y ubicación espacial de los sensores.
 * **Notification Service (SendGrid / Twilio)**: servicio de mensajería encargado de enviar notificaciones e instructivos automáticos por correo electrónico y SMS ante desvíos de umbrales normativos ECA.
 
+En el diagrama se representan las relaciones y dependencias entre estos elementos mediante flujos unidireccionales y bidireccionales, destacando cómo los usuarios e instrumentos de campo interactúan directamente con EcoRoad, 
+mientras que el sistema central se encarga de orquestar las integraciones con los servicios externos de pagos, mapas, notificaciones y fiscalización regulatoria. Esta vista permite delimitar claramente el alcance del sistema y su ecosistema tecnológico antes de profundizar en los detalles de contenedores y componentes.
+
 4.6.3. Software Architecture Container Diagrams.
 
 4.6.4. Software Architecture Components Diagrams.
