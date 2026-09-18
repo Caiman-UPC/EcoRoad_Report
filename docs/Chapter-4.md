@@ -163,58 +163,70 @@ Para asegurar la visibilidad en motores de búsqueda y la correcta compartición
 
 4.6. Domain-Driven Software Architecture.
 
-La arquitectura de software de **EcoRoad** se construye a partir de los resultados obtenidos en el **Big Picture EventStorming**, el cual permitió comprender en profundidad los flujos clave del dominio de monitoreo socioambiental en proyectos de infraestructura vial y las interacciones entre residentes de obra, cuadrillas de campo, auditores regulatorios y dispositivos de telemetría IoT. A partir de este análisis inicial, se desarrolló una visión más estructurada y modular del dominio aplicando los principios del Diseño Guiado por el Dominio (*Domain-Driven Design - DDD*).
+La arquitectura de software de EcoRoad se construye a partir de los resultados obtenidos en el Big Picture EventStorming, que permitió comprender en profundidad los flujos clave del dominio de gestión y cumplimiento ambiental en infraestructura vial, así como las interacciones entre las empresas constructoras, supervisoras y los dispositivos IoT de campo. A partir de este análisis inicial, se desarrolló una visión más estructurada del dominio utilizando los principios de Domain-Driven Design (DDD).
+
+En las siguientes secciones se presenta cada nivel del modelo, explicando la estructura, responsabilidades y comunicación entre los elementos que conforman la arquitectura de EcoRoad.
 
 4.6.1. Design-Level Event Storming.
 
-Para desglosar la mecánica interna de cada subdominio y profundizar desde la perspectiva de arquitectura de software, el equipo realizó una sesión de **Design-Level EventStorming**. Esta técnica permite modelar tácticamente el flujo detallado de eventos de dominio, comandos, agregados, vistas (*Read Models*) y políticas de negocio dentro del sistema, facilitando la delimitación precisa y la estructuración de los **Bounded Contexts** que conforman la plataforma **EcoRoad**.
-Para esto hemos trabajado en la plataforma **Miro** acá esta el enlace del tablero completo: https://miro.com/welcomeonboard/dnVMQ0NtMXJZM28rN2laMGdLd2pwYzYxTjZLYTNRQndxMytzcTNuWisrNzJ6SEZNWEczYlU5aUl5M1hURmdBNCtTNll4V3p4Um5US1hSNjJFRzdNaUlYcUhXWkRyemd1V2VLcHhjdzZobmFwVG5vbkF0Y1FBQWRyUWFzRWI4OFNhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=465216757647
+Para identificar los eventos de dominio y profundizar en el modelado táctico, se realizó una sesión de EventStorming. Esta técnica permite visualizar y comprender el flujo de eventos dentro del dominio, facilitando la identificación de los Bounded Contexts, los aggregates (agregados) como fronteras transaccionales, los comandos, eventos, políticas y vistas de lectura.
 
-**1. Subscriptions & Payments**
-      
-Este bounded context agrupa las actividades relacionadas con la gestión comercial, planes de suscripción y procesamiento de pagos dentro de la plataforma. Aquí se gestionan procesos como la exploración de tarifas, la selección de planes empresariales, la validación de transacciones y la activación automatizada de cuentas, asegurando el control financiero y el acceso comercial de los clientes.
+1. Commercial and Subscription Management
 
-<div align="center"><img src="../assets/Chapter-4/Context1.jpg" alt="Subscriptions & Payments Context"></div>
-<br>
+Este contexto gestiona todo el ciclo comercial y el modelo de negocio de doble ingreso (dual revenue) de EcoRoad. Administra el registro de las cuentas corporativas y los contratos de suscripción independientes tanto para las empresas constructoras como para las supervisoras/consultoras ambientales. Su propósito es validar el acceso financiero a la plataforma mediante planes segmentados (Base, Profesional y Enterprise), asegurando que las operaciones viales de los clientes estén debidamente respaldadas por una suscripción activa.
+<div align="center">
+  <img src="../assets/Chapter-4/paso1.jpg" alt="Paso 4">
+</div>
 
+2. Identity and Access Management (IAM)
 
-**2. Identity & Access Management (IAM)**
-
-Este bounded context agrupa las actividades relacionadas con la autenticación, autorización y control de acceso dentro de la plataforma. Aquí se gestionan procesos como el registro de cuentas de compañía, la invitación de miembros, la asignación de roles y la administración de permisos, asegurando que cada usuario acceda solo a la información y funcionalidades que le corresponden.
-
-<div align="center"><img src="../assets/Chapter-4/Context2.jpg" alt="Identity & Access Management (IAM) Context"></div>
-<br>
-
-**3. Project & Road Site Management**
-
-Este bounded context agrupa las actividades relacionadas con la planeación de proyectos viales, el mapeo de tramos carreteros y el despliegue de infraestructura física. Aquí se gestionan procesos como el registro general de proyectos, la sectorización de vías y la instalación de nodos de sensores, asegurando la organización espacial y operativa de los sitios de monitoreo.
-<div align="center"><img src="../assets/Chapter-4/Context3.jpg" alt="Project & Road Site Management Context"></div>
-<br>
-
-**4. Environmental Telemetry & Monitoring**
-
-Este bounded context agrupa las actividades relacionadas con la recepción, procesamiento y supervisión de los datos telemétricos capturados por los dispositivos de campo. Aquí se gestionan procesos como la ingesta masiva de lecturas de sensores (partículas en suspensión, ruido, turbidez y vibración) y la ejecución de políticas de monitoreo continuo, asegurando la trazabilidad en tiempo real de las variables ambientales.
-<div align="center"><img src="../assets/Chapter-4/Context4.jpg" alt="Environmental Telemetry & Monitoring Context"></div>
-<br>
-
-**5. Threshold Evaluation & Alert Engine**
-
-Este bounded context agrupa las actividades relacionadas con la evaluación normativa de datos y la generación automatizada de alertas tempranas. Aquí se gestionan procesos como la comparación de las mediciones telemétricas frente a los límites permitidos, la detección de excesos y el enrutamiento de notificaciones, asegurando una respuesta rápida ante anomalías ambientales.
-<div align="center"><img src="../assets/Chapter-4/Context5.jpg" alt="Threshold Evaluation & Alert Engine Context"></div>
-<br>
-
-**6. Incident & Remediation Management**
-
-Este bounded context agrupa las actividades relacionadas con el ciclo de vida de los incidentes operativos y las acciones de remediación en campo. Aquí se gestionan procesos como la creación de tickets de incidencia, la notificación a cuadrillas de trabajo, la ejecución de medidas correctivas, la carga de evidencias y el cierre de casos, asegurando la mitigación efectiva de los problemas detectados.
-<div align="center"><img src="../assets/Chapter-4/Context6.jpg" alt="Incident & Remediation Management Context"></div>
-<br>
+El Bounded Context IAM se encarga de la autenticación, autorización y gobernanza de credenciales dentro del ecosistema EcoRoad. Administra procesos críticos como el registro de usuarios corporativos, inicio de sesión y la asignación granular de permisos y roles (tales como administradores, residentes de obra o personal de fiscalización). Su objetivo es garantizar accesos seguros, confiables y alineados con las políticas de control de seguridad de la información.
+<div align="center">
+  <img src="../assets/Chapter-4/paso2.jpg" alt="Paso 4">
+</div>
 
 
-**7. Compliance & Audit Reporting**
+3. Project and Road Site Management
 
-Este bounded context agrupa las actividades relacionadas con la trazabilidad regulatoria, la generación de reportes de cumplimiento y las bitácoras de auditoría. Aquí se gestionan procesos como la inicialización de registros históricos inmutables, la consolidación de datos regulatorios y la aplicación de políticas de retención, asegurando que todas las operaciones del sistema cumplan con las normativas legales y ambientales exigidas.
-<div align="center"><img src="../assets/Chapter-4/Context7.jpg" alt="Compliance & Audit Reporting Context"></div>
-<br>
+Este contexto es el núcleo operativo para la planificación de la infraestructura vial. Permite registrar formalmente los proyectos de construcción y mantenimiento, configurar los tramos viales y establecer los frentes de trabajo donde se desarrollarán las operaciones. Su diseño valida de forma estricta que exista una cuenta y suscripción comercial activa antes de autorizar la creación y el despliegue lógico de cualquier nuevo proyecto de carretera.
+<div align="center">
+  <img src="../assets/Chapter-4/paso3.jpg" alt="Paso 4">
+</div>
+
+4. Monitoring Asset and Deployment
+
+Se encarga de la gestión del hardware de sensores IoT propios que provee el modelo HaaS (Hardware as a Service) de EcoRoad. Este contexto administra la geolocalización de los puntos de monitoreo, la habilitación de los dispositivos de campo, su asignación específica a los frentes de obra, así como su calibración y activación. Su propósito es asegurar que solo los sensores autorizados y debidamente vinculados puedan reportar datos al sistema.
+<div align="center">
+  <img src="../assets/Chapter-4/paso4.jpg" alt="Paso 4">
+</div>
+
+5. Environmental Monitoring
+
+Este contexto gestiona la captura y el procesamiento de la telemetría ambiental (indicadores de aire, ruido, agua y vibración) recopilada por la red de sensores IoT. Se encarga de configurar los parámetros ambientales y perfiles de umbrales normativos, permitiendo procesar tanto las mediciones automatizadas en tiempo real como los registros manuales efectuados en campo, reduciendo la dependencia de reportes que puedan ser alterados.
+<div align="center">
+  <img src="../assets/Chapter-4/paso5.jpg" alt="Paso 4">
+</div>
+
+6. Alerting and Risk Evaluation
+
+Funciona como el motor preventivo de la plataforma. Evalúa de manera continua las mediciones e indicadores ambientales frente a los límites y umbrales normativos establecidos. Su propósito es detectar desviaciones de manera temprana, confirmar riesgos ambientales críticos y emitir las alertas preventivas necesarias para que las empresas constructoras actúen antes de incurrir en incumplimientos legales o sanciones.
+<div align="center">
+  <img src="../assets/Chapter-4/paso6.jpg" alt="Paso 4">
+</div>
+
+7. Incident and Remediation Management
+
+Este contexto coordina la respuesta operativa ante incidentes ambientales detectados en las obras viales. Controla el ciclo de vida de los tickets de incidencia, la asignación de responsables y cuadrillas de campo, la ejecución de acciones correctivas (como riego de vías o instalación de barreras acústicas), la subida de evidencias verificables y el cierre formal de las incidencias.
+<div align="center">
+  <img src="../assets/Chapter-4/paso7.jpg" alt="Paso 4">
+</div>
+
+8. Compliance and Reporting
+
+Agrupa la consolidación de los datos históricos de monitoreo, alertas e incidentes para la generación de reportes regulatorios de cumplimiento. Su propósito es proveer a las empresas supervisoras y consultoras ambientales una herramienta neutral y basada en datos inalterables, facilitando los procesos de auditoría, reduciendo los costos de fiscalización y generando confianza mutua entre los ejecutores de la obra y los entes fiscalizadores.
+<div align="center">
+  <img src="../assets/Chapter-4/paso8.jpg" alt="Paso 4">
+</div>
 
 4.6.2. Software Architecture Context Diagram.
 
