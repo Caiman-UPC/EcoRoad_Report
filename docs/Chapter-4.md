@@ -210,8 +210,8 @@ Este bounded context agrupa las actividades relacionadas con el ciclo de vida de
 **7. Compliance & Audit Reporting Context**
 
 Este bounded context agrupa las actividades relacionadas con la trazabilidad regulatoria, la generación de reportes de cumplimiento y las bitácoras de auditoría. Aquí se gestionan procesos como la inicialización de registros históricos inmutables, la consolidación de datos regulatorios y la aplicación de políticas de retención, asegurando que todas las operaciones del sistema cumplan con las normativas legales y ambientales exigidas.
-
-<img src="../assets/Chapter-4/Context7.jpg" align="center">
+<div align="center"><img src="../assets/Chapter-4/Context7.jpg" alt="Compliance & Audit Reporting Context"></div>
+<br>
 
 4.6.2. Software Architecture Context Diagram.
 
