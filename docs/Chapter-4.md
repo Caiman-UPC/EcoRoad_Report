@@ -184,27 +184,27 @@ Este bounded context agrupa las actividades relacionadas con la autenticación, 
 **3. Project & Road Site Management Context**
 
 Este bounded context agrupa las actividades relacionadas con la planeación de proyectos viales, el mapeo de tramos carreteros y el despliegue de infraestructura física. Aquí se gestionan procesos como el registro general de proyectos, la sectorización de vías y la instalación de nodos de sensores, asegurando la organización espacial y operativa de los sitios de monitoreo.
-<img src="assets/chapter-4/Context3.jpg" align="center">
+<img src="assets/Chapter-4/Context3.jpg" align="center">
 
 **4. Environmental Telemetry & Monitoring Context**
 
 Este bounded context agrupa las actividades relacionadas con la recepción, procesamiento y supervisión de los datos telemétricos capturados por los dispositivos de campo. Aquí se gestionan procesos como la ingesta masiva de lecturas de sensores (partículas en suspensión, ruido, turbidez y vibración) y la ejecución de políticas de monitoreo continuo, asegurando la trazabilidad en tiempo real de las variables ambientales.
-<img src="assets/chapter-4/Context4.jpg" align="center">
+<img src="assets/Chapter-4/Context4.jpg" align="center">
 
 **5. Threshold Evaluation & Alert Engine Context**
 
 Este bounded context agrupa las actividades relacionadas con la evaluación normativa de datos y la generación automatizada de alertas tempranas. Aquí se gestionan procesos como la comparación de las mediciones telemétricas frente a los límites permitidos, la detección de excesos y el enrutamiento de notificaciones, asegurando una respuesta rápida ante anomalías ambientales.
-<img src="assets/chapter-4/Context5.jpg" align="center">
+<img src="assets/Chapter-4/Context5.jpg" align="center">
 
 **6. Incident & Remediation Management Context**
 
 Este bounded context agrupa las actividades relacionadas con el ciclo de vida de los incidentes operativos y las acciones de remediación en campo. Aquí se gestionan procesos como la creación de tickets de incidencia, la notificación a cuadrillas de trabajo, la ejecución de medidas correctivas, la carga de evidencias y el cierre de casos, asegurando la mitigación efectiva de los problemas detectados.
-<img src="assets/chapter-4/Context6.jpg" align="center">
+<img src="assets/Chapter-4/Context6.jpg" align="center">
 
 **7. Compliance & Audit Reporting Context**
 
 Este bounded context agrupa las actividades relacionadas con la trazabilidad regulatoria, la generación de reportes de cumplimiento y las bitácoras de auditoría. Aquí se gestionan procesos como la inicialización de registros históricos inmutables, la consolidación de datos regulatorios y la aplicación de políticas de retención, asegurando que todas las operaciones del sistema cumplan con las normativas legales y ambientales exigidas.
-<img src="assets/chapter-4/Context7.jpg" align="center">
+<img src="assets/Chapter-4/Context7.jpg" align="center">
 
 4.6.2. Software Architecture Context Diagram.
 
