@@ -71,7 +71,7 @@
 En esta sección se presenta el desglose estratégico del modelo de negocio de EcoRoad mediante la técnica de **Impact Mapping**, vinculando la meta de negocio SMART con los cambios de comportamiento requeridos en los segmentos de cliente, las soluciones funcionales provistas y las historias de usuario asociadas.
 
 <p align="center">
-  <img src="../assets/Chapter-3/ImpactMap.png" alt="Impact Mapping Consolidado - EcoRoad" width="100%"/>
+  <img src="../assets/Chapter-3/ImpactMapping.png" alt="Impact Mapping Consolidado - EcoRoad" width="100%"/>
 </p>
 
 ### 3.3. Product Backlog
