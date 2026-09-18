@@ -170,7 +170,7 @@ La arquitectura de software de **EcoRoad** se construye a partir de los resultad
 Para desglosar la mecánica interna de cada subdominio y profundizar desde la perspectiva de arquitectura de software, el equipo realizó una sesión de **Design-Level EventStorming**. Esta técnica permite modelar tácticamente el flujo detallado de eventos de dominio, comandos, agregados, vistas (*Read Models*) y políticas de negocio dentro del sistema, facilitando la delimitación precisa y la estructuración de los **Bounded Contexts** que conforman la plataforma **EcoRoad**.
 Para esto hemos trabajado en la plataforma **Miro** acá esta el enlace del tablero completo: https://miro.com/welcomeonboard/dnVMQ0NtMXJZM28rN2laMGdLd2pwYzYxTjZLYTNRQndxMytzcTNuWisrNzJ6SEZNWEczYlU5aUl5M1hURmdBNCtTNll4V3p4Um5US1hSNjJFRzdNaUlYcUhXWkRyemd1V2VLcHhjdzZobmFwVG5vbkF0Y1FBQWRyUWFzRWI4OFNhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=465216757647
 
-**1. Subscriptions & Payments Context**
+**1. Subscriptions & Payments**
       
 Este bounded context agrupa las actividades relacionadas con la gestión comercial, planes de suscripción y procesamiento de pagos dentro de la plataforma. Aquí se gestionan procesos como la exploración de tarifas, la selección de planes empresariales, la validación de transacciones y la activación automatizada de cuentas, asegurando el control financiero y el acceso comercial de los clientes.
 
@@ -178,38 +178,39 @@ Este bounded context agrupa las actividades relacionadas con la gestión comerci
 <br>
 
 
-**2. Identity & Access Management (IAM) Context**
+**2. Identity & Access Management (IAM)**
 
 Este bounded context agrupa las actividades relacionadas con la autenticación, autorización y control de acceso dentro de la plataforma. Aquí se gestionan procesos como el registro de cuentas de compañía, la invitación de miembros, la asignación de roles y la administración de permisos, asegurando que cada usuario acceda solo a la información y funcionalidades que le corresponden.
 
 <div align="center"><img src="../assets/Chapter-4/Context2.jpg" alt="Identity & Access Management (IAM) Context"></div>
 <br>
 
-**3. Project & Road Site Management Context**
+**3. Project & Road Site Management**
 
 Este bounded context agrupa las actividades relacionadas con la planeación de proyectos viales, el mapeo de tramos carreteros y el despliegue de infraestructura física. Aquí se gestionan procesos como el registro general de proyectos, la sectorización de vías y la instalación de nodos de sensores, asegurando la organización espacial y operativa de los sitios de monitoreo.
+<div align="center"><img src="../assets/Chapter-4/Context3.jpg" alt="Project & Road Site Management Context"></div>
+<br>
 
-<img src="../assets/Chapter-4/Context3.jpg" align="center">
-
-**4. Environmental Telemetry & Monitoring Context**
+**4. Environmental Telemetry & Monitoring**
 
 Este bounded context agrupa las actividades relacionadas con la recepción, procesamiento y supervisión de los datos telemétricos capturados por los dispositivos de campo. Aquí se gestionan procesos como la ingesta masiva de lecturas de sensores (partículas en suspensión, ruido, turbidez y vibración) y la ejecución de políticas de monitoreo continuo, asegurando la trazabilidad en tiempo real de las variables ambientales.
+<div align="center"><img src="../assets/Chapter-4/Context4.jpg" alt="Environmental Telemetry & Monitoring Context"></div>
+<br>
 
-<img src="../assets/Chapter-4/Context4.jpg" align="center">
-
-**5. Threshold Evaluation & Alert Engine Context**
+**5. Threshold Evaluation & Alert Engine**
 
 Este bounded context agrupa las actividades relacionadas con la evaluación normativa de datos y la generación automatizada de alertas tempranas. Aquí se gestionan procesos como la comparación de las mediciones telemétricas frente a los límites permitidos, la detección de excesos y el enrutamiento de notificaciones, asegurando una respuesta rápida ante anomalías ambientales.
+<div align="center"><img src="../assets/Chapter-4/Context5.jpg" alt="Threshold Evaluation & Alert Engine Context"></div>
+<br>
 
-<img src="../assets/Chapter-4/Context5.jpg" align="center">
-
-**6. Incident & Remediation Management Context**
+**6. Incident & Remediation Management**
 
 Este bounded context agrupa las actividades relacionadas con el ciclo de vida de los incidentes operativos y las acciones de remediación en campo. Aquí se gestionan procesos como la creación de tickets de incidencia, la notificación a cuadrillas de trabajo, la ejecución de medidas correctivas, la carga de evidencias y el cierre de casos, asegurando la mitigación efectiva de los problemas detectados.
+<div align="center"><img src="../assets/Chapter-4/Context6.jpg" alt="Incident & Remediation Management Context"></div>
+<br>
 
-<img src="../assets/Chapter-4/Context6.jpg" align="center">
 
-**7. Compliance & Audit Reporting Context**
+**7. Compliance & Audit Reporting**
 
 Este bounded context agrupa las actividades relacionadas con la trazabilidad regulatoria, la generación de reportes de cumplimiento y las bitácoras de auditoría. Aquí se gestionan procesos como la inicialización de registros históricos inmutables, la consolidación de datos regulatorios y la aplicación de políticas de retención, asegurando que todas las operaciones del sistema cumplan con las normativas legales y ambientales exigidas.
 <div align="center"><img src="../assets/Chapter-4/Context7.jpg" alt="Compliance & Audit Reporting Context"></div>
