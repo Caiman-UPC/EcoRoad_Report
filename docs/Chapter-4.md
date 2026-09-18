@@ -231,6 +231,9 @@ El Context Diagram muestra al *EcoRoad Software System* como un recuadro en el c
 En el diagrama se representan las relaciones y dependencias entre estos elementos mediante flujos unidireccionales y bidireccionales, destacando cómo los usuarios e instrumentos de campo interactúan directamente con EcoRoad, 
 mientras que el sistema central se encarga de orquestar las integraciones con los servicios externos de pagos, mapas, notificaciones y fiscalización regulatoria. Esta vista permite delimitar claramente el alcance del sistema y su ecosistema tecnológico antes de profundizar en los detalles de contenedores y componentes.
 
+<div align="center"><img src="../assets/Chapter-4/ContextDiagram.jpg" alt="Software Architecture Context Diagram"></div>
+<br>
+
 4.6.3. Software Architecture Container Diagrams.
 
 4.6.4. Software Architecture Components Diagrams.
