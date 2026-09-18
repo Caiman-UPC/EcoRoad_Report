@@ -217,6 +217,16 @@ Este bounded context agrupa las actividades relacionadas con la trazabilidad reg
 <br>
 
 4.6.2. Software Architecture Context Diagram.
+En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema de software *EcoRoad* como una “caja negra” y en las interacciones que mantiene con sus usuarios y con otros sistemas externos.
+
+El Context Diagram muestra al *EcoRoad Software System* como un recuadro en el centro, rodeado por los principales actores y sistemas con los que se comunica:
+
+* **Site Resident**: usuario interno principal responsable de registrar proyectos viales, monitorear alertas ambientales en tiempo real, asignar acciones de remediación a las cuadrillas y autorizar el cierre de incidencias socioambientales.
+* **Regulatory Auditor**: usuario externo o entidad fiscalizadora (MTC / OEFA) que accede a la plataforma para revisar expedientes de cumplimiento y validar el acatamiento normativo del Plan de Manejo Ambiental.
+* **IoT Sensor Node**: dispositivo físico de campo distribuido en los frentes de obra que captura continuamente datos de telemetría (material particulado, ruido, calidad de agua y vibraciones) y los transmite en tiempo real al sistema central.
+* **Payment System (Stripe / Niubiz)**: sistema externo encargado de procesar las suscripciones y los pagos por el uso de la plataforma SaaS y el arrendamiento del hardware IoT.
+* **Google Maps API / GIS**: servicio externo de mapas utilizado para proporcionar funciones de geolocalización, trazado de tramos carreteros y ubicación espacial de los sensores.
+* **Notification Service (SendGrid / Twilio)**: servicio de mensajería encargado de enviar notificaciones e instructivos automáticos por correo electrónico y SMS ante desvíos de umbrales normativos ECA.
 
 4.6.3. Software Architecture Container Diagrams.
 
