@@ -174,14 +174,16 @@ Para esto hemos trabajado en la plataforma **Miro** acá esta el enlace del tabl
       
 Este bounded context agrupa las actividades relacionadas con la gestión comercial, planes de suscripción y procesamiento de pagos dentro de la plataforma. Aquí se gestionan procesos como la exploración de tarifas, la selección de planes empresariales, la validación de transacciones y la activación automatizada de cuentas, asegurando el control financiero y el acceso comercial de los clientes.
 
-<img src="../assets/chapter-4/Context1.jpg" align="center">
+<div align="center"><img src="../assets/Chapter-4/Context1.jpg" alt="Subscriptions & Payments Context"></div>
+<br>
 
 
 **2. Identity & Access Management (IAM) Context**
 
 Este bounded context agrupa las actividades relacionadas con la autenticación, autorización y control de acceso dentro de la plataforma. Aquí se gestionan procesos como el registro de cuentas de compañía, la invitación de miembros, la asignación de roles y la administración de permisos, asegurando que cada usuario acceda solo a la información y funcionalidades que le corresponden.
 
-<img src="../assets/chapter-4/Context2.jpg" align="center">
+<div align="center"><img src="../assets/Chapter-4/Context2.jpg" alt="Identity & Access Management (IAM) Context"></div>
+<br>
 
 **3. Project & Road Site Management Context**
 
