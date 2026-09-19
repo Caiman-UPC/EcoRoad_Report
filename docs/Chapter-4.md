@@ -294,7 +294,7 @@ En el diagrama se refleja cómo:
 * Algunos módulos se integran con sistemas externos: **Subscription Backend** con el sistema de pagos (Stripe / Niubiz), **Project Backend** y **Asset Management Backend** con la API de mapas (Google Maps API), e **IAM Backend** y **Alert Engine Backend** con el servicio de notificaciones (SendGrid / Twilio).
 * Todos los módulos backend reutilizan capacidades comunes provistas por el **Shared Backend**, lo que favorsce la consistencia, la reutilización y la reducción de duplicación de código.
 
-&gt; En conclusión, esta vista de componentes permite transparentar la organización interna del backend de **EcoRoad**, evidenciando la separación modular de responsabilidades según cada *Bounded Context*. Al estructurar de forma desacoplada la ingesta telemétrica, la evaluación de umbrales ECA y la gestión de incidencias, este diagrama sirve como puente entre la visión de contenedores de alto nivel y el diseño detallado de clases y persistencia del sistema.
+En conclusión, esta vista de componentes permite transparentar la organización interna del backend de **EcoRoad**, evidenciando la separación modular de responsabilidades según cada *Bounded Context*. Al estructurar de forma desacoplada la ingesta telemétrica, la evaluación de umbrales ECA y la gestión de incidencias, este diagrama sirve como puente entre la visión de contenedores de alto nivel y el diseño detallado de clases y persistencia del sistema.
 <div align="center"><img src="../assets/Chapter-4/DiagramComponnents.png" alt="Incident & Remediation Management Context"></div>
 <br>
 
