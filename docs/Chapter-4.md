@@ -292,10 +292,9 @@ Permite administrar usuarios y asignar permisos granulares basados en roles (RBA
   <img src="../assets/Chapter-4/wf-team.png" alt="Team">
 </div>
 
-
 4.4.2. Web Applications Wireflow Diagrams.
 
-4.4.2. Web Applications Mock-ups.
+4.4.3. Web Applications Mock-ups.
 
 En esta sección se presentan los mock-ups diseñados para la aplicación web de EcoRoad. Cada pantalla responde a las funcionalidades principales del sistema.
 
@@ -362,6 +361,83 @@ Panel de administración de usuarios y permisos (RBAC), con simulación de restr
 <div align="center">
   <img src="../assets/Chapter-4/team.png" alt="Team">
 </div>
+
+### Mock-ups Version Mobile
+
+**Projects**
+
+Listado vertical de concesiones viales que muestra métricas rápidas de estado ambiental (Critical, Observation, Optimal), sensores, alertas e incidentes por proyecto.
+<div align="center">
+  <img src="../assets/Chapter-4/projects-mob.png" alt="Team">
+</div>
+
+**Project Dashboard**
+
+Vista de detalle del proyecto (Carretera Lima–Canta) con porcentaje de cumplimiento normativo (ECA), métricas de red telemática LoRaWAN, incidentes pendientes y profesionales responsables
+<div align="center">
+  <img src="../assets/Chapter-4/dashboard-mob.png" alt="Team">
+</div>
+
+**IoT Sensors**
+
+Panel telemático de red con el mapa/perfil topográfico de nodos, estado de conexión de estaciones y tarjetas de monitoreo en tiempo real por variable (PM10, ruido ambiental).
+<div align="center">
+  <img src="../assets/Chapter-4/iot-mob.png" alt="Team">
+</div>
+
+**Alerts**
+
+Gestor móvil de alertas preventivas que notifica desviaciones críticas de parámetros con gráfico de tendencia, protocolo técnico y acciones preventivas recomendadas.
+
+<div align="center">
+  <img src="../assets/Chapter-4/alert-mob.png" alt="Team">
+</div>
+
+**Environmental Incidents**
+
+Tablero de seguimiento de eventos e incidentes ambientales con filtro por estado (Pending, In Progress, Resolved) y tarjetas para la asignación de responsables en campo.
+<div align="center">
+  <img src="../assets/Chapter-4/env-inc-mob.png" alt="Team">
+</div>
+
+**Traceability History**
+
+Línea de tiempo cronológica (Event Audit Trail) que detalla la trazabilidad desde la alerta inicial hasta el registro de evidencia fotográfica y la acción correctiva aplicada.
+
+<div align="center">
+  <img src="../assets/Chapter-4/envi-mob.png" alt="Team">
+</div>
+
+**Indicator History**
+
+Gráfico de evolución temporal de variables (PM10) frente a los límites normativos del ECA, acompañados de promedios, valores máximos/mínimos y certificado de monitoreo.
+
+<div align="center">
+  <img src="../assets/Chapter-4/envi-mob.png" alt="Team">
+</div>
+
+**Environmental Reports**
+
+Configuración y generación de informes oficiales de cumplimiento ambiental con opción de descarga en PDF, vista previa e historial con hash de seguridad SHA-256.
+<div align="center">
+  <img src="../assets/Chapter-4/report-mob.png" alt="Team">
+</div>
+
+**Collaborators & Permissions**
+
+Administración móvil de personal asignado al corredor y gestor de permisos por rol (RBAC) para el control de lectura, edición y exportación de datos.
+
+<div align="center">
+  <img src="../assets/Chapter-4/team-mob.png" alt="Team">
+</div>
+
+**Subscription & Licensing**
+
+Tarjetas de planes de suscripción (Starter Corridor y Enterprise Concession) que detallan costos, capacidades telemáticas e integración normativa.
+<div align="center">
+  <img src="../assets/Chapter-4/sus-mob.png" alt="Team">
+</div>
+
 4.4.3. Web Applications User Flow Diagrams.
 
 4.5. Web Applications Prototyping.
