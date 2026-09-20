@@ -227,6 +227,70 @@ El Footer (pie de página) de la plataforma cierra el sitio con una estructura i
 
 4.4.1. Web Applications Wireframes.
 
+**Home**
+
+Muestra el resumen global de la red telemática (proyectos, sensores, alertas e incidentes activos) y el estado general de los proyectos junto con un feed de lecturas recientes fuera de parámetro
+
+<div align="center">
+  <img src="../assets/Chapter-4/wf-home.png" alt="Home">
+</div>
+
+**Projects**
+
+Ofrece el listado general de obras viales indicando su estado ambiental (óptimo, bajo observación o crítico), cantidad de sensores IoT asociados y métricas de alertas e incidentes
+<div align="center">
+  <img src="../assets/Chapter-4/wf-projects.png" alt="Projects">
+</div>
+
+**Project Dashboard**
+
+Presenta la vista detallada de un proyecto vial específico con el porcentaje de cumplimiento normativo (ECA), estado de la red de sensores LoRaWAN, lista de incidentes pendientes y los responsables técnicos asignados.
+
+<div align="center">
+  <img src="../assets/Chapter-4/wf-dashboard.png" alt="Dashboard">
+</div>
+
+**Alerts**
+
+Gestiona las alertas telemáticas preventivas por exceso de parámetros (material particulado, ruido, calidad de agua) y detalla la ubicación, sensor y acción preventiva recomendada en un panel técnico.
+<div align="center">
+  <img src="../assets/Chapter-4/wf-alerts.png" alt="Alerts">
+</div>
+
+**Incidents**
+
+Proporciona un tablero Kanban organizado según el estado del flujo de trabajo (Pendiente, En Progreso, Resuelto, Cerrado) para la asignación y gestión operativa de contingencias ambientales.
+<div align="center">
+  <img src="../assets/Chapter-4/wf-incidents.png" alt="Incidents">
+</div>
+
+**History**
+
+Grafica la evolución temporal de los indicadores ambientales (como PM10) comparándolos contra los límites normativos del estándar ECA, incluyendo promedios del periodo y simulador de estado sin datos
+<div align="center">
+  <img src="../assets/Chapter-4/wf-history.png" alt="History">
+</div>
+
+**Reports**
+
+Facilita la configuración y generación de informes oficiales de cumplimiento ambiental exportables en PDF, integrando validación por firma digital y código de seguridad encriptado SHA-256.
+<div align="center">
+  <img src="../assets/Chapter-4/wf-reportsEnv.png" alt="Reports">
+</div>
+
+**Traceability history**
+
+Muestra la secuencia cronológica y la trazabilidad completa de un evento ambiental desde la detección de la alerta hasta el registro de evidencia e implementación de la acción correctiva.
+<div align="center">
+  <img src="../assets/Chapter-4/wf-historyEnv.png" alt="Reports">
+</div>
+
+**Collaborators**
+
+Permite administrar usuarios y asignar permisos granulares basados en roles (RBAC), incluyendo un área para simular la experiencia de restricciones de acceso según el perfil seleccionado
+<div align="center">
+  <img src="../assets/Chapter-4/wf-team.png" alt="Team">
+</div>
 
 
 4.4.2. Web Applications Wireflow Diagrams.
@@ -280,7 +344,7 @@ Tablero tipo Kanban organizado por estado (Pendiente, En Progreso, Resuelto, Cer
 Gráfico de evolución temporal de indicadores (como PM10) comparados contra los límites normativos del estándar (ECA), con promedios y simulador de estados sin datos
 
 <div align="center">
-  <img src="../assets/Chapter-4/history.png" alt="History">
+  <img src="../assets/Chapter-4/projects-history.png" alt="History">
 </div>
 
 **Reports**
