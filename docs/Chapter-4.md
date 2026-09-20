@@ -298,11 +298,40 @@ En conclusión, esta vista de componentes permite transparentar la organización
 <div align="center"><img src="../assets/Chapter-4/ComponentDiagram.png" alt="Incident & Remediation Management Context"></div>
 <br>
 
-4.7. Software Object-Oriented Design.
+## 4.7. Software Object-Oriented Design.
+<a id="4-7-software-object-oriented-design"></a>
 
-4.7.1. Class Diagrams.
+### 4.7.1. Class Diagrams.
+<a id="4-7-1-class-diagrams"></a>
 
-4.8. Database Design.
+Se centra en la definición de diagramas de clases, la interacción entre objetos y la aplicación de principios.
+
+### Bounded Context 1 - Suscriptions and Payment:
+![Class Diagram - EcoRoad](../assets/EcoRoad-CD1.png)
+
+### Bounded Context 2 - Identity and Access Management:
+![Class Diagram - EcoRoad](../assets/EcoRoad-CD2.png)
+
+### Bounded Context 3 - Project and Road Site Management:
+![Class Diagram - EcoRoad](../assets/EcoRoad-CD3.png)
+
+### Bounded Context 4 - Monitoring Asset and Deployment:
+![Class Diagram - EcoRoad](../assets/EcoRoad-CD4.png)
+
+### Bounded Context 5 - Environmental Monitoring:
+![Class Diagram - EcoRoad](../assets/EcoRoad-CD5.png)
+
+### Bounded Context 6 - Alerting and Risk Evaluation:
+![Class Diagram - EcoRoad](../assets/EcoRoad-CD6.png)
+
+### Bounded Context 7 - Incident and Remediation Management:
+![Class Diagram - EcoRoad](../assets/EcoRoad-CD7.png)
+
+### Bounded Context 8 - Compliance and Reporting:
+![Class Diagram - EcoRoad](../assets/EcoRoad-CD8.png)
+
+## 4.8. Database Design.
+<a id="4-8-database-design"></a>
 
 ### 4.8.1. Database Diagrams.
 <a id="4-8-1-database-diagrams"></a>
