@@ -84,3 +84,12 @@ En esta sección se presenta el desglose estratégico del modelo de negocio de E
 | 31 | US25 | Registro de Colaboradores y Asignación de Permisos       | Como Administrador de la Constructora, quiero registrar a los colaboradores de mi empresa y asignarles permisos específicos para adaptar el acceso a la plataforma según el rol de cada uno.                       | 5 |
 | 32 | US26 | Restricción de Acceso según Permisos Asignados           | Como Administrador de la Constructora, quiero que el sistema restrinja el acceso de cada colaborador según los permisos asignados para garantizar la seguridad de la información del proyecto.                     | 3 |
 | 33 | TS07 | Actualización de Permisos de Usuario                     | Como Developer, quiero implementar un endpoint REST para actualizar los permisos de los colaboradores, para controlar las operaciones que cada usuario puede realizar dentro de la plataforma.                     | 3 |
+
+**Evidencia de Product Backlog en Jira:**
+
+A continuación, se muestra la gestión del backlog en la herramienta Jira Software, evidenciando la priorización y estimación de las historias.
+
+![Evidence Product Backlog Jira](../assets/Chapter-3/product-backlog.png)
+*Figura: Captura del Product Backlog en Jira Software.*
+
+**Enlace al Product Backlog en Jira:** [click aquí](https://upc-team-opensource.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiMDEwNTZjOGUxMWU5NGYyMzkxYmQwMmUwMzM4ZjZkMDQiLCJwIjoiaiJ9)
