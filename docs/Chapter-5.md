@@ -1,13 +1,5 @@
 Capítulo V: Product Implementation, Validation & Deployment
 
-## 5.1. Software Configuration Management
-
-# Product Implementation, Validation & Deployment
-
-## 5.1. Software Configuration Management
-<a id="5-1-software-configuration-management"></a>
-
-
 ### 5.1.1. Software Development Environment Configuration
 <a id="5-1-1-software-development-environment-configuration"></a>
 #### Gestión del Proyecto
