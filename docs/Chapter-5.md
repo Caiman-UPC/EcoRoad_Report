@@ -2,115 +2,149 @@ Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
 
-En esta sección se describen las decisiones, convenciones y principios adoptados por el equipo para garantizar la coherencia, trazabilidad y control de versiones durante el ciclo de vida del desarrollo de la solución EcoRoad. Se establecen los lineamientos para la configuración del entorno de desarrollo, gestión del código fuente, convenciones de estilo y configuración de despliegue.
+# Product Implementation, Validation & Deployment
+
+## 5.1. Software Configuration Management
+<a id="5-1-software-configuration-management"></a>
+
 
 ### 5.1.1. Software Development Environment Configuration
+<a id="5-1-1-software-development-environment-configuration"></a>
+#### Gestión del Proyecto
+Para la coordinación del proyecto y el seguimiento del trabajo colaborativo se utilizaron plataformas de comunicación, almacenamiento y gestión ágil. El código fuente de la Landing Page y del informe se centralizó en una organización de GitHub. Las reuniones virtuales del equipo y coordinaciones diarias se realizaron mediante Discord y WhatsApp, mientras que la planificación y asignación de tareas se gestionó a través de Zoho Sprints.
 
-En esta sección se especifican los productos de software utilizados durante el ciclo de vida del proyecto, incluyendo el nombre de cada herramienta, su propósito técnico específico dentro del proyecto EcoRoad, y la ruta de referencia (para software SaaS) o ruta de descarga (para productos de instalación local). Las herramientas se organizan según las siguientes disciplinas:
+* **Coordinación de código y repositorios:** GitHub
+* **Reuniones virtuales y syncs:** Discord
+* **Comunicación diaria:** WhatsApp
+* **Organización y seguimiento de tareas (Agile):** Zoho Sprints
 
-- Project Management
-- Requirements Management
-- Product UX/UI Design
-- Software Development
-- Software Testing
-- Software Documentation
+#### Gestión de Requerimientos
+Durante la fase de análisis y estructuración de requerimientos, se empleó UXPressia para diseñar las User Personas, Mapas de Empatía e Impact Maps. Se utilizó Miro para la construcción de escenarios As-Is / To-Be y los tableros de Event Storming.
 
----
+* **Diseño UX y Mapas de Impacto:** UXPressia
+* **Event Storming y Escenarios:** Miro
+* **Gestión de User Stories:** Zoho Sprints / GitHub Projects
 
-#### Project Management
+#### Diseño de Experiencia e Interfaz del Producto
+Para la concepción visual de la Landing Page y la maquetación preliminar de las interfaces de la plataforma, el equipo empleó Figma. Se elaboraron wireframes y maquetas de alta fidelidad para validar la estructura visual, paleta de colores y la disposición de las secciones informativas antes de su codificación.
 
-Esta disciplina se centra en la planificación, seguimiento y control de las actividades del proyecto, asegurando el cumplimiento de los objetivos dentro del tiempo y recursos establecidos.
+* **Diseño de Interfaz y Prototipado:** Figma
 
-* **Jira:** Plataforma de gestión de proyectos ágiles utilizada para la administración del Product Backlog, planificación de Sprints, asignación de User Stories y Tasks a los miembros del equipo, y seguimiento del progreso mediante tableros Scrum con estados To-Do, In-Process, To-Review y Done.
-    * **Ruta de referencia:** https://www.atlassian.com/software/jira
+#### Desarrollo de Software
+El desarrollo de la Landing Page responsiva se realizó utilizando tecnologías web estándar (HTML5, CSS3 y JavaScript). El informe del proyecto se redactó en formato Markdown (.md). Para el desarrollo del código y del informe se emplearon editores e IDEs como Visual Studio Code, WebStorm e IntelliJ IDEA, administrados mediante JetBrains Toolbox para mantener la homogeneidad del entorno.
 
----
+* **IDEs y Editores:** Visual Studio Code, WebStorm, IntelliJ IDEA
+* **Gestor de IDEs:** JetBrains Toolbox
 
-#### Requirements Management
+#### Documentación de Software
+La documentación técnica del informe se gestionó en archivos Markdown (.md) sincronizados con el repositorio central del grupo en GitHub mediante la metodología Git Flow, asegurando un trabajo colaborativo ordenado.
 
-TRELLO
+#### Despliegue de Software
+Para la publicación de la Landing Page como primer entregable accesible al público, se utilizó GitHub Pages (o Vercel), plataforma que permite el alojamiento continuo desde la rama correspondiente del repositorio.
 
----
+* **Hosting y Despliegue Continuo:** GitHub Pages / Vercel
 
-#### Product UX/UI Design
+<div style="text-align: left; max-width: 900px; margin: 0 auto;"></div>
 
-El diseño de la experiencia de usuario y la interfaz de usuario para EcoRoad contempla un modelo de sitio web responsivo, compatible con navegadores de escritorio y dispositivos móviles. Se utilizan las siguientes herramientas:
-
-* **UXPressia:** Plataforma para la elaboración de User Personas, Empathy Maps, Customer Journey Maps e Impact Maps de los segmentos objetivo del proyecto EcoRoad.
-    * **Ruta de referencia:** https://uxpressia.com/
-* **Miro:** Pizarra digital colaborativa utilizada para sesiones de Big Picture EventStorming y Design-Level EventStorming, facilitando la identificación de Bounded Contexts, Events, Commands y Aggregates del dominio EcoRoad.
-    * **Ruta de referencia:** https://miro.com/es/
-* **Figma:** Herramienta de diseño colaborativo para la creación de Wireframes, Mock-ups y Prototipos interactivos del Landing Page y Web Applications de EcoRoad, aplicando el Design System basado en Material Design.
-    * **Ruta de referencia:** https://www.figma.com/es-es/
-
-
----
-
-#### Software Development
-
-El desarrollo de software del proyecto EcoRoad abarca la implementación del Landing Page, Frontend Web Application y Backend Web Services. Se utilizan las siguientes herramientas y tecnologías:
-
-<img src="https://cdn.simpleicons.org/github" width="18" height="18" /> GitHub: Sistema de control de versiones distribuido y plataforma de hosting para repositorios de código fuente. Gestión de la organización del equipo, implementación de GitFlow Workflow, Conventional Commits y Semantic Versioning.
-    
-  **Ruta de referencia:** https://github.com
-
-  **Organización del proyecto:** https://github.com/Caiman-UPC/EcoRoad_Report.git
-  
-<img src="https://cdn.simpleicons.org/webstorm" width="18" height="18" /> WebStorm: Entorno de desarrollo integrado (IDE) de JetBrains para la implementación del Frontend utilizando Angular Framework, HTML5, CSS3, JavaScript y TypeScript. Incluye integración con GitHub para control de versiones.
-   
-  **Ruta de descarga:** https://www.jetbrains.com/webstorm/
-  **Licencia de estudiante:** https://www.jetbrains.com/community/education/
-  
-<img src="https://cdn.simpleicons.org/intellijidea" width="18" height="18" /> IntelliJ IDEA: Entorno de desarrollo integrado (IDE) de JetBrains para la implementación del Backend con Spring Boot Framework y Java. Incluye integración con Azure para despliegue de Web Services.
-  
-  **Ruta de descarga:** https://www.jetbrains.com/idea/
-  **Licencia de estudiante:** https://www.jetbrains.com/community/education/
-  
-<img src="https://cdn.simpleicons.org/angular" width="18" height="18" /> Angular Framework: Framework de desarrollo para Frontend Web Applications. Construcción de componentes reutilizables, gestión de estado mediante Services y RxJS, enrutamiento entre vistas y consumo de APIs REST.
-   
-  **Ruta de referencia:** https://angular.io/
-
-<img src="https://cdn.simpleicons.org/angular" width="18" height="18" /> Angular Material: Biblioteca de componentes UI basada en Material Design para Angular. Proporciona componentes pre-construidos (buttons, forms, tables, dialogs) que garantizan consistencia visual en la interfaz de EcoRoad.
-  
-  **Ruta de referencia:** https://material.angular.io/
-
-<img src="https://cdn.simpleicons.org/springboot" width="18" height="18" /> Spring Boot Framework: Framework para desarrollo de Web Services RESTful del Backend de EcoRoad. Implementación de lógica de negocio, persistencia de datos con JPA/Hibernate, y documentación de API con OpenAPI/Swagger.
-  
-  **Ruta de referencia:** https://spring.io/projects/spring-boot
-  
-<img src="https://cdn.simpleicons.org/html5" width="18" height="18" /> <img src="https://cdn.simpleicons.org/css" width="18" height="18" /> <img src="https://cdn.simpleicons.org/javascript" width="18" height="18" /> HTML5, CSS3, JavaScript: Tecnologías fundamentales para la implementación del Landing Page y estructura base de las Web Applications.
-   
-  **HTML5:** https://html.spec.whatwg.org/
-  **CSS3:** https://www.w3.org/Style/CSS/
-  **JavaScript:** https://developer.mozilla.org/es/docs/Web/JavaScript
-
-<img src="https://cdn.simpleicons.org/typescript" width="18" height="18" /> TypeScript: Lenguaje de programación tipado para desarrollo de Frontend Web Applications con Angular. Proporciona tipado estático, detección temprana de errores y mejor soporte de IDE.
-   
-  **Ruta de referencia:** https://www.typescriptlang.org/
-
-<img src="https://img.icons8.com/color/48/java-coffee-cup-logo.png" width="18" height="18" /> Java: Lenguaje de programación para el desarrollo del Backend con Spring Boot. Se utiliza Java 17 para compatibilidad con Azure App Service.
-  
-  **Ruta de referencia:** https://openjdk.org/
+### 5.1.2. Source Code Management
+<a id="5-1-2-source-code-management"></a>
 
 ---
 
-#### Software Testing
+El equipo gestiona el código fuente mediante **GitHub** como plataforma de control de versiones, organizado bajo una organización pública que agrupa los repositorios de cada producto digital del proyecto.
 
+
+**Landing Page — GitHub Pages**
+
+
+Enlace de despliegue:
+
+**Landing Page — Repositorio GitHub**
+
+Enlace del repositorio:
+
+
+#### GitFlow Workflow
+
+El equipo implementa **GitFlow** como estrategia de ramificación para gestionar el ciclo de vida del código. Las ramas definidas son:
+
+- **`main`**: Rama principal que contiene el código de producción estable. Solo recibe merges desde `release` o `hotfix`.
+- **`develop`**: Rama de integración continua donde se consolidan los features completados antes de pasar a producción.
+- **`feature/<nombre-feature>`**: Rama individual para el desarrollo de cada funcionalidad. Se crea desde `develop` y se integra de vuelta a `develop` al completarse. Ejemplo: `feature/hero-section`, `feature/navbar`, `feature/contact-form`.
+- **`release/<versión>`**: Rama de preparación de una nueva versión de producción. Se crea desde `develop` cuando el Sprint está completo. Ejemplo: `release/1.0.0`.
+- **`hotfix/<descripción>`**: Rama para correcciones críticas en producción. Se crea desde `main`. Ejemplo: `hotfix/fix-cta-redirect`.
+
+#### Semantic Versioning
+
+Para el nombramiento de versiones se aplica **Semantic Versioning 2.0.0** con el formato `MAJOR.MINOR.PATCH`:
+- `MAJOR`: cambios incompatibles con versiones anteriores.
+- `MINOR`: nuevas funcionalidades compatibles con versiones anteriores.
+- `PATCH`: correcciones de errores compatibles con versiones anteriores.
+
+La primera versión del Landing Page se etiqueta como `v1.0.0`.
+
+#### Conventional Commits
+
+Para los mensajes de commit, el equipo aplica la especificación **Conventional Commits**, usando el formato:
+
+```
+<type>(<scope>): <description>
+```
+
+Los tipos permitidos son:
+- `feat`: nueva funcionalidad.
+- `fix`: corrección de error.
+- `docs`: cambios en documentación.
+- `style`: cambios de formato que no afectan la lógica.
+- `refactor`: reestructuración de código sin cambio funcional.
+- `chore`: tareas de mantenimiento (dependencias, configuración).
+- `test`: adición o modificación de pruebas.
+
+Ejemplos aplicados al proyecto:
+```
+docs(chapter2): add user empathy map
+docs(chapter3): update user stories
+fix(landing): correct mobile layout for plans section
+docs(readme): update cover
+style(landing): apply Material Design color tokens
+```
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+El equipo adopta las siguientes guías de estilo y convenciones de codificación para garantizar uniformidad y legibilidad en todos los productos. Toda nomenclatura se redacta en **inglés**.
+
+#### HTML5 & CSS3 (Landing Page)
+- Se aplica la guía **W3Schools HTML Style Guide** para estructura semántica, indentación con 2 espacios, atributos en minúsculas y uso de comillas dobles.
+- Se aplica la guía **Google HTML/CSS Style Guide** para nomenclatura de clases en `kebab-case`, evitar el uso de selectores de ID en CSS y priorizar propiedades abreviadas.
+- El diseño visual se basa en **Material Design** como sistema de diseño de referencia.
+
+#### TypeScript & Angular (Frontend Web Application)
+- Se aplica la **Angular Coding Style Guide** oficial: componentes con sufijo `Component`, servicios con sufijo `Service`, módulos con sufijo `Module`.
+- Nombres de archivos en `kebab-case`: `project-list.component.ts`.
+- Se aplica la **Google TypeScript Style Guide** para tipado estricto y gestión de imports.
+
+#### Gherkin (Acceptance Criteria)
+- Se aplican las **Gherkin Conventions for Readable Specifications**: un solo nivel de indentación para `Given/When/Then`, escenarios en inglés, descripciones en tercera persona.
 
 ---
 
-#### Software Documentation
+### 5.1.4. Software Deployment Configuration
 
-La documentación de software permite explicar el funcionamiento, uso y arquitectura de los productos desarrollados, facilitando su mantenimiento y evolución.
+En esta sección se describe la configuración de despliegue para el Landing Page, único producto desplegado en el Sprint 1.
 
-* **Markdown:** Lenguaje de marcado ligero para la elaboración del Project Report en el repositorio GitHub. Permite estructurar documentación con formato consistente y compatible con control de versiones.
-    * **Ruta de referencia:** https://www.markdownguide.org/
+#### Landing Page — GitHub Pages
 
-5.1.2. Source Code Management.
+El Landing Page de EcoRoad se despliega como sitio web estático mediante **GitHub Pages**, directamente desde el repositorio:
 
-5.1.3. Source Code Style Guide & Conventions.
+**Pasos para el despliegue:**
 
-5.1.4. Software Deployment Configuration.
+1. Asegurarse de que la rama `main` contiene los archivos del Landing Page (`index.html`, carpetas `css/`, `js/`, `assets/`).
+2. Ingresar al repositorio en GitHub y navegar a **Settings > Pages**.
+3. En la sección **Source**, seleccionar la rama `main` y la carpeta `/ (root)`.
+4. Hacer clic en **Save**. GitHub Pages genera automáticamente la URL de despliegue.
+5. Verificar el sitio desplegado en la URL generada por GitHub Pages.
+
+Cualquier push a la rama `main` actualiza automáticamente el sitio desplegado.
 
 5.2. Landing Page, Services & Applications Implementation.
 
