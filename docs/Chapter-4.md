@@ -238,7 +238,7 @@ En esta sección se presentan los mock-ups diseñados para la aplicación web de
 Panel principal con resumen de red de telemetría, métricas globales (proyectos, sensores, alertas, incidentes) y lista de proyectos activos con tarjetas de alertas recientes en tiempo real.
 
 <div align="center">
-  <img src="../assets/chapter-4/home.png" alt="Home">
+  <img src="../assets/Chapter-4/home.png" alt="Home">
 </div>
 
 **Projects**
@@ -246,7 +246,7 @@ Panel principal con resumen de red de telemetría, métricas globales (proyectos
 Listado general de obras viales con filtro por estado ambiental (óptimo, observación, crítico), conteo de sensores activos y accesos directos al detalle de cada proyecto
 
 <div align="center">
-  <img src="../assets/chapter-4/projects.png" alt="Projects">
+  <img src="../assets/Chapter-4/projects.png" alt="Projects">
 </div>
 
 **Project Dashboard**
@@ -254,7 +254,7 @@ Listado general de obras viales con filtro por estado ambiental (óptimo, observ
 Vista detallada de un proyecto específico (Carretera Lima-Canta) con porcentaje de cumplimiento normativo, datos de telemetría LoRaWAN, lista de incidentes pendientes y responsables técnicos.
 
 <div align="center">
-  <img src="../assets/chapter-4/projects-dashboard.png" alt="Dashbpard">
+  <img src="../assets/Chapter-4/projects-dashboard.png" alt="Dashbpard">
 </div>
 
 **Alerts**
@@ -262,7 +262,7 @@ Vista detallada de un proyecto específico (Carretera Lima-Canta) con porcentaje
 Gestor de alertas preventivas que notifica excesos de parámetros (material particulado, ruido, agua) e incluye un panel técnico con detalles y acciones de mitigación recomendadas.
 
 <div align="center">
-  <img src="../assets/chapter-4/alerts.png" alt="Alerts">
+  <img src="../assets/Chapter-4/alerts.png" alt="Alerts">
 </div>
 
 **Incidents**
@@ -270,7 +270,7 @@ Gestor de alertas preventivas que notifica excesos de parámetros (material part
 Tablero tipo Kanban organizado por estado (Pendiente, En Progreso, Resuelto, Cerrado) para la trazabilidad y asignación de responsables en la atención de eventos ambientales.
 
 <div align="center">
-  <img src="../assets/chapter-4/incidents.png" alt="Incidents">
+  <img src="../assets/Chapter-4/incidents.png" alt="Incidents">
 </div>
 
 **History**
@@ -278,7 +278,7 @@ Tablero tipo Kanban organizado por estado (Pendiente, En Progreso, Resuelto, Cer
 Gráfico de evolución temporal de indicadores (como PM10) comparados contra los límites normativos del estándar (ECA), con promedios y simulador de estados sin datos
 
 <div align="center">
-  <img src="../assets/chapter-4/history.png" alt="History">
+  <img src="../assets/Chapter-4/history.png" alt="History">
 </div>
 
 **Reports**
@@ -286,7 +286,7 @@ Gráfico de evolución temporal de indicadores (como PM10) comparados contra los
 Módulo de generación de informes ambientales oficiales exportables en PDF con validación de firma digital y código de seguridad encriptado SHA-256.
 
 <div align="center">
-  <img src="../assets/chapter-4/reports.png" alt="Reports">
+  <img src="../assets/Chapter-4/reports.png" alt="Reports">
 </div>
 
 **Collaborators**
@@ -294,7 +294,7 @@ Módulo de generación de informes ambientales oficiales exportables en PDF con 
 Panel de administración de usuarios y permisos (RBAC), con simulación de restricciones de acceso según el perfil técnico asignado.
 
 <div align="center">
-  <img src="../assets/chapter-4/team.png" alt="Team">
+  <img src="../assets/Chapter-4/team.png" alt="Team">
 </div>
 4.4.3. Web Applications User Flow Diagrams.
 
