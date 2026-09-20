@@ -244,7 +244,7 @@ El *Context Diagram* muestra al **EcoRoad Software System** como un recuadro en 
 En el diagrama se representan las relaciones entre estos elementos, destacando que tanto los usuarios humanos (**Site Resident** y **Regulatory Auditor**) como los instrumentos de campo (**IoT Sensor Node**) interactúan directamente con **EcoRoad**, mientras que el sistema central se encarga de orquestar las integraciones con los servicios externos (pagos, mapas y notificaciones). Esta vista permite entender el alcance del sistema, los límites de responsabilidad y el ecosistema en el que se inserta **EcoRoad** antes de entrar a detalles de implementación.
 
 
-<div align="center"><img src="../assets/Chapter-4/DiagramaContexto.jpg" alt="Software Architecture Context Diagram"></div>
+<div align="center"><img src="../assets/Chapter-4/ContextDiagram.png" alt="Software Architecture Context Diagram"></div>
 <br>
 
 4.6.3. Software Architecture Container Diagrams.
@@ -267,7 +267,7 @@ En el diagrama se observa que:
 * Tanto la **SPA** como la **API Application** interactúan con los sistemas externos: el **Payment System (Stripe / Niubiz)** para el cobro de suscripciones y arrendamiento de hardware, la **Google Maps API** para la geolocalización y trazado espacial de tramos viales, y el **Notification Service (SendGrid / Twilio)** para el envío automático de notificaciones de alerta por correo electrónico y SMS.
 
 Esta vista resume la distribución de responsabilidades entre las capas de presentación (Landing Page y SPA), lógica e ingesta (API Application) y persistencia (Database), detallando sus tecnologías clave. A través de flujos unidireccionales y bidireccionales, el diagrama delimita el alcance de EcoRoad, mostrando cómo interactúan los usuarios y sensores, y cómo el sistema central orquesta las integraciones externas de pagos, mapas, notificaciones y fiscalización.
-<div align="center"><img src="../assets/Chapter-4/DiagrmaContainer2.png" alt="Incident & Remediation Management Context"></div>
+<div align="center"><img src="../assets/Chapter-4/ContainerDiagram.png" alt="Incident & Remediation Management Context"></div>
 <br>
 
 4.6.4. Software Architecture Components Diagrams.
@@ -295,7 +295,7 @@ En el diagrama se refleja cómo:
 * Todos los módulos backend reutilizan capacidades comunes provistas por el **Shared Backend**, lo que favorsce la consistencia, la reutilización y la reducción de duplicación de código.
 
 En conclusión, esta vista de componentes permite transparentar la organización interna del backend de **EcoRoad**, evidenciando la separación modular de responsabilidades según cada *Bounded Context*. Al estructurar de forma desacoplada la ingesta telemétrica, la evaluación de umbrales ECA y la gestión de incidencias, este diagrama sirve como puente entre la visión de contenedores de alto nivel y el diseño detallado de clases y persistencia del sistema.
-<div align="center"><img src="../assets/Chapter-4/DiagramComponnents.png" alt="Incident & Remediation Management Context"></div>
+<div align="center"><img src="../assets/Chapter-4/ComponentDiagram.png" alt="Incident & Remediation Management Context"></div>
 <br>
 
 4.7. Software Object-Oriented Design.
