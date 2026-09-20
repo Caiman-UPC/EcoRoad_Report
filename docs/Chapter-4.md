@@ -304,4 +304,29 @@ En conclusión, esta vista de componentes permite transparentar la organización
 
 4.8. Database Design.
 
-4.8.1. Database Diagrams.
+### 4.8.1. Database Diagrams.
+<a id="4-8-1-database-diagrams"></a>
+
+### Bounded Context 1 - Suscriptions and Payment:
+![Database Diagram - EcoRoad](../assets/DBDiagram1.jpeg)
+
+### Bounded Context 2 - Identity and Access Management:
+![Database Diagram - EcoRoad](../assets/DBDiagram2.jpeg)
+
+### Bounded Context 3 - Project and Road Site Management:
+![Database Diagram - EcoRoad](../assets/DBDiagram3.jpeg)
+
+### Bounded Context 4 - Monitoring Asset and Deployment:
+![Database Diagram - EcoRoad](../assets/DBDiagram4.jpeg)
+
+### Bounded Context 5 - Environmental Monitoring:
+![Database Diagram - EcoRoad](../assets/DBDiagram5.jpeg)
+
+### Bounded Context 6 - Alerting and Risk Evaluation:
+![Database Diagram - EcoRoad](../assets/DBDiagram6.jpeg)
+
+### Bounded Context 7 - Incident and Remediation Management:
+![Database Diagram - EcoRoad](../assets/DBDiagram7.jpeg)
+
+### Bounded Context 8 - Compliance and Reporting:
+![Database Diagram - EcoRoad](../assets/DBDiagram8.jpeg)
