@@ -55,11 +55,11 @@ El equipo gestiona el código fuente mediante **GitHub** como plataforma de cont
 **Landing Page — GitHub Pages**
 
 
-Enlace de despliegue:
+Enlace de despliegue: https://caiman-upc.github.io/Landing-Page/
 
 **Landing Page — Repositorio GitHub**
 
-Enlace del repositorio:
+Enlace del repositorio: https://github.com/Caiman-UPC/Landing-Page.git
 
 
 #### GitFlow Workflow
