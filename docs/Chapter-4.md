@@ -156,7 +156,7 @@ Esta sección presenta los mock-ups de la landing page para versiones web de esc
 El hero de nuestra plataforma EcoRoad presenta una interfaz limpia e institucional alineada a la supervisión ambiental, destacando con un título directo: "Automated Environmental Compliance & Mitigation for Highway Construction". Una breve descripción que enfatiza el monitoreo en tiempo real y la prevención de multas, acompañada por un botón de llamado a la acción rápida y de alto contraste ("Get Started") que orienta al usuario hacia la conversión. En la parte inferior, una imagen de infraestructura vial que incluye indicadores clave sobre nodos IoT activos y porcentaje de cumplimiento normativo, como un ejemplo de la precisión técnica del sistema.
 
 <div align="center">
-  <img src="../assets/chapter-4/landing/hero.png" alt="Paso 4">
+  <img src="../assets/chapter-4/hero.png" alt="Hero">
 </div>
 
 **Solutions**
@@ -164,7 +164,7 @@ El hero de nuestra plataforma EcoRoad presenta una interfaz limpia e institucion
 La sección "Solutions" presenta la oferta de valor mediante un encabezado claro ("Specialized Solutions for the Highway Construction Sector") e introduce una retícula de cuatro tarjetas interactivas que detallan las áreas clave de monitoreo: calidad del aire y polvo, nivel sonoro y ruido, supervisión de recursos hídricos y protección de fauna/hábitats sensibles. Cada tarjeta utiliza un ícono representativo, una breve descripción técnica del proceso automatizado y etiquetas que destacan los estándares normativos o de calibración correspondientes, garantizando una lectura estructurada y fluida de las capacidades de la plataforma, mostrando lo que ofrece la plataforma.
 
 <div align="center">
-  <img src="../assets/chapter-4/landing/solutions.png" alt="Paso 4">
+  <img src="../assets/chapter-4/solutions.png" alt="Paso 4">
 </div>
 
 **Benefits**
@@ -172,7 +172,7 @@ La sección "Solutions" presenta la oferta de valor mediante un encabezado claro
 La sección "Benefits" resalta las ventajas competitivas del sistema bajo el título "The EcoRoad Advantage: From Manual Logs to Real-Time Telemetry". Mediante una cuadrícula de cuatro tarjetas con apoyo visual e infográfico, detalla los beneficios clave de la plataforma: prevención de multas y paralizaciones mediante detección preventiva ("Zero Shutdowns & Fines"), consolidación automática de evidencias con encriptación SHA-256 para auditorías ("Automated Audits"), trazabilidad y flujo de trabajo de mitigación inmediata con georreferenciación GPS RTK desde la app offline ("Immediate Mitigation Workflow"), y respaldo legal/técnico continuo frente a inspecciones normativas ("Legal Peace of Mind & Expert Backing"). Cada bloque incluye métricas de impacto que refuerzan la eficiencia operativa y el cumplimiento normativo en obra.
 
 <div align="center">
-  <img src="../assets/chapter-4/landing/benefits.png" alt="Paso 4">
+  <img src="../assets/chapter-4/benefits.png" alt="Paso 4">
 </div>
 
 **About Us**
@@ -180,7 +180,7 @@ La sección "Benefits" resalta las ventajas competitivas del sistema bajo el tí
 La sección "About Us" resalta la propuesta tecnológica bajo el título "Advanced Management & Compliance Technology". Incluye un video explicativo en función de la plataforma junto a un menú interactivo que detalla sus capacidades clave: dashboards GIS georreferenciados, alertas regulatorias automáticas por SMS/WhatsApp/email, cadena de custodia de evidencias con metadatos forenses y exportación en un clic de reportes oficiales en formato PDF/A y GeoJSON.
 
 <div align="center">
-  <img src="../assets/chapter-4/landing/aboutus.png" alt="Paso 4">
+  <img src="../assets/chapter-4/aboutus.png" alt="Paso 4">
 </div>
 
 **Testimonials**
@@ -188,7 +188,7 @@ La sección "About Us" resalta la propuesta tecnológica bajo el título "Advanc
 La sección presenta ejemplos de experiencias basados en casos de éxito de la plataforma. Muestra testimonios ficticios pero realistas atribuidos a roles clave del sector (directores ambientales, consultores senior y supervisores de obra) para validar el impacto técnico y operacional de EcoRoad ante potenciales clientes.
 
 <div align="center">
-  <img src="../assets/chapter-4/landing/testimonials.png" alt="Paso 4">
+  <img src="../assets/chapter-4/testimonials.png" alt="Paso 4">
 </div>
 
 **Pricing**
@@ -196,7 +196,7 @@ La sección presenta ejemplos de experiencias basados en casos de éxito de la p
 La sección "Pricing" expone el modelo de monetización bajo el título "Flexible, Scalable Subscription Plans". Estructura la oferta en tres planes SaaS escalables (Base, Professional y Enterprise), permitiendo alternar entre facturación mensual y anual con descuento. Cada tarjeta detalla el precio, el perfil de cliente objetivo, un botón directo de acción y un listado de funcionalidades clave que van desde el monitoreo básico de proyectos hasta integraciones avanzadas y soporte 24/7.
 
 <div align="center">
-  <img src="../assets/chapter-4/landing/plans.png" alt="Paso 4">
+  <img src="../assets/chapter-4/plans.png" alt="Paso 4">
 </div>
 
 **About team**
@@ -204,7 +204,7 @@ La sección "Pricing" expone el modelo de monetización bajo el título "Flexibl
 La sección "About Team" presenta al equipo detrás de la plataforma bajo el título "Driving Innovation and Sustainability in Highway Infrastructure". Incluye un video institucional que muestra el proceso colaborativo del grupo, acompañado por un bloque explicativo que resalta su enfoque multidisciplinario, la combinación de ingeniería de software con sostenibilidad y su visión para transformar el monitoreo ambiental tradicional en una experiencia digital eficiente e intuitiva.
 
 <div align="center">
-  <img src="../assets/chapter-4/landing/abouteam.png" alt="Paso 4">
+  <img src="../assets/chapter-4/abouteam.png" alt="Paso 4">
 </div>
 
 **Our team**
@@ -212,7 +212,7 @@ La sección "About Team" presenta al equipo detrás de la plataforma bajo el tí
 La sección "Our Team" presenta a los integrantes del proyecto bajo el título "Meet the multidisciplinary team behind EcoRoad's environmental telemetry platform". Organiza los perfiles en tarjetas individuales que incluyen fotografía, como Software Engineers y una breve descripción profesional centrada en sus habilidades de desarrollo y contribución a la plataforma. Justo debajo, la sección concluye con un banner final de conversión enfocado en la transformación de la sostenibilidad ambiental, ofreciendo botones directos para iniciar o agendar una sesión con un especialista.
 
 <div align="center">
-  <img src="../assets/chapter-4/landing/ourteam.png" alt="Paso 4">
+  <img src="../assets/chapter-4/ourteam.png" alt="Paso 4">
 </div>
 
 **Footer**
@@ -220,7 +220,7 @@ La sección "Our Team" presenta a los integrantes del proyecto bajo el título "
 El Footer (pie de página) de la plataforma cierra el sitio con una estructura institucional sobre fondo oscuro. Se divide en cuatro columnas principales: la primera incluye el logotipo, una breve descripción de la propuesta de valor y el eslogan ("Infrastructure today, a better environment"); las dos siguientes organizan enlaces rápidos hacia los módulos de telemetría y el marco regulatorio/normativo; y la última muestra los canales de contacto, soporte técnico y sedes regionales. En la franja inferior incluye los derechos de autor reservados e información de políticas de privacidad y seguridad de datos.
 
 <div align="center">
-  <img src="../assets/chapter-4/landing/footer.png" alt="Paso 4">
+  <img src="../assets/chapter-4/footer.png" alt="Paso 4">
 </div>
 
 4.4. Web Applications UX/UI Design.
@@ -238,7 +238,7 @@ En esta sección se presentan los mock-ups diseñados para la aplicación web de
 Panel principal con resumen de red de telemetría, métricas globales (proyectos, sensores, alertas, incidentes) y lista de proyectos activos con tarjetas de alertas recientes en tiempo real.
 
 <div align="center">
-  <img src="../assets/chapter-4/webapp/home.png" alt="Home">
+  <img src="../assets/chapter-4/home.png" alt="Home">
 </div>
 
 **Projects**
@@ -246,7 +246,7 @@ Panel principal con resumen de red de telemetría, métricas globales (proyectos
 Listado general de obras viales con filtro por estado ambiental (óptimo, observación, crítico), conteo de sensores activos y accesos directos al detalle de cada proyecto
 
 <div align="center">
-  <img src="../assets/chapter-4/webapp/projects.png" alt="Projects">
+  <img src="../assets/chapter-4/projects.png" alt="Projects">
 </div>
 
 **Project Dashboard**
@@ -254,7 +254,7 @@ Listado general de obras viales con filtro por estado ambiental (óptimo, observ
 Vista detallada de un proyecto específico (Carretera Lima-Canta) con porcentaje de cumplimiento normativo, datos de telemetría LoRaWAN, lista de incidentes pendientes y responsables técnicos.
 
 <div align="center">
-  <img src="../assets/chapter-4/webapp/projects-dashboard.png" alt="Dashbpard">
+  <img src="../assets/chapter-4/projects-dashboard.png" alt="Dashbpard">
 </div>
 
 **Alerts**
@@ -262,7 +262,7 @@ Vista detallada de un proyecto específico (Carretera Lima-Canta) con porcentaje
 Gestor de alertas preventivas que notifica excesos de parámetros (material particulado, ruido, agua) e incluye un panel técnico con detalles y acciones de mitigación recomendadas.
 
 <div align="center">
-  <img src="../assets/chapter-4/webapp/alerts.png" alt="Alerts">
+  <img src="../assets/chapter-4/alerts.png" alt="Alerts">
 </div>
 
 **Incidents**
@@ -270,7 +270,7 @@ Gestor de alertas preventivas que notifica excesos de parámetros (material part
 Tablero tipo Kanban organizado por estado (Pendiente, En Progreso, Resuelto, Cerrado) para la trazabilidad y asignación de responsables en la atención de eventos ambientales.
 
 <div align="center">
-  <img src="../assets/chapter-4/webapp/incidents.png" alt="Incidents">
+  <img src="../assets/chapter-4/incidents.png" alt="Incidents">
 </div>
 
 **History**
@@ -278,7 +278,7 @@ Tablero tipo Kanban organizado por estado (Pendiente, En Progreso, Resuelto, Cer
 Gráfico de evolución temporal de indicadores (como PM10) comparados contra los límites normativos del estándar (ECA), con promedios y simulador de estados sin datos
 
 <div align="center">
-  <img src="../assets/chapter-4/webapp/history.png" alt="History">
+  <img src="../assets/chapter-4/history.png" alt="History">
 </div>
 
 **Reports**
@@ -286,7 +286,7 @@ Gráfico de evolución temporal de indicadores (como PM10) comparados contra los
 Módulo de generación de informes ambientales oficiales exportables en PDF con validación de firma digital y código de seguridad encriptado SHA-256.
 
 <div align="center">
-  <img src="../assets/chapter-4/webapp/reports.png" alt="Reports">
+  <img src="../assets/chapter-4/reports.png" alt="Reports">
 </div>
 
 **Collaborators**
@@ -294,7 +294,7 @@ Módulo de generación de informes ambientales oficiales exportables en PDF con 
 Panel de administración de usuarios y permisos (RBAC), con simulación de restricciones de acceso según el perfil técnico asignado.
 
 <div align="center">
-  <img src="../assets/chapter-4/webapp/team.png" alt="Team">
+  <img src="../assets/chapter-4/team.png" alt="Team">
 </div>
 4.4.3. Web Applications User Flow Diagrams.
 
