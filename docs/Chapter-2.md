@@ -309,6 +309,7 @@ El siguiente análisis sintetiza los datos de las **5 entrevistas registradas** 
 * **Actitudes, temores y barreras:**
     * **33.3% (1/3)** opera bajo un enfoque reactivo ("criterio de incendio"), atendiendo únicamente los problemas inminentes.
     * **33.3% (1/3)** exige **garantías de ciberseguridad corporativa** y la posibilidad de mantener respaldos locales (offline) para auditorías estatales.
+
 2.3. Needfinding.
 
 ### 2.3.1. User Personas
