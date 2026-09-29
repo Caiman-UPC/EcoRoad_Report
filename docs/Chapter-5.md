@@ -227,7 +227,49 @@ Cualquier push a la rama `main` actualiza automáticamente el sitio desplegado.
   </tbody>
 </table>
 
-5.2.X.2. Aspect Leaders and Collaborators.
+#### 5.2.1.2. Aspect Leaders and Collaborators.
+
+<p>
+En esta sección se presenta la matriz <strong>Leadership-and-Collaboration Matrix (LACX)</strong> correspondiente al Sprint 1. 
+Su propósito es identificar claramente los aspectos principales del sprint y asignar responsabilidades de liderazgo (<strong>L</strong>) y colaboración (<strong>C</strong>) para fortalecer la comunicación, coordinación y trazabilidad del trabajo dentro del equipo.
+</p>
+
+<p>
+Estos aspectos se derivan directamente de los objetivos definidos en el Sprint 1 Goal, asegurando cobertura total de los entregables planificados.
+</p>
+
+<ul>
+  <li><strong>Landing Page Development & Deployment:</strong> Diseño, estructura, contenido y funcionalidad de la página principal del proyecto, incluyendo su despliegue.</li>
+  <li><strong>Report Module Implementation:</strong> Desarrollo y presentación del módulo que permitirá crear, visualizar y exportar el reporte requerido.</li>
+</ul>
+
+<table border="1" cellpadding="4" cellspacing="0" align="center">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>Aspect: Landing Page</th>
+      <th>Aspect: Report Module</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Román López, Miguel Ángel Junior</td><td>L</td><td>C</td></tr>
+    <tr><td>Guillen Chavez Eduardo Martín</td><td>C</td><td>L</td></tr>
+    <tr><td>Salcedo Muñoz Andy Alfredo Hipolito/td><td>C</td><td>C</td></tr>
+    <tr><td>Torres Júarez Alisee Muriel</td><td>C</td><td>C</td></tr>
+    <tr><td>Yarleque Ruiz Cristina Marcela</td><td>C</td><td>C</td></tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>L</strong> = Líder del aspecto</li>
+  <li><strong>C</strong> = Colaborador en el aspecto</li>
+</ul>
+
+<p>
+Esta organización de roles está alineada con la posterior asignación de tareas del Sprint Backlog, permitiendo que cada líder supervise la ejecución de su aspecto con apoyo de sus colaboradores. 
+Con ello, se garantiza una gestión más eficiente del progreso y una mejor sincronización entre los miembros del equipo.
+</p>
+
 
 5.2.X.3. Sprint Backlog n.
 
