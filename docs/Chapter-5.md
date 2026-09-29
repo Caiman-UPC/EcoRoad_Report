@@ -153,6 +153,10 @@ Cualquier push a la rama `main` actualiza automáticamente el sitio desplegado.
 </p>
 
 <p>
+  <strong>Repositorio:</strong> <a href="https://github.com/Caiman-UPC/Landing-Page.git">https://github.com/Caiman-UPC/Landing-Page.git</a>
+</p>
+
+<p>
   <strong>Landing Page Desplegada:</strong> <a href="https://caiman-upc.github.io/Landing-Page/">https://caiman-upc.github.io/Landing-Page/</a>
 </p>
 
