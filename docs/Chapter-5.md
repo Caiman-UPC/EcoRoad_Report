@@ -277,6 +277,28 @@ Con ello, se garantiza una gestión más eficiente del progreso y una mejor sinc
 
 ### 5.2.1.3. Sprint Backlog 1.
 
+El Sprint Backlog 1 reúne las historias de usuario y tareas necesarias para implementar la primera versión de la landing page, incluyendo el menú de navegación, la visualización de planes, la sección de creadores, redes sociales, el formulario de contacto y el cambio de idioma.
+
+Todas las tareas son monitoreadas y actualizadas mediante **Jira Software**.
+
+<div align="center"> <img src="../images/sprint1-board.jpg" alt="Sprint 1 Board Screenshot" width="100%"> <p><em>Figura: Tablero del Sprint 1 en Jira Software (Proyecto EcoRoad)</em>
+</p> </div>
+
+A continuación, la estructura de la tabla de control de estado para el Sprint:
+
+| Sprint # | Sprint 1 |   |   |   |   |   |   |
+|---------|----------|---|---|---|---|---|---|
+| **User Story** |   | **Work-Item / Task** |   |   |   |   |  |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+
+El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Software** mediante el tablero Scrum del proyecto, donde se registran los estados de cada tarea (To-do, In-Process, To-Review, Done). Durante las reuniones diarias (**Daily Scrum**), el equipo revisa el avance, actualiza el estado de las tareas y gestiona posibles bloques.
+
 5.2.X.4. Development Evidence for Sprint Review.
 
 5.2.X.5. Execution Evidence for Sprint Review.
