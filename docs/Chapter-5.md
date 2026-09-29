@@ -271,13 +271,32 @@ Con ello, se garantiza una gestión más eficiente del progreso y una mejor sinc
 </p>
 
 
-5.2.X.3. Sprint Backlog n.
+### 5.2.1.3. Sprint Backlog 1.
 
 5.2.X.4. Development Evidence for Sprint Review.
 
 5.2.X.5. Execution Evidence for Sprint Review.
 
-5.2.X.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+<p>
+  En el Sprint 1, el equipo diseñó, programó y desplegó el Landing Page de EcoRoad. Esta es una página web estática, 
+  por lo que no hay Web Services disponibles en este sprint.
+</p>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>End Point</th>
+      <th>Funciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>N/A</td>
+      <td>No hay Web Services implementados en el Sprint 1 (Landing Page estático)</td>
+    </tr>
+  </tbody>
+</table>
 
 5.2.X.7. Software Deployment Evidence for Sprint Review.
 
