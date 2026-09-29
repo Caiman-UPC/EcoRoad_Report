@@ -299,7 +299,15 @@ A continuación, la estructura de la tabla de control de estado para el Sprint:
 
 El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Software** mediante el tablero Scrum del proyecto, donde se registran los estados de cada tarea (To-do, In-Process, To-Review, Done). Durante las reuniones diarias (**Daily Scrum**), el equipo revisa el avance, actualiza el estado de las tareas y gestiona posibles bloques.
 
-5.2.X.4. Development Evidence for Sprint Review.
+#### 5.2.1.4. Development Evidence for Sprint Review.
+
+<p>
+  En esta sección se explican y presentan los avances en la implementación logrados durante el Sprint 1 en relación con el producto de la solución incluido en su alcance: la <strong>Landing Page</strong> pública de EcoRoad. A lo largo de este sprint se construyó la primera versión navegable del sitio, incluyendo las secciones Home/Hero, Services, Features, About the App, Pricing, Testimonials, About the Team y Contact, con sus estilos CSS y ajustes de responsividad.
+</p>
+
+<p>
+  La tabla siguiente resume los commits más revelantes realizados en el repositorio de la Landing Page, indicando la rama, el identificador del commit, el mensaje asociado y una breve explicación del cambio introducido en la implementación.
+</p>
 
 5.2.X.5. Execution Evidence for Sprint Review.
 
