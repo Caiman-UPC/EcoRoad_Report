@@ -39,11 +39,11 @@ La paleta se deriva directamente de los colores institucionales definidos para E
 
 | Color                                                                         | Hex | Rol funcional en la plataforma                                                                                          |
 |:------------------------------------------------------------------------------| :--- |:------------------------------------------------------------------------------------------------------------------------|
-| <img src="../assets/Chapter-4/green.png" alt="green" style=max-height:80px>   | `#2E9E7A` | Color principal de la marca; estado óptimo / sin riesgo detectado (semáforo verde)                                       |
-| <img src="../assets/Chapter-4/blue.png" alt="blue"  style=max-height:80px>    | `#264653` | Color secundario; tipografía principal, fondos de navegación, elementos estructurales                                   |
-| <img src="../assets/Chapter-4/cream.png" alt="cream" style=max-height:80px>   | `#F5F1E8` | Fondo base de la interfaz; transmite neutralidad y bajo cansancio visual en uso prolongado                              |
-| <img src="../assets/Chapter-4/yellow.png" alt="yellow" style=max-height:80px> | `#E9B44C` | Condición de advertencia (semáforo ámbar) — indicador que se acerca al umbral establecido y puede derivar en una alerta |
-| <img src="../assets/Chapter-4/red.png" alt="red" style=max-height:80px>       | `#C0392B` | Condición crítica (semáforo rojo) — el indicador supera el umbral y el sistema genera una incidencia                    |
+| <img src="../assets/Chapter-4/green.png" alt="green" style=max-height:40px>   | `#2E9E7A` | Color principal de la marca; estado óptimo / sin riesgo detectado (semáforo verde)                                       |
+| <img src="../assets/Chapter-4/blue.png" alt="blue"  style=max-height:40px>    | `#264653` | Color secundario; tipografía principal, fondos de navegación, elementos estructurales                                   |
+| <img src="../assets/Chapter-4/cream.png" alt="cream" style=max-height:40px>   | `#F5F1E8` | Fondo base de la interfaz; transmite neutralidad y bajo cansancio visual en uso prolongado                              |
+| <img src="../assets/Chapter-4/yellow.png" alt="yellow" style=max-height:40px> | `#E9B44C` | Condición de advertencia (semáforo ámbar) — indicador que se acerca al umbral establecido y puede derivar en una alerta |
+| <img src="../assets/Chapter-4/red.png" alt="red" style=max-height:40px>       | `#C0392B` | Condición crítica (semáforo rojo) — el indicador supera el umbral y el sistema genera una incidencia                    |
 
 
 **Spacing**
