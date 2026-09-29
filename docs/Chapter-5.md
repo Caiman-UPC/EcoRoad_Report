@@ -153,10 +153,79 @@ Cualquier push a la rama `main` actualiza automáticamente el sitio desplegado.
 </p>
 
 <p>
-  <strong>Landing Page Desplegada;</strong> <a href="https://caiman-upc.github.io/Landing-Page/">https://caiman-upc.github.io/Landing-Page/</a>
+  <strong>Landing Page Desplegada:</strong> <a href="https://caiman-upc.github.io/Landing-Page/">https://caiman-upc.github.io/Landing-Page/</a>
 </p>
 
 #### 5.2.1.1. Sprint Planning.
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th colspan="2" style="text-align: center;">Sprint Planning Sprint 1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td>Date</td>
+      <td>14/09/2026</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>10:00 p.m.</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Discord</td>
+    </tr>
+    <tr>
+      <td>Prepared By</td>
+      <td>Miguel Ángel Junior Román López</td>
+    </tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>
+        Román López, Miguel Ángel Junior<br>
+        Salcedo Muñoz, Andy Alfredo Hipolito<br>
+        Guillen Chavez, Eduardo Martín<br>
+        Yarleque Ruiz, Cristina Marcela<br>
+        Torres Júarez, Alisee Muriel
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 0 Review Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">N/A (Este es el primer sprint del proyecto)</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 0 Retrospective Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">N/A (Este es el primer sprint del proyecto)</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Sprint 1 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
+<em>Our focus is on delivering the first bilingual marketing Landing Page of EcoRoad that clearly communicates the value proposition and service offering to first-time visitors.</em><br><br>
+<em>We believe it conveys a clear and trustworthy first impression to road construction, maintenance, and rehabilitation companies, helping them quickly understand what EcoRoad does and how to contact the team.</em><br><br>
+<em>This will be confirmed when users from both segments can navigate through all core sections (Hero, Services, Pricing, About Us, Team, Contact) in Spanish and English and can reach the Contact section in no more than three clicks from the home view.</em>
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 1 Velocity</td>
+      <td>13 Story Points</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>13 SP (≈ 53 horas estimadas)</td>
+    </tr>
+  </tbody>
+</table>
 
 5.2.X.2. Aspect Leaders and Collaborators.
 
