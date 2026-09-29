@@ -144,11 +144,19 @@ El Landing Page de EcoRoad se despliega como sitio web estático mediante **GitH
 
 Cualquier push a la rama `main` actualiza automáticamente el sitio desplegado.
 
-5.2. Landing Page, Services & Applications Implementation.
+## 5.2. Landing Page, Services & Applications Implementation.
 
-5.2.X. Sprint n
+### 5.2.1. Sprint 1
 
-5.2.X.1. Sprint Planning n.
+<p>
+  Durante el Sprint 1, el equipo se enfocó en el desarrollo e implementación del Landing Page de EcoRoad, incluyendo todas las secciones de presentación del negocio con soporte bilingüe (español/inglés) y despliegue mediante GitHub Pages.
+</p>
+
+<p>
+  <strong>Landing Page Desplegada;</strong> <a href="https://caiman-upc.github.io/Landing-Page/">https://caiman-upc.github.io/Landing-Page/</a>
+</p>
+
+#### 5.2.1.1. Sprint Planning.
 
 5.2.X.2. Aspect Leaders and Collaborators.
 
