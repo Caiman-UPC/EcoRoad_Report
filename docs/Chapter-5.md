@@ -309,7 +309,45 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
   La tabla siguiente resume los commits más revelantes realizados en el repositorio de la Landing Page, indicando la rama, el identificador del commit, el mensaje asociado y una breve explicación del cambio introducido en la implementación.
 </p>
 
-5.2.X.5. Execution Evidence for Sprint Review.
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+<p>
+  Durante el sprint 1, se completó exitosamente la implementación de todas las secciones del Landing Page de EcoRoad, incluyendo navegación responsiva, soporte bilingüe y despliegue en Github Pages. A continuación se presentan evidencias de ejecución mediante capturas de pantalla de las principales vistas.
+</p>
+
+<h5>Video de demostración del Landing Page:</h5>
+<p>
+  <strong>URL YouTube:</strong> <br>
+  <strong>Duración:</strong> [00:00:00]
+</p>
+
+<h5>Capturas de las principales secciones:</h5>
+
+<p><strong>Encabezado y menú de navegación:</strong></p>
+<img src="/assets/img/chapter-V/header-landing-page.png" alt="header landing page">
+
+<p><strong>Sección Hero:</strong></p>
+<img src="../assets/img/chapter-V/hero-landing-page.png" alt="hero landing page">
+
+<p><strong>Sección Services:</strong></p>
+<img src="../assets/img/chapter-V/services-landing-page.png" alt="services landing page">
+
+<p><strong>Sección Pricing:</strong></p>
+<img src="../assets/img/chapter-V/plans-landing-page.png" alt="plans landing page">
+
+<p><strong>Sección About the App:</strong></p>
+<img src="/assets/img/chapter-V/about-the-app-landing-page.png" alt="about the app landing page">
+
+<p><strong>Sección Testimonials:</strong></p>
+<img src="/assets/img/chapter-V/testimonials-landing-page.png" alt="testimonials landing page">
+
+<p><strong>Sección About the Team:</strong></p>
+<img src="/assets/img/chapter-V/about-the-team-landing-page.png" alt="about the team landing page">
+
+<p><strong>Sección Contact:</strong></p>
+<img src="/assets/img/chapter-V/contact-landing-page.png" alt="contact landing page">
+
+<p><strong>Footer:</strong></p>
+<img src="/assets/img/chapter-V/footer-landing-page.png" alt="footer landing page">
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 <p>
