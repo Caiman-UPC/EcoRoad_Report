@@ -52,7 +52,9 @@ Convertirnos en la plataforma SaaS líder en gestión y monitoreo ambiental para
 ## 1.2 Solution Profile
 <a id="1-2-solution-profile"></a>
 
-*EcoRoad* es una plataforma digital integral basada en un modelo SaaS, diseñada para dar soporte a los procesos de monitoreo, control y auditoría ambiental en proyectos de infraestructura vial. Permite a empresas constructoras y consultoras ambientales registrar indicadores ambientales, detectar automáticamente incumplimientos normativos y visualizar en tiempo real, sobre un mapa geolocalizado, el estado de salud ambiental de sus obras.
+EcoRoad es una plataforma web SaaS que da soporte a los procesos de monitoreo, gestión y trazabilidad ambiental en proyectos de infraestructura vial. Mediante sensores IoT registra indicadores ambientales, detecta automáticamente condiciones de riesgo, genera alertas e incidencias, y permite dar seguimiento a las acciones correctivas y a sus evidencias hasta el cierre. Además, visualiza sobre un mapa geolocalizado el estado ambiental de uno o varios proyectos.
+
+Esta sección incluye los antecedentes y la problemática que motivan la solución, y el resultado de aplicar el proceso de Lean UX sobre el dominio del problema.
 
 ### 1.2.1 Antecedentes y Problemática
 <a id="1-2-1-antecedentes-y-problematica"></a>
