@@ -2,15 +2,7 @@
 
 ## Introducción
 
-La presente sección introduce el proyecto EcoRoad, una propuesta tecnológica orientada a mejorar la gestión y el monitoreo ambiental en proyectos de infraestructura vial. En este capítulo se presenta el perfil de la startup, su propósito y las principales características que definen la solución propuesta.
-
-EcoRoad surge ante la necesidad de contar con una gestión ambiental más oportuna, centralizada y trazable durante la ejecución, mantenimiento y rehabilitación de proyectos viales. La propuesta busca aprovechar tecnologías como el Internet de las Cosas (IoT) para recopilar información ambiental en tiempo 
-real y transformarla en acciones que permitan atender oportunamente los riesgos identificados.
-
-Asimismo, se presenta el enfoque de EcoRoad como una plataforma web bajo un modelo SaaS, diseñada para que las empresas puedan gestionar múltiples proyectos desde un mismo entorno digital. La solución integra el monitoreo de indicadores ambientales con la detección de riesgos, generación de alertas, gestión de incidencias, seguimiento de acciones correctivas y registro de evidencias.
-
-De esta manera, el capítulo permite comprender la identidad y finalidad de EcoRoad, así como el valor que busca aportar a las empresas vinculadas con la ejecución y conservación de infraestructura vial.
-
+La introducción desempeña un papel fundamental en la estructuración y comprensión del proyecto, ya que establece el marco conceptual y contextual sobre el cual se desarrollará el trabajo. En esta sección inicial, se presenta una visión general que permite al lector comprender los objetivos principales que se desean alcanzar, así como los antecedentes que han llevado a la formulación del proyecto. También se delimita el alcance del mismo, es decir, hasta dónde se pretende llegar con el desarrollo de la propuesta. Asimismo, la introducción cumple la función de contextualizar la relevancia del proyecto en un entorno específico, destacando las razones que justifican su realización, los desafíos que se pretenden abordar y los beneficios esperados a partir de su implementación. En suma, esta parte inicial no solo informa, sino que también orienta y motiva al lector a profundizar en el contenido que se presentará a lo largo del documento.
 
 ## 1.1 Startup Profile
 <a id="1-1-Startup-Profile"></a>
