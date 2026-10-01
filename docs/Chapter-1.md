@@ -39,14 +39,59 @@ Convertirnos en la plataforma SaaS líder en gestión y monitoreo ambiental para
 
 ### 1.1.2. Perfiles de los Miembros del Equipo
 <a id="1-1-2-perfiles-de-los-miembros-del-equipo"></a>
+<div style="page-break-after: always;"></div>
 
-|                                              Foto                                               | Apellido y Nombre | 
-|:-----------------------------------------------------------------------------------------------:| :--- | 
-|  <img src="../assets/Chapter-1/Eduardo.png" alt="Eduardo Martin Guillen Chavez" width="100"/>   | Eduardo Martín Guillén Chávez |
-| <img src="../assets/Chapter-1/Andy.png" alt="Andy Alfredo Hipólito Salcedo Muñoz" width="100"/> | Andy Alfredo Hipolito Salcedo Muñoz | 
-|            <img src="../assets/Chapter-1/Cristina.jpeg" alt="Cristina" width="100"/>            | Cristina Marcela Yarleque Ruiz |
-|              <img src="../assets/Chapter-1/Miguel.png" alt="Miguel" width="100"/>               | Miguel Angel Junior Roman Lopez |
-|              <img src="../assets/Chapter-1/Alisee.png" alt="Alisse" width="100"/>               | Alisee Muriel Torres Juárez |
+<table border="1" width="100%">
+  <tr>
+    <td width="140" valign="top" align="center">
+      <img src="../assets/Chapter-1/Eduardo.png" alt="Eduardo Martin Guillen Chavez" width="120"/>
+    </td>
+    <td valign="top">
+      <strong>Eduardo Martín Guillén Chávez - (U202)</strong> - Ingeniería de Software<br><br>
+      
+    </td>
+  </tr>
+
+  <tr>
+    <td width="140" valign="top" align="center">
+      <img src="../assets/Chapter-1/Andy.png" alt="Andy Alfredo Hipólito Salcedo Muñoz" width="120"/>
+    </td>
+    <td valign="top">
+      <strong>Andy Alfredo Hipolito Salcedo Muñoz - (U202)</strong> - Ingeniería de Software<br><br>
+      
+    </td>
+  </tr>
+
+  <tr>
+    <td width="140" valign="top" align="center">
+      <img src="../assets/Chapter-1/Cristina.jpeg" alt="Cristina" width="120"/>
+    </td>
+    <td valign="top">
+      <strong>Cristina Marcela Yarleque RuizCristina Marcela Yarleque Ruiz - (U202)</strong> - Ingeniería de Software<br><br>
+      
+    </td>
+  </tr>
+
+  <tr>
+    <td width="140" valign="top" align="center">
+      <img src="../assets/Chapter-1/Miguel.png" alt="Miguel" width="120"/>
+    </td>
+    <td valign="top">
+      <strong>Miguel Ángel Román López - (U202212897)</strong> - Ingeniería de Software<br><br>
+      Tengo 21 años y estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, poseo conocimientos en C++, programación orientada a objetos, diseño web y gestión de proyectos. Mi aporte será investigación, ideas e imaginación para realizar un buen proyecto y cumplir con las entregas.
+    </td>
+  </tr>
+
+  <tr>
+    <td width="140" valign="top" align="center">
+      <img src="../assets/Chapter-1/Alisee.png" alt="Alisse" width="100"/>
+    </td>
+    <td valign="top">
+      <strong>Alisee Muriel Torres Juárez - (U202)</strong> - Ingeniería de Software<br><br>
+      
+    </td>
+  </tr>
+</table>
 
 
 ## 1.2 Solution Profile
