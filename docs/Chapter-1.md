@@ -15,7 +15,11 @@ De esta manera, el capítulo permite comprender la identidad y finalidad de EcoR
 ## 1.1 Startup Profile
 <a id="1-1-Startup-Profile"></a>
 
-Una startup es una pequeña empresa de reciente creación, con alto potencial innovador y tecnológico, cuyo modelo es escalable. El perfil de la startup establece quién desarrolla EcoRoad, con qué propósito y con qué capacidades técnicas cuenta el equipo. En esta sección se presenta la descripción de Caiman, su misión y su visión, así como los perfiles de sus integrantes.
+Una startup es una pequeña empresa de reciente creación, con alto potencial innovador y tecnológico, donde su modelo es escalable y su crecimiento puede ser exponencial. 
+
+En esta sección se describen los aspectos clave que definen a la startup, incluyendo su origen, las motivaciones que impulsaron su creación, el problema específico que busca solucionar y el enfoque innovador que emplea para posicionarse frente a sus competidores.
+
+Asimismo, se analizan los objetivos a mediano y largo plazo, junto con las estrategias diseñadas para su crecimiento y consolidación dentro del sector. Entender estos elementos resulta vital para evaluar el potencial de la startup y el impacto que puede generar en su entorno.
 
 ### 1.1.1 Descripción de la Startup
 <a id="1-1-1-Descripción-de-la-Startup"></a>
