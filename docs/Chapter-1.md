@@ -16,13 +16,10 @@ Asimismo, se analizan los objetivos a mediano y largo plazo, junto con las estra
 ### 1.1.1 Descripción de la Startup
 <a id="1-1-1-Descripción-de-la-Startup"></a>
 
-**Caiman** es una startup conformada por cinco estudiantes de Ingeniería de Software de la UPC, creada en el marco del curso 1ASI0729 Desarrollo de Aplicaciones Open Source. [COMPLETAR: año de creación y motivación del equipo para elegir el dominio de la gestión ambiental vial].
+En una sociedad donde los proyectos viales demandan una gestión más eficiente, **EcoRoad**, diseñada por nuestra startup llamada **Caimán**, nace como una plataforma web SaaS diseñada para transformar la gestión ambiental en el sector de infraestructura vial. A diferencia de las soluciones tradicionales que solo visualizan datos, nuestra propuesta integra dispositivos IoT en tiempo real para capturar indicadores críticos (aire, ruido, agua, vibraciones) y los convierte automáticamente en un flujo de trabajo trazable, desde la detección del riesgo y la emisión de alertas, hasta la asignación de acciones correctivas y el registro de evidencias en campo.
 
-Su producto, **EcoRoad**, es una plataforma web SaaS B2B diseñada para transformar la gestión ambiental en el sector de infraestructura vial. A diferencia de las soluciones que solo muestran mediciones, EcoRoad integra dispositivos IoT para capturar indicadores ambientales (calidad del aire, ruido, agua, vibraciones y condiciones meteorológicas) y los convierte en un flujo de trabajo trazable:
+Orientada a empresas constructoras y de conservación vial, la plataforma permite centralizar múltiples proyectos en un solo lugar. Su modelo de negocio se basa en planes de suscripción mensuales o anuales (Starter, Professional y Enterprise) adaptados a la escala de cada cliente, complementado con un esquema flexible de alquiler independiente de sensores IoT. Así, nos diferenciamos por ofrecer no es solo una herramienta de monitoreo, sino un ecosistema integral que impulsa una ingeniería civil preventiva, transparente y sostenible.
 
-**Monitorear → analizar → detectar riesgo → alertar → gestionar incidencia → ejecutar acción correctiva → registrar evidencia → cerrar.**
-
-EcoRoad está orientada a empresas constructoras viales y a empresas de mantenimiento y rehabilitación vial, y permite centralizar múltiples proyectos en una misma cuenta. Su modelo de negocio se basa en planes de suscripción mensuales o anuales (Starter, Professional y Enterprise), diferenciados por la cantidad de proyectos y usuarios y por el nivel de detalle del historial y de los reportes. De forma independiente, la empresa puede alquilar mensualmente dispositivos de monitoreo IoT a través de EcoRoad o integrar sus propios dispositivos compatibles.
 
 #### Misión
 
