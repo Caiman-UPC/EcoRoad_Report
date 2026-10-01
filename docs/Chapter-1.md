@@ -310,6 +310,7 @@ Creemos que lograremos una gestión más eficiente de carteras de múltiples pro
     </td>
   </tr>
 </table>
+
 ## 1.3 Segmentos Objetivos
 <a id="1-3-segmentos-objetivos"></a>
 
