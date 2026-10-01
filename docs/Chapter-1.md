@@ -54,11 +54,11 @@ Convertirnos en la plataforma SaaS líder en gestión y monitoreo ambiental para
 
   <tr>
     <td width="140" valign="top" align="center">
-      <img src="../assets/Chapter-1/Andy.png" alt="Andy Alfredo Hipólito Salcedo Muñoz" width="120"/>
+      <img src="../assets/Chapter-1/Andy.png" alt="Andy" width="120"/>
     </td>
     <td valign="top">
-      <strong>Andy Alfredo Hipolito Salcedo Muñoz - (U202)</strong> - Ingeniería de Software<br><br>
-      
+      <strong>Andy Alfredo Hipolito Salcedo Muñoz - (U20241E417)</strong> - Ingeniería de Software<br><br>
+      Soy un estudiante de Ingenieria de Software, tengo 21 años y tengo conocimientos en C++, programación orientada a objetos, desarrollo de frontend, base de datos y diseño de arquitectura. Mi aporte al equipo será la implementación de la lógica de negocio de EcoRoad, el análisis de los datos generados por el monitoreo ambiental, el apoyo en la configuración del despliegue de la solución en la nube y la colaboración en la documentación para cumplir con cada entrega.
     </td>
   </tr>
 
