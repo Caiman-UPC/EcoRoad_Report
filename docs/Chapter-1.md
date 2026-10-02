@@ -7,7 +7,7 @@ La introducción desempeña un papel fundamental en la estructuración y compren
 ## 1.1 Startup Profile
 <a id="1-1-Startup-Profile"></a>
 
-Una startup es una pequeña empresa de reciente creación, con alto potencial innovador y tecnológico, donde su modelo es escalable y su crecimiento puede ser exponencial. 
+Una startup es una pequeña empresa de reciente creación, con alto potencial innovador y tecnológico, donde su modelo es escalable y su crecimiento puede ser exponencial.
 
 En esta sección se describen los aspectos clave que definen a la startup, incluyendo su origen, las motivaciones que impulsaron su creación, el problema específico que busca solucionar y el enfoque innovador que emplea para posicionarse frente a sus competidores.
 
