@@ -221,7 +221,7 @@ EcoRoad está dirigida a dos segmentos B2B específicos relacionados con la ejec
 
 ### Segmento 1: Empresas constructoras viales
 
-Características demográficas del usuario/decisor clave:
+Características demográficas:
 
 * Edad: Entre 27 y 50 años. 
 * Género: Indistinto (con mayor representación masculina en puestos de campo). 
@@ -238,7 +238,7 @@ A nivel normativo en el Perú, el Ministerio de Transportes y Comunicaciones (MT
 
 ### Segmento 2: Empresas de mantenimiento y rehabilitación vial
 
-Características demográficas del usuario/decisor clave:
+Características demográficas:
 * Edad: Entre 24 y 48 años. 
 * Género: Indistinto. 
 * Ocupación: Supervisores de mantenimiento vial, Coordinadores de Seguridad y Medio Ambiente y personal técnico de campo. 
