@@ -79,7 +79,7 @@ Convertirnos en la plataforma SaaS líder en gestión y monitoreo ambiental para
       <img src="../assets/Chapter-1/alisee.jpeg" alt="Alisse" width="100"/>
     </td>
     <td valign="top">
-      <strong>Alisee Muriel Torres Juárez - (U202)</strong> - Ingeniería de Software<br><br>
+      <strong>Alisee Muriel Torres Juárez - (U202624323)</strong> - Ingeniería de Software<br><br>
       Tengo 21 años y estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y vengo de la Universidad Tecnológica de Puebla. Mi aporte será aplicar mis conocimientos en proyectos Angular, herramientas como springboot, entre otras.
     </td>
   </tr>
