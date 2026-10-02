@@ -16,19 +16,18 @@ Asimismo, se analizan los objetivos a mediano y largo plazo, junto con las estra
 ### 1.1.1 Descripción de la Startup
 <a id="1-1-1-Descripción-de-la-Startup"></a>
 
-En una sociedad donde los proyectos viales demandan una gestión más eficiente, **EcoRoad**, diseñada por nuestra startup llamada **Caimán**, nace como una plataforma web SaaS diseñada para transformar la gestión ambiental en el sector de infraestructura vial. A diferencia de las soluciones tradicionales que solo visualizan datos, nuestra propuesta integra dispositivos IoT en tiempo real para capturar indicadores críticos (aire, ruido, agua, vibraciones) y los convierte automáticamente en un flujo de trabajo trazable, desde la detección del riesgo y la emisión de alertas, hasta la asignación de acciones correctivas y el registro de evidencias en campo.
+En una sociedad donde los proyectos viales demandan una gestión más eficiente, EcoRoad, diseñada por nuestra startup llamada Caimán, nace como una plataforma web SaaS diseñada para transformar la gestión ambiental en el sector de infraestructura vial. A diferencia de las soluciones tradicionales que solo visualizan datos, nuestra propuesta integra dispositivos IoT en tiempo real para capturar indicadores críticos (aire, ruido, agua, vibraciones) y los convierte automáticamente en un flujo de trabajo trazable, desde la detección del riesgo y la emisión de alertas, hasta la asignación de acciones correctivas y el registro de evidencias en campo.
 
 Orientada a empresas constructoras y de conservación vial, la plataforma permite centralizar múltiples proyectos en un solo lugar. Su modelo de negocio se basa en planes de suscripción mensuales o anuales (Starter, Professional y Enterprise) adaptados a la escala de cada cliente, complementado con un esquema flexible de alquiler independiente de sensores IoT. Así, nos diferenciamos por ofrecer no es solo una herramienta de monitoreo, sino un ecosistema integral que impulsa una ingeniería civil preventiva, transparente y sostenible.
 
 
 #### Misión
 
-Desarrollar soluciones tecnológicas robustas, eficientes y centradas en la gestión ambiental, que permitan a las empresas constructoras y de conservación vial gestionar sus operaciones de manera transparente y en tiempo real. En Caiman nos enfocamos en la innovación constante, la integración de tecnologías IoT y la transformación de datos en acciones correctivas trazables, con el fin de mitigar riesgos ambientales y contribuir a una gestión más sostenible de los proyectos de infraestructura vial.
+Desarrollar soluciones tecnológicas robustas, eficientes y centradas en la gestión ambiental, que permitan a las empresas constructoras y de conservación vial gestionar sus operaciones de manera transparente y en tiempo real. En EcoRoad nos enfocamos en la innovación constante, la integración de tecnologías IoT y la transformación de datos en acciones correctivas trazables, con el fin de mitigar riesgos ambientales y contribuir a una gestión más sostenible de los proyectos de infraestructura vial.
 
 #### Visión
 
 Convertirnos en la plataforma SaaS líder en gestión y monitoreo ambiental para el sector de infraestructura vial en Latinoamérica, integrando tecnologías emergentes como el Internet de las Cosas y la analítica automatizada de datos. Aspiramos a transformar la gestión ambiental de los proyectos viales en un proceso dinámico, predictivo y preventivo, contribuyendo al desarrollo de una infraestructura vial más sostenible.
-
 
 ### 1.1.2. Perfiles de los Miembros del Equipo
 <a id="1-1-2-perfiles-de-los-miembros-del-equipo"></a>
