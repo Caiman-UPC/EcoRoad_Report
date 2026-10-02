@@ -221,8 +221,34 @@ EcoRoad está dirigida a dos segmentos B2B específicos relacionados con la ejec
 
 ### Segmento 1: Empresas constructoras viales
 
-Son empresas encargadas de ejecutar proyectos de construcción de carreteras y otras obras de infraestructura vial, representadas por sus equipos de operaciones y residentes de obra. Utilizarán EcoRoad para monitorear el impacto ambiental generado por sus actividades, identificar riesgos y gestionar oportunamente las incidencias ambientales que puedan presentarse durante la ejecución de sus proyectos. La plataforma les permitirá administrar múltiples proyectos desde una misma cuenta, visualizar el estado ambiental de cada uno y realizar seguimiento de las alertas, incidencias y acciones correctivas correspondientes.
+Características demográficas del usuario/decisor clave:
+
+* Edad: Entre 27 y 50 años. 
+* Género: Indistinto (con mayor representación masculina en puestos de campo). 
+* Ocupación: Gerentes de proyecto, Ingenieros Residentes, Jefes de Supervisión y Responsables/Especialistas en Gestión Ambiental. 
+* Nivel educativo: Profesionales titulados y colegiados en Ingeniería Civil, Ingeniería Ambiental o Ingeniería de la Construcción, idealmente con especializaciones en gestión de proyectos o regulación ambiental. 
+* Ubicación geográfica: Sedes centrales principalmente en Lima Metropolitana, con operaciones de campo descentralizadas en toda la red vial nacional del Perú.
+
+Información estadística de sustento:
+
+De acuerdo con la Cámara Peruana de la Construcción (CAPECO), la inversión en infraestructura pública representa uno de los motores más dinámicos del país, donde los proyectos viales (carreteras, puentes, vías urbanas) concentran más del 40% del presupuesto de inversión pública asignado a transportes.
+
+A nivel normativo en el Perú, el Ministerio de Transportes y Comunicaciones (MTC) y el OEFA exigen el cumplimiento estricto de los Estudios de Impacto Ambiental (EIA). Las penalidades por infracciones ambientales en obras viales pueden superar las 100 UIT, lo que genera una necesidad crítica de supervisión en tiempo real para mitigar sobrecostos por paralizaciones o multas.
+
 
 ### Segmento 2: Empresas de mantenimiento y rehabilitación vial
 
-Son empresas encargadas de realizar actividades de conservación, mejora y rehabilitación de vías de transporte terrestre existentes. Utilizarán EcoRoad para supervisar las condiciones ambientales durante sus operaciones en campo y gestionar los riesgos específicos asociados a estas labores[cite: 3]. Al igual que las constructoras, podrán centralizar la información ambiental y el control de diferentes proyectos y frentes de trabajo desde una sola plataforma SaaS[cite: 3].
+Características demográficas del usuario/decisor clave:
+* Edad: Entre 24 y 48 años. 
+* Género: Indistinto. 
+* Ocupación: Supervisores de mantenimiento vial, Coordinadores de Seguridad y Medio Ambiente y personal técnico de campo. 
+* Nivel educativo: Bachilleres o licenciados en Ingeniería Ambiental, Ingeniería Civil, Ingeniería Geográfica o técnicos especializados en conservación vial. 
+* Ubicación geográfica: Zonas de influencia de los principales corredores viales y concesiones nacionales (Costa, Sierra y Selva del Perú).
+
+Información estadística de sustento:
+
+El Índice de Digitalización de McKinsey & Company posiciona al sector de la construcción e infraestructura en el penúltimo lugar de adopción tecnológica entre 22 industrias evaluadas a nivel global, arrastrando una alta dependencia de bitácoras en papel y reportes manuales en Excel.
+
+Según el Organismo Supervisor de la Inversión en Infraestructura de Transporte de Uso Público (Ositran), el Perú cuenta con miles de kilómetros de carreteras concesionadas que requieren mantenimiento rutinario y periódico obligatorio. La falta de reportes inmediatos de incidencias en estas áreas remotas incrementa los tiempos de respuesta ante desastres ambientales (como derrumbes o contaminación de cuencas) en hasta un 300%.
+
+El uso de herramientas móviles y tecnologías en la nube para la gestión de activos y monitoreo ambiental en campo ha demostrado reducir el tiempo de recolección de datos en un 45% y mejorar el cumplimiento de compromisos socioambientales ante fiscalizaciones del Estado.
