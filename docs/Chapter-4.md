@@ -26,25 +26,24 @@ El logotipo de EcoRoad sintetiza los pilares conceptuales de la propuesta: natur
 Siguiendo la construcción geométrica y redondeada del logotipo, se adopta una familia tipográfica sans-serif geométrica como base del sistema, priorizando legibilidad en pantallas de campo (tablets, móviles con luz solar directa) y coherencia con el tono técnico y confiable de la marca.
 
 
-| Uso                        | Tipografía                     | Aplicación |
-|:---------------------------|:-------------------------------| :--- |
-| Encabezados                | Poppins Bold / SemiBold        | Títulos de dashboard, nombres de proyecto |
-| Subtítulos                 | Poppins Medium                 | Nombres de módulos, tarjetas de indicadores |
-| Cuerpo de texto            | Inter Regular                  |  Tablas, formularios, descripciones |
-| Datos numéricos / métricas | Inter Medium (tabular figures) |Valores de sensores, timestamps |
+| Uso                        | Tipografía                      | Aplicación |
+|:---------------------------|:--------------------------------| :--- |
+| Encabezados                | khula / bold                    | Títulos de dashboard, nombres de proyecto |
+| Subtítulos                 | Inter / semi bold               | Nombres de módulos, tarjetas de indicadores |
+| Cuerpo de texto            | Inter / medium                  |  Tablas, formularios, descripciones |
+| Datos numéricos / métricas | Inter / Black (tabular figures) |Valores de sensores, timestamps |
 
 **Colors:**
 
 La paleta se deriva directamente de los colores institucionales definidos para EcoRoad, con un rol funcional asignado a cada uno para su uso en interfaz:
 
-| Color         | Hex | Rol funcional en la plataforma                                                                                          |
-|:--------------| :--- |:------------------------------------------------------------------------------------------------------------------------|
-| Verde         | `#2E9E7A` | Color principal de la marca; estado óptimo / sin riesgo detectado (semáforo verde)                                       |
-| Azul petróleo | `#264653` | Color secundario; tipografía principal, fondos de navegación, elementos estructurales                                   |
-| Crema         | `#F5F1E8` | Fondo base de la interfaz; transmite neutralidad y bajo cansancio visual en uso prolongado                              |
-| Amarillo      | `#E9B44C` | Condición de advertencia (semáforo ámbar) — indicador que se acerca al umbral establecido y puede derivar en una alerta |
-| Rojo          | `#C0392B` | Condición crítica (semáforo rojo) — el indicador supera el umbral y el sistema genera una incidencia                    |
-
+| Color                                                                     | Hex | Rol funcional en la plataforma                                                                                          |
+|:--------------------------------------------------------------------------| :--- |:------------------------------------------------------------------------------------------------------------------------|
+| <img src="../assets/Chapter-4/green.png" alt="green" style=height:40px>   | `#2E9E7A` | Color principal de la marca; estado óptimo / sin riesgo detectado (semáforo verde)                                       |
+| <img src="../assets/Chapter-4/blue.png" alt="blue"  style=height:40px>    | `#264653` | Color secundario; tipografía principal, fondos de navegación, elementos estructurales                                   |
+| <img src="../assets/Chapter-4/cream.png" alt="cream" style=height:40px>   | `#F5F1E8` | Fondo base de la interfaz; transmite neutralidad y bajo cansancio visual en uso prolongado                              |
+| <img src="../assets/Chapter-4/yellow.png" alt="yellow" style=height:40px> | `#E9B44C` | Condición de advertencia (semáforo ámbar) — indicador que se acerca al umbral establecido y puede derivar en una alerta |
+| <img src="../assets/Chapter-4/red.png" alt="red" style=height:40px>       | `#C0392B` | Condición crítica (semáforo rojo) — el indicador supera el umbral y el sistema genera una incidencia                    |
 
 **Spacing**
 
