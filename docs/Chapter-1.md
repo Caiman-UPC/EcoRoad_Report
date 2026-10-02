@@ -59,8 +59,8 @@ Convertirnos en la plataforma SaaS líder en gestión y monitoreo ambiental para
       <img src="../assets/Chapter-1/Cristina.jpeg" alt="Cristina" width="120"/>
     </td>
     <td valign="top">
-      <strong>Cristina Marcela Yarleque RuizCristina Marcela Yarleque Ruiz - (U202)</strong> - Ingeniería de Software<br><br>
-      
+      <strong>Cristina Marcela Yarleque RuizCristina Marcela Yarleque Ruiz - (U20241f859)</strong> - Ingeniería de Software<br><br>
+      Tengo 20 años, cuento con habilidades en diseño de aplicaciones web y sólida lógica de programación utilizando C++.  Busco aplicar mis conocimientos técnicos en proyectos desafiantes mientras sigo expandiendo mis habilidades."
     </td>
   </tr>
 
