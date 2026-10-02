@@ -36,11 +36,11 @@ Convertirnos en la plataforma SaaS líder en gestión y monitoreo ambiental para
 <table border="1" width="100%">
   <tr>
     <td width="140" valign="top" align="center">
-      <img src="../assets/Chapter-1/Eduardo.png" alt="Eduardo Martin Guillen Chavez" width="120"/>
+      <img src="../assets/Chapter-1/Eduardo.png" alt="Eduardo" width="120"/>
     </td>
     <td valign="top">
-      <strong>Eduardo Martín Guillén Chávez - (U202)</strong> - Ingeniería de Software<br><br>
-      
+      <strong>Eduardo Martin Guillen Chavez - (U202421413)</strong> - Ingeniería de Software<br><br>
+      Soy estudiante de Ingeniería de Software de 20 años, con competencias técnicas en C++, POO, frontend, bases de datos y diseño arquitectónico. En el equipo de EcoRoad, aportaré valor directo mediante el desarrollo de la lógica de negocio, el procesamiento y análisis de las métricas ambientales, la optimización del despliegue en la nube y el soporte documental en cada fase del proyecto.
     </td>
   </tr>
 
