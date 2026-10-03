@@ -319,6 +319,8 @@ A continuación, se presenta el consolidado estadístico visual de los hallazgos
 ### 2.3.1. User Personas
 <a id="2-3-1-user-personas"></a>
 
+Los User Personas se construyeron a partir del análisis de las entrevistas y del análisis competitivo. De las entrevistas se tomaron los hallazgos más comunes de cada segmento: uso del celular como dispositivo principal, dependencia de libretas, Excel y WhatsApp, conectividad deficiente en carretera, necesidad de registrar y organizar evidencias por tramo o kilómetro, y necesidad de enterarse de incumplimientos a tiempo. Del análisis competitivo se tomó que las alternativas existentes funcionan como visores de datos o suites generales sin un flujo de respuesta hasta el cierre de incidencias, lo que refuerza las necesidades identificadas. Se elaboró un User Persona por segmento: Diego Dávalos (Segmento 1) y Piero Deza (Segmento 2).
+
 **Segmento 1: Empresas constructoras viales**
 
 Para las empresas constructoras se elaboró el User Persona Diego Dávalos. Se consideraron factores como su edad, su rol operativo y de mitigación ambiental en proyectos viales, su experiencia en la gestión de frentes de obra y su necesidad de optimizar procesos de registro preventivo de indicadores ambientales (aire, ruido, agua). Sus principales frustraciones giran en torno a la falta de un sistema automatizado para el monitoreo en tiempo real, la dependencia de registros manuales dispersos y la dificultad para recopilar evidencia ante auditorías imprevistas. Asimismo, se tomó en cuenta su familiaridad con herramientas móviles en campo y la necesidad de contar con una solución ágil y resistente a problemas de conectividad que le permita mitigar riesgos y evitar multas o paralizaciones de obra.
@@ -441,25 +443,33 @@ Después de listar los eventos, el equipo los organizó en flujos de negocio ló
 
 Here is the Ubiquitous Language glossary for EcoRoad, presented in English with both terms and definitions fully in English, satisfying the project's domain requirements:
 
-| Term | Definition |
-|:---| :--- |
-| **Company Account** | Corporate profile representing the construction company or environmental consulting/supervising company registered in the platform to manage their road operations. |
-| **Subscription** | HaaS/SaaS commercial contract under a dual-revenue model that grants access to operational modules and monitoring services based on segmented plans (Base, Professional, or Enterprise). |
-| **Road Project** | Terrestrial transport infrastructure work registered in the system over which environmental control and monitoring are performed. |
-| **Road Section** | Specific segment geographically delimited within the planning of a highway project. |
-| **Work Front** | Specific operational area within a road section where construction or maintenance tasks are actively executed. |
-| **Sensor Node** | Physical hardware device deployed in the field for the automated capture of telemetry and environmental indicators. |
-| **Monitoring Point** | Precise geographical location within the road infrastructure where a measurement asset is geolocated and fixed. |
-| **Environmental Parameter** | Physical variable subject to study and control (such as particulate matter PM10/PM2.5, noise level, water quality, or vibration). |
-| **Threshold Profile** | Set of permitted regulatory limits established to evaluate the behavior of environmental parameters on the construction site. |
-| **Environmental Measurement** | Quantitative telemetry data or reading captured by sensors or entered through manual records in the field. |
-| **Threshold Deviation** | Alert generated preventively when an environmental measurement exceeds or breaches the limits established in the regulatory profile. |
-| **Incident** | Anomaly or critical event detected in the project representing a potential risk or an effective breach of environmental regulations. |
-| **Corrective Action** | Mitigation or solution measure implemented by operational personnel to counteract an environmental incident in the field. |
-| **Field Crew** | Team of operational personnel responsible for addressing incidents, executing corrective actions, and gathering verifiable evidence. |
-| **Compliance Report** | Official and consolidated report based on immutable data and historical evidence, used to demonstrate regulatory compliance during audits and before regulatory bodies. |
-
-
+| Term                                     | Definition |
+|:-----------------------------------------| :--- |
+| **Company Account**                      | Corporate profile representing the construction company or environmental consulting/supervising company registered in the platform to manage their road operations. |
+| **Subscription**                         | HaaS/SaaS commercial contract under a dual-revenue model that grants access to operational modules and monitoring services based on segmented plans (Base, Professional, or Enterprise). |
+| **Road Project**                         | Terrestrial transport infrastructure work registered in the system over which environmental control and monitoring are performed. |
+| **Road Section**                         | Specific segment geographically delimited within the planning of a highway project. |
+| **Work Front**                           | Specific operational area within a road section where construction or maintenance tasks are actively executed. |
+| **Sensor Node**                          | Physical hardware device deployed in the field for the automated capture of telemetry and environmental indicators. |
+| **Monitoring Point**                     | Precise geographical location within the road infrastructure where a measurement asset is geolocated and fixed. |
+| **Environmental Parameter**              | Physical variable subject to study and control (such as particulate matter PM10/PM2.5, noise level, water quality, or vibration). |
+| **Threshold Profile**                    | Set of permitted regulatory limits established to evaluate the behavior of environmental parameters on the construction site. |
+| **Environmental Measurement**            | Quantitative telemetry data or reading captured by sensors or entered through manual records in the field. |
+| **Threshold Deviation**                  | Alert generated preventively when an environmental measurement exceeds or breaches the limits established in the regulatory profile. |
+| **Incident**                             | Anomaly or critical event detected in the project representing a potential risk or an effective breach of environmental regulations. |
+| **Corrective Action**                    | Mitigation or solution measure implemented by operational personnel to counteract an environmental incident in the field. |
+| **Field Crew**                           | Team of operational personnel responsible for addressing incidents, executing corrective actions, and gathering verifiable evidence. |
+| **Compliance Report**                    | Official and consolidated report based on immutable data and historical evidence, used to demonstrate regulatory compliance during audits and before regulatory bodies. |
+| **Alert (Alerta)**                       | Notification indicating the affected parameter, the measured value, the risk level, the project, the section, the sensor, and the date and time of detection. |
+| **Risk Level (Nivel de Riesgo)**         | Classification of a measurement as Optimal, Warning, or Critical according to defined thresholds. |
+| **Evidence (Evidencia)**                 | Photographic and descriptive record, with date, time, and location, that supports a corrective action. |
+| **Permission Level (Nivel de Permisos)** | Access scope of a collaborator: Read Only, Field Operation, or Full Management. |
+| **Device Rental (Nivel de Demisos)**     | Monthly IoT sensor rental service, independent of the subscription. |
+| **Environmental Engineer**               | Responsible for consolidating environmental data and responding to audits. |
+| **Project Manager**                      | Responsible for the consolidated view of multiple projects and resource prioritization. |
+| **Site Director**                        | Responsible for managing site incidents and approving corrective actions. |
+| **Environmental Inspector**              | Field personnel who records measurements, corrective actions, and evidence. |
+| **Company Administrator**                | Responsible for registering employees, assigning permissions, and managing subscriptions. |
 
 
 
