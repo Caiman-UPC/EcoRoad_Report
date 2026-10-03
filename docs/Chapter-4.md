@@ -105,18 +105,18 @@ La arquitectura de información de EcoRoad está diseñada para garantizar una n
 ### 4.2.1. Organization Systems
 <a id="4-2-1-organization-systems"></a>
 
-* **Jerarquía de Contenidos:** La estructura de la información fluye de lo general a lo específico. En la Landing Page pública se prioriza la propuesta de valor HaaS/SaaS y los beneficios de Caiman, mientras que en la Web Application la jerarquía organiza el portafolio global de proyectos viales hasta llegar al detalle micro de cada tramo, punto de monitoreo e incidencia.
+Para estructurar la complejidad de los datos ambientales y operativos, EcoRoad aplica diferentes sistemas de organización visual y esquemas de categorización que se adaptan al contexto del usuario:
 
-* **Secciones Principales de la Aplicación:** La plataforma se divide en módulos funcionales clave:
-    * **Dashboard Global:** Vista ejecutiva y multi-proyecto con indicadores de salud ambiental.
-    * **Mapa Interactivo:** Visualización geolocalizada de tramos viales y pines semafóricos.
-    * **Gestión de Proyectos:** Alta, configuración y administración de frentes de obra viales.
-    * **Puntos de Monitoreo:** Registro de telemetría y parámetros físicos (aire, ruido, agua).
-    * **Tablero de Incidencias:** Flujo Kanban para el seguimiento y resolución de desvíos normativos con evidencia multimedia.
-    * **Reportes y Auditorías:** Generación automatizada de expedientes y exportación en formato PDF.
-    * **Configuración y Suscripción:** Gestión de planes (Base, Profesional, Enterprise) y control de accesos basados en roles (RBAC).
+**Organización Visual del Contenido:**
+*   **Jerárquica (Visual Hierarchy):** Se aplica en la Web Application organizando el portafolio global de proyectos viales de lo general a lo específico. Desde los KPIs macro en el Dashboard Global hasta el detalle micro de cada tramo, punto de monitoreo e incidencia.
+*   **Secuencial (Step-by-step):** Utilizada en los formularios de registro de evidencias de campo y en el flujo Kanban de atención de incidencias, guiando al usuario paso a paso desde la notificación de la alerta hasta el cierre formal del ticket.
+*   **Matricial:** Implementada en la vista de configuración de accesos (RBAC), donde los administradores cruzan los roles de los usuarios (filas) con los módulos de acceso y permisos específicos (columnas).
 
-* **Agrupación de Contenidos:** Los datos operativos se agrupan lógicamente por severidad y contexto temporal. Las alertas y tickets críticos se destacan mediante códigos de color estandarizados (semáforo), permitiendo un escaneo visual rápido sin saturar al operador de campo.
+**Esquemas de Categorización de Contenido:**
+*   **Por Tópicos:** Utilizado para agrupar los módulos funcionales clave en la navegación lateral (Proyectos, Sensores, Alertas, Incidencias, Reportes, Configuración).
+*   **Cronológico:** Aplicado rigurosamente en el *Historial de Indicadores*, en los gráficos de telemetría y en el *Traceability History* de incidencias, ordenando los eventos ambientales desde el más reciente al más antiguo.
+*   **Alfabético:** Empleado en el listado general del portafolio de proyectos y en el directorio de colaboradores de la empresa para agilizar las búsquedas.
+*   **Según Audiencia:** La Landing Page pública segmenta y categoriza sus mensajes para resonar tanto con el equipo directivo/gerencial (enfocado en beneficios como evitar multas y modelo HaaS sin CapEx) como con el equipo operativo de campo (enfocado en la automatización del papeleo y alertas tempranas).
 
 4.2.2. Labeling Systems.
 
