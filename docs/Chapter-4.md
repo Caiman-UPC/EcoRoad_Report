@@ -152,10 +152,12 @@ Para asegurar la visibilidad en motores de búsqueda y la correcta compartición
 ### 4.2.4. Searching Systems
 <a id="4-2-4-searching-systems"></a>
 
-* **Barra de Búsqueda Global:** Ubicada de forma prominente en el encabezado principal de la Web Application, permitiendo localizar de inmediato proyectos por nombre o código de tramo vial, puntos de control específicos e incidencias registradas.
-* **Filtros y Facetas Contextuales:** Herramientas de acotación de datos dentro de los módulos para filtrar la información por tipo de indicador ambiental (*aire, ruido, agua*), rango de fechas y niveles de severidad del riesgo.
-* **Historial de Búsqueda:** Registro automatizado de consultas recientes para agilizar el flujo de trabajo de los auditores y residentes de obra que alternan entre múltiples frentes de trabajo.
-* **Resultados Relevantes:** Priorización inteligente de resultados basada en los permisos de usuario (RBAC) y la cartera de proyectos activa asignada a su cuenta.
+Para evitar que los usuarios se sientan perdidos ante el gran volumen de datos telemétricos, EcoRoad ofrece sistemas de búsqueda optimizados:
+
+*   **Barra de Búsqueda Global:** Ubicada de forma prominente en el encabezado principal de la Web Application, permitiendo localizar de inmediato proyectos por nombre o código de tramo vial.
+*   **Filtros y Facetas Contextuales:** Herramientas de acotación de datos dentro de los módulos para filtrar la información por tipo de indicador ambiental (*aire, ruido, agua*), rango de fechas y niveles de severidad del riesgo.
+*   **Historial de Búsqueda:** Registro automatizado de consultas recientes para agilizar el flujo de trabajo de auditores y residentes que alternan entre frentes recurrentes.
+*   **Presentación de Resultados:** Los resultados lucirán en formato de tarjetas (cards) resumidas para entidades como proyectos o incidencias, destacando en negrita el término buscado dentro del título o descripción para facilitar el reconocimiento visual rápido. La priorización inteligente de resultados se basará en los permisos de usuario (RBAC).
 
 ### 4.2.5. Navigation Systems
 <a id="4-2-5-navigation-systems"></a>
