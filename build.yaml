@@ -1,0 +1,30 @@
+# 1. El orden en el que Pandoc leerá tus capítulos
+input-files:
+  - docs/Chapter-1.md
+  - docs/Chapter-2.md
+  - docs/Chapter-3.md
+  - docs/Chapter-4.md
+  - docs/Chapter-5.md
+
+# 2. Obligatorio por la UPC: Evita que los identificadores y notas choquen entre capítulos
+file-scope: true
+
+# 3. Le decimos dónde buscar las imágenes para que no salgan errores de rutas rotas
+resource-path: 
+  - '.'
+  - 'assets'
+  - 'docs'
+
+# 4. El motor que creará el PDF (recomendado para integraciones automáticas)
+pdf-engine: lualatex
+
+# 5. Opciones visuales del documento
+variables:
+  geometry: [margin=1in]
+  mainfont: "Helvetica"
+
+toc: true # Genera la tabla de contenidos automáticamente
+toc-depth: 3 # Hasta 3 niveles de subtítulos en el índice
+number-sections: true # Numera los capítulos y subtítulos
+
+output-file: Reporte_Final_EcoRoad.pdf
