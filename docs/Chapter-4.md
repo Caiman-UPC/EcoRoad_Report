@@ -118,7 +118,19 @@ Para estructurar la complejidad de los datos ambientales y operativos, EcoRoad a
 *   **Alfabético:** Empleado en el listado general del portafolio de proyectos y en el directorio de colaboradores de la empresa para agilizar las búsquedas.
 *   **Según Audiencia:** La Landing Page pública segmenta y categoriza sus mensajes para resonar tanto con el equipo directivo/gerencial (enfocado en beneficios como evitar multas y modelo HaaS sin CapEx) como con el equipo operativo de campo (enfocado en la automatización del papeleo y alertas tempranas).
 
-4.2.2. Labeling Systems.
+### 4.2.2. Labeling Systems
+<a id="4-2-2-labeling-systems"></a>
+
+Para garantizar la simplicidad y evitar la confusión de los ingenieros y gerentes, el sistema de etiquetado de EcoRoad evita tecnicismos excesivos de software y adopta el *Ubiquitous Language* de la ingeniería civil y ambiental. Se emplean etiquetas con el mínimo número de palabras para representar conjuntos de información y sus asociaciones:
+
+*   **"Proyectos":** Etiqueta que asocia todo el portafolio de obras, frentes y tramos viales pertenecientes a una concesión o constructora.
+*   **"Sensores":** Engloba todo el hardware IoT, su estado de calibración, conexión y geolocalización.
+*   **"Alertas":** Representa de forma directa todas las notificaciones por superaciones preventivas de umbrales ambientales (ECA).
+*   **"Incidencias":** Etiqueta que agrupa los flujos de respuesta, acciones correctivas operativas y tickets en curso.
+*   **"Reportes":** Asociación rápida a expedientes formales, auditorías PDF y logs inmutables.
+*   **"Equipo":** Gestiona roles, colaboradores y permisos (RBAC).
+
+Este etiquetado textual se acompaña sistemáticamente de iconografía universal (ej. un icono de advertencia junto a "Alertas", un icono de mapa junto a "Proyectos") para acelerar el escaneo cognitivo.
 
 ### 4.2.3. SEO Tags and Meta Tags
 <a id="4-2-3-seo-tags-and-meta-tags"></a>
