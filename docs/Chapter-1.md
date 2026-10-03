@@ -125,7 +125,7 @@ Mediante EcoRoad, una plataforma web centralizada en la nube donde el personal d
 
 #### How Much / ¿CUÁNTO?
 
-El modelo de ingresos proyectado es de tipo SaaS (Software como Servicio). Se planea ofrecer una suscripción mensual a las empresas basada en un esquema escalonado de tres niveles: Starter, Professional y Enterprise. La tarifa de suscripción cubrirá el acceso a la plataforma, el soporte técnico y futuras actualizaciones, diferenciando los planes según el tiempo de historial disponible y la complejidad de los reportes. Los dispositivos IoT no forman parte de la suscripción base; de este modo, el cliente puede integrar sus propios equipos compatibles o alquilarlos a la empresa de forma mensual (desde S/. 180 por dispositivo, según el tipo de monitor). Este enfoque modular y flexible garantizará la sostenibilidad económica de EcoRoad, adaptándose de manera óptima al mercado del monitoreo ambiental en la construcción.
+El modelo de ingresos proyectado es de tipo SaaS (Software como Servicio). Se planea ofrecer una suscripción mensual o anual a las empresas basada en un esquema escalonado de tres niveles: Starter, Professional y Enterprise. La tarifa de suscripción cubrirá el acceso a la plataforma, el soporte técnico y futuras actualizaciones, diferenciando los planes según el tiempo de historial disponible y la complejidad de los reportes. Los dispositivos IoT no forman parte de la suscripción base; de este modo, el cliente puede integrar sus propios equipos compatibles o alquilarlos a la empresa de forma mensual (desde S/. 180 por dispositivo, según el tipo de monitor). Este enfoque modular y flexible garantizará la sostenibilidad económica de EcoRoad, adaptándose de manera óptima al mercado del monitoreo ambiental en la construcción.
 
 
 ### 1.2.2 Lean UX Process
@@ -289,7 +289,7 @@ Sabremos que tenemos éxito cuando observemos que los clientes detectan los incu
 #### 1.2.2.4. Lean UX Canvas
 <a id="1-2-2-4-lean-ux-canvas"></a>
 
-<div align="center"><img src="../assets/Chapter-1/LeanUXCanvas.png" alt="Lean UX Canvas" width="100%"></div>
+<div align="center"><img src="../assets/Chapter-1/LeanUXcanvas.jpg" alt="Lean UX Canvas" width="100%"></div>
 
 ## 1.3 Segmentos Objetivos
 <a id="1-3-segmentos-objetivos"></a>
