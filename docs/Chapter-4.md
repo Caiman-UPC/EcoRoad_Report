@@ -327,7 +327,9 @@ El Footer (pie de página) de la plataforma cierra el sitio con una estructura i
   <img src="../assets/Chapter-4/footer.png" alt="Paso 4">
 </div>
 
-4.4. Web Applications UX/UI Design.
+## 4.4. Web Applications UX/UI Design.
+
+Esta sección incluye las propuestas visuales y de interacción para las aplicaciones de la experiencia digital privada. Todos los artefactos visuales (Wireframes y Mock-ups) han sido creados en **Figma**, mientras que los diagramas de flujos de interacción (Wireflows y User Flows) han sido elaborados analíticamente en la herramienta **FigJam**.
 
 4.4.1. Web Applications Wireframes.
 
