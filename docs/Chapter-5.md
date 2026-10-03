@@ -144,25 +144,252 @@ El Landing Page de EcoRoad se despliega como sitio web estático mediante **GitH
 
 Cualquier push a la rama `main` actualiza automáticamente el sitio desplegado.
 
-5.2. Landing Page, Services & Applications Implementation.
+## 5.2. Landing Page, Services & Applications Implementation.
 
-5.2.X. Sprint n
+### 5.2.1. Sprint 1
 
-5.2.X.1. Sprint Planning n.
+<p>
+  Durante el Sprint 1, el equipo se enfocó en el desarrollo e implementación del Landing Page de EcoRoad, incluyendo todas las secciones de presentación del negocio con soporte bilingüe (español/inglés) y despliegue mediante GitHub Pages.
+</p>
 
-5.2.X.2. Aspect Leaders and Collaborators.
+<p>
+  <strong>Repositorio:</strong> <a href="https://github.com/Caiman-UPC/Landing-Page.git">https://github.com/Caiman-UPC/Landing-Page.git</a>
+</p>
 
-5.2.X.3. Sprint Backlog n.
+<p>
+  <strong>Landing Page Desplegada:</strong> <a href="https://caiman-upc.github.io/Landing-Page/">https://caiman-upc.github.io/Landing-Page/</a>
+</p>
 
-5.2.X.4. Development Evidence for Sprint Review.
+#### 5.2.1.1. Sprint Planning.
 
-5.2.X.5. Execution Evidence for Sprint Review.
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th colspan="2" style="text-align: center;">Sprint Planning Sprint 1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td>Date</td>
+      <td>14/09/2026</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>10:00 p.m.</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Discord</td>
+    </tr>
+    <tr>
+      <td>Prepared By</td>
+      <td>Miguel Ángel Junior Román López</td>
+    </tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>
+        Román López, Miguel Ángel Junior<br>
+        Salcedo Muñoz, Andy Alfredo Hipolito<br>
+        Guillen Chavez, Eduardo Martín<br>
+        Yarleque Ruiz, Cristina Marcela<br>
+        Torres Júarez, Alisee Muriel
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 0 Review Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">N/A (Este es el primer sprint del proyecto)</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 0 Retrospective Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">N/A (Este es el primer sprint del proyecto)</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Sprint 1 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
+<em>Our focus is on delivering the first bilingual marketing Landing Page of EcoRoad that clearly communicates the value proposition and service offering to first-time visitors.</em><br><br>
+<em>We believe it conveys a clear and trustworthy first impression to road construction, maintenance, and rehabilitation companies, helping them quickly understand what EcoRoad does and how to contact the team.</em><br><br>
+<em>This will be confirmed when users from both segments can navigate through all core sections (Hero, Services, Pricing, About Us, Team, Contact) in Spanish and English and can reach the Contact section in no more than three clicks from the home view.</em>
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 1 Velocity</td>
+      <td>13 Story Points</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>13 SP (≈ 53 horas estimadas)</td>
+    </tr>
+  </tbody>
+</table>
 
-5.2.X.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.1.2. Aspect Leaders and Collaborators.
+
+<p>
+En esta sección se presenta la matriz <strong>Leadership-and-Collaboration Matrix (LACX)</strong> correspondiente al Sprint 1. 
+Su propósito es identificar claramente los aspectos principales del sprint y asignar responsabilidades de liderazgo (<strong>L</strong>) y colaboración (<strong>C</strong>) para fortalecer la comunicación, coordinación y trazabilidad del trabajo dentro del equipo.
+</p>
+
+<p>
+Estos aspectos se derivan directamente de los objetivos definidos en el Sprint 1 Goal, asegurando cobertura total de los entregables planificados.
+</p>
+
+<ul>
+  <li><strong>Landing Page Development & Deployment:</strong> Diseño, estructura, contenido y funcionalidad de la página principal del proyecto, incluyendo su despliegue.</li>
+  <li><strong>Report Module Implementation:</strong> Desarrollo y presentación del módulo que permitirá crear, visualizar y exportar el reporte requerido.</li>
+</ul>
+
+<table border="1" cellpadding="4" cellspacing="0" align="center">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>Aspect: Landing Page</th>
+      <th>Aspect: Report Module</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Román López, Miguel Ángel Junior</td><td>L</td><td>C</td></tr>
+    <tr><td>Guillen Chavez Eduardo Martín</td><td>C</td><td>L</td></tr>
+    <tr><td>Salcedo Muñoz Andy Alfredo Hipolito/td><td>C</td><td>C</td></tr>
+    <tr><td>Torres Júarez Alisee Muriel</td><td>C</td><td>C</td></tr>
+    <tr><td>Yarleque Ruiz Cristina Marcela</td><td>C</td><td>C</td></tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>L</strong> = Líder del aspecto</li>
+  <li><strong>C</strong> = Colaborador en el aspecto</li>
+</ul>
+
+<p>
+Esta organización de roles está alineada con la posterior asignación de tareas del Sprint Backlog, permitiendo que cada líder supervise la ejecución de su aspecto con apoyo de sus colaboradores. 
+Con ello, se garantiza una gestión más eficiente del progreso y una mejor sincronización entre los miembros del equipo.
+</p>
+
+
+### 5.2.1.3. Sprint Backlog 1.
+
+El Sprint Backlog 1 reúne las historias de usuario y tareas necesarias para implementar la primera versión de la landing page, incluyendo el menú de navegación, la visualización de planes, la sección de creadores, redes sociales, el formulario de contacto y el cambio de idioma.
+
+Todas las tareas son monitoreadas y actualizadas mediante **Jira Software**.
+
+<div align="center"> <img src="../images/sprint1-board.jpg" alt="Sprint 1 Board Screenshot" width="100%"> <p><em>Figura: Tablero del Sprint 1 en Jira Software (Proyecto EcoRoad)</em>
+</p> </div>
+
+A continuación, la estructura de la tabla de control de estado para el Sprint:
+
+| Sprint # | Sprint 1 |   |   |   |   |   |   |
+|---------|----------|---|---|---|---|---|---|
+| **User Story** |   | **Work-Item / Task** |   |   |   |   |  |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+
+El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Software** mediante el tablero Scrum del proyecto, donde se registran los estados de cada tarea (To-do, In-Process, To-Review, Done). Durante las reuniones diarias (**Daily Scrum**), el equipo revisa el avance, actualiza el estado de las tareas y gestiona posibles bloques.
+
+#### 5.2.1.4. Development Evidence for Sprint Review.
+
+<p>
+  En esta sección se explican y presentan los avances en la implementación logrados durante el Sprint 1 en relación con el producto de la solución incluido en su alcance: la <strong>Landing Page</strong> pública de EcoRoad. A lo largo de este sprint se construyó la primera versión navegable del sitio, incluyendo las secciones Home/Hero, Services, Features, About the App, Pricing, Testimonials, About the Team y Contact, con sus estilos CSS y ajustes de responsividad.
+</p>
+
+<p>
+  La tabla siguiente resume los commits más revelantes realizados en el repositorio de la Landing Page, indicando la rama, el identificador del commit, el mensaje asociado y una breve explicación del cambio introducido en la implementación.
+</p>
+
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+<p>
+  Durante el sprint 1, se completó exitosamente la implementación de todas las secciones del Landing Page de EcoRoad, incluyendo navegación responsiva, soporte bilingüe y despliegue en Github Pages. A continuación se presentan evidencias de ejecución mediante capturas de pantalla de las principales vistas.
+</p>
+
+<h5>Video de demostración del Landing Page:</h5>
+<p>
+  <strong>URL YouTube:</strong> <br>
+  <strong>Duración:</strong> [00:00:00]
+</p>
+
+<h5>Capturas de las principales secciones:</h5>
+
+<p><strong>Encabezado y menú de navegación:</strong></p>
+<img src="/assets/img/chapter-V/header-landing-page.png" alt="header landing page">
+
+<p><strong>Sección Hero:</strong></p>
+<img src="../assets/img/chapter-V/hero-landing-page.png" alt="hero landing page">
+
+<p><strong>Sección Services:</strong></p>
+<img src="../assets/img/chapter-V/services-landing-page.png" alt="services landing page">
+
+<p><strong>Sección Pricing:</strong></p>
+<img src="../assets/img/chapter-V/plans-landing-page.png" alt="plans landing page">
+
+<p><strong>Sección About the App:</strong></p>
+<img src="/assets/img/chapter-V/about-the-app-landing-page.png" alt="about the app landing page">
+
+<p><strong>Sección Testimonials:</strong></p>
+<img src="/assets/img/chapter-V/testimonials-landing-page.png" alt="testimonials landing page">
+
+<p><strong>Sección About the Team:</strong></p>
+<img src="/assets/img/chapter-V/about-the-team-landing-page.png" alt="about the team landing page">
+
+<p><strong>Sección Contact:</strong></p>
+<img src="/assets/img/chapter-V/contact-landing-page.png" alt="contact landing page">
+
+<p><strong>Footer:</strong></p>
+<img src="/assets/img/chapter-V/footer-landing-page.png" alt="footer landing page">
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+<p>
+  En el Sprint 1, el equipo diseñó, programó y desplegó el Landing Page de EcoRoad. Esta es una página web estática, 
+  por lo que no hay Web Services disponibles en este sprint.
+</p>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>End Point</th>
+      <th>Funciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>N/A</td>
+      <td>No hay Web Services implementados en el Sprint 1 (Landing Page estático)</td>
+    </tr>
+  </tbody>
+</table>
 
 5.2.X.7. Software Deployment Evidence for Sprint Review.
 
-5.2.X.8. Team Collaboration Insights during Sprint.
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+<p>
+Durante el Sprint 1, los analíticos de colaboración de GitHub muestran una participación activa y continua de todos los miembros del equipo sobre el repositorio de la Landing Page. En el panel de Overview se observa un flujo constante de commits distribuidos a lo largo de los días del sprint, lo que evidencia que las tareas de implementación de las distintas secciones (hero, servicios, planes, equipo, testimonios, contacto y footer) se desarrollaron de manera incremental y coordinada. Cada integrante realizó aportes directos al código, ya sea mediante la creación de nuevas secciones, ajustes de estilos responsivos o correcciones derivadas de las revisiones entre pares, asegurando así que el entregable del sprint se construyera de forma colaborativa y no centralizada en una sola persona.
+</p>
+
+![overview-spring1.png](../assets/img/chapter-V/overview-spring1.png)
+<p>
+El Network Graph refleja esta dinámica mediante la presencia de ramas que nacen desde main y regresan a ella una vez integradas, siguiendo el flujo definido por GitFlow. Esta visualización confirma que las contribuciones individuales se alinearon con el marco de trabajo acordado: se desarrollaron cambios en ramas aisladas, se realizaron pruebas locales y posteriormente se integraron al tronco principal, lo que redujo conflictos y facilitó el seguimiento de la trazabilidad de cada cambio. De este modo, la colaboración no solo se dio a nivel de cantidad de commits, sino también en la forma de trabajo estructurada y compatible con las prácticas ágiles del equipo.
+</p>
+
+![network-graph-sprint1.png](../assets/img/chapter-V/network-graph-sprint1.png)
+
+<p>
+Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrollo y se consolidaban las funcionalidades del Landing Page, el repositorio comenzó a recibir visitas y visualizaciones, lo que sugiere interés progresivo en el producto por parte de stakeholders y del propio equipo durante las actividades de revisión y validación. En conjunto, estos analíticos de colaboración y actividad en GitHub demuestran que todos los integrantes tuvieron participación efectiva en la implementación del producto del Sprint (Landing Page) y sientan la base para replicar este mismo patrón de trabajo en los siguientes sprints, donde se abordarán la Web Application y los Web Services.
+</p>
+
+![visitors-sprint1.png](../assets/img/chapter-V/visitors-sprint1.png)
 
 5.3. Validation Interviews.
 
