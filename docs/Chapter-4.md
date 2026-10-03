@@ -87,6 +87,16 @@ con tarjetas que muestran responsable asignado, ubicación, fecha/hora y miniatu
 * **Accesibilidad:**  contraste mínimo AA (WCAG 2.1) entre texto y fondo en todas las combinaciones de la paleta, verificado especialmente en el uso del amarillo 
 (#E9B44C) sobre crema, que requiere texto oscuro (#264653) para mantener legibilidad.
 
+### 4.1.3. Mobile Style Guidelines
+<a id="4-1-3-Mobile-Style-Guidelines"></a>
+
+Las interfaces para la versión web móvil (Mobile Web Browser) de EcoRoad están diseñadas bajo los principios de *Mobile-First*, considerando que los ingenieros residentes y supervisores operan en frentes de obra (campo) con incidencia de luz solar directa y mediante interacciones de una sola mano. Diseñados también en **Figma**, se establecen los siguientes lineamientos:
+
+* **Touch Targets:** Se establece un área táctil mínima de 44x44 px (y 48x48 px recomendada) para todos los botones de acción principal (CTAs), iconos de captura de evidencia fotográfica y controles de formularios para asegurar precisión operativa sin frustración.
+* **Navegación Móvil:** Sustitución de la barra lateral izquierda por una *Bottom Navigation Bar* (Barra de navegación inferior) para el acceso inmediato con el pulgar a los módulos clave: Inicio, Alertas, e Incidencias.
+* **Tipografía Responsiva (Legibilidad de Campo):** Escalamiento tipográfico que prioriza el alto contraste y el uso de fuentes de gran peso (Inter Black) para los valores numéricos de las lecturas ambientales, asegurando legibilidad bajo el sol.
+* **Simplificación Visual:** Ocultamiento de filtros avanzados de escritorio detrás de menús modales (Bottom Sheets) para mantener la limpieza visual en tarjetas de incidencias tipo Kanban.
+
 ## 4.2. Information Architecture
 <a id="4-2-information-architecture"></a>
 
