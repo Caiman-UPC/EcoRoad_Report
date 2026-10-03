@@ -201,21 +201,90 @@ Sabremos que tenemos éxito cuando observemos que los clientes detectan los incu
 #### 1.2.2.3. Lean UX Hypothesis Statements
 <a id="1-2-2-3-lean-ux-hypothesis-statements"></a>
 
-##### Visualización y Control Centralizado
+##### HS-01. Monitoreo ambiental mediante sensores IoT (FA-01)
 
-Creemos que lograremos una detección más temprana de superaciones normativas y una mejor priorización de los recursos de supervisión, si los responsables de gestión ambiental y supervisores de obra obtienen visibilidad inmediata y geolocalizada del estado de los indicadores ambientales de sus proyectos, con tableros geolocalizados en tiempo real.
+**Creemos que lograremos** que al menos 80 % de las mediciones se registren en la plataforma 
+**Si** los responsables de gestión ambiental y los supervisores de campo
+**Alcanzan** contar con datos ambientales continuos sin recolección manual
+**Con** el monitoreo ambiental mediante sensores IoT.
 
-##### Automatización de Reporteo
+##### HS-02. Gestión de múltiples proyectos (FA-02)
 
-Creemos que lograremos una reducción en el tiempo y costo de preparación de auditorías, si los equipos de gestión ambiental y consultoras ambientales obtienen documentación consolidada y trazable del histórico de indicadores e incidencias de un proyecto, con un generador de reportes de auditoría automático.
+**Creemos que lograremos** que los clientes gestionen más proyectos en EcoRoad y migren a los planes Professional o Enterprise
+**Si** los gerentes de proyecto y la PMO
+**Alcanzan** ver y comparar el estado ambiental de todas sus obras en un solo mapa
+**Con** la gestión de múltiples proyectos con vista general geolocalizada.
 
-##### Estandarización de Procesos
+##### HS-03. Dashboard ambiental geolocalizado (FA-03)
 
-Creemos que lograremos una reducción en el tiempo de respuesta ante incumplimientos normativos y una gestión de incidencias más consistente entre proyectos, si los responsables de gestión ambiental reciben notificaciones inmediatas y un registro automático de incidencias ante una superación de los límites normativos, con un sistema de alertas tempranas.
+**Creemos que lograremos** reducir en al menos 50 % el tiempo de detección de incumplimientos normativos
+**Si** los responsables de gestión ambiental y los supervisores de obra
+**Alcanzan** ver en tiempo real el estado de cada tramo y punto de monitoreo
+**Con** el dashboard ambiental geolocalizado por proyecto.
 
-##### Optimización de Recursos
+##### HS-04. Análisis y detección de riesgos (FA-04)
 
-Creemos que lograremos una gestión más eficiente de carteras de múltiples proyectos viales, si las empresas constructoras y consultoras ambientales que gestionan varios proyectos acceden a una visualización consolidada del estado ambiental de todos sus proyectos en un solo mapa, con un dashboard de control geolocalizado multi-proyecto.
+**Creemos que lograremos** reducir la exposición a sanciones por incumplimientos no detectados a tiempo
+**Si** los responsables de gestión ambiental y los ingenieros residentes
+**Alcanzan** identificar las condiciones de riesgo antes de que se agraven
+**Con** el análisis automático contra umbrales con clasificación Óptimo, Advertencia y Crítico.
+
+##### HS-05. Sistema de alertas (FA-05)
+
+**Creemos que lograremos** reducir el tiempo de respuesta ante incumplimientos normativos
+**Si** los ingenieros residentes y los responsables de gestión ambiental
+**Alcanzan** saber de inmediato qué ocurre, dónde y con qué nivel de riesgo
+**Con** el sistema de alertas con indicador, valor, tramo y sensor.
+
+##### HS-06. Gestión de incidencias ambientales (FA-06)
+
+**Creemos que lograremos** que al menos 80 % de las incidencias se cierren antes de una fiscalización externa
+**Si** los responsables de gestión ambiental y los ingenieros residentes
+**Alcanzan** dar seguimiento a cada evento desde su creación hasta su cierre
+**Con** la gestión de incidencias generadas automáticamente ante un estado crítico.
+
+##### HS-07. Gestión de acciones correctivas (FA-07)
+
+**Creemos que lograremos** una gestión de incidencias más consistente entre proyectos y un menor tiempo promedio de cierre
+**Si** los ingenieros residentes, directores de obra y el personal de campo
+**Alcanzan** asignar acciones con responsable y seguirlas hasta su ejecución
+**Con** la gestión de acciones correctivas.
+
+##### HS-08. Registro de evidencias (FA-08)
+
+**Creemos que lograremos** expedientes de cumplimiento aceptados en las fiscalizaciones sin observaciones por falta de respaldo
+**Si** los equipos de campo y de gestión ambiental
+**Alcanzan** documentar cada acción con respaldo verificable (fotografía, fecha, hora y ubicación)
+**Con** el registro de evidencias asociado a cada incidencia.
+
+##### HS-09. Historial ambiental (FA-09)
+
+**Creemos que lograremos** que al menos 80 % de los clientes renueven su suscripción tras el primer ciclo
+**Si** los responsables de gestión ambiental y los gerentes de proyecto
+**Alcanzan** consultar y analizar eventos anteriores y el comportamiento ambiental de cada proyecto
+**Con** el historial ambiental de mediciones, alertas, incidencias, acciones y cierres.
+
+##### HS-10. Generación de reportes (FA-10)
+
+**Creemos que lograremos** reducir en al menos 40 % el tiempo de preparación de los reportes de cumplimiento para fiscalizaciones
+**Si** los equipos de gestión ambiental y los gerentes de proyecto
+**Alcanzan** obtener documentación consolidada y trazable del proyecto
+**Con** la generación de reportes con indicadores, incidencias, acciones y evidencias.
+
+##### HS-11. Gestión de usuarios y permisos dinámicos (FA-11)
+
+**Creemos que lograremos** que los clientes incorporen más usuarios por cuenta y adopten la plataforma en toda su organización
+**Si** los administradores de cuenta de las empresas
+**Alcanzan** dar a cada colaborador solo el acceso que necesita según su rol
+**Con** la gestión de usuarios con permisos dinámicos por casillas.
+
+##### HS-12. Planes de suscripción y alquiler de dispositivos IoT (FA-12)
+
+**Creemos que lograremos** que al menos 80 % de los clientes renueven y que más empresas pasen a los planes Professional o Enterprise
+**Si** las empresas constructoras y de mantenimiento y rehabilitación vial
+**Alcanzan** ajustar el monitoreo y su costo a la escala y duración de cada obra
+**Con** los planes de suscripción y el alquiler mensual de sensores IoT.
+
 
 #### 1.2.2.4. Lean UX Canvas
 <a id="1-2-2-4-lean-ux-canvas"></a>
