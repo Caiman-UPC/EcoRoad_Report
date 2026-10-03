@@ -21,7 +21,6 @@ pdf-engine: lualatex
 # 5. Opciones visuales del documento
 variables:
   geometry: [margin=1in]
-  mainfont: "Helvetica"
 
 toc: true # Genera la tabla de contenidos automáticamente
 toc-depth: 3 # Hasta 3 niveles de subtítulos en el índice
