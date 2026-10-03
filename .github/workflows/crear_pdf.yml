@@ -6,20 +6,18 @@ on:
 
 jobs:
   fabricar-documento:
-    # Fija la versión de Ubuntu para evitar problemas con la migración a Ubuntu 26
     runs-on: ubuntu-24.04 
     steps:
       - name: 1. Descargar tus archivos de Markdown
         uses: actions/checkout@v4
 
       - name: 2. Instalar el programa Pandoc en el servidor
-        # Actualizamos a v3 para mayor compatibilidad
-        uses: r-lib/actions/setup-pandoc@v3 
+        uses: r-lib/actions/setup-pandoc@v2 
         with:
           pandoc-version: '3.1'
 
       - name: 3. Instalar el motor creador de PDF (LaTeX)
-        run: sudo apt-get update && sudo apt-get install -y texlive-luatex texlive-fonts-recommended
+        run: sudo apt-get update && sudo apt-get install -y texlive-luatex texlive-fonts-recommended texlive-latex-extra
 
       - name: 4. Unir todo y fabricar el PDF
         run: pandoc --defaults=build.yaml
