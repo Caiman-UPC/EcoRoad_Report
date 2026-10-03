@@ -10,7 +10,7 @@ Esto con el fin de mantener una presentación consistente y enfocada de la marca
 <a id="4-1-1-General-Style-Guidelines"></a>
 
 Construimos la identidad de EcoRoad bajo directrices visuales de Branding, Typography, Colors y Spacing, así como las dimensiones adoptadas para el tono de comunicación y lenguaje aplicado por la marca.
-Estas decisiones se sustentan en el posicionamiento de EcoRoad como una plataforma que transforma el monitoreo ambiental en un flujo de gestión de detección de riesgos, alerta, incidencia, acción correctiva y evidencia, por lo que la identidad visual busca transmitir confiabilidad, precisión técnica y una ingeniería civil preventiva y sostenible.
+Estas decisiones se sustentan en el posicionamiento de EcoRoad como una plataforma que transforma el monitoreo ambiental en un flujo de gestión preventiva y sostenible, buscando transmitir confiabilidad y precisión técnica.
 
 **Branding:**
 
