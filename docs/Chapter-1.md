@@ -131,66 +131,72 @@ El modelo de ingresos proyectado es de tipo SaaS (Software como Servicio). Se pl
 ### 1.2.2 Lean UX Process
 <a id="1-2-2-lean-ux-process"></a>
 
+El Lean UX es un enfoque que permite validar las soluciones propuestas para problemas identificados. Este enfoque se centra en las personas que utilizarán nuestro producto. Una vez delimitado el problema, se utilizó esta metodología para detectar las oportunidades clave que estructuran la solución.
+
 #### 1.2.2.1. Lean UX Problem Statements
 <a id="1-2-2-1-lean-ux-problem-statements"></a>
 
-El estado actual de *la gestión ambiental en proyectos de infraestructura vial* se ha enfocado principalmente en *el registro manual y disperso de indicadores ambientales, sin herramientas de análisis automatizado ni visualización centralizada, lo que provoca **detección tardía de incumplimientos normativos, mayor exposición a sanciones y auditorías lentas y costosas.* Esta situación afecta a *empresas constructoras y de mantenimiento vial*, quienes dependen de métodos desactualizados para monitorear y documentar el cumplimiento ambiental de sus proyectos.
+El estado actual de la gestión ambiental en proyectos de infraestructura vial se ha centrado principalmente en el registro manual de indicadores (aire, ruido, agua, vibraciones) en planillas y hojas de cálculo, y en herramientas de monitoreo que solo recolectan y visualizan datos, muchas de ellas pensadas para otros sectores como la minería y los hidrocarburos. Esta situación afecta a las empresas constructoras viales y a las empresas de mantenimiento y rehabilitación vial, que deben demostrar cumplimiento ante el MTC y el OEFA mientras ejecutan varias obras a la vez. Sus principales dolores son la detección tardía de incumplimientos, la exposición a sanciones y la preparación lenta y costosa de reportes de cumplimiento para las fiscalizaciones.
 
-Lo que los productos o servicios existentes no logran resolver es la *centralización digital, en tiempo real, del monitoreo ambiental y la gestión de incidencias en proyectos viales. Nuestro producto, **EcoRoad**, abordará esta brecha mediante una plataforma web SaaS que centraliza el registro de indicadores ambientales, detecta automáticamente las superaciones normativas y ofrece tableros geolocalizados para visualizar múltiples proyectos en simultáneo.
+Lo que los productos y servicios existentes no logran resolver es la conexión entre la medición y la respuesta: no convierten el dato ambiental en un flujo de gestión trazable (alerta, incidencia, acción correctiva, evidencia, verificación y cierre) ni están especializados en el dominio de proyectos viales.
 
-Nuestro enfoque inicial estará dirigido a *empresas constructoras y de mantenimiento vial que ejecutan y conservan proyectos viales en el Perú*. Sabremos que tenemos éxito cuando observemos una reducción medible en el tiempo de detección de incumplimientos, mayor cantidad de incidencias resueltas antes de una fiscalización externa, y una reducción en el tiempo dedicado a preparar auditorías.
+Nuestro producto, EcoRoad, abordará esta brecha mediante una plataforma web SaaS con sensores IoT que captura indicadores ambientales en tiempo real, detecta superaciones de los límites normativos, genera alertas y gestiona incidencias y acciones correctivas con evidencia, sobre tableros geolocalizados multi-proyecto.
+
+Nuestro enfoque inicial estará dirigido a las empresas constructoras y de mantenimiento y rehabilitación vial que ejecutan y conservan proyectos viales en el Perú, a través de sus responsables de gestión ambiental, ingenieros residentes, supervisores de campo y gerentes de proyecto.
+
+Sabremos que tenemos éxito cuando observemos que los clientes detectan los incumplimientos en menos tiempo, cierran más incidencias antes de una fiscalización externa, preparan sus reportes de cumplimiento en menos horas, registran sus mediciones en la plataforma en lugar de planillas y renuevan su suscripción tras el primer ciclo.
 
 #### 1.2.2.2. Lean UX Assumptions
 <a id="1-2-2-2-lean-ux-assumptions"></a>
 
 ##### A. Business Assumptions
 
-1. *Creemos que nuestros clientes necesitan:* un sistema de monitoreo ambiental centralizado y en tiempo real para sus proyectos viales.
-2. *Estas necesidades se resuelven con:* una plataforma SaaS que registra indicadores ambientales, detecta automáticamente incumplimientos normativos y visualiza el estado de los proyectos en un mapa.
-3. *Nuestros primeros clientes serán:* empresas constructoras y de conservación vial que operan en Lima y otras regiones del Perú.
-4. *Valor #1 esperado:* reducir el riesgo de sanciones por incumplimiento normativo mediante la detección temprana de incidencias.
-5. *Beneficios adicionales:* optimización del tiempo de auditoría, trazabilidad de los datos ambientales y mejora de la reputación institucional.
-6. *Adquisición:* alianzas con gremios del sector construcción (CAPECO), referidos sectoriales y marketing digital dirigido a gerentes de operaciones y proyectos.
-7. *Ingresos:* suscripción mensual o anual bajo planes escalables (Base, Profesional, Enterprise).
-8. *Competencia principal:* hojas de cálculo, sistemas de gestión documental genéricos y soluciones de monitoreo ambiental orientadas a otros sectores (minería, hidrocarburos).
-9. *Ventaja competitiva:* especialización en el dominio de proyectos viales, con motor de alertas automatizado y visualización geolocalizada nativa.
-10. *Mayor riesgo de producto:* que los equipos de campo no adopten el registro digital y continúen usando métodos manuales en paralelo.
-11. *Mitigación:* diseñar una interfaz simple y rápida de usar en campo, integrada con los flujos de trabajo ya existentes de los equipos de monitoreo.
+1. Creemos que las empresas constructoras y de mantenimiento vial perciben el riesgo de sanciones del MTC y del OEFA como su principal exposición ambiental y están dispuestas a pagar por reducirlo.
+2. Creemos que las alternativas actuales (planillas y hojas de cálculo, gestión documental genérica y plataformas de monitoreo de otros sectores) no cubren el flujo completo de gestión ambiental en obras viales, lo que deja un espacio desatendido en el mercado.
+3. Creemos que nuestra especialización en proyectos viales (tramos, frentes de trabajo y gestión multiproyecto) y el flujo trazable desde la detección hasta el cierre son una ventaja difícil de replicar por soluciones genéricas.
+4. Creemos que un modelo SaaS con planes Starter, Professional y Enterprise, más el alquiler mensual de sensores IoT independiente de la suscripción, es viable y escalable.
+5. Creemos que alquilar los sensores solo por el periodo de cada obra, o integrar los dispositivos compatibles que la empresa ya posee, reduce la barrera de entrada para los primeros clientes.
+6. Creemos que las alianzas con gremios del sector (CAPECO), los referidos sectoriales y el marketing digital dirigido a gerentes de operaciones y de proyectos nos darán acceso a los primeros clientes en Lima y otras regiones.
+7. Creemos que el monitoreo mediante sensores IoT es técnicamente viable en obra (conectividad, energía e instalación) con la confiabilidad que exige un expediente de cumplimiento.
+8. Creemos que el mayor riesgo del producto es que los equipos de campo no adopten el registro digital y mantengan métodos manuales en paralelo, y que una interfaz simple y rápida de usar en campo lo mitiga.
 
 ###### B. User Assumptions
 
-*- ¿Quién es el usuario?* Responsables de gestión ambiental, ingenieros residentes de obra y supervisores de campo.
-
-*- ¿Dónde encaja el producto?* En el proceso diario de monitoreo y control ambiental de un proyecto vial en ejecución o conservación.
-
-*- Problema a resolver:* la falta de visibilidad en tiempo real del cumplimiento normativo ambiental.
-
-*- Uso típico:* registro de mediciones de campo, revisión de alertas, consulta de tableros y generación de reportes para auditorías.
-
-*- Características importantes:* alertas automáticas, geolocalización, generación de reportes y acceso multiusuario por proyecto.
-
-*- Look & feel:* interfaz simple tipo dashboard, con codificación por color según nivel de riesgo (semáforo), pensada para uso rápido en campo desde dispositivos móviles.
+1. Creemos que el responsable de gestión ambiental o ingeniero ambiental es el usuario principal: consolida los datos y responde ante las fiscalizaciones. 
+2. Creemos que el inspector o supervisor de campo registra las mediciones y evidencias, muchas veces desde el móvil y con conectividad limitada. 
+3. Creemos que el ingeniero residente o director de obra responde por las incidencias y aprueba las acciones correctivas. 
+4. Creemos que el gerente de proyecto necesita una vista consolidada de varias obras para priorizar recursos. 
+5. Creemos que el administrador de la cuenta de la empresa asigna los permisos (Solo Lectura, Operación en Campo y Gestión Total) según el organigrama de su organización. 
+6. Creemos que los dos segmentos objetivo (constructoras y empresas de mantenimiento y rehabilitación vial) comparten el mismo dolor, aunque uno ejecuta obra nueva y el otro opera sobre vías existentes.
 
 ##### C. User Outcome & Benefit Assumptions
 
-- Los responsables de gestión ambiental identifican incidencias antes de que escalen a una infracción formal.
-- Los supervisores de obra reducen el tiempo dedicado a consolidar reportes manuales.
-- Las empresas constructoras y de mantenimiento entregan informes de auditoría con mayor rapidez y respaldo de datos trazables.
-- Los equipos de campo perciben la plataforma como una herramienta que simplifica su trabajo diario, no como una carga adicional.
+1. Creemos que los responsables de gestión ambiental quieren identificar los riesgos antes de que escalen a una multa o paralización. 
+2. Creemos que los supervisores de campo quieren registrar datos rápido, sin duplicar el trabajo en papel y sin consolidar reportes manuales. 
+3. Creemos que los ingenieros residentes y directores de obra quieren saber qué incidencias están abiertas, quién las atiende y con qué evidencia.
+4. Creemos que los gerentes de proyecto y los directores de operaciones buscan centralizar el estado ambiental de todas sus obras en un solo panel para facilitar su comparación. 
+5. Creemos que las empresas quieren llegar a una fiscalización con expedientes completos, trazables e inalterables y entregar sus reportes de cumplimiento con mayor rapidez. 
+6. Creemos que los equipos de campo quieren percibir la plataforma como una herramienta que simplifica su trabajo diario, no como una carga adicional.
+
 
 ##### D. Business Outcome Assumptions
 
-- Incremento en el número de empresas suscritas a los planes Profesional y Enterprise.
-- Reducción medible en el tiempo promedio de detección de incumplimientos normativos entre los clientes activos.
-- Aumento en la tasa de renovación de suscripciones tras el primer ciclo de facturación.
-- Mayor volumen de proyectos gestionados por cliente a lo largo del tiempo.
+1. Creemos que los clientes activos reducirán el tiempo promedio de detección de incumplimientos normativos en al menos 50 % respecto de su línea base con planillas. 
+2. Creemos que al menos el 80 % de las incidencias se cerrarán antes de una fiscalización externa. 
+3. Creemos que el tiempo de preparación de los reportes de cumplimiento para fiscalizaciones se reducirá en al menos 40 %. 
+4. Creemos que al menos 70 % de las mediciones de los proyectos se registrarán directamente en la plataforma, ya sea por sensor o desde el móvil.
+5. Creemos que al menos el 80 % de los clientes renovará su suscripción tras el primer ciclo de facturación. 
+6. Creemos que la cantidad de clientes en los planes Professional y Enterprise, y el número de proyectos y sensores por cliente, crecerán trimestre a trimestre. 
+7. Definition of done: consideraremos validado el MVP cuando al menos 3 empresas piloto cumplan las metas de detección, cierre de incidencias y tiempo de preparación de reportes durante 3 meses consecutivos de uso real.
 
 ##### E. Feature Assumptions
 
-1. *Tableros Geolocalizados en Tiempo Real:* mapean los proyectos y muestran el estado de los indicadores ambientales (aire, ruido, agua) por punto de monitoreo.
-2. *Generador de Reportes de Auditoría Automático:* consolida el histórico de indicadores e incidencias en documentación exportable para fiscalizaciones.
-3. *Sistema de Alertas Tempranas:* compara los datos ingresados frente a los límites normativos y crea automáticamente un ticket de incidencia ante una superación.
-4. *Dashboard de Control Geolocalizado Multi-Proyecto:* consolida el estado ambiental de múltiples proyectos viales en un mismo mapa.
+1. **Monitoreo ambiental mediante sensores IoT:** mide PM10 y PM2.5, ruido, vibraciones, turbidez, pH, temperatura y humedad; cada sensor se asocia a un punto del proyecto y envía sus mediciones automáticamente. 
+2. **Gestión de múltiples proyectos:** permite administrar varias obras desde una misma cuenta, con un mapa general que resume ubicación, tipo de proyecto, estado ambiental, sensores activos, alertas e incidencias pendientes. 
+3. **Dashboard ambiental geolocalizado por proyecto:** muestra los sensores sobre un mapa, los valores en tiempo real, el estado de cada punto de monitoreo, el histórico y las zonas de riesgo. 
+4. **Análisis y detección de riesgos:** compara automáticamente las mediciones con los umbrales y las clasifica en Óptimo, Advertencia/Riesgo o Crítico. 
+5. **Sistema de alertas:** genera una alerta que indica el indicador afectado, el valor, el nivel de riesgo, el proyecto, el tramo, el sensor y la fecha y hora de detección. 
+6. **Gestión de incidencias ambientales:** crea automáticamente una incidencia ante un estado crítico y permite seguirla con responsable y estado (Pendiente, En proceso, Atendida, Cerrada).
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 <a id="1-2-2-3-lean-ux-hypothesis-statements"></a>
