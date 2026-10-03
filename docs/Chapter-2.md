@@ -248,77 +248,63 @@ Entrevista 6
 | **Timing**                                                                                                                               | **Fin:** 04:14                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **Resumen**                                                                                                                              | **Perfil y Frustración:** <br> Supervisor de Campo de Mantenimiento Vial. Su principal frustración es tener la información ambiental dispersa entre formatos físicos, Excel, fotografías y WhatsApp. Esto dificulta organizar los registros, hacer seguimiento rápido a las incidencias y preparar los informes finales. <br> <br> **Comportamiento y Necesidades:** <br> Necesita una herramienta que permita registrar mediciones, fotografías e incidencias directamente desde el lugar de trabajo, asociándolas al tramo o kilómetro correspondiente. También requiere recibir y hacer seguimiento de las alertas para saber qué problemas están pendientes o ya fueron solucionados. <br><br> **Tecnología, Marcas y Canales:** <br> Utiliza principalmente celular, tablet y laptop. Registra información mediante formatos físicos y Excel, mientras que las fotografías se almacenan en celulares o carpetas en la computadora o nube. La comunicación con la oficina se realiza principalmente mediante WhatsApp y llamadas, especialmente cuando existe poca conectividad en carretera. |
 
-2.2.3. Análisis de entrevistas.
+### 2.2.3. Análisis de entrevistas.
 
-El siguiente análisis sintetiza los datos de las **5 entrevistas registradas** en las fuentes del proyecto, agrupándolas por segmento objetivo para definir con sustento estadístico las características objetivas y subjetivas requeridas en la elaboración de los arquetipos.
+En esta sección se realiza el análisis detallado de las entrevistas registradas, agrupándolas por segmento objetivo. Con el fin de construir arquetipos (User Personas) precisos, se han identificado las características objetivas y subjetivas más comunes, sustentadas estadísticamente (porcentajes) y vinculadas de manera explícita a los resúmenes de las entrevistas.
 
----
+A continuación, se presenta el consolidado estadístico visual de los hallazgos para ambos segmentos:
 
-#### **1\. Segmento 1: Empresas Constructoras Viales**
+<div align="center">
+  <img src="../assets/Chapter-2/analisis_entrevistas_v2.png" alt="Dashboard Estadístico de Análisis de Entrevistas EcoRoad" width="100%">
+</div>
+<br>
 
-*(Muestra analizada: 2 entrevistas – Fabián García y Gianfranco Sanguineti)*
+#### **1. Segmento 1: Empresas Constructoras Viales**
+*(Muestra analizada: 3 entrevistas – Fabián García, Gianfranco Sanguineti y Adrian Pariona)*
 
-##### **A. Características Objetivas**
+**A. Características Objetivas**
+*   **Perfil Demográfico y Profesional:**
+    *   La edad promedio del segmento es de **26.3 años** (rango de 26 a 27 años).
+    *   El **100% (3/3)** ocupa roles operativos y de control ambiental en campo. El **66.7% (2/3)** asume roles directos de supervisión ambiental (Fabián y Adrian), mientras que el **33.3% (1/3)** tiene un rol de gestión general de obra (Gianfranco como Residente).
+*   **Herramientas y Ecosistema Tecnológico:**
+    *   El **100% (3/3)** utiliza su **teléfono celular (smartphone)** como dispositivo principal en el frente de obra para capturar fotos y comunicarse.
+    *   El **100% (3/3)** sigue atado a flujos de trabajo tradicionales, manejando la información formal mediante **herramientas manuales (checklists en papel, libretas) y posterior digitación en Microsoft Excel**.
+    *   El **100% (3/3)** depende de **WhatsApp** (junto con llamadas o radio VHF, como indicó Adrian) como canal informal principal para reportar urgencias desde el campo.
+    *   El **66.7% (2/3)** (Fabián y Adrian) complementa el uso móvil con una **laptop** en la oficina técnica para consolidar los reportes.
+*   **Entorno de Conectividad:**
+    *   El **100% (3/3)** reporta operar rutinariamente en zonas con **señal inestable o nula** (Fabián precisó que hasta el 70% de la carretera no tiene señal, y Adrian confirmó fallas de sincronización por falta de red).
 
-* **Edad y perfil profesional:**
-    * **Edad promedio:** **26.5 años** (rango de 26 a 27 años).
-    * **Cargos representados:** El **50% (1/2)** corresponde al rol de **Especialista Ambiental** y el **50% (1/2)** al de **Residente de Obra**.
-* **Ecosistema tecnológico y herramientas:**
-    * **100% (2/2)** utiliza el **teléfono celular** como dispositivo principal de trabajo en el frente de obra.
-    * **100% (2/2)** realiza el control de información mediante **formatos manuales, libretas de campo y plantillas en Microsoft Excel**.
-    * **100% (2/2)** emplea **WhatsApp** como canal informal predominante para enviar fotos, audios y coordinar urgencias.
-    * **50% (1/2)** utiliza **laptop** en oficina y ha sustituido el uso de tablets por el smartphone.
-* **Entorno operativo y conectividad:**
-    * **100% (2/2)** opera en tramos de carretera con **conectividad inestable o nula**, destacando que en zonas de obra hasta un **70% del tramo carece de señal mobile/4G**.
-
-##### **B. Características Subjetivas (Puntos de Dolor, Necesidades y Actitudes)**
-
-* **Frustraciones y dolores principales:**
-    * **100% (2/2)** manifiesta alta frustración por la **carga burocrática y la pérdida de evidencias** dispersas en chats de WhatsApp o actas físicas, lo que genera demoras (hasta 4 días) recopilando datos para responder ante auditorías.
-    * **100% (2/2)** experimenta **estrés y ansiedad** debido a la brecha de tiempo entre la ocurrencia de una incidencia en campo y su reporte formal, exponiéndose a **paralizaciones de obra y sanciones** de entidades fiscalizadoras (OEFA/MTC).
-* **Necesidades clave para el arquetipo:**
-    * **100% (2/2)** requiere **eliminar el registro en papel** e implementar una solución digital móvil ágil directamente en terreno.
-    * **50% (1/2)** requiere **funcionamiento 100% offline** (sin señal) que clasifique imágenes por fecha y progresión kilométrica.
-    * **50% (1/2)** necesita un **sistema de alertas automáticas** hacia la oficina técnica ante riesgos ambientales.
-* **Actitudes y temores:**
-    * **50% (1/2)** muestra una actitud altamente operativa e impulsiva enfocado en auditorías en terreno.
-    * **50% (1/2)** expresa **desconfianza hacia plataformas 100% en la nube** por experiencias previas con caídas de servidores que bloquearon su acceso a documentos.
+**B. Características Subjetivas (Puntos de Dolor y Necesidades)**
+*   **Frustraciones Principales:**
+    *   El **100% (3/3)** sufre de **alta frustración y estrés por la carga burocrática y desorganización de evidencias**. Fabián pierde días buscando fotos en chats, Gianfranco se estresa consolidando reportes dispersos, y Adrian padece la lentitud (5 a 10 días) al cruzar fotos sueltas con Excel para responder ante el OEFA o MTC.
+    *   El **100% (3/3)** teme profundamente a las **multas y paralizaciones de obra** causadas por el retraso en la detección de un incidente o superaciones de límites normativos (como el polvo por falta de humectación reportado por Adrian).
+*   **Necesidades y Actitudes:**
+    *   El **100% (3/3)** necesita urgentemente **eliminar el uso del papel** y contar con un registro digital que automatice la comparación contra límites normativos sin digitación manual.
+    *   El **100% (3/3)** exige de manera no negociable que la solución funcione **100% offline (sin internet)** para el levantamiento de datos en terreno, debido a la alta tasa de fracaso de otras herramientas móviles que requieren conexión constante.
 
 ---
 
-#### **2\. Segmento 2: Empresas de Mantenimiento y Rehabilitación Vial**
+#### **2. Segmento 2: Empresas de Mantenimiento y Rehabilitación Vial**
+*(Muestra analizada: 3 entrevistas – Luana Cotrina, Renato Vega y Fabricio Aparicio)*
 
-*(Muestra analizada: 3 entrevistas – Luana Cotrina Ramirez, Renato Vega y Fabricio Aparicio)*
+**A. Características Objetivas**
+*   **Perfil Demográfico y Profesional:**
+    *   La edad promedio del segmento es de **25.3 años** (rango de 24 a 27 años).
+    *   Representan una visión desde la gerencia hasta el campo: **33.3%** Gerente de Operaciones (Luana), **33.3%** Especialista Ambiental (Renato) y **33.3%** Supervisor de Campo (Fabricio).
+*   **Herramientas y Ecosistema Tecnológico:**
+    *   El **100% (3/3)** utiliza el **teléfono celular** como principal herramienta de registro fotográfico y comunicación.
+    *   El **100% (3/3)** depende de archivos en **Excel y reportes físicos/PDF** para la consolidación de información ambiental.
+    *   El **66.7% (2/3)** (Renato y Fabricio) señala a **WhatsApp y llamadas telefónicas** como los canales predominantes de reporte hacia la oficina.
+    *   El **66.7% (2/3)** (Luana y Fabricio) utilizan **Laptops o Tablets** como apoyo administrativo complementario.
 
-##### **A. Características Objetivas**
-
-* **Edad y perfil profesional:**
-    * **Edad promedio:** **25.3 años** (rango de 24 a 27 años).
-    * **Cargos representados:**
-        * **33.3% (1/3):** Gerente de Operaciones.
-        * **33.3% (1/3):** Especialista Ambiental.
-        * **33.3% (1/3):** Supervisor de Campo de Mantenimiento Vial.
-* **Ecosistema tecnológico y herramientas:**
-    * **100% (3/3)** utiliza el **teléfono celular** para capturar fotografías, registrar mediciones o realizar llamadas.
-    * **100% (3/3)** depende de **Microsoft Excel, formatos físicos y/o reportes en PDF** para consolidar información.
-    * **66.7% (2/3)** utiliza **laptop y/o tablet** como herramientas de soporte operativo y administrativo.
-    * **66.7% (2/3)** utiliza **WhatsApp y llamadas telefónicas** para la comunicación entre el personal de campo y la oficina.
-* **Entorno operativo:**
-    * **100% (3/3)** gestiona **múltiples tramos o frentes de trabajo geográficamente dispersos** en carreteras abiertas al tráfico con problemas de señal.
-
-##### **B. Características Subjetivas (Puntos de Dolor, Necesidades y Actitudes)**
-
-* **Frustraciones y dolores principales:**
-    * **100% (3/3)** se siente frustrado por tener la **información ambiental fragmentada** (libretas, Excel, WhatsApp, carpetas en PC), lo que complica organizar registros e informes finales.
-    * **66.7% (2/3)** sufre por la **"ceguera operativa" y la falta de visibilidad en tiempo real**, causada por reportes semanales lentos o traspapeleo de fichas de campo.
-    * **33.3% (1/3)** se frustra por la lentitud (3 a 4 días) en comparar el desempeño entre tramos y el impacto que las multas sorpresivas tienen sobre el récord de licitaciones de la empresa.
-* **Necesidades clave para el arquetipo:**
-    * **100% (3/3)** necesita un sistema que registre y **asocie las evidencias e incidencias directamente al tramo o kilómetro correspondiente**.
-    * **66.7% (2/3)** requiere una **visión centralizada y en tiempo real** para dar seguimiento al estado de las alertas (pendientes vs. solucionadas).
-    * **33.3% (1/3)** busca un modelo de contratación **HaaS (alquiler de sensores en comodato)** para evitar inversiones de capital inicial (CapEx).
-* **Actitudes, temores y barreras:**
-    * **33.3% (1/3)** opera bajo un enfoque reactivo ("criterio de incendio"), atendiendo únicamente los problemas inminentes.
-    * **33.3% (1/3)** exige **garantías de ciberseguridad corporativa** y la posibilidad de mantener respaldos locales (offline) para auditorías estatales.
+**B. Características Subjetivas (Puntos de Dolor y Necesidades)**
+*   **Frustraciones Principales:**
+    *   El **100% (3/3)** identifica como su mayor problema la **"ceguera operativa" y la dispersión de información**. Luana se queja de reportes semanales lentos, mientras que Renato y Fabricio se frustran por el traspapeleo físico y la información fragmentada en chats.
+    *   El **100% (3/3)** se ve afectado por las **consecuencias de las incidencias tardías**. A Luana le afecta el récord de licitaciones de la empresa por multas sorpresivas, y a Renato le ha costado llamadas de atención formales.
+*   **Necesidades y Actitudes:**
+    *   El **100% (3/3)** necesita imperiosamente una **plataforma centralizada y en tiempo real** que consolide todos los frentes de trabajo y alertas.
+    *   El **66.7% (2/3)** (Renato y Fabricio, quienes operan directo en la vía) exigen que el sistema permita **asociar automáticamente la evidencia al kilómetro o tramo exacto**.
+    *   El **33.3% (1/3)** (Luana, desde el perfil gerencial) destaca una necesidad corporativa específica: **garantías de ciberseguridad corporativa y respaldos locales**, además de mostrar una actitud muy favorable a esquemas de alquiler de hardware (HaaS) para evitar gastos de capital (CapEx).
 
 2.3. Needfinding.
 
