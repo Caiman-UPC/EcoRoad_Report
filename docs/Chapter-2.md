@@ -139,11 +139,17 @@ Para posicionar a EcoRoad frente a la competencia internacional (como SiteHive y
 
 Las entrevistas semiestructuradas tienen como objetivo validar las hipótesis del problema, comprender los flujos de trabajo actuales y evaluar la disposición de adopción tecnológica frente a la propuesta de EcoRoad. Las preguntas se estructuran en una fase inicial de presentación y bloques diferenciados para cada uno de los dos segmentos objetivo.
 
-#### Preguntas de Presentación (Transversales)
-* ¿Cuál es tu nombre y edad?
-* ¿Cuál es tu cargo actual y hace cuánto tiempo te desempeñas en él?
-* ¿Cuáles son tus principales responsabilidades del día a día en relación con la gestión o supervisión ambiental del proyecto vial?
-
+#### Preguntas de Presentación (Transversales
+- ¿Cuál es tu nombre completo y tu edad?
+- ¿En qué distrito vives, cuál es tu estado civil y tienes personas a tu cargo?
+- ¿Cuál es tu formación y cuántos años de experiencia tienes en proyectos viales?
+- ¿Cuál es tu cargo actual y hace cuánto tiempo te desempeñas en él?
+- ¿Cuáles son tus principales responsabilidades del día a día en relación con la gestión o supervisión ambiental del proyecto vial?
+- ¿Cómo te describirías profesionalmente y qué habilidades consideras tus principales fortalezas?
+- ¿Qué marcas, equipos o herramientas usas o recomiendas en tu trabajo y quién influye en tu decisión de adoptar una nueva herramienta?
+- ¿Qué dispositivos, sistemas operativos y navegadores usas normalmente?
+- ¿Qué canales digitales usas para comunicarte con tu equipo (WhatsApp, correo, llamadas, videollamadas)?
+- ¿Qué objetivos profesionales quieres lograr en los próximos años?
 ---
 
 #### Segmento 1: Empresas Constructoras Viales
@@ -160,7 +166,7 @@ Las entrevistas semiestructuradas tienen como objetivo validar las hipótesis de
 **Preguntas Complementarias:**
 * ¿Quién más en tu organización necesita ver esta información ambiental y con qué frecuencia se la compartes?
 * ¿Has usado o probado alguna herramienta digital para el control de obras o cumplimiento normativo antes? ¿Qué te gustó o no te gustó de ella?
-
+* Cuéntame sobre alguna ocasión en la que un riesgo o incumplimiento ambiental se detectó tarde. ¿Qué pasó y qué consecuencias operativas o económicas tuvo?
 ---
 
 #### Segmento 2: Empresas de Mantenimiento y Rehabilitación Vial
@@ -179,6 +185,8 @@ Las entrevistas semiestructuradas tienen como objetivo validar las hipótesis de
 
 * ¿Cómo almacenan actualmente las fotografías, mediciones y documentos que sirven como evidencia de las actividades realizadas?
 * ¿Desde qué dispositivo suelen registrar información durante los trabajos de campo (celular, tablet, laptop) y qué dificultades tienen con la conectividad en las zonas donde trabajan?
+* Cuéntame sobre alguna incidencia ambiental que no se comunicó a tiempo o de la que se perdió información. ¿Qué pasó después?
+  Ambos: ¿Cómo te enteraste y qué pasos siguieron después? (déjala abierta, sin sugerir si fue por papel o por chat)
 
 2.2.2. Registro de entrevistas.
 En esta sección, se registra cada entrevista realizada. En total, se realizaron XXX entrevistas por cada segmento objetivo. Se detalla el nombre del miembro entrevistador y el del entrevistado. Además, se redacta un resumen general del contenido de la entrevista realizada.
