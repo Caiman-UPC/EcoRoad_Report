@@ -45,6 +45,7 @@ La paleta se deriva directamente de los colores institucionales definidos para E
 | <img src="../assets/Chapter-4/yellow.png" alt="yellow" style=height:40px> | `#E9B44C` | Condición de advertencia (semáforo ámbar) — indicador que se acerca al umbral establecido y puede derivar en una alerta |
 | <img src="../assets/Chapter-4/red.png" alt="red" style=height:40px>       | `#C0392B` | Condición crítica (semáforo rojo) — el indicador supera el umbral y el sistema genera una incidencia                    |
 
+
 **Spacing**
 
 Se define un sistema de espaciado en base 8px (8, 16, 24, 32, 40), compatible con grillas de 12 columnas para web y facilitando la futura adaptación a interfaces móviles. 
