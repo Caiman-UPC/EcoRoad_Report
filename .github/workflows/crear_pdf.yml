@@ -6,13 +6,15 @@ on:
 
 jobs:
   fabricar-documento:
-    runs-on: ubuntu-latest
+    # Fija la versión de Ubuntu para evitar problemas con la migración a Ubuntu 26
+    runs-on: ubuntu-24.04 
     steps:
       - name: 1. Descargar tus archivos de Markdown
         uses: actions/checkout@v4
 
       - name: 2. Instalar el programa Pandoc en el servidor
-        uses: r-lib/actions/setup-pandoc@v2
+        # Actualizamos a v3 para mayor compatibilidad
+        uses: r-lib/actions/setup-pandoc@v3 
         with:
           pandoc-version: '3.1'
 
