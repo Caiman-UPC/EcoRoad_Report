@@ -4,13 +4,13 @@ Capítulo IV: Product Design
 <a id="4-1-Style-Guidelines"></a>
 
 En esta sección, el equipo sienta las bases para contar con un repositorio central y organizado de uso común para todo el equipo, que incluye assets, fuentes tipográficas, componentes visuales, entre otros. 
-Esto con el fin de mantener una presentación consistente y enfocada de la marca EcoRoad a lo largo de todos los puntos de contacto con el usuario, ya sea en campo, en oficina o en los distintos dispositivos desde los que se accede a la plataforma.
+Esto con el fin de mantener una presentación consistente y enfocada de la marca EcoRoad a lo largo de todos los puntos de contacto con el usuario, ya sea en campo, en oficina o en los distintos dispositivos desde los que se accede a la plataforma.Para la construcción y estandarización visual de todos estos elementos, se ha utilizado **Figma** como herramienta principal de diseño.
 
 ### 4.1.1. General Style Guidelines
 <a id="4-1-1-General-Style-Guidelines"></a>
 
 Construimos la identidad de EcoRoad bajo directrices visuales de Branding, Typography, Colors y Spacing, así como las dimensiones adoptadas para el tono de comunicación y lenguaje aplicado por la marca.
-Estas decisiones se sustentan en el posicionamiento de EcoRoad como una plataforma que transforma el monitoreo ambiental en un flujo de gestión de detección de riesgos, alerta, incidencia, acción correctiva y evidencia, por lo que la identidad visual busca transmitir confiabilidad, precisión técnica y una ingeniería civil preventiva y sostenible.
+Estas decisiones se sustentan en el posicionamiento de EcoRoad como una plataforma que transforma el monitoreo ambiental en un flujo de gestión preventiva y sostenible, buscando transmitir confiabilidad y precisión técnica.
 
 **Branding:**
 
@@ -87,6 +87,16 @@ con tarjetas que muestran responsable asignado, ubicación, fecha/hora y miniatu
 * **Accesibilidad:**  contraste mínimo AA (WCAG 2.1) entre texto y fondo en todas las combinaciones de la paleta, verificado especialmente en el uso del amarillo 
 (#E9B44C) sobre crema, que requiere texto oscuro (#264653) para mantener legibilidad.
 
+### 4.1.3. Mobile Style Guidelines
+<a id="4-1-3-Mobile-Style-Guidelines"></a>
+
+Las interfaces para la versión web móvil (Mobile Web Browser) de EcoRoad están diseñadas bajo los principios de *Mobile-First*, considerando que los ingenieros residentes y supervisores operan en frentes de obra (campo) con incidencia de luz solar directa y mediante interacciones de una sola mano. Diseñados también en **Figma**, se establecen los siguientes lineamientos:
+
+* **Touch Targets:** Se establece un área táctil mínima de 44x44 px (y 48x48 px recomendada) para todos los botones de acción principal (CTAs), iconos de captura de evidencia fotográfica y controles de formularios para asegurar precisión operativa sin frustración.
+* **Navegación Móvil:** Sustitución de la barra lateral izquierda por una *Bottom Navigation Bar* (Barra de navegación inferior) para el acceso inmediato con el pulgar a los módulos clave: Inicio, Alertas, e Incidencias.
+* **Tipografía Responsiva (Legibilidad de Campo):** Escalamiento tipográfico que prioriza el alto contraste y el uso de fuentes de gran peso (Inter Black) para los valores numéricos de las lecturas ambientales, asegurando legibilidad bajo el sol.
+* **Simplificación Visual:** Ocultamiento de filtros avanzados de escritorio detrás de menús modales (Bottom Sheets) para mantener la limpieza visual en tarjetas de incidencias tipo Kanban.
+
 ## 4.2. Information Architecture
 <a id="4-2-information-architecture"></a>
 
@@ -95,20 +105,32 @@ La arquitectura de información de EcoRoad está diseñada para garantizar una n
 ### 4.2.1. Organization Systems
 <a id="4-2-1-organization-systems"></a>
 
-* **Jerarquía de Contenidos:** La estructura de la información fluye de lo general a lo específico. En la Landing Page pública se prioriza la propuesta de valor HaaS/SaaS y los beneficios de Caiman, mientras que en la Web Application la jerarquía organiza el portafolio global de proyectos viales hasta llegar al detalle micro de cada tramo, punto de monitoreo e incidencia.
+Para estructurar la complejidad de los datos ambientales y operativos, EcoRoad aplica diferentes sistemas de organización visual y esquemas de categorización que se adaptan al contexto del usuario:
 
-* **Secciones Principales de la Aplicación:** La plataforma se divide en módulos funcionales clave:
-    * **Dashboard Global:** Vista ejecutiva y multi-proyecto con indicadores de salud ambiental.
-    * **Mapa Interactivo:** Visualización geolocalizada de tramos viales y pines semafóricos.
-    * **Gestión de Proyectos:** Alta, configuración y administración de frentes de obra viales.
-    * **Puntos de Monitoreo:** Registro de telemetría y parámetros físicos (aire, ruido, agua).
-    * **Tablero de Incidencias:** Flujo Kanban para el seguimiento y resolución de desvíos normativos con evidencia multimedia.
-    * **Reportes y Auditorías:** Generación automatizada de expedientes y exportación en formato PDF.
-    * **Configuración y Suscripción:** Gestión de planes (Base, Profesional, Enterprise) y control de accesos basados en roles (RBAC).
+**Organización Visual del Contenido:**
+*   **Jerárquica (Visual Hierarchy):** Se aplica en la Web Application organizando el portafolio global de proyectos viales de lo general a lo específico. Desde los KPIs macro en el Dashboard Global hasta el detalle micro de cada tramo, punto de monitoreo e incidencia.
+*   **Secuencial (Step-by-step):** Utilizada en los formularios de registro de evidencias de campo y en el flujo Kanban de atención de incidencias, guiando al usuario paso a paso desde la notificación de la alerta hasta el cierre formal del ticket.
+*   **Matricial:** Implementada en la vista de configuración de accesos (RBAC), donde los administradores cruzan los roles de los usuarios (filas) con los módulos de acceso y permisos específicos (columnas).
 
-* **Agrupación de Contenidos:** Los datos operativos se agrupan lógicamente por severidad y contexto temporal. Las alertas y tickets críticos se destacan mediante códigos de color estandarizados (semáforo), permitiendo un escaneo visual rápido sin saturar al operador de campo.
+**Esquemas de Categorización de Contenido:**
+*   **Por Tópicos:** Utilizado para agrupar los módulos funcionales clave en la navegación lateral (Proyectos, Sensores, Alertas, Incidencias, Reportes, Configuración).
+*   **Cronológico:** Aplicado rigurosamente en el *Historial de Indicadores*, en los gráficos de telemetría y en el *Traceability History* de incidencias, ordenando los eventos ambientales desde el más reciente al más antiguo.
+*   **Alfabético:** Empleado en el listado general del portafolio de proyectos y en el directorio de colaboradores de la empresa para agilizar las búsquedas.
+*   **Según Audiencia:** La Landing Page pública segmenta y categoriza sus mensajes para resonar tanto con el equipo directivo/gerencial (enfocado en beneficios como evitar multas y modelo HaaS sin CapEx) como con el equipo operativo de campo (enfocado en la automatización del papeleo y alertas tempranas).
 
-4.2.2. Labeling Systems.
+### 4.2.2. Labeling Systems
+<a id="4-2-2-labeling-systems"></a>
+
+Para garantizar la simplicidad y evitar la confusión de los ingenieros y gerentes, el sistema de etiquetado de EcoRoad evita tecnicismos excesivos de software y adopta el *Ubiquitous Language* de la ingeniería civil y ambiental. Se emplean etiquetas con el mínimo número de palabras para representar conjuntos de información y sus asociaciones:
+
+*   **"Proyectos":** Etiqueta que asocia todo el portafolio de obras, frentes y tramos viales pertenecientes a una concesión o constructora.
+*   **"Sensores":** Engloba todo el hardware IoT, su estado de calibración, conexión y geolocalización.
+*   **"Alertas":** Representa de forma directa todas las notificaciones por superaciones preventivas de umbrales ambientales (ECA).
+*   **"Incidencias":** Etiqueta que agrupa los flujos de respuesta, acciones correctivas operativas y tickets en curso.
+*   **"Reportes":** Asociación rápida a expedientes formales, auditorías PDF y logs inmutables.
+*   **"Equipo":** Gestiona roles, colaboradores y permisos (RBAC).
+
+Este etiquetado textual se acompaña sistemáticamente de iconografía universal (ej. un icono de advertencia junto a "Alertas", un icono de mapa junto a "Proyectos") para acelerar el escaneo cognitivo.
 
 ### 4.2.3. SEO Tags and Meta Tags
 <a id="4-2-3-seo-tags-and-meta-tags"></a>
@@ -130,20 +152,26 @@ Para asegurar la visibilidad en motores de búsqueda y la correcta compartición
 ### 4.2.4. Searching Systems
 <a id="4-2-4-searching-systems"></a>
 
-* **Barra de Búsqueda Global:** Ubicada de forma prominente en el encabezado principal de la Web Application, permitiendo localizar de inmediato proyectos por nombre o código de tramo vial, puntos de control específicos e incidencias registradas.
-* **Filtros y Facetas Contextuales:** Herramientas de acotación de datos dentro de los módulos para filtrar la información por tipo de indicador ambiental (*aire, ruido, agua*), rango de fechas y niveles de severidad del riesgo.
-* **Historial de Búsqueda:** Registro automatizado de consultas recientes para agilizar el flujo de trabajo de los auditores y residentes de obra que alternan entre múltiples frentes de trabajo.
-* **Resultados Relevantes:** Priorización inteligente de resultados basada en los permisos de usuario (RBAC) y la cartera de proyectos activa asignada a su cuenta.
+Para evitar que los usuarios se sientan perdidos ante el gran volumen de datos telemétricos, EcoRoad ofrece sistemas de búsqueda optimizados:
+
+*   **Barra de Búsqueda Global:** Ubicada de forma prominente en el encabezado principal de la Web Application, permitiendo localizar de inmediato proyectos por nombre o código de tramo vial.
+*   **Filtros y Facetas Contextuales:** Herramientas de acotación de datos dentro de los módulos para filtrar la información por tipo de indicador ambiental (*aire, ruido, agua*), rango de fechas y niveles de severidad del riesgo.
+*   **Historial de Búsqueda:** Registro automatizado de consultas recientes para agilizar el flujo de trabajo de auditores y residentes que alternan entre frentes recurrentes.
+*   **Presentación de Resultados:** Los resultados lucirán en formato de tarjetas (cards) resumidas para entidades como proyectos o incidencias, destacando en negrita el término buscado dentro del título o descripción para facilitar el reconocimiento visual rápido. La priorización inteligente de resultados se basará en los permisos de usuario (RBAC).
 
 ### 4.2.5. Navigation Systems
 <a id="4-2-5-navigation-systems"></a>
 
-* **Navegación Global:** La barra superior y el menú lateral (*Sidebar*) permanente aseguran el acceso transversal a las secciones principales de la plataforma desde cualquier pantalla del sistema.
-* **Navegación Contextual:** Enlaces integrados dentro de las tarjetas de proyectos y botones de acción rápida (*CTAs*) que guían al usuario desde la vista macro del portafolio hasta el detalle analítico de una incidencia o punto de monitoreo.
-* **Migas de Pan (Breadcrumbs):** Elementos de rastreo ubicados en la cabecera interna (ej. *Portafolio > Autopista Norte > Tramo 3 > Punto de Control #02*) que indican la ruta de navegación actual y permiten un retroceso jerárquico inmediato.
-* **Navegación Móvil:** Adaptación mediante menús colapsables tipo hamburguesa optimizados para pantallas táctiles, asegurando la usabilidad de campo en dispositivos móviles de los ingenieros residentes.
+Las acciones y técnicas que guiarán a los usuarios a través del producto para cumplir sus metas operativas incluyen:
 
-4.3. Landing Page UI Design.
+*   **Navegación Global:** La barra superior y el menú lateral (*Sidebar*) permanente aseguran el acceso transversal a las secciones principales de la plataforma desde cualquier pantalla del sistema.
+*   **Navegación Contextual:** Enlaces integrados dentro de las tarjetas de proyectos y botones de acción rápida (*CTAs*) que guían al usuario desde la vista macro del portafolio hasta el detalle analítico de una incidencia o punto de monitoreo específico.
+*   **Migas de Pan (Breadcrumbs):** Elementos de rastreo ubicados en la cabecera interna (ej. *Portafolio > Autopista Norte > Tramo 3 > Punto de Control #02*) que indican la ruta de navegación actual y permiten un retroceso jerárquico inmediato.
+*   **Navegación Móvil:** Adaptación de los menús en dispositivos táctiles utilizando el patrón de menú hamburguesa para configuraciones y Bottom Navigation Bars para los módulos operativos de campo frecuentes.
+
+## 4.3. Landing Page UI Design.
+
+En esta sección el equipo elabora la propuesta de UI para el Landing Page. A través del uso de la herramienta **Figma**, se han traducido las decisiones de diseño, lineamientos de identidad visual y de arquitectura de la información en prototipos estructurales de alta y baja fidelidad.
 
 4.3.1. Landing Page Wireframe.
 
@@ -299,7 +327,9 @@ El Footer (pie de página) de la plataforma cierra el sitio con una estructura i
   <img src="../assets/Chapter-4/footer.png" alt="Paso 4">
 </div>
 
-4.4. Web Applications UX/UI Design.
+## 4.4. Web Applications UX/UI Design.
+
+Esta sección incluye las propuestas visuales y de interacción para las aplicaciones de la experiencia digital privada. Todos los artefactos visuales (Wireframes y Mock-ups) han sido creados en **Figma**, mientras que los diagramas de flujos de interacción (Wireflows y User Flows) han sido elaborados analíticamente en la herramienta **FigJam**.
 
 4.4.1. Web Applications Wireframes.
 
