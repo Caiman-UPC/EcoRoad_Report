@@ -410,6 +410,9 @@ El mayor cuello de botella en el viaje de Piero se concentra en las etapas 2 y 3
 
 Para desarrollar los Empathy Maps, se tomaron como base los hallazgos e información recopilada en el estudio previo de los User Personas. Siguiendo la metodología, se ubicó al centro de cada esquema al arquetipo correspondiente para analizar de forma integral su entorno, reacciones emocionales, conductas habituales y requerimientos clave.
 
+<div align="center"><img src="../assets/Chapter-2/EmpathyMap.png" alt="Gráfico Estadístico Administradores" width="80%"></div>
+<br>
+
 **Segmento 1: Empresas constructoras viales**
 
 En este mapa se analizó a Diego Dávalos, un ingeniero civil de campo y residente de obra con la responsabilidad de garantizar la ejecución táctica y el cumplimiento ambiental operativo en los tramos viales. Se identificó que piensa constantemente en la necesidad de simplificar su trabajo en la pista y teme cometer errores de registro que deriven en multas severas. Escucha las exigencias de la consultora supervisora y los reclamos de su cuadrilla, y observa un entorno rudo y cambiante con herramientas manuales obsoletas y carpetas desorganizadas. Diego expresa la necesidad de contar con una herramienta móvil rápida que funcione sin conexión, y actúa recorriendo los frentes, tomando notas físicas y compilando datos a última hora. Su dolor principal es la conectividad intermitente, la ausencia de un sistema centralizado y el estrés por la recopilación manual, mientras que su ganancia esperada es lograr una aplicación móvil con modo offline, alertas automáticas y mayor control operativo para las auditorías.
