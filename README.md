@@ -76,3 +76,9 @@
 | 1.0.9 | 16/9/2026 | Guillen Chavez, Eduardo Martín            | Facilitación y documentación del Big Picture Event Storming y definición de Ubiquitous Language. |
 | 1.1.0 | 17/9/2026 | Yarleque Ruiz, Cristina Marcela           | Redacción e ingeniería de requerimientos mediante la especificación de User Stories (3.1). |
 | 1.1.1 | 18/9/2026 | Salcedo Muñoz, Andy Alfredo Hipolito      | Creación del diagrama de Impact Mapping (3.2) y revisión general de consistencia del informe. |
+
+Project Report Collaboration Insights
+
+Link de los repositorios de la organización: https://github.com/Caiman-UPC
+
+Link del repositorio del Informe: https://github.com/Caiman-UPC/EcoRoad_Report.git
