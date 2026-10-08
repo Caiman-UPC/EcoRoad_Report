@@ -1,10 +1,9 @@
-Capítulo IV: Product Design
+# Capítulo IV: Product Design
 
-## 4.1. Style Guidelines.
+## 4.1. Style Guidelines
 <a id="4-1-Style-Guidelines"></a>
 
-En esta sección, el equipo sienta las bases para contar con un repositorio central y organizado de uso común para todo el equipo, que incluye assets, fuentes tipográficas, componentes visuales, entre otros. 
-Esto con el fin de mantener una presentación consistente y enfocada de la marca EcoRoad a lo largo de todos los puntos de contacto con el usuario, ya sea en campo, en oficina o en los distintos dispositivos desde los que se accede a la plataforma.Para la construcción y estandarización visual de todos estos elementos, se ha utilizado **Figma** como herramienta principal de diseño.
+En esta sección, el equipo sienta las bases para contar con un repositorio central y organizado de uso común para todo el equipo, que incluye assets, fuentes tipográficas, componentes visuales, entre otros. Esto con el fin de mantener una presentación consistente y enfocada de la marca EcoRoad a lo largo de todos los puntos de contacto con el usuario, ya sea en campo, en oficina o en los distintos dispositivos desde los que se accede a la plataforma. Para la construcción y estandarización visual de todos estos elementos, se ha utilizado **Figma** como herramienta principal de diseño.
 
 ### 4.1.1. General Style Guidelines
 <a id="4-1-1-General-Style-Guidelines"></a>
