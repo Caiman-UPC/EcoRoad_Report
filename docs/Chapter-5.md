@@ -400,3 +400,96 @@ Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrol
 5.3.3. Evaluaciones según heurísticas.
 
 5.4. Video About-the-Product.
+
+## Video About-the-Team
+
+<p>
+  El video "About the Team" presenta al equipo de desarrollo de Caiman, destacando las habilidades, 
+  roles y contribuciones de cada miembro en el proyecto EcoRoad. Este video complementa la documentación del 
+  proyecto mostrando el lado humano detrás del desarrollo de la solución.
+</p>
+
+<h4>Información General del Video</h4>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><strong>Título del Video</strong></td>
+      <td>Caimán: Meet the Team Behind EcoRoad</td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>?? minutos ?? segundos</td>
+    </tr>
+    <tr>
+      <td><strong>Fecha de Grabación</strong></td>
+      <td>//</td>
+    </tr>
+    <tr>
+      <td><strong>URL YouTube</strong></td>
+      <td><a href=""></a></td>
+    </tr>
+    <tr>
+      <td><strong>URL Microsoft Stream</strong></td>
+      <td><a href=""></a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Screenshot del video:</strong></p>
+<img src="../images/AboutTheTeam-image.png" alt="EcoRoad About the Team">
+
+<h4>Contenido del Video</h4>
+
+<p>
+  El video incluye presentaciones individuales de cada miembro del equipo, destacando:
+</p>
+
+<ul>
+  <li>Nombre completo y rol en el proyecto</li>
+  <li>Responsabilidades principales durante el desarrollo</li>
+  <li>Tecnologías y herramientas utilizadas</li>
+  <li>Aprendizajes clave del proyecto VEYRA</li>
+  <li>Expectativas para futuras iteraciones</li>
+</ul>
+
+<h4>Miembros del Equipo</h4>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre Completo</th>
+      <th>Rol Principal</th>
+      <th>Contribuciones Destacadas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Guillen Chavez, Eduardo Martín</td>
+      <td>Backend and Frontend Developer</td>
+      <td>Implementación de servicios REST, arquitectura del Backend</td>
+    </tr>
+    <tr>
+      <td>Salcedo Muñoz, Andy Alfredo Hipolito</td>
+      <td>Backend and Frontend Developer</td>
+      <td>Configuración de Azure, Vercel y GitHub Pages</td>
+    </tr>
+    <tr>
+      <td>Torres Júarez, Alisee Muriel</td>
+      <td>Backend and Frontend Developer</td>
+      <td>Diseño de interfaces, implementación de componentes Angular</td>
+    </tr>
+    <tr>
+      <td>Roman Lopez, Miguel Angel Junior</td>
+      <td>Backend and Frontend Developer</td>
+      <td>Desarrollo de vistas, integración con API Backend</td>
+    </tr>
+    <tr>
+      <td>Yarleque Ruiz, Cristina Marcela</td>
+      <td>Backend and Frontend Developer</td>
+      <td>Diseño de diagramas C4, Frontend, Backend y DataBase</td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="page-break-after: always;"></div>
