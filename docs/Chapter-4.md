@@ -727,10 +727,10 @@ Se centra en la definición de diagramas de clases, la interacción entre objeto
 <a id="4-8-1-database-diagrams"></a>
 
 ### Bounded Context 1 - Suscriptions and Payment:
-![Database Diagram - EcoRoad](../assets/DBDiagram1.jpeg)
+![Database Diagram - EcoRoad](../assets/DBDiagram1.png)
 
 ### Bounded Context 2 - Identity and Access Management:
-![Database Diagram - EcoRoad](../assets/DBDiagram2.jpeg)
+![Database Diagram - EcoRoad](../assets/DBDiagram2.png)
 
 ### Bounded Context 3 - Project and Road Site Management:
 ![Database Diagram - EcoRoad](../assets/DBDiagram3.jpeg)
