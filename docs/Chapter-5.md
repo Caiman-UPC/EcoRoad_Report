@@ -624,3 +624,132 @@ Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrol
 </ul>
 
 <div style="page-break-after: always;"></div>
+
+## Anexos
+
+<h4>Anexo A: Enlaces de Despliegue y Repositorios</h4>
+
+<p>A continuación se listan los enlaces a los entornos de producción y los repositorios de código fuente utilizados durante todo el ciclo de vida del proyecto.</p>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Recurso</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Landing Page (GitHub Pages)</strong></td>
+      <td><a href=""></a></td>
+    </tr>
+    <tr>
+      <td><strong>Frontend Web Application (Vercel Prod)</strong></td>
+      <td><a href=""></a></td>
+    </tr>
+    <tr>
+      <td><strong>Backend API Services (Azure Prod)</strong></td>
+      <td><a href=""></a></td>
+    </tr>
+    <tr>
+      <td><strong>API Documentation (Swagger UI)</strong></td>
+      <td><a href=""></a></td>
+    </tr>
+    <tr>
+      <td><strong>Repositorio Landing Page</strong></td>
+      <td><a href=""></a></td>
+    </tr>
+    <tr>
+      <td><strong>Repositorio Frontend</strong></td>
+      <td><a href=""></a></td>
+    </tr>
+    <tr>
+      <td><strong>Repositorio Backend</strong></td>
+      <td><a href=""></a></td>
+    </tr>
+    <tr>
+      <td><strong>Repositorio Project Report</strong></td>
+      <td><a href=""></a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Anexo B: Videos de Exposiciones</h4>
+
+<p>Registro histórico de todas las exposiciones y videos promocionales presentados durante el ciclo académico 202520.</p>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Entrega / Hito</th>
+      <th>Plataforma</th>
+      <th>URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2"><strong>Video de Exposición TB1 (Sprint 1)</strong></td>
+      <td>YouTube</td>
+      <td><a href=""></a></td>
+    </tr>
+    <tr>
+      <td>Microsoft Stream</td>
+      <td><a href=""></a></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Video de Exposición TP1 (Sprint 2)</strong></td>
+      <td>YouTube</td>
+      <td><a href=""></a></td>
+    </tr>
+    <tr>
+      <td>Microsoft Stream</td>
+      <td><a href=""></a></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Video de Exposición TB2 (Sprint 3)</strong></td>
+      <td>YouTube</td>
+      <td><a href=""></a></td>
+    </tr>
+    <tr>
+      <td>Microsoft Stream</td>
+      <td><a href="#"></a></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Video de Exposición Final TF1 (Sprint 4)</strong></td>
+      <td>YouTube</td>
+      <td><a href="#"></a></td>
+    </tr>
+    <tr>
+      <td>Microsoft Stream</td>
+      <td><a href="#"></a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Anexo C: Videos del Proyecto</h4>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <td rowspan="2"><strong>Video "About the Product"</strong></td>
+      <td>YouTube</td>
+      <td><a href=""></a></td>
+    </tr>
+    <tr>
+      <td>Microsoft Stream</td>
+      <td><a href=""></a></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><strong>Video "About the Team"</strong></td>
+      <td>YouTube</td>
+      <td><a href=""></a></td>
+    </tr>
+    <tr>
+      <td>Microsoft Stream</td>
+      <td><a href=""></a></td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
