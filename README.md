@@ -61,3 +61,18 @@
 <hr>
 
 ## Registro de Versiones del Informe
+
+| Versión |   Fecha   | Autor                                     | Descripción |
+| :---: |:---------:|:------------------------------------------| :--- |
+| 1.0.0 | 10/9/2026 | Yarleque Ruiz, Cristina Marcela           | Inicialización del repositorio, estructura base y desarrollo del 1.1. Startup Profile (Descripción y perfiles). |
+| 1.0.1 | 12/9/2026 | Yarleque Ruiz, Cristina Marcela           | Desarrollo del 1.2. Solution Profile: Antecedentes, problemática y formulación de Lean UX Problem Statements. |
+| 1.0.2 | 12/9/2026 | Yarleque Ruiz, Cristina Marcela           | Redacción de Lean UX Assumptions y estructuración de las Lean UX Hypothesis Statements. |
+| 1.0.3 | 13/9/2026 | Salcedo Muñoz, Andy Alfredo Hipolito      | Diseño y completado del Lean UX Canvas del proyecto. |
+| 1.0.4 | 13/9/2026 | Yarleque Ruiz, Cristina Marcela           | Definición y declaración de los Segmentos Objetivo (1.3). |
+| 1.0.5 | 14/9/2026 | Guillen Chavez, Eduardo Martín            | Investigación del 2.1. Competidores: Análisis competitivo, estrategias y tácticas frente a rivales. |
+| 1.0.6 | 14/9/2026 | Román López, Miguel Ángel Junior          | Planificación de Entrevistas (2.2): Diseño de guías, registro de sesiones y análisis de resultados de usuarios. |
+| 1.0.7 | 14/9/2026 | Salcedo Muñoz, Andy Alfredo Hipolito      | Fase de Needfinding (2.3): Creación de User Personas y elaboración de la User Task Matrix. |
+| 1.0.8 | 15/9/2026 | Torres Júarez, Alisee Muriel              | Modelado de la experiencia de usuario: User Journey Mapping y Empathy Mapping. |
+| 1.0.9 | 16/9/2026 | Guillen Chavez, Eduardo Martín            | Facilitación y documentación del Big Picture Event Storming y definición de Ubiquitous Language. |
+| 1.1.0 | 17/9/2026 | Yarleque Ruiz, Cristina Marcela           | Redacción e ingeniería de requerimientos mediante la especificación de User Stories (3.1). |
+| 1.1.1 | 18/9/2026 | Salcedo Muñoz, Andy Alfredo Hipolito      | Creación del diagrama de Impact Mapping (3.2) y revisión general de consistencia del informe. |
