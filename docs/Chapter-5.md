@@ -485,6 +485,49 @@ Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrol
 
 ---
 
+## Conclusiones
+
+### Conclusiones y recomendaciones
+
+<p>
+ Al finalizar el ciclo de desarrollo y validación de la plataforma EcoRoad, el equipo ha llegado a las siguientes conclusiones, contrastando los resultados obtenidos con los planteamientos iniciales del proceso Lean UX:
+</p>
+
+<p><strong>1. Validación de Problem Statements y Supuestos (Assumptions):</strong></p>
+<p>
+  Inicialmente, se estableció como Problem Statement que las empresas constructoras y de mantenimiento vial sufrían de un registro manual, fragmentado y tardío de indicadores ambientales (aire, ruido, agua) mediante planillas físicas y hojas de cálculo. Esta situación les impedía conectar la medición con una respuesta inmediata ante las fiscalizaciones del MTC u OEFA. Tras las entrevistas de validación, se confirmó que esta dispersión genera "ceguera operativa" y estrés en los residentes de obra al momento de compilar los reportes, validando nuestro enfoque en la plataforma centralizada. Nuestro supuesto de negocio (Business Assumption) indicaba que el mayor riesgo era que los equipos de campo se resistieran a adoptar el registro digital y mantuvieran métodos manuales. Sin embargo, la validación demostró que el segmento operativo demanda con urgencia una aplicación móvil, desafiando el supuesto de baja adopción tecnológica siempre y cuando la herramienta cuente con un funcionamiento 100% offline (sin conexión), dado que operan en tramos donde hasta el 70% de la carretera carece de señal.
+</p>
+
+<p><strong>2. Contrastación de Hipótesis (Hypothesis Statements):</strong></p>
+<ul>
+  <li>
+    <strong>Hipótesis de Valor para Ingenieros y Gerentes:</strong> Se planteó que al proporcionar un dashboard ambiental geolocalizado por proyecto, se lograría reducir en al menos un 50% el tiempo de detección de incumplimientos normativos. Los hallazgos confirmaron esta hipótesis, ya que la funcionalidad de ver en tiempo real el estado de cada tramo resuelve directamente el dolor de la gestión multisitio en vías abiertas al tráfico.
+  </li>
+  <li>
+    <strong>Hipótesis de Registro de Evidencias:</strong> Se creía que el registro de evidencias (fotografía, fecha, hora y ubicación) asociado a cada incidencia garantizaría que los expedientes de cumplimiento fuesen aceptados sin observaciones. Las entrevistas indicaron que esta característica es vital, pues los especialistas ambientales confirmaron que perder información y fotografías en chats informales de WhatsApp les ha costado paralizaciones de frentes de obra y multas.
+  </li>
+</ul>
+
+<p><strong>3. Cumplimiento de Criterios de Éxito:</strong></p>
+<p>
+  Se logró diseñar la arquitectura del sistema, integrando una Landing Page, una Single Page Application en Angular y un API en Spring Boot para procesar la telemetría IoT y los tickets de incidencia. Los criterios de éxito apuntaban a que los clientes registren al menos el 70% de las mediciones de los proyectos directamente en la plataforma. No obstante, los resultados mostraron que el éxito de estas métricas depende de la autonomía del usuario en condiciones ambientales extremas. Esto sugiere que la usabilidad de la interfaz bajo luz solar directa (fuentes tipográficas de alto peso) y la capacidad de sincronización de datos por lotes (batch) tras recuperar la conexión son obligatorias para cumplir dicho criterio de adopción.   
+</p>
+
+<p><strong>Recomendaciones (Roadmap):</strong></p>
+<p>
+  Basados en los hallazgos y el análisis competitivo actual, se recomienda para las siguientes etapas de los productos digitales:
+</p>
+<ul>
+  <li>
+    <strong>Desarrollo de Aplicación Nativa Móvil Offline-First:</strong> Dado el uso exclusivo de smartphones en terrenos con conectividad inestable o nula, se recomienda migrar el módulo operativo de campo hacia una app nativa robusta que utilice bases de datos locales. Esto garantizará el registro ininterrumpido de evidencias geolocalizadas que se sincronicen de manera automática al recuperar la señal.
+  </li>
+  <li>
+    <strong>Integración con Suites de Construcción Corporativas:</strong> Para contrarrestar la amenaza de suites generales (como Autodesk Construction Cloud) identificada en el análisis competitivo, se sugiere desarrollar APIs que permitan exportar las incidencias ambientales y mapas directamente a los modelos BIM o software de control documental que ya utilizan las grandes constructoras.
+  </li>
+  <li>
+    <strong>Apertura del Ecosistema IoT (Hardware Agnostic):</strong> Se recomienda refinar el módulo Asset Management Backend para permitir que las empresas no solo adquieran equipos bajo el modelo HaaS de EcoRoad, sino que puedan conectar sus propios sensores ambientales preexistentes mediante protocolos estándar, reduciendo significativamente los costos de capital (CapEx) para facilitar el cierre de ventas.
+  </li>
+
 ## Video About-the-Team
 
 <p>
