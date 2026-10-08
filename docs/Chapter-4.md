@@ -8,17 +8,19 @@ En esta sección, el equipo sienta las bases para contar con un repositorio cent
 ### 4.1.1. General Style Guidelines
 <a id="4-1-1-General-Style-Guidelines"></a>
 
-Construimos la identidad de EcoRoad bajo directrices visuales de Branding, Typography, Colors y Spacing, así como las dimensiones adoptadas para el tono de comunicación y lenguaje aplicado por la marca.
-Estas decisiones se sustentan en el posicionamiento de EcoRoad como una plataforma que transforma el monitoreo ambiental en un flujo de gestión preventiva y sostenible, buscando transmitir confiabilidad y precisión técnica.
+Construimos la identidad de EcoRoad bajo directrices visuales de Branding, Typography, Colors y Spacing, así como las dimensiones adoptadas para el tono de comunicación y lenguaje aplicado por la marca. Estas decisiones se sustentan en el posicionamiento de EcoRoad como una plataforma que transforma el monitoreo ambiental en un flujo de gestión preventiva y sostenible, buscando transmitir confiabilidad y precisión técnica.
 
 **Branding:**
 
 El logotipo de EcoRoad sintetiza los pilares conceptuales de la propuesta: naturaleza, infraestructura vial y monitoreo ambiental en tiempo real mediante IoT.
+* **Hoja (naturaleza/sostenibilidad):** Representa el componente ambiental que la plataforma monitorea (aire, ruido, agua, vibraciones) y la orientación hacia una gestión vial más sostenible.
+* **Carretera (infraestructura vial):** Representa el sector de aplicación del producto (construcción y mantenimiento), transmitiendo avance y trazabilidad.
+* **Montañas y sol (contexto geográfico):** Hacen referencia a los tramos, frentes de trabajo y puntos de monitoreo en campo.
+* **Contenedor circular:** Refuerza la idea de un ciclo completo de gestión ambiental (monitoreo -> alerta -> incidencia -> evidencia -> cierre).
 
-* **Hoja (naturaleza/sostenibilidad)**: Representa el componente ambiental que la plataforma monitorea (aire, ruido, agua, vibraciones) y la orientación hacia una gestión vial más sostenible. 
-* **Carretera (infraestructura vial)**: Representa el sector de aplicación del producto, construcción, mantenimiento y rehabilitación de vías, transmite avance, trazabilidad y dirección, en línea con el seguimiento de acciones correctivas hasta el cierre de cada incidencia. 
-* **Montañas y sol (contexto geográfico y monitoreo)**: Hacen referencia a los tramos, frentes de trabajo y puntos de monitoreo que la plataforma visualiza mediante dashboards geolocalizados. 
-* **Contenedor circular**: Refuerza la idea de un ciclo completo de gestión ambiental (monitoreo -> alerta -> incidencia -> acción correctiva -> evidencia -> cierre), coherente con el enfoque preventivo y no solo descriptivo de la plataforma.
+<p align="center">
+  <img src="../assets/Chapter-4/EcoRoadlogo.png" alt="EcoRoadLogo" width="350px" height="auto"/>
+</p>
 
 **Typography:**
 
