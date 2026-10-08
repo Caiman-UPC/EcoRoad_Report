@@ -1,5 +1,7 @@
 # Capítulo IV: Product Design
 
+En este capítulo se abarcan aspectos de experiencia de usuario y arquitectura, incluyendo guías de estilo, arquitectura de información y el diseño tanto de la Landing Page como de la Web Application hasta la fundamentación técnica y de datos, compuesta por la arquitectura de software orientada al dominio (DDD), el diseño orientado a objetos y el modelado de la base de datos. Cada una de estas decisiones de diseño está alineada estrictamente con las exigencias del sector y los estándares de optimización, sostenibilidad y calidad que requiere la solución de EcoRoad.
+
 ## 4.1. Style Guidelines
 <a id="4-1-Style-Guidelines"></a>
 
@@ -19,7 +21,7 @@ El logotipo de EcoRoad sintetiza los pilares conceptuales de la propuesta: natur
 * **Contenedor circular:** Refuerza la idea de un ciclo completo de gestión ambiental (monitoreo -> alerta -> incidencia -> evidencia -> cierre).
 
 <p align="center">
-  <img src="../assets/Chapter-4/EcoRoadlogo.png" alt="EcoRoadLogo" width="350px" height="auto"/>
+  <img src="../assets/Chapter-4/EcoRoadLogo.png" alt="EcoRoadLogo" width="350px" height="auto"/>
 </p>
 
 **Typography:**
@@ -174,7 +176,7 @@ Las acciones y técnicas que guiarán a los usuarios a través del producto para
 
 En esta sección el equipo elabora la propuesta de UI para el Landing Page. A través del uso de la herramienta **Figma**, se han traducido las decisiones de diseño, lineamientos de identidad visual y de arquitectura de la información en prototipos estructurales de alta y baja fidelidad.
 
-4.3.1. Landing Page Wireframe.
+### 4.3.1. Landing Page Wireframe.
 
 El wireframe de nuestra página de inicio sirve como un mapa visual que define la estructura y el flujo de la información. Este esquema asegura una disposición lógica de los componentes, facilitando la navegación y destacando la propuesta de valor de EcoRoad. Las secciones del wireframe están diseñadas para contar una historia completa y persuasiva:
 
@@ -332,7 +334,7 @@ El Footer (pie de página) de la plataforma cierra el sitio con una estructura i
 
 Esta sección incluye las propuestas visuales y de interacción para las aplicaciones de la experiencia digital privada. Todos los artefactos visuales (Wireframes y Mock-ups) han sido creados en **Figma**, mientras que los diagramas de flujos de interacción (Wireflows y User Flows) han sido elaborados analíticamente en la herramienta **FigJam**.
 
-4.4.1. Web Applications Wireframes.
+### 4.4.1. Web Applications Wireframes.
 
 **Home**
 
@@ -399,9 +401,9 @@ Permite administrar usuarios y asignar permisos granulares basados en roles (RBA
   <img src="../assets/Chapter-4/wf-team.png" alt="Team">
 </div>
 
-4.4.2. Web Applications Wireflow Diagrams.
+### 4.4.2. Web Applications Wireflow Diagrams.
 
-4.4.3. Web Applications Mock-ups.
+### 4.4.3. Web Applications Mock-ups.
 
 En esta sección se presentan los mock-ups diseñados para la aplicación web de EcoRoad. Cada pantalla responde a las funcionalidades principales del sistema.
 
@@ -545,17 +547,17 @@ Tarjetas de planes de suscripción (Starter Corridor y Enterprise Concession) qu
   <img src="../assets/Chapter-4/sus-mob.png" alt="Team">
 </div>
 
-4.4.3. Web Applications User Flow Diagrams.
+### 4.4.4. Web Applications User Flow Diagrams.
 
-4.5. Web Applications Prototyping.
+## 4.5. Web Applications Prototyping.
 
-4.6. Domain-Driven Software Architecture.
+## 4.6. Domain-Driven Software Architecture.
 
 La arquitectura de software de EcoRoad se construye a partir de los resultados obtenidos en el Big Picture EventStorming, que permitió comprender en profundidad los flujos clave del dominio de gestión y cumplimiento ambiental en infraestructura vial, así como las interacciones entre las empresas constructoras, supervisoras y los dispositivos IoT de campo. A partir de este análisis inicial, se desarrolló una visión más estructurada del dominio utilizando los principios de Domain-Driven Design (DDD).
 
 En las siguientes secciones se presenta cada nivel del modelo, explicando la estructura, responsabilidades y comunicación entre los elementos que conforman la arquitectura de EcoRoad.
 
-4.6.1. Design-Level Event Storming.
+### 4.6.1. Design-Level Event Storming.
 
 Para identificar los eventos de dominio y profundizar en el modelado táctico, se realizó una sesión de EventStorming. Esta técnica permite visualizar y comprender el flujo de eventos dentro del dominio, facilitando la identificación de los Bounded Contexts, los aggregates (agregados) como fronteras transaccionales, los comandos, eventos, políticas y vistas de lectura.
 
@@ -616,7 +618,7 @@ Agrupa la consolidación de los datos históricos de monitoreo, alertas e incide
   <img src="../assets/Chapter-4/paso8.jpg" alt="Paso 4">
 </div>
 
-4.6.2. Software Architecture Context Diagram.
+### 4.6.2. Software Architecture Context Diagram.
 
 En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema de software **EcoRoad** como una “caja negra” y en las interacciones que mantiene con sus usuarios, sus dispositivos de campo y con otros sistemas externos.
 
@@ -635,7 +637,7 @@ En el diagrama se representan las relaciones entre estos elementos, destacando q
 <div align="center"><img src="../assets/Chapter-4/ContextDiagram.png" alt="Software Architecture Context Diagram"></div>
 <br>
 
-4.6.3. Software Architecture Container Diagrams.
+### 4.6.3. Software Architecture Container Diagrams.
 
 En el nivel de contenedores, la atención se desplaza desde “quién usa el sistema” hacia “cómo se organiza internamente el sistema en aplicaciones y fuentes de datos”. El *Container Diagram* muestra los elementos de alto nivel de la arquitectura de **EcoRoad**, sus responsabilidades principales y la forma en que se comunican entre sí y con los sistemas externos.
 
@@ -658,7 +660,7 @@ Esta vista resume la distribución de responsabilidades entre las capas de prese
 <div align="center"><img src="../assets/Chapter-4/ContainerDiagram.png" alt="Incident & Remediation Management Context"></div>
 <br>
 
-4.6.4. Software Architecture Components Diagrams.
+### 4.6.4. Software Architecture Components Diagrams.
 
 En el nivel de componentes se detalla la descomposición interna de los contenedores, mostrando los bloques estructurales que conforman cada uno y las relaciones entre ellos. Dado que la **Single Page Application** y la **Database** son descritas mediante diagramas de clases frontend y de base de datos, en esta sección se pone especial énfasis en el contenedor **API Application**, donde reside la mayor parte de la lógica de negocio y la ingesta de telemetría ambiental.
 
