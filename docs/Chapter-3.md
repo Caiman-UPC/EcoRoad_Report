@@ -105,6 +105,83 @@ En esta sección se presenta el desglose estratégico del modelo de negocio de E
 
 El Product Backlog de EcoRoad centraliza la totalidad de las historias de usuario y requerimientos técnicos, priorizados estratégicamente de acuerdo con su impacto y valor para el negocio.
 
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+| --- | --- | --- | --- | --- |
+| 1 | US01 | Visualización de la propuesta de valor | Como visitante, quiero conocer la propuesta de valor de EcoRoad para evaluar si responde a las necesidades de gestión ambiental de mis obras. | 2 |
+| 2 | US10 | Consulta y selección de planes | Como visitante, quiero consultar los planes y precios de EcoRoad y elegir el que se ajuste a la escala de mis proyectos para comenzar mi registro con ese plan. | 3 |
+| 3 | US06 | Consulta de beneficios de la plataforma | Como visitante, quiero conocer los beneficios de EcoRoad frente al registro manual para decidir si adoptarlo en mi empresa. | 2 |
+| 4 | US07 | Consulta de funcionalidades de la plataforma | Como visitante, quiero conocer las funcionalidades principales de EcoRoad para comprender cómo gestiona el cumplimiento ambiental de varias obras. | 2 |
+| 5 | US05 | Consulta de soluciones de monitoreo | Como visitante, quiero conocer las soluciones de monitoreo de EcoRoad para identificar cuáles aplican al polvo, ruido y vibraciones que genera la maquinaria en mis frentes de trabajo. | 2 |
+| 6 | US12 | Solicitud de contacto con un especialista | Como visitante interesado, quiero dejar mis datos de contacto para que un especialista me brinde una demostración de EcoRoad. | 3 |
+| 7 | TS01 | Registro de solicitudes de contacto | Como Developer, quiero exponer un endpoint para registrar solicitudes de contacto para que la Landing Page envíe los datos de los visitantes interesados. | 2 |
+| 8 | US03 | Visualización en distintos dispositivos | Como visitante, quiero acceder a la Landing Page desde mi smartphone para consultar la información desde el frente de obra. | 3 |
+| 9 | US04 | Navegación entre secciones | Como visitante, quiero desplazarme entre las secciones de la Landing Page para encontrar rápidamente la información que busco. | 2 |
+| 10 | US02 | Visualización de indicadores de la plataforma | Como visitante, quiero conocer los indicadores de operación de EcoRoad para confiar en el desempeño de la plataforma antes de contratarla. | 1 |
+| 11 | US09 | Consulta de testimonios | Como visitante, quiero leer testimonios de profesionales del sector vial para confiar en los resultados de EcoRoad. | 1 |
+| 12 | US13 | Consulta de información del equipo | Como visitante, quiero conocer al equipo que desarrolla EcoRoad para evaluar la experiencia de quienes respaldan el producto. | 2 |
+| 13 | US08 | Visualización del video About-the-Product | Como visitante, quiero ver un video sobre EcoRoad para entender el producto en pocos minutos. | 2 |
+| 14 | US11 | Consulta del alquiler de dispositivos IoT | Como visitante, quiero conocer las condiciones de alquiler de los dispositivos IoT para monitorear mis frentes de trabajo sin comprar los equipos. | 2 |
+| 15 | US15 | Cambio de idioma | Como visitante, quiero cambiar el idioma de la Landing Page entre inglés y español latinoamericano para leer el contenido en el idioma que prefiero. | 3 |
+| 16 | US16 | Accesibilidad de la Landing Page | Como visitante con una discapacidad visual o motriz, quiero utilizar la Landing Page con tecnologías de asistencia para acceder a la misma información que los demás visitantes. | 3 |
+| 17 | US17 | Consulta de documentos legales | Como visitante, quiero consultar los términos y condiciones y la política de privacidad para conocer las reglas de uso de EcoRoad y el tratamiento de mis datos antes de registrarme. | 1 |
+| 18 | US14 | Acceso al inicio de sesión | Como visitante con una cuenta registrada, quiero acceder al inicio de sesión desde la Landing Page para ingresar a la Web Application. | 1 |
+| 19 | TS05 | Consulta de planes de suscripción | Como Developer, quiero exponer un endpoint de consulta de planes de suscripción para que la Landing Page y la Web Application muestren los mismos planes y precios. | 2 |
+| 20 | TS19 | Acceso al API desde los clientes autorizados | Como Developer, quiero que el API acepte solicitudes solo desde la Landing Page y la Web Application desplegadas para evitar el acceso desde orígenes no autorizados. | 2 |
+| 21 | TS16 | Documentación del API con OpenAPI | Como Developer, quiero documentar los endpoints con OpenAPI para que el equipo de frontend conozca sus parámetros y respuestas. | 2 |
+| 22 | TS18 | Formato estándar de errores | Como Developer, quiero que todos los endpoints devuelvan los errores con una estructura común para que la Web Application muestre mensajes consistentes al usuario. | 2 |
+| 23 | TS08 | Recepción automática de mediciones | Como Developer, quiero exponer un endpoint para recibir las mediciones de los sensores IoT para que la plataforma capture los datos ambientales sin intervención manual. | 5 |
+| 24 | US36 | Consulta de mediciones en tiempo real | Como ingeniero ambiental, quiero consultar las mediciones más recientes de cada sensor para conocer el estado ambiental de mi obra sin esperar reportes manuales. | 5 |
+| 25 | US39 | Clasificación del nivel de riesgo | Como ingeniero ambiental, quiero que cada medición se clasifique automáticamente como Óptimo, Advertencia o Crítico para identificar riesgos antes de que escalen a una multa. | 5 |
+| 26 | US40 | Generación de alertas | Como director de obra, quiero que el sistema genere una alerta cuando una medición supera un límite para conocer de inmediato qué ocurre, dónde y con qué nivel de riesgo. | 5 |
+| 27 | US51 | Dashboard geolocalizado por proyecto | Como ingeniero ambiental, quiero ver los sensores de un proyecto sobre un mapa con su estado en tiempo real para identificar de inmediato los tramos en riesgo. | 8 |
+| 28 | TS14 | Consulta de datos geolocalizados | Como Developer, quiero exponer un endpoint con los puntos de monitoreo y su última medición para que la Web Application los represente sobre un servicio externo de mapas. | 5 |
+| 29 | US44 | Creación automática de incidencias | Como director de obra, quiero que se cree automáticamente una incidencia ante un estado crítico para dar seguimiento a cada evento hasta su cierre. | 5 |
+| 30 | US47 | Registro de acciones correctivas | Como inspector de campo, quiero registrar la acción correctiva que ejecuté para documentar cómo se mitigó el riesgo. | 3 |
+| 31 | US48 | Registro de evidencias | Como inspector de campo, quiero adjuntar evidencia fotográfica a una acción correctiva para respaldar el cumplimiento ante una fiscalización. | 5 |
+| 32 | TS13 | Almacenamiento de evidencias | Como Developer, quiero exponer un endpoint para adjuntar evidencias a una incidencia para que las fotografías se conserven con su metadato. | 5 |
+| 33 | US49 | Verificación y cierre de incidencias | Como director de obra, quiero verificar la acción correctiva y cerrar la incidencia para dejar el evento resuelto con respaldo verificable. | 3 |
+| 34 | TS12 | Ciclo de vida de incidencias | Como Developer, quiero exponer un endpoint para cambiar el estado de una incidencia para que el sistema respete el flujo Pendiente, En proceso, Atendida y Cerrada. | 3 |
+| 35 | US38 | Registro de datos sin conexión | Como inspector de campo, quiero registrar mediciones y evidencias sin conexión a internet para trabajar en tramos sin señal. | 8 |
+| 36 | TS09 | Sincronización de mediciones por lote | Como Developer, quiero exponer un endpoint de sincronización por lote para que los registros hechos sin conexión se envíen en una sola operación. | 5 |
+| 37 | US37 | Registro manual de mediciones | Como inspector de campo, quiero registrar manualmente una medición tomada con un equipo portátil para incorporar al sistema los datos que no envían los sensores. | 3 |
+| 38 | US54 | Generación de reportes de cumplimiento | Como ingeniero ambiental, quiero generar un reporte de cumplimiento con indicadores, incidencias, acciones y evidencias de un periodo para presentarlo ante una fiscalización del MTC o del OEFA. | 5 |
+| 39 | TS15 | Generación de reportes | Como Developer, quiero exponer endpoints para generar y descargar reportes de cumplimiento para que la Web Application los entregue al usuario. | 5 |
+| 40 | US50 | Mapa general de proyectos | Como gerente de proyecto, quiero ver todos mis proyectos en un solo mapa para comparar su estado ambiental y priorizar recursos. | 5 |
+| 41 | US41 | Notificación de alertas críticas | Como director de obra, quiero recibir una notificación inmediata cuando se genera una alerta crítica para actuar antes de una paralización o multa. | 5 |
+| 42 | TS11 | Envío de notificaciones con servicio externo | Como Developer, quiero integrar el envío de notificaciones con un servicio externo de correo electrónico para avisar de las alertas críticas a los responsables del proyecto. | 5 |
+| 43 | US46 | Asignación de responsable | Como director de obra, quiero asignar un responsable a cada incidencia para que su atención tenga un dueño claro. | 3 |
+| 44 | US45 | Consulta de incidencias | Como gerente de proyecto, quiero consultar las incidencias abiertas y su estado para saber quién las atiende y con qué avance. | 3 |
+| 45 | US42 | Consulta de alertas | Como ingeniero ambiental, quiero consultar las alertas de mis proyectos para priorizar las que requieren atención. | 3 |
+| 46 | TS10 | Consulta de alertas | Como Developer, quiero exponer un endpoint de consulta de alertas con filtros para que la Web Application muestre las alertas de cada proyecto. | 2 |
+| 47 | US43 | Reconocimiento de alertas | Como ingeniero ambiental, quiero reconocer una alerta para que el equipo sepa que está siendo atendida. | 2 |
+| 48 | US35 | Configuración de umbrales normativos | Como ingeniero ambiental, quiero definir los límites de cada indicador para que la plataforma evalúe las mediciones contra la normativa aplicable. | 3 |
+| 49 | US34 | Registro de sensores IoT | Como ingeniero ambiental, quiero registrar un sensor y asociarlo a un punto de monitoreo para recibir sus mediciones automáticamente. | 3 |
+| 50 | US29 | Registro de proyecto vial | Como gerente de proyecto, quiero registrar un proyecto vial con su tipo, ubicación y fechas para gestionar su monitoreo ambiental. | 3 |
+| 51 | US30 | Registro de tramos y frentes de trabajo | Como ingeniero ambiental, quiero dividir el proyecto en tramos y frentes de trabajo para asociar las mediciones al lugar exacto donde se tomaron. | 3 |
+| 52 | US31 | Registro de puntos de monitoreo | Como ingeniero ambiental, quiero registrar puntos de monitoreo con sus coordenadas para ubicar con precisión dónde se mide cada indicador. | 3 |
+| 53 | US32 | Consulta de proyectos de la empresa | Como gerente de proyecto, quiero consultar todos los proyectos de mi empresa desde una misma cuenta para priorizar recursos según su estado ambiental. | 2 |
+| 54 | US33 | Edición y archivo de proyectos | Como gerente de proyecto, quiero editar o archivar un proyecto para mantener actualizado el portafolio de mi empresa. | 2 |
+| 55 | TS07 | Gestión de proyectos, tramos y puntos de monitoreo | Como Developer, quiero exponer endpoints para gestionar proyectos, tramos y puntos de monitoreo para que la Web Application administre la estructura de cada obra. | 5 |
+| 56 | US18 | Registro de cuenta de empresa | Como administrador de una empresa constructora o de mantenimiento y rehabilitación vial, quiero registrar la cuenta de mi empresa para comenzar a usar EcoRoad. | 3 |
+| 57 | US19 | Inicio de sesión | Como usuario registrado, quiero iniciar sesión con mis credenciales para acceder a los proyectos de mi empresa. | 2 |
+| 58 | US20 | Recuperación de contraseña | Como usuario registrado, quiero recuperar mi contraseña para volver a acceder a mi cuenta cuando la olvido. | 2 |
+| 59 | TS02 | Registro y autenticación de usuarios | Como Developer, quiero exponer endpoints de registro y autenticación para que la Web Application gestione las sesiones de los usuarios de forma segura. | 5 |
+| 60 | TS03 | Control de acceso por nivel de permisos | Como Developer, quiero restringir los endpoints según el nivel de permisos del usuario para que cada colaborador solo ejecute las operaciones autorizadas. | 5 |
+| 61 | US21 | Invitación de colaboradores | Como administrador de la empresa, quiero invitar colaboradores a mi cuenta para que accedan a la plataforma con su propio usuario. | 3 |
+| 62 | US22 | Asignación de niveles de permisos | Como administrador de la empresa, quiero asignar a cada colaborador un nivel de permisos para que acceda solo a las funciones que necesita según su rol. | 3 |
+| 63 | US23 | Desactivación de colaboradores | Como administrador de la empresa, quiero desactivar a un colaborador que ya no pertenece a mi organización para evitar que acceda a información de mis proyectos. | 1 |
+| 64 | TS04 | Gestión de colaboradores | Como Developer, quiero exponer endpoints para gestionar colaboradores para que la Web Application administre los usuarios de cada empresa. | 3 |
+| 65 | US24 | Selección de plan de suscripción | Como administrador de la empresa, quiero seleccionar un plan y una modalidad de facturación para contratar el servicio según la escala de mis proyectos. | 2 |
+| 66 | US25 | Pago de suscripción | Como administrador de la empresa, quiero pagar mi suscripción mediante un medio de pago en línea para activar los servicios de mi empresa. | 5 |
+| 67 | TS06 | Pago de suscripción con servicio externo | Como Developer, quiero integrar el endpoint de pagos con un servicio externo de pasarela de pagos para procesar el cobro de las suscripciones sin almacenar datos de tarjetas. | 8 |
+| 68 | US26 | Cambio de plan de suscripción | Como administrador de la empresa, quiero cambiar de plan cuando mis proyectos crecen para ajustar el servicio a mis necesidades. | 3 |
+| 69 | US27 | Solicitud de alquiler de dispositivos IoT | Como administrador de la empresa, quiero solicitar el alquiler mensual de dispositivos IoT para monitorear mis proyectos sin comprar los equipos. | 3 |
+| 70 | US28 | Aplicación de límites según el plan | Como administrador de la empresa, quiero que la plataforma aplique los límites de mi plan para conocer cuándo necesito ampliar mi suscripción. | 3 |
+| 71 | US55 | Exportación de reportes | Como ingeniero ambiental, quiero exportar el reporte de cumplimiento en un archivo para entregarlo a las entidades fiscalizadoras. | 2 |
+| 72 | US53 | Consulta del historial ambiental | Como gerente de proyecto, quiero consultar el historial de mediciones, alertas e incidencias de un proyecto para analizar su comportamiento ambiental. | 3 |
+| 73 | US56 | Registro inalterable de mediciones y evidencias | Como gerente de proyecto, quiero que las mediciones y evidencias no puedan modificarse una vez registradas para presentar expedientes confiables ante una fiscalización. | 5 |
+| 74 | US52 | Comparación del estado ambiental entre proyectos | Como gerente de proyecto, quiero comparar el estado ambiental de mis proyectos para decidir en cuál intervenir primero. | 3 |
+| 75 | TS17 | Mensajes del API en dos idiomas | Como Developer, quiero que el API devuelva sus mensajes en inglés o español según el idioma solicitado para mantener la experiencia consistente con la interfaz. | 3 |
 
 **Total de Story Points:** 247
 
