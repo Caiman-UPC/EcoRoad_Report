@@ -742,7 +742,7 @@ Se centra en la definición de diagramas de clases, la interacción entre objeto
 ![Database Diagram - EcoRoad](../assets/DBDiagram5.png)
 
 ### Bounded Context 6 - Alerting and Risk Evaluation:
-![Database Diagram - EcoRoad](../assets/DBDiagram6.jpeg)
+![Database Diagram - EcoRoad](../assets/DBDiagram6.png)
 
 ### Bounded Context 7 - Incident and Remediation Management:
 ![Database Diagram - EcoRoad](../assets/DBDiagram7.jpeg)
