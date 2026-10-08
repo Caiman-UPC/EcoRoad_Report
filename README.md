@@ -33,23 +33,23 @@
   </tr>
   <tr>
     <td>U202421413</td>
-    <td>Guillen Chavez Eduardo Martín</td>
+    <td>Guillen Chavez, Eduardo Martín</td>
   </tr>
   <tr>
     <td>U202212897</td>
-    <td>Román López Miguel Ángel Junior</td>
+    <td>Román López, Miguel Ángel Junior</td>
   </tr>
   <tr>
   <tr>
     <td>U20241E417</td>
-    <td>Salcedo Muñoz Andy Alfredo Hipolito</td>
+    <td>Salcedo Muñoz, Andy Alfredo Hipolito</td>
   </tr>
   <tr>
     <td>U202624323</td>
-    <td>Torres Júarez Alisee Muriel</td>
+    <td>Torres Júarez, Alisee Muriel</td>
   </tr>
     <td>U20241f859</td>
-    <td>Yarleque Ruiz Cristina Marcela</td>
+    <td>Yarleque Ruiz, Cristina Marcela</td>
   </tr>
 </table>
   </p>
