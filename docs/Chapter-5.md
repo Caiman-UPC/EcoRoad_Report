@@ -399,7 +399,91 @@ Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrol
 
 5.3.3. Evaluaciones según heurísticas.
 
-5.4. Video About-the-Product.
+## 5.4. Video About-the-Product
+
+<p>
+  El video "About the Product" presenta de manera clara y atractiva la propuesta de valor de EcoRoad, 
+  los problemas que resuelve y cómo funciona la solución para ambos segmentos objetivo.
+</p>
+
+<h4>Información General del Video</h4>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><strong>Título del Video</strong></td>
+      <td>EcoRoad: </td>
+    </tr>
+    <tr>
+      <td><strong>Duración</strong></td>
+      <td>0 minutos 0 segundos</td>
+    </tr>
+    <tr>
+      <td><strong>Fecha de Grabación</strong></td>
+      <td>//2026</td>
+    </tr>
+    <tr>
+      <td><strong>URL YouTube</strong></td>
+      <td><a href=""></a></td>
+    </tr>
+    <tr>
+      <td><strong>URL Microsoft Stream</strong></td>
+      <td><a href=""></a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Screenshot del video:</strong></p>
+<img src="../images/AboutTheProduct-image.png" alt="About the Product Video">
+
+<h4>Contenido del Video</h4>
+
+<p>
+  El video está estructurado en las siguientes secciones:
+</p>
+
+<ol>
+  <li>
+    <strong>Introducción (0:00 - 0:00):</strong> Presentación del problema - .
+  </li>
+  <li>
+    <strong>Propuesta de Solución (0:00 - 0:00):</strong> Presentación de EcoRoad como la solución integral 
+    para.
+  </li>
+  <li>
+    <strong>Funcionalidades Principales (0:00 - 0:00):</strong> Demostración de las características clave:
+    <ul>
+      <li>Gestión de </li>
+      <li>Control de</li>
+      <li>Portal </li>
+      <li>Generación de reportes</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Beneficios (0:00 - 0:00):</strong> Énfasis en beneficios para ambos segmentos - .
+  </li>
+  <li>
+    <strong>Llamada a la Acción (0:00 - 0:00):</strong> Invitación a visitar el Landing Page y conocer 
+    más sobre EcoRoad.
+  </li>
+</ol>
+
+
+<h4>Inscripción en Landing Page</h4>
+
+<p>
+  El video "About the Product" está embebido en el Landing Page en la sección de "Acerca del Producto", 
+  permitiendo que visitantes del sitio vean una introducción visual de EcoRoad antes de registrarse o 
+  solicitar más información.
+</p>
+
+<p>
+  <strong>URL del Landing Page donde está el video:</strong> 
+  <a href=""></a>
+</p>
+
+
+---
 
 ## Video About-the-Team
 
