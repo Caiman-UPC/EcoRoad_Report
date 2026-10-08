@@ -733,10 +733,10 @@ Se centra en la definición de diagramas de clases, la interacción entre objeto
 ![Database Diagram - EcoRoad](../assets/DBDiagram2.png)
 
 ### Bounded Context 3 - Project and Road Site Management:
-![Database Diagram - EcoRoad](../assets/DBDiagram3.jpeg)
+![Database Diagram - EcoRoad](../assets/DBDiagram3.png)
 
 ### Bounded Context 4 - Monitoring Asset and Deployment:
-![Database Diagram - EcoRoad](../assets/DBDiagram4.jpeg)
+![Database Diagram - EcoRoad](../assets/DBDiagram4.png)
 
 ### Bounded Context 5 - Environmental Monitoring:
 ![Database Diagram - EcoRoad](../assets/DBDiagram5.jpeg)
