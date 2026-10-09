@@ -698,6 +698,7 @@ Se centra en la definición de diagramas de clases, la interacción entre objeto
 
 ### Bounded Context 1 - Suscriptions and Payment:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD1.png)
+El diagrama de clases del módulo comercial (commercial) modela la gestión de cuentas de empresas constructoras (CompanyAccount) y sus respectivas suscripciones (Subscription), permitiendo registrar organizaciones, controlar su estado de activación, y asignar planes de servicio (SubscriptionPlan) bajo estados específicos (SubscriptionStatus) para asegurar el acceso al modelo SaaS de EcoRoad.
 
 ### Bounded Context 2 - Identity and Access Management:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD2.png)
