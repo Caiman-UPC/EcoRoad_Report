@@ -281,21 +281,17 @@ El Sprint Backlog 1 reúne las historias de usuario y tareas necesarias para imp
 
 Todas las tareas son monitoreadas y actualizadas mediante **Jira Software**.
 
-<div align="center"> <img src="../images/sprint1-board.jpg" alt="Sprint 1 Board Screenshot" width="100%"> <p><em>Figura: Tablero del Sprint 1 en Jira Software (Proyecto EcoRoad)</em>
-</p> </div>
-
 A continuación, la estructura de la tabla de control de estado para el Sprint:
 
-| Sprint # | Sprint 1 |   |   |   |   |   |   |
-|---------|----------|---|---|---|---|---|---|
-| **User Story** |   | **Work-Item / Task** |   |   |   |   |  |
-| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
+| Story Id | Title | Task Id | Task Title | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| US01 | Propuesta de valor | T01 | Implementar sección Hero y Header | Román López | Done |
+| US05 | Soluciones monitoreo | T02 | Implementar grilla de Soluciones Ambientales | Yarleque Ruiz | Done |
+| US06 | Beneficios plataforma| T03 | Maquetar tarjetas de beneficios (Cero multas) | Torres Juárez | Done |
+| US10 | Selección de planes | T04 | Implementar sección Pricing (SaaS/HaaS) | Guillen Chavez | Done |
+| US12 | Formulario contacto | T05 | Integrar validaciones en Formulario Contact | Salcedo Muñoz | Done |
+| US15 | Cambio de idioma | T06 | Implementar i18n (Inglés/Español) | Yarleque Ruiz | Done |
+| US03 | Responsive Design | T07 | Ajustar media queries para Mobile Web | Román López | Done |
 
 El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Software** mediante el tablero Scrum del proyecto, donde se registran los estados de cada tarea (To-do, In-Process, To-Review, Done). Durante las reuniones diarias (**Daily Scrum**), el equipo revisa el avance, actualiza el estado de las tareas y gestiona posibles bloques.
 
