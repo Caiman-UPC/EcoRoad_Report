@@ -361,20 +361,12 @@ A partir del Sprint 2, cada miembro publica sus cambios desde su propia cuenta, 
 
 ### 5.2.2. Sprint 2
 
-<p>
-  Durante el Sprint 2, el equipo se enfocó en el desarrollo del módulo frontend de gestión de tareas, 
-  miembros y grupos de la aplicación web EcoRoad. Este sprint se centró en integrar componentes con el 
-  backend mediante servicios REST, crear flujos de navegación funcionales entre vistas y aplicar mejoras 
-  en la interfaz visual con Angular y Angular Material.
-</p>
+Durante el Sprint 2 el equipo desarrolla la primera versión de la Frontend Web Application de EcoRoad (vistas Projects, Alerts e Incidents) y una nueva versión del Landing Page (v1.1.0) con formulario de contacto, documentos legales y mejoras de accesibilidad.
 
-<p>
-  <strong>Repositorio Frontend:</strong> <a href=""></a>
-</p>
+- Repositorio del Landing Page: https://github.com/Caiman-UPC/Landing-Page
+- Repositorio de la Frontend Web Application: `[POR COMPLETAR]`
+- API utilizada por la Web Application en este Sprint (entorno local): `[POR COMPLETAR: URL local]`
 
-<p>
-  <strong>Backend API (Local):</strong> <a href=""></a>
-</p>
 
 #### 5.2.2.1. Sprint Planning 2
 
