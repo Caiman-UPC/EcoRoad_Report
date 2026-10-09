@@ -484,6 +484,51 @@ Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrol
   </tbody>
 </table>
 
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+<p>
+Para el Sprint 2 se presenta la matriz <strong>Leadership-and-Collaboration Matrix (LACX)</strong>, donde se definen los roles de liderazgo (<strong>L</strong>) y colaboración (<strong>C</strong>) por aspecto técnico y funcional del desarrollo frontend basado en Angular.
+</p>
+
+<p>
+Estos aspectos se derivan directamente de los objetivos establecidos en el <em>Sprint 2 Goal</em>, garantizando que cada componente clave del módulo frontend cuente con un responsable principal y con el apoyo colaborativo necesario para su implementación efectiva.
+</p>
+
+<ul>
+  <li><strong>Integración Frontend–Backend:</strong> Consumo de endpoints, configuración de servicios HTTP y validación de la conexión con la API local.</li>
+  <li><strong>Gestión de Tareas (UI):</strong> Desarrollo de componentes Angular para la visualización, filtrado y navegación entre tareas.</li>
+  <li><strong>Gestión de Miembros y Grupos:</strong> Creación de componentes de detalle y listado de miembros y grupos asociados al proyecto.</li>
+</ul>
+
+<table border="1" cellpadding="4" cellspacing="0" align="center">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>Aspect: API Integration</th>
+      <th>Aspect: Task UI</th>
+      <th>Aspect: Members &amp; Groups</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Yarleque Ruiz, Cristina Marcela</td><td>L</td><td>C</td><td>C</td></tr>
+    <tr><td>Román López, Miguel Ángel Junior</td><td>C</td><td>L</td><td>C</td></tr>
+    <tr><td>Salcedo Muñoz, Andy Alfredo Hipolito</td><td>C</td><td>C</td><td>L</td></tr>
+    <tr><td>Guillen Chavez, Eduardo Martín</td><td>C</td><td>C</td><td>C</td></tr>
+    <tr><td>Torres Júarez, Alisee Muriel</td><td>C</td><td>C</td><td>C</td></tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>L</strong> = Líder del aspecto</li>
+  <li><strong>C</strong> = Colaborador en el aspecto</li>
+</ul>
+
+<p>
+La asignación de roles busca optimizar la ejecución del sprint, favoreciendo la especialización técnica y la cooperación entre los miembros. 
+Cada líder coordina las tareas relacionadas con su aspecto a través de <strong>Jira Software</strong>, supervisando avances, revisiones de código y validaciones funcionales con sus colaboradores.
+</p>
+
+
 5.3. Validation Interviews.
 
 5.3.1. Diseño de Entrevistas.
