@@ -549,6 +549,16 @@ Tarjetas de planes de suscripción (Starter Corridor y Enterprise Concession) qu
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 
+Un user flow es la representación visual del camino que un usuario sigue dentro de la aplicación EcoRoad para alcanzar un objetivo específico. Estos diagramas permiten verificar que la navegación sea lógica y esté libre de obstáculos para cada uno de los roles: Administrador de la Empresa, Jefe de Gestión Ambiental (User Persona Diego Davalos, segmento de empresas constructoras viales) y Residente de Mantenimiento (User Persona Piero Deza, segmento de empresas de mantenimiento y rehabilitación vial). Cada flujo incluye la ruta ideal (happy path) y las rutas alternativas (unhappy paths), derivadas de los criterios de aceptación de las user stories.
+
+Objetivo: El gerente de proyecto desea revisar el estado ambiental de sus proyectos, analizar la evolución de un indicador y generar un informe ambiental. (US14, US23, US24, US26, US38)
+
+Happy Path
+En esta ruta ideal, el gerente de proyecto abre la vista Sign in, ingresa credenciales válidas y presiona “Sign in to Platform”. El sistema lo dirige al Main Dashboard, donde revisa el resumen de sus proyectos activos, sensores, alertas e incidencias. Desde el menú lateral abre Projects y visualiza el listado de proyectos con su estado ambiental, sensores IoT, alertas e incidencias. Selecciona el proyecto Carretera Lima–Canta con “View project” y accede al Project Detail, donde consulta el nivel de riesgo ambiental, los indicadores monitoreados y las incidencias pendientes. Desde allí abre Indicator History, elige el indicador y el rango de fechas, y presiona “Consult” para ver la evolución de las mediciones. Finalmente, abre Environmental Reports, configura el proyecto, el periodo y el contenido, y presiona “Generate report” para obtener el informe, que puede visualizar o descargar en PDF.
+<div align="center">
+  <img src="../assets/Chapter-5/UserFlow1.png" alt="userflow">
+</div>
+
 ## 4.5. Web Applications Prototyping.
 
 ## 4.6. Domain-Driven Software Architecture.
