@@ -93,12 +93,25 @@ con tarjetas que muestran responsable asignado, ubicación, fecha/hora y miniatu
 ### 4.1.3. Mobile Style Guidelines
 <a id="4-1-3-Mobile-Style-Guidelines"></a>
 
-Las interfaces para la versión web móvil (Mobile Web Browser) de EcoRoad están diseñadas bajo los principios de *Mobile-First*, considerando que los ingenieros residentes y supervisores operan en frentes de obra (campo) con incidencia de luz solar directa y mediante interacciones de una sola mano. Diseñados también en **Figma**, se establecen los siguientes lineamientos:
+Las interfaces para la versión web móvil de la aplicación EcoRoad están diseñadas bajo los principios de Mobile-First, considerando que los ingenieros residentes y auditores de fiscalización operan en frentes de obra (campo) con una alta incidencia de luz solar directa y mediante interacciones de una sola mano. Diseñados y centralizados en Figma, se establecen las siguientes directrices y lineamientos visuales de interfaz:
 
-* **Touch Targets:** Se establece un área táctil mínima de 44x44 px (y 48x48 px recomendada) para todos los botones de acción principal (CTAs), iconos de captura de evidencia fotográfica y controles de formularios para asegurar precisión operativa sin frustración.
-* **Navegación Móvil:** Sustitución de la barra lateral izquierda por una *Bottom Navigation Bar* (Barra de navegación inferior) para el acceso inmediato con el pulgar a los módulos clave: Inicio, Alertas, e Incidencias.
-* **Tipografía Responsiva (Legibilidad de Campo):** Escalamiento tipográfico que prioriza el alto contraste y el uso de fuentes de gran peso (Inter Black) para los valores numéricos de las lecturas ambientales, asegurando legibilidad bajo el sol.
-* **Simplificación Visual:** Ocultamiento de filtros avanzados de escritorio detrás de menús modales (Bottom Sheets) para mantener la limpieza visual en tarjetas de incidencias tipo Kanban.
+* **Touch Targets (Interacción Táctil)**: Se establece un área táctil mínima de 44x44 px (y 48x48 px recomendada) para todos los botones de acción principal (CTAs), iconos de captura de evidencia fotográfica y controles de formularios para asegurar precisión operativa sin frustración.
+
+* **Navegación Móvil (Adaptación de Navegación)**: Sustitución de la barra lateral izquierda (sidebar) por una Bottom Navigation Bar (Barra de navegación inferior) para el acceso inmediato con el pulgar a los módulos operativos clave: Inicio, Alertas e Incidencias.
+
+* **Tipografía Responsiva (Legibilidad de Campo)**: Escalamiento tipográfico que prioriza el alto contraste y el uso de fuentes de gran peso (Inter Black) para los valores numéricos de las lecturas telemétricas ambientales, asegurando un escaneo visual rápido bajo el sol.
+
+* **Simplificación Visual (Reducción de Complejidad)**: Ocultamiento de filtros avanzados de escritorio detrás de menús modales inferiores (Bottom Sheets) para mantener la limpieza visual en las tarjetas de incidencias y listados del sistema.
+
+* **Diseño Responsive y Estructura**: Reorganización estructural del contenido para pantallas pequeñas pasando de esquemas multi-columna a una sola columna fluida. Las tarjetas (cards), paneles de telemetría y contenedores de datos se apilan verticalmente para optimizar el espacio útil de visualización.
+
+* **Formularios y Registro de Evidencias**: Optimización del flujo para el registro de mediciones, fotografías de campo e incidencias. Se prioriza el uso de campos de entrada con dimensiones ampliadas, pasos secuenciales mínimos y botones de acción principal persistentes, facilitando la captura de datos en condiciones de obra.
+
+* **Alertas y Estados Visuales**: Mantenimiento de una diferenciación visual inequívoca para la evaluación del riesgo a través de la paleta funcional tipo semáforo. Las alertas ambientales críticas ocupan un rol jerárquico prioritario mediante pancartas (banners) superiores de color sólido que capturan la atención inmediata del supervisor antes de incurrir en infracciones normativas.
+
+* **Mapas y Visualización de Información**: Adaptación del módulo cartográfico GIS a una interfaz táctil simplificada. Los tramos viales, frentes de trabajo y puntos de monitoreo se despliegan en mapas a pantalla completa con controles de navegación y zoom optimizados para gestos multitáctiles.
+
+* **Accesibilidad Móvil (a11y)**: Garantía de un contraste mínimo AA (conforme a las pautas WCAG 2.1) entre el texto técnico y los fondos de la interfaz. Esto asegura la legibilidad bajo condiciones ambientales extremas en obra, manteniendo coherencia con las directrices generales de diseño.
 
 ## 4.2. Information Architecture
 <a id="4-2-information-architecture"></a>
