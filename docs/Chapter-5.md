@@ -309,7 +309,7 @@ En el Sprint 1 se construyó la primera versión navegable del Landing Page con 
 
 En el Sprint 1 se alcanzó la publicación del Landing Page con ocho secciones navegables desde el header, diseño adaptable a escritorio y móvil, y cambio de idioma entre inglés (por defecto) y español.
 
-Video de navegación del Landing Page: `[POR COMPLETAR: URL en Microsoft Stream]` — Duración: `[POR COMPLETAR]`
+Video de navegación del Landing Page: `[URL en Microsoft Stream]` — Duración: `[POR COMPLETAR]`
 
 | Vista | Captura |
 |---|---|
@@ -396,11 +396,11 @@ Los aspectos del Sprint 2 se derivan del Sprint Goal:
 
 | Team Member (Last Name, First Name) | GitHub Username | Landing Page v1.1 & Deployment | App Shell & Projects | Alerts & Incidents |
 |---|---|---|---|---|
-| Salcedo Muñoz, Andy Alfredo Hipolito | `[POR COMPLETAR]` | L | C | C |
-| Román López, Miguel Ángel Junior | `[POR COMPLETAR]` | C | L | C |
-| Yarleque Ruiz, Cristina Marcela | `[POR COMPLETAR]` | C | C | L |
-| Guillen Chavez, Eduardo Martín | Eduardox30-wq `[POR COMPLETAR: confirmar]` | C | C | C |
-| Torres Juárez, Alisee Muriel | `[POR COMPLETAR]` | C | C | C |
+| Salcedo Muñoz, Andy Alfredo Hipolito | | L | C | C |
+| Román López, Miguel Ángel Junior |  | C | L | C |
+| Yarleque Ruiz, Cristina Marcela |  | C | C | L |
+| Guillen Chavez, Eduardo Martín |  | C | C | C |
+| Torres Juárez, Alisee Muriel |  | C | C | C |
 
 L = Leader, C = Collaborator. Cada líder coordina los tasks de su aspecto en Jira Software y revisa los Pull Requests correspondientes.
 
@@ -445,15 +445,15 @@ URL público del Board: `[POR COMPLETAR]`
 
 Video de navegación del Landing Page y la Web Application: `[POR COMPLETAR: URL en Microsoft Stream]` — Duración: `[POR COMPLETAR]`
 
-| Producto | Vista | Captura |
-|---|---|---|
-| Landing Page v1.1.0 | Formulario de contacto con validación | `[POR COMPLETAR]` |
-| Landing Page v1.1.0 | Menú de navegación en móvil | `[POR COMPLETAR]` |
-| Landing Page v1.1.0 | Terms of Service y Privacy Policy | `[POR COMPLETAR]` |
-| Web Application | Projects | `[POR COMPLETAR]` |
-| Web Application | Alerts y panel de detalle | `[POR COMPLETAR]` |
-| Web Application | Incidents (tablero por estado) | `[POR COMPLETAR]` |
-| Web Application | Versión en español | `[POR COMPLETAR]` |
+| Producto            | Vista                                 | Captura                                          |
+|---------------------|---------------------------------------|--------------------------------------------------|
+| Landing Page v1.1.0 | Formulario de contacto con validación | `[POR COMPLETAR]`                                |
+| Landing Page v1.1.0 | Menú de navegación en móvil           | `[POR COMPLETAR]`                                |
+| Landing Page v1.1.0 | Terms of Service y Privacy Policy     | `[POR COMPLETAR]`                                |
+| Web Application     | Projects                              | ![projects](../assets/Chapter-5/project-evi.png) |
+| Web Application     | create new project                    | ![new-pro](../assets/Chapter-5/new-pro.png)      |
+| Web Application     | Alerts y panel de detalle             | ![alerts](../assets/Chapter-5/alerts.png)        |
+| Web Application     | Versión en español                    | ![esp](../assets/Chapter-5/esp.png)              |
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
