@@ -297,13 +297,13 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
-<p>
-  En esta sección se explican y presentan los avances en la implementación logrados durante el Sprint 1 en relación con el producto de la solución incluido en su alcance: la <strong>Landing Page</strong> pública de EcoRoad. A lo largo de este sprint se construyó la primera versión navegable del sitio, incluyendo las secciones Home/Hero, Services, Features, About the App, Pricing, Testimonials, About the Team y Contact, con sus estilos CSS y ajustes de responsividad.
-</p>
+En el Sprint 1 se construyó la primera versión navegable del Landing Page con las secciones Home (Hero), Solutions, Benefits, Features, Testimonials, Pricing, Our Team y Contact, además del footer, los estilos responsivos y el cambio de idioma. La implementación consta de `index.html`, `assets/styles.css` y `assets/script.js`.
 
-<p>
-  La tabla siguiente resume los commits más revelantes realizados en el repositorio de la Landing Page, indicando la rama, el identificador del commit, el mensaje asociado y una breve explicación del cambio introducido en la implementación.
-</p>
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Caiman-UPC/Landing-Page | main | 8a4c8ca | first commit | — | 20/09/2026 |
+| Caiman-UPC/Landing-Page | main | 41eebd8 | Agregando todos los archivos del proyecto | — | 20/09/2026 |
+| Caiman-UPC/Landing-Page | main | a0587f1 | Organizando archivos en la raiz para GitHub Pages | — | 20/09/2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 <p>
