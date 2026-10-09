@@ -306,65 +306,26 @@ En el Sprint 1 se construyó la primera versión navegable del Landing Page con 
 | Caiman-UPC/Landing-Page | main | a0587f1 | Organizando archivos en la raiz para GitHub Pages | — | 20/09/2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
-<p>
-  Durante el sprint 1, se completó exitosamente la implementación de todas las secciones del Landing Page de EcoRoad, incluyendo navegación responsiva, soporte bilingüe y despliegue en Github Pages. A continuación se presentan evidencias de ejecución mediante capturas de pantalla de las principales vistas.
-</p>
 
-<h5>Video de demostración del Landing Page:</h5>
-<p>
-  <strong>URL YouTube:</strong> <br>
-  <strong>Duración:</strong> [00:00:00]
-</p>
+En el Sprint 1 se alcanzó la publicación del Landing Page con ocho secciones navegables desde el header, diseño adaptable a escritorio y móvil, y cambio de idioma entre inglés (por defecto) y español.
 
-<h5>Capturas de las principales secciones:</h5>
+Video de navegación del Landing Page: `[POR COMPLETAR: URL en Microsoft Stream]` — Duración: `[POR COMPLETAR]`
 
-<p><strong>Encabezado y menú de navegación:</strong></p>
-<img src="/assets/img/chapter-V/header-landing-page.png" alt="header landing page">
+| Vista | Captura |
+|---|---|
+| Header y navegación | `[POR COMPLETAR: captura]` |
+| Hero | `[POR COMPLETAR: captura]` |
+| Solutions | `[POR COMPLETAR: captura]` |
+| Benefits | `[POR COMPLETAR: captura]` |
+| Features | `[POR COMPLETAR: captura]` |
+| Testimonials | `[POR COMPLETAR: captura]` |
+| Pricing | `[POR COMPLETAR: captura]` |
+| Our Team | `[POR COMPLETAR: captura]` |
+| Contact | `[POR COMPLETAR: captura]` |
+| Footer | `[POR COMPLETAR: captura]` |
+| Vista móvil (600 px) | `[POR COMPLETAR: captura]` |
+| Versión en español | `[POR COMPLETAR: captura]` |
 
-<p><strong>Sección Hero:</strong></p>
-<img src="../assets/img/chapter-V/hero-landing-page.png" alt="hero landing page">
-
-<p><strong>Sección Services:</strong></p>
-<img src="../assets/img/chapter-V/services-landing-page.png" alt="services landing page">
-
-<p><strong>Sección Pricing:</strong></p>
-<img src="../assets/img/chapter-V/plans-landing-page.png" alt="plans landing page">
-
-<p><strong>Sección About the App:</strong></p>
-<img src="/assets/img/chapter-V/about-the-app-landing-page.png" alt="about the app landing page">
-
-<p><strong>Sección Testimonials:</strong></p>
-<img src="/assets/img/chapter-V/testimonials-landing-page.png" alt="testimonials landing page">
-
-<p><strong>Sección About the Team:</strong></p>
-<img src="/assets/img/chapter-V/about-the-team-landing-page.png" alt="about the team landing page">
-
-<p><strong>Sección Contact:</strong></p>
-<img src="/assets/img/chapter-V/contact-landing-page.png" alt="contact landing page">
-
-<p><strong>Footer:</strong></p>
-<img src="/assets/img/chapter-V/footer-landing-page.png" alt="footer landing page">
-
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
-<p>
-  En el Sprint 1, el equipo diseñó, programó y desplegó el Landing Page de EcoRoad. Esta es una página web estática, 
-  por lo que no hay Web Services disponibles en este sprint.
-</p>
-
-<table border="1" cellpadding="4" cellspacing="0">
-  <thead>
-    <tr>
-      <th>End Point</th>
-      <th>Funciones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>N/A</td>
-      <td>No hay Web Services implementados en el Sprint 1 (Landing Page estático)</td>
-    </tr>
-  </tbody>
-</table>
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 El sitio fue desplegado exitosamente en GitHub Pages.
