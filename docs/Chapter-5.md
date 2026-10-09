@@ -344,24 +344,20 @@ Durante el Sprint 1 se publicó el Landing Page en GitHub Pages. Las actividades
 
 URL del despliegue: https://caiman-upc.github.io/Landing-Page/
 
+`[POR COMPLETAR: captura de Settings > Pages con el origen configurado]`
+
+`[POR COMPLETAR: captura del sitio desplegado en el navegador con la URL visible]`
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+El repositorio `Caiman-UPC/Landing-Page` registra en el Sprint 1 tres commits sobre la rama `main`, todos del 20/09/2026 y publicados desde una sola cuenta (Eduardox30-wq). Por ello, los analíticos de GitHub de este Sprint no reflejan el aporte individual de cada miembro. `[POR COMPLETAR: explicar cómo se distribuyó el desarrollo de las secciones entre los miembros y cómo se consolidó en el repositorio.]`
 
-<p>
-Durante el Sprint 1, los analíticos de colaboración de GitHub muestran una participación activa y continua de todos los miembros del equipo sobre el repositorio de la Landing Page. En el panel de Overview se observa un flujo constante de commits distribuidos a lo largo de los días del sprint, lo que evidencia que las tareas de implementación de las distintas secciones (hero, servicios, planes, equipo, testimonios, contacto y footer) se desarrollaron de manera incremental y coordinada. Cada integrante realizó aportes directos al código, ya sea mediante la creación de nuevas secciones, ajustes de estilos responsivos o correcciones derivadas de las revisiones entre pares, asegurando así que el entregable del sprint se construyera de forma colaborativa y no centralizada en una sola persona.
-</p>
+`[POR COMPLETAR: captura de Insights > Contributors]`
 
-![overview-spring1.png](../assets/img/chapter-V/overview-spring1.png)
-<p>
-El Network Graph refleja esta dinámica mediante la presencia de ramas que nacen desde main y regresan a ella una vez integradas, siguiendo el flujo definido por GitFlow. Esta visualización confirma que las contribuciones individuales se alinearon con el marco de trabajo acordado: se desarrollaron cambios en ramas aisladas, se realizaron pruebas locales y posteriormente se integraron al tronco principal, lo que redujo conflictos y facilitó el seguimiento de la trazabilidad de cada cambio. De este modo, la colaboración no solo se dio a nivel de cantidad de commits, sino también en la forma de trabajo estructurada y compatible con las prácticas ágiles del equipo.
-</p>
+`[POR COMPLETAR: captura de Insights > Network]`
 
-![network-graph-sprint1.png](../assets/img/chapter-V/network-graph-sprint1.png)
+`[POR COMPLETAR: captura de Insights > Commits]`
 
-<p>
-Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrollo y se consolidaban las funcionalidades del Landing Page, el repositorio comenzó a recibir visitas y visualizaciones, lo que sugiere interés progresivo en el producto por parte de stakeholders y del propio equipo durante las actividades de revisión y validación. En conjunto, estos analíticos de colaboración y actividad en GitHub demuestran que todos los integrantes tuvieron participación efectiva en la implementación del producto del Sprint (Landing Page) y sientan la base para replicar este mismo patrón de trabajo en los siguientes sprints, donde se abordarán la Web Application y los Web Services.
-</p>
-
-![visitors-sprint1.png](../assets/img/chapter-V/visitors-sprint1.png)
+A partir del Sprint 2, cada miembro publica sus cambios desde su propia cuenta, en ramas `feature/*` integradas a `develop` mediante Pull Request y con mensajes en formato Conventional Commits, de modo que la participación de todos quede registrada en los analíticos de cada repositorio.
 
 ### 5.2.2. Sprint 2
 
