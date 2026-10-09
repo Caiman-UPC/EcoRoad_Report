@@ -736,24 +736,32 @@ El diagrama de clases del módulo de cumplimiento y reportes (compliance) modela
 
 ### Bounded Context 1 - Suscriptions and Payment:
 ![Database Diagram - EcoRoad](../assets/DBDiagram1.png)
+El diagrama de base de datos relacional del módulo comercial y de suscripciones de EcoRoad vincula la tabla Company_account, encargada de almacenar la información y el estado de las empresas constructoras, con la tabla Subscriptions mediante una clave foránea, permitiendo administrar los planes contratados, sus estados vigentes y las fechas de inicio y fin del servicio.
 
 ### Bounded Context 2 - Identity and Access Management:
 ![Database Diagram - EcoRoad](../assets/DBDiagram2.png)
+El diagrama de base de datos del módulo de identidad y gestión de accesos vincula la tabla User, que almacena la información de los colaboradores, con la tabla User_access mediante una clave foránea para administrar sus roles y permisos, y se integra con la tabla User_invitation y Company_account para controlar la trazabilidad de las invitaciones corporativas emitidas por cada organización.
 
 ### Bounded Context 3 - Project and Road Site Management:
 ![Database Diagram - EcoRoad](../assets/DBDiagram3.png)
+El diagrama de base de datos relacional del módulo de gestión de proyectos viales estructura la jerarquía de la infraestructura mediante la tabla Road_project vinculada a la cuenta de la empresa (Company_account), la cual se desglosa en tramos a través de Road_section (con sus respectivos kilómetros de inicio y fin) y culmina en los frentes de trabajo administrados en la tabla Work_front.
 
 ### Bounded Context 4 - Monitoring Asset and Deployment:
 ![Database Diagram - EcoRoad](../assets/DBDiagram4.png)
+El diagrama de base de datos del módulo de gestión de activos y despliegue vincula la tabla Monitoring_point (asociada al frente de trabajo) con la tabla Sensor mediante la tabla puente Sensor_assignment, permitiendo registrar la ubicación geográfica de los puntos de control y administrar la vinculación activa de los dispositivos IoT en campo.
 
 ### Bounded Context 5 - Environmental Monitoring:
 ![Database Diagram - EcoRoad](../assets/DBDiagram5.png)
+El diagrama de base de datos del módulo de monitoreo ambiental vincula la tabla central Environmental_measurement con Monitoring_point y Sensor para registrar la telemetría continua, relacionándose además con Threshold_profile mediante una clave foránea para evaluar dinámicamente si los valores superan los umbrales de advertencia o estado crítico.
 
 ### Bounded Context 6 - Alerting and Risk Evaluation:
 ![Database Diagram - EcoRoad](../assets/DBDiagram6.png)
+El diagrama de base de datos del módulo de evaluación de alertas y riesgos conecta la tabla Environmental_measurement con Deviation_assessment para analizar las desviaciones frente a los valores permitidos, relacionándose a su vez con la tabla Alert y Monitoring_point para gestionar la emisión, severidad y el estado de las notificaciones críticas.
 
 ### Bounded Context 7 - Incident and Remediation Management:
 ![Database Diagram - EcoRoad](../assets/DBDiagram7.png)
+El diagrama de base de datos del módulo de gestión de incidencias vincula la tabla central Environmental_incident con la tabla User para asignar los responsables, y se conecta con las tablas Corrective_action y Field_evidences mediante claves foráneas para administrar el progreso de las acciones de remediación y registrar las evidencias fotográficas o documentales recopiladas en campo.
 
 ### Bounded Context 8 - Compliance and Reporting:
 ![Database Diagram - EcoRoad](../assets/DBDiagram8.png)
+El diagrama de base de datos del módulo de cumplimiento y reportes relaciona la tabla Road_project con Envitonmental_statuses para monitorear el nivel de cumplimiento ambiental de la obra, y se conecta con Compliance_report mediante claves foráneas para gestionar la generación y almacenamiento de los reportes oficiales solicitados.   
