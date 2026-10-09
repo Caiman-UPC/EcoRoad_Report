@@ -455,6 +455,16 @@ Video de navegación del Landing Page y la Web Application: `[POR COMPLETAR: URL
 | Web Application | Incidents (tablero por estado) | `[POR COMPLETAR]` |
 | Web Application | Versión en español | `[POR COMPLETAR]` |
 
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+El despliegue y la documentación OpenAPI de los Web Services corresponden al Sprint 3. En el Sprint 2 la Web Application consume un API en entorno local con datos de muestra.
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de llamada | Parámetros | Ejemplo y explicación del response | URL local |
+|---|---|---|---|---|---|---|
+| Projects | Listar los proyectos de la empresa | GET | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` |
+| Alerts | Listar alertas, con filtro por nivel de riesgo y proyecto | GET | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` |
+| Incidents | Listar incidencias, con filtro por estado, proyecto y responsable | GET | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` |
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 <p>
