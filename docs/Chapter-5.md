@@ -404,6 +404,32 @@ Los aspectos del Sprint 2 se derivan del Sprint Goal:
 
 L = Leader, C = Collaborator. Cada líder coordina los tasks de su aspecto en Jira Software y revisa los Pull Requests correspondientes.
 
+
+#### 5.2.2.3. Sprint Backlog 2
+
+El objetivo principal del Sprint 2 es publicar la primera versión de la Frontend Web Application con las vistas Projects, Alerts e Incidents, y la versión 1.1.0 del Landing Page.
+
+`[POR COMPLETAR: captura del Board del Sprint 2 en Jira Software]`
+
+URL público del Board: `[POR COMPLETAR]`
+
+| Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---|---|
+| US12 | Solicitud de contacto con un especialista | T01 | Implement contact form | Agregar a la sección Contact el formulario con nombre, empresa, correo y mensaje, con validación de campos obligatorios y de formato. | 5 | Salcedo Muñoz | To-do |
+| US12 | Solicitud de contacto con un especialista | T02 | Show submission feedback | Mostrar mensajes de confirmación y de error en inglés y español al enviar la solicitud. | 3 | Salcedo Muñoz | To-do |
+| US16 | Accesibilidad de la Landing Page | T03 | Add ARIA attributes and landmarks | Incorporar roles, `aria-label` y `aria-expanded` en la navegación, los acordeones de Features, el selector de facturación y el botón de idioma. | 5 | Torres Juárez | To-do |
+| US16 | Accesibilidad de la Landing Page | T04 | Add keyboard focus and mobile menu | Agregar estilos de foco visible y un menú desplegable para pantallas menores a 900 px. | 5 | Guillen Chavez | To-do |
+| US17 | Consulta de documentos legales | T05 | Publish terms and privacy policy | Redactar y publicar Terms of Service y Privacy Policy, enlazados desde el footer. | 3 | Torres Juárez | To-do |
+| US14 | Acceso al inicio de sesión | T06 | Redirect Sign In to Web Application | Dirigir el enlace Sign In del header hacia la vista de inicio de sesión de la Web Application. | 2 | Salcedo Muñoz | To-do |
+| US32 | Consulta de proyectos de la empresa | T07 | Set up Angular application shell | Crear el proyecto Angular con Angular Material, layout con barra lateral, rutas e i18n en inglés y español. | 8 | Román López | To-do |
+| US32 | Consulta de proyectos de la empresa | T08 | Implement projects view | Implementar el listado de proyectos con estado ambiental, sensores, alertas e incidencias, y su servicio de datos. | 6 | Román López | To-do |
+| US45 | Consulta de incidencias | T09 | Implement incidents board | Implementar el tablero de incidencias agrupado por estado (Pending, In Progress, Resolved, Closed). | 7 | Yarleque Ruiz | To-do |
+| US45 | Consulta de incidencias | T10 | Implement incidents service and filters | Implementar el servicio de incidencias y los filtros por proyecto y responsable. | 5 | Guillen Chavez | To-do |
+| US42 | Consulta de alertas | T11 | Implement alerts view | Implementar el listado de alertas con filtro por nivel de riesgo y por proyecto. | 6 | Yarleque Ruiz | To-do |
+| US42 | Consulta de alertas | T12 | Implement alert detail panel | Mostrar el detalle de la alerta: indicador, valor, tramo, sensor, fecha y hora. | 4 | Torres Juárez | To-do |
+| — | Task adicional | T13 | Prepare local API and sample data | Preparar el API local con datos de muestra de proyectos, alertas e incidencias. | 3 | Guillen Chavez | To-do |
+| — | Task adicional | T14 | Deploy Web Application to Vercel | Configurar el proyecto en Vercel y publicar la primera versión de la Web Application. | 2 | Salcedo Muñoz | To-do |
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 <p>
