@@ -17,11 +17,9 @@ pdf-engine: xelatex
 variables:
   geometry: [margin=1in, a4paper]
   graphics: true
-
-# Esta regla ancla las imágenes exactamente donde las escribes en el texto
-header-includes:
-  - \usepackage{float}
-  - \floatplacement{figure}{H}
+  header-includes:
+    - \usepackage{float}
+    - \floatplacement{figure}{H}
 
 toc: true
 toc-depth: 3
