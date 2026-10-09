@@ -718,6 +718,7 @@ El diagrama de clases del módulo de monitoreo ambiental (monitoring) modela la 
 
 ### Bounded Context 6 - Alerting and Risk Evaluation:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD6.png)
+El diagrama de clases del módulo de evaluación de alertas y riesgos (alerting) modela el procesamiento y gestión de notificaciones mediante las entidades Alert y DeviationAssessment, permitiendo evaluar las desviaciones de umbrales midiendo su severidad (AlertSeverity) y controlando el ciclo de vida de la alerta (AlertStatus) para notificar oportunamente al personal responsable en EcoRoad.
 
 ### Bounded Context 7 - Incident and Remediation Management:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD7.png)
