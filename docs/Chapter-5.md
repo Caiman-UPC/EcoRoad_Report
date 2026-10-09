@@ -326,6 +326,13 @@ Video de navegación del Landing Page: `[POR COMPLETAR: URL en Microsoft Stream]
 | Vista móvil (600 px) | `[POR COMPLETAR: captura]` |
 | Versión en español | `[POR COMPLETAR: captura]` |
 
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+El alcance del Sprint 1 es el Landing Page, un sitio web estático; por lo tanto, no se implementaron ni documentaron Web Services en este Sprint.
+
+| Endpoint | Acciones implementadas | Documentación |
+|---|---|---|
+| No aplica | No hay Web Services en el alcance del Sprint 1. | No aplica |
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 El sitio fue desplegado exitosamente en GitHub Pages.
