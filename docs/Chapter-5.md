@@ -430,6 +430,15 @@ URL público del Board: `[POR COMPLETAR]`
 | — | Task adicional | T13 | Prepare local API and sample data | Preparar el API local con datos de muestra de proyectos, alertas e incidencias. | 3 | Guillen Chavez | To-do |
 | — | Task adicional | T14 | Deploy Web Application to Vercel | Configurar el proyecto en Vercel y publicar la primera versión de la Web Application. | 2 | Salcedo Muñoz | To-do |
 
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+`[POR COMPLETAR al cierre del Sprint: resumen de los avances de implementación en el Landing Page v1.1.0 y la Frontend Web Application v0.1.0.]`
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| Caiman-UPC/Landing-Page | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` |
+| `[POR COMPLETAR: repositorio frontend]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` |
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 <p>
