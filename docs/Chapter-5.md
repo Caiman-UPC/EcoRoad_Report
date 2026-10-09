@@ -528,6 +528,13 @@ La asignación de roles busca optimizar la ejecución del sprint, favoreciendo l
 Cada líder coordina las tareas relacionadas con su aspecto a través de <strong>Jira Software</strong>, supervisando avances, revisiones de código y validaciones funcionales con sus colaboradores.
 </p>
 
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+<p>
+  <a href="">Frontend EcoRoad</a> — 
+  <a href=""></a>
+</p>
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 <p>
