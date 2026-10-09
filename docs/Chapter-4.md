@@ -1,49 +1,52 @@
-Capítulo IV: Product Design
+# Capítulo IV: Product Design
 
-## 4.1. Style Guidelines.
+En este capítulo se abarcan aspectos de experiencia de usuario y arquitectura, incluyendo guías de estilo, arquitectura de información y el diseño tanto de la Landing Page como de la Web Application hasta la fundamentación técnica y de datos, compuesta por la arquitectura de software orientada al dominio (DDD), el diseño orientado a objetos y el modelado de la base de datos. Cada una de estas decisiones de diseño está alineada estrictamente con las exigencias del sector y los estándares de optimización, sostenibilidad y calidad que requiere la solución de EcoRoad.
+
+## 4.1. Style Guidelines
 <a id="4-1-Style-Guidelines"></a>
 
-En esta sección, el equipo sienta las bases para contar con un repositorio central y organizado de uso común para todo el equipo, que incluye assets, fuentes tipográficas, componentes visuales, entre otros. 
-Esto con el fin de mantener una presentación consistente y enfocada de la marca EcoRoad a lo largo de todos los puntos de contacto con el usuario, ya sea en campo, en oficina o en los distintos dispositivos desde los que se accede a la plataforma.
+En esta sección, el equipo sienta las bases para contar con un repositorio central y organizado de uso común para todo el equipo, que incluye assets, fuentes tipográficas, componentes visuales, entre otros. Esto con el fin de mantener una presentación consistente y enfocada de la marca EcoRoad a lo largo de todos los puntos de contacto con el usuario, ya sea en campo, en oficina o en los distintos dispositivos desde los que se accede a la plataforma. Para la construcción y estandarización visual de todos estos elementos, se ha utilizado **Figma** como herramienta principal de diseño.
 
 ### 4.1.1. General Style Guidelines
 <a id="4-1-1-General-Style-Guidelines"></a>
 
-Construimos la identidad de EcoRoad bajo directrices visuales de Branding, Typography, Colors y Spacing, así como las dimensiones adoptadas para el tono de comunicación y lenguaje aplicado por la marca.
-Estas decisiones se sustentan en el posicionamiento de EcoRoad como una plataforma que transforma el monitoreo ambiental en un flujo de gestión de detección de riesgos, alerta, incidencia, acción correctiva y evidencia, por lo que la identidad visual busca transmitir confiabilidad, precisión técnica y una ingeniería civil preventiva y sostenible.
+Construimos la identidad de EcoRoad bajo directrices visuales de Branding, Typography, Colors y Spacing, así como las dimensiones adoptadas para el tono de comunicación y lenguaje aplicado por la marca. Estas decisiones se sustentan en el posicionamiento de EcoRoad como una plataforma que transforma el monitoreo ambiental en un flujo de gestión preventiva y sostenible, buscando transmitir confiabilidad y precisión técnica.
 
 **Branding:**
 
 El logotipo de EcoRoad sintetiza los pilares conceptuales de la propuesta: naturaleza, infraestructura vial y monitoreo ambiental en tiempo real mediante IoT.
+* **Hoja (naturaleza/sostenibilidad):** Representa el componente ambiental que la plataforma monitorea (aire, ruido, agua, vibraciones) y la orientación hacia una gestión vial más sostenible.
+* **Carretera (infraestructura vial):** Representa el sector de aplicación del producto (construcción y mantenimiento), transmitiendo avance y trazabilidad.
+* **Montañas y sol (contexto geográfico):** Hacen referencia a los tramos, frentes de trabajo y puntos de monitoreo en campo.
+* **Contenedor circular:** Refuerza la idea de un ciclo completo de gestión ambiental (monitoreo -> alerta -> incidencia -> evidencia -> cierre).
 
-* **Hoja (naturaleza/sostenibilidad)**: Representa el componente ambiental que la plataforma monitorea (aire, ruido, agua, vibraciones) y la orientación hacia una gestión vial más sostenible. 
-* **Carretera (infraestructura vial)**: Representa el sector de aplicación del producto, construcción, mantenimiento y rehabilitación de vías, transmite avance, trazabilidad y dirección, en línea con el seguimiento de acciones correctivas hasta el cierre de cada incidencia. 
-* **Montañas y sol (contexto geográfico y monitoreo)**: Hacen referencia a los tramos, frentes de trabajo y puntos de monitoreo que la plataforma visualiza mediante dashboards geolocalizados. 
-* **Contenedor circular**: Refuerza la idea de un ciclo completo de gestión ambiental (monitoreo -> alerta -> incidencia -> acción correctiva -> evidencia -> cierre), coherente con el enfoque preventivo y no solo descriptivo de la plataforma.
+<p align="center">
+  <img src="../assets/Chapter-4/EcoRoadLogo.png" alt="EcoRoadLogo" width="350px" height="auto"/>
+</p>
 
 **Typography:**
 
 Siguiendo la construcción geométrica y redondeada del logotipo, se adopta una familia tipográfica sans-serif geométrica como base del sistema, priorizando legibilidad en pantallas de campo (tablets, móviles con luz solar directa) y coherencia con el tono técnico y confiable de la marca.
 
 
-| Uso                        | Tipografía                     | Aplicación |
-|:---------------------------|:-------------------------------| :--- |
-| Encabezados                | Poppins Bold / SemiBold        | Títulos de dashboard, nombres de proyecto |
-| Subtítulos                 | Poppins Medium                 | Nombres de módulos, tarjetas de indicadores |
-| Cuerpo de texto            | Inter Regular                  |  Tablas, formularios, descripciones |
-| Datos numéricos / métricas | Inter Medium (tabular figures) |Valores de sensores, timestamps |
+| Uso                        | Tipografía                      | Aplicación |
+|:---------------------------|:--------------------------------| :--- |
+| Encabezados                | khula / bold                    | Títulos de dashboard, nombres de proyecto |
+| Subtítulos                 | Inter / semi bold               | Nombres de módulos, tarjetas de indicadores |
+| Cuerpo de texto            | Inter / medium                  |  Tablas, formularios, descripciones |
+| Datos numéricos / métricas | Inter / Black (tabular figures) |Valores de sensores, timestamps |
 
 **Colors:**
 
 La paleta se deriva directamente de los colores institucionales definidos para EcoRoad, con un rol funcional asignado a cada uno para su uso en interfaz:
 
-| Color         | Hex | Rol funcional en la plataforma                                                                                          |
-|:--------------| :--- |:------------------------------------------------------------------------------------------------------------------------|
-| Verde         | `#2E9E7A` | Color principal de la marca; estado óptimo / sin riesgo detectado (semáforo verde)                                       |
-| Azul petróleo | `#264653` | Color secundario; tipografía principal, fondos de navegación, elementos estructurales                                   |
-| Crema         | `#F5F1E8` | Fondo base de la interfaz; transmite neutralidad y bajo cansancio visual en uso prolongado                              |
-| Amarillo      | `#E9B44C` | Condición de advertencia (semáforo ámbar) — indicador que se acerca al umbral establecido y puede derivar en una alerta |
-| Rojo          | `#C0392B` | Condición crítica (semáforo rojo) — el indicador supera el umbral y el sistema genera una incidencia                    |
+| Color                                                                     | Hex | Rol funcional en la plataforma                                                                                          |
+|:--------------------------------------------------------------------------| :--- |:------------------------------------------------------------------------------------------------------------------------|
+| <img src="../assets/Chapter-4/green.png" alt="green" style=height:40px>   | `#2E9E7A` | Color principal de la marca; estado óptimo / sin riesgo detectado (semáforo verde)                                       |
+| <img src="../assets/Chapter-4/blue.png" alt="blue"  style=height:40px>    | `#264653` | Color secundario; tipografía principal, fondos de navegación, elementos estructurales                                   |
+| <img src="../assets/Chapter-4/cream.png" alt="cream" style=height:40px>   | `#F5F1E8` | Fondo base de la interfaz; transmite neutralidad y bajo cansancio visual en uso prolongado                              |
+| <img src="../assets/Chapter-4/yellow.png" alt="yellow" style=height:40px> | `#E9B44C` | Condición de advertencia (semáforo ámbar) — indicador que se acerca al umbral establecido y puede derivar en una alerta |
+| <img src="../assets/Chapter-4/red.png" alt="red" style=height:40px>       | `#C0392B` | Condición crítica (semáforo rojo) — el indicador supera el umbral y el sistema genera una incidencia                    |
 
 
 **Spacing**
@@ -87,6 +90,29 @@ con tarjetas que muestran responsable asignado, ubicación, fecha/hora y miniatu
 * **Accesibilidad:**  contraste mínimo AA (WCAG 2.1) entre texto y fondo en todas las combinaciones de la paleta, verificado especialmente en el uso del amarillo 
 (#E9B44C) sobre crema, que requiere texto oscuro (#264653) para mantener legibilidad.
 
+### 4.1.3. Mobile Style Guidelines
+<a id="4-1-3-Mobile-Style-Guidelines"></a>
+
+Las interfaces para la versión web móvil de la aplicación EcoRoad están diseñadas bajo los principios de Mobile-First, considerando que los ingenieros residentes y auditores de fiscalización operan en frentes de obra (campo) con una alta incidencia de luz solar directa y mediante interacciones de una sola mano. Diseñados y centralizados en Figma, se establecen las siguientes directrices y lineamientos visuales de interfaz:
+
+* **Touch Targets (Interacción Táctil)**: Se establece un área táctil mínima de 44x44 px (y 48x48 px recomendada) para todos los botones de acción principal (CTAs), iconos de captura de evidencia fotográfica y controles de formularios para asegurar precisión operativa sin frustración.
+
+* **Navegación Móvil (Adaptación de Navegación)**: Sustitución de la barra lateral izquierda (sidebar) por una Bottom Navigation Bar (Barra de navegación inferior) para el acceso inmediato con el pulgar a los módulos operativos clave: Inicio, Alertas e Incidencias.
+
+* **Tipografía Responsiva (Legibilidad de Campo)**: Escalamiento tipográfico que prioriza el alto contraste y el uso de fuentes de gran peso (Inter Black) para los valores numéricos de las lecturas telemétricas ambientales, asegurando un escaneo visual rápido bajo el sol.
+
+* **Simplificación Visual (Reducción de Complejidad)**: Ocultamiento de filtros avanzados de escritorio detrás de menús modales inferiores (Bottom Sheets) para mantener la limpieza visual en las tarjetas de incidencias y listados del sistema.
+
+* **Diseño Responsive y Estructura**: Reorganización estructural del contenido para pantallas pequeñas pasando de esquemas multi-columna a una sola columna fluida. Las tarjetas (cards), paneles de telemetría y contenedores de datos se apilan verticalmente para optimizar el espacio útil de visualización.
+
+* **Formularios y Registro de Evidencias**: Optimización del flujo para el registro de mediciones, fotografías de campo e incidencias. Se prioriza el uso de campos de entrada con dimensiones ampliadas, pasos secuenciales mínimos y botones de acción principal persistentes, facilitando la captura de datos en condiciones de obra.
+
+* **Alertas y Estados Visuales**: Mantenimiento de una diferenciación visual inequívoca para la evaluación del riesgo a través de la paleta funcional tipo semáforo. Las alertas ambientales críticas ocupan un rol jerárquico prioritario mediante pancartas (banners) superiores de color sólido que capturan la atención inmediata del supervisor antes de incurrir en infracciones normativas.
+
+* **Mapas y Visualización de Información**: Adaptación del módulo cartográfico GIS a una interfaz táctil simplificada. Los tramos viales, frentes de trabajo y puntos de monitoreo se despliegan en mapas a pantalla completa con controles de navegación y zoom optimizados para gestos multitáctiles.
+
+* **Accesibilidad Móvil (a11y)**: Garantía de un contraste mínimo AA (conforme a las pautas WCAG 2.1) entre el texto técnico y los fondos de la interfaz. Esto asegura la legibilidad bajo condiciones ambientales extremas en obra, manteniendo coherencia con las directrices generales de diseño.
+
 ## 4.2. Information Architecture
 <a id="4-2-information-architecture"></a>
 
@@ -95,20 +121,32 @@ La arquitectura de información de EcoRoad está diseñada para garantizar una n
 ### 4.2.1. Organization Systems
 <a id="4-2-1-organization-systems"></a>
 
-* **Jerarquía de Contenidos:** La estructura de la información fluye de lo general a lo específico. En la Landing Page pública se prioriza la propuesta de valor HaaS/SaaS y los beneficios de Caiman, mientras que en la Web Application la jerarquía organiza el portafolio global de proyectos viales hasta llegar al detalle micro de cada tramo, punto de monitoreo e incidencia.
+Para estructurar la complejidad de los datos ambientales y operativos, EcoRoad aplica diferentes sistemas de organización visual y esquemas de categorización que se adaptan al contexto del usuario:
 
-* **Secciones Principales de la Aplicación:** La plataforma se divide en módulos funcionales clave:
-    * **Dashboard Global:** Vista ejecutiva y multi-proyecto con indicadores de salud ambiental.
-    * **Mapa Interactivo:** Visualización geolocalizada de tramos viales y pines semafóricos.
-    * **Gestión de Proyectos:** Alta, configuración y administración de frentes de obra viales.
-    * **Puntos de Monitoreo:** Registro de telemetría y parámetros físicos (aire, ruido, agua).
-    * **Tablero de Incidencias:** Flujo Kanban para el seguimiento y resolución de desvíos normativos con evidencia multimedia.
-    * **Reportes y Auditorías:** Generación automatizada de expedientes y exportación en formato PDF.
-    * **Configuración y Suscripción:** Gestión de planes (Base, Profesional, Enterprise) y control de accesos basados en roles (RBAC).
+**Organización Visual del Contenido:**
+*   **Jerárquica (Visual Hierarchy):** Se aplica en la Web Application organizando el portafolio global de proyectos viales de lo general a lo específico. Desde los KPIs macro en el Dashboard Global hasta el detalle micro de cada tramo, punto de monitoreo e incidencia.
+*   **Secuencial (Step-by-step):** Utilizada en los formularios de registro de evidencias de campo y en el flujo Kanban de atención de incidencias, guiando al usuario paso a paso desde la notificación de la alerta hasta el cierre formal del ticket.
+*   **Matricial:** Implementada en la vista de configuración de accesos (RBAC), donde los administradores cruzan los roles de los usuarios (filas) con los módulos de acceso y permisos específicos (columnas).
 
-* **Agrupación de Contenidos:** Los datos operativos se agrupan lógicamente por severidad y contexto temporal. Las alertas y tickets críticos se destacan mediante códigos de color estandarizados (semáforo), permitiendo un escaneo visual rápido sin saturar al operador de campo.
+**Esquemas de Categorización de Contenido:**
+*   **Por Tópicos:** Utilizado para agrupar los módulos funcionales clave en la navegación lateral (Proyectos, Sensores, Alertas, Incidencias, Reportes, Configuración).
+*   **Cronológico:** Aplicado rigurosamente en el *Historial de Indicadores*, en los gráficos de telemetría y en el *Traceability History* de incidencias, ordenando los eventos ambientales desde el más reciente al más antiguo.
+*   **Alfabético:** Empleado en el listado general del portafolio de proyectos y en el directorio de colaboradores de la empresa para agilizar las búsquedas.
+*   **Según Audiencia:** La Landing Page pública segmenta y categoriza sus mensajes para resonar tanto con el equipo directivo/gerencial (enfocado en beneficios como evitar multas y modelo HaaS sin CapEx) como con el equipo operativo de campo (enfocado en la automatización del papeleo y alertas tempranas).
 
-4.2.2. Labeling Systems.
+### 4.2.2. Labeling Systems
+<a id="4-2-2-labeling-systems"></a>
+
+Para garantizar la simplicidad y evitar la confusión de los ingenieros y gerentes, el sistema de etiquetado de EcoRoad evita tecnicismos excesivos de software y adopta el *Ubiquitous Language* de la ingeniería civil y ambiental. Se emplean etiquetas con el mínimo número de palabras para representar conjuntos de información y sus asociaciones:
+
+*   **"Proyectos":** Etiqueta que asocia todo el portafolio de obras, frentes y tramos viales pertenecientes a una concesión o constructora.
+*   **"Sensores":** Engloba todo el hardware IoT, su estado de calibración, conexión y geolocalización.
+*   **"Alertas":** Representa de forma directa todas las notificaciones por superaciones preventivas de umbrales ambientales (ECA).
+*   **"Incidencias":** Etiqueta que agrupa los flujos de respuesta, acciones correctivas operativas y tickets en curso.
+*   **"Reportes":** Asociación rápida a expedientes formales, auditorías PDF y logs inmutables.
+*   **"Equipo":** Gestiona roles, colaboradores y permisos (RBAC).
+
+Este etiquetado textual se acompaña sistemáticamente de iconografía universal (ej. un icono de advertencia junto a "Alertas", un icono de mapa junto a "Proyectos") para acelerar el escaneo cognitivo.
 
 ### 4.2.3. SEO Tags and Meta Tags
 <a id="4-2-3-seo-tags-and-meta-tags"></a>
@@ -130,22 +168,28 @@ Para asegurar la visibilidad en motores de búsqueda y la correcta compartición
 ### 4.2.4. Searching Systems
 <a id="4-2-4-searching-systems"></a>
 
-* **Barra de Búsqueda Global:** Ubicada de forma prominente en el encabezado principal de la Web Application, permitiendo localizar de inmediato proyectos por nombre o código de tramo vial, puntos de control específicos e incidencias registradas.
-* **Filtros y Facetas Contextuales:** Herramientas de acotación de datos dentro de los módulos para filtrar la información por tipo de indicador ambiental (*aire, ruido, agua*), rango de fechas y niveles de severidad del riesgo.
-* **Historial de Búsqueda:** Registro automatizado de consultas recientes para agilizar el flujo de trabajo de los auditores y residentes de obra que alternan entre múltiples frentes de trabajo.
-* **Resultados Relevantes:** Priorización inteligente de resultados basada en los permisos de usuario (RBAC) y la cartera de proyectos activa asignada a su cuenta.
+Para evitar que los usuarios se sientan perdidos ante el gran volumen de datos telemétricos, EcoRoad ofrece sistemas de búsqueda optimizados:
+
+*   **Barra de Búsqueda Global:** Ubicada de forma prominente en el encabezado principal de la Web Application, permitiendo localizar de inmediato proyectos por nombre o código de tramo vial.
+*   **Filtros y Facetas Contextuales:** Herramientas de acotación de datos dentro de los módulos para filtrar la información por tipo de indicador ambiental (*aire, ruido, agua*), rango de fechas y niveles de severidad del riesgo.
+*   **Historial de Búsqueda:** Registro automatizado de consultas recientes para agilizar el flujo de trabajo de auditores y residentes que alternan entre frentes recurrentes.
+*   **Presentación de Resultados:** Los resultados lucirán en formato de tarjetas (cards) resumidas para entidades como proyectos o incidencias, destacando en negrita el término buscado dentro del título o descripción para facilitar el reconocimiento visual rápido. La priorización inteligente de resultados se basará en los permisos de usuario (RBAC).
 
 ### 4.2.5. Navigation Systems
 <a id="4-2-5-navigation-systems"></a>
 
-* **Navegación Global:** La barra superior y el menú lateral (*Sidebar*) permanente aseguran el acceso transversal a las secciones principales de la plataforma desde cualquier pantalla del sistema.
-* **Navegación Contextual:** Enlaces integrados dentro de las tarjetas de proyectos y botones de acción rápida (*CTAs*) que guían al usuario desde la vista macro del portafolio hasta el detalle analítico de una incidencia o punto de monitoreo.
-* **Migas de Pan (Breadcrumbs):** Elementos de rastreo ubicados en la cabecera interna (ej. *Portafolio > Autopista Norte > Tramo 3 > Punto de Control #02*) que indican la ruta de navegación actual y permiten un retroceso jerárquico inmediato.
-* **Navegación Móvil:** Adaptación mediante menús colapsables tipo hamburguesa optimizados para pantallas táctiles, asegurando la usabilidad de campo en dispositivos móviles de los ingenieros residentes.
+Las acciones y técnicas que guiarán a los usuarios a través del producto para cumplir sus metas operativas incluyen:
 
-4.3. Landing Page UI Design.
+*   **Navegación Global:** La barra superior y el menú lateral (*Sidebar*) permanente aseguran el acceso transversal a las secciones principales de la plataforma desde cualquier pantalla del sistema.
+*   **Navegación Contextual:** Enlaces integrados dentro de las tarjetas de proyectos y botones de acción rápida (*CTAs*) que guían al usuario desde la vista macro del portafolio hasta el detalle analítico de una incidencia o punto de monitoreo específico.
+*   **Migas de Pan (Breadcrumbs):** Elementos de rastreo ubicados en la cabecera interna (ej. *Portafolio > Autopista Norte > Tramo 3 > Punto de Control #02*) que indican la ruta de navegación actual y permiten un retroceso jerárquico inmediato.
+*   **Navegación Móvil:** Adaptación de los menús en dispositivos táctiles utilizando el patrón de menú hamburguesa para configuraciones y Bottom Navigation Bars para los módulos operativos de campo frecuentes.
 
-4.3.1. Landing Page Wireframe.
+## 4.3. Landing Page UI Design.
+
+En esta sección el equipo elabora la propuesta de UI para el Landing Page. A través del uso de la herramienta **Figma**, se han traducido las decisiones de diseño, lineamientos de identidad visual y de arquitectura de la información en prototipos estructurales de alta y baja fidelidad.
+
+### 4.3.1. Landing Page Wireframe.
 
 El wireframe de nuestra página de inicio sirve como un mapa visual que define la estructura y el flujo de la información. Este esquema asegura una disposición lógica de los componentes, facilitando la navegación y destacando la propuesta de valor de EcoRoad. Las secciones del wireframe están diseñadas para contar una historia completa y persuasiva:
 
@@ -191,7 +235,7 @@ La sección presenta ejemplos de experiencias basados en casos de éxito de la p
 
 **Pricing**
 
-La sección "Pricing" expone el modelo de monetización bajo el título "Flexible, Scalable Subscription Plans". Estructura la oferta en tres planes SaaS escalables (Base, Professional y Enterprise), permitiendo alternar entre facturación mensual y anual con descuento. Cada tarjeta detalla el precio, el perfil de cliente objetivo, un botón directo de acción y un listado de funcionalidades clave que van desde el monitoreo básico de proyectos hasta integraciones avanzadas y soporte 24/7.
+La sección "Pricing" expone el modelo de monetización bajo el título "Flexible, Scalable Subscription Plans". Estructura la oferta en tres planes SaaS escalables (Starter, Professional y Enterprise), permitiendo alternar entre facturación mensual y anual con descuento. Cada tarjeta detalla el precio, el perfil de cliente objetivo, un botón directo de acción y un listado de funcionalidades clave que van desde el monitoreo básico de proyectos hasta integraciones avanzadas y soporte 24/7.
 
 <div align="center">
   <img src="../assets/Chapter-4/wf-landing-pricing.png" alt="Paso 4">
@@ -223,7 +267,7 @@ El Footer (pie de página) de la plataforma cierra el sitio con una estructura i
 
 
 
-4.3.2. Landing Page Mock-up.
+### 4.3.2. Landing Page Mock-up.
 
 Esta sección presenta los mock-ups de la landing page para versiones web de escritorio y móvil. En ambas se explica la aplicación de los principios de diseño, diseño inclusivo y arquitectura de la información.
 
@@ -269,10 +313,10 @@ La sección presenta ejemplos de experiencias basados en casos de éxito de la p
 
 **Pricing**
 
-La sección "Pricing" expone el modelo de monetización bajo el título "Flexible, Scalable Subscription Plans". Estructura la oferta en tres planes SaaS escalables (Base, Professional y Enterprise), permitiendo alternar entre facturación mensual y anual con descuento. Cada tarjeta detalla el precio, el perfil de cliente objetivo, un botón directo de acción y un listado de funcionalidades clave que van desde el monitoreo básico de proyectos hasta integraciones avanzadas y soporte 24/7.
+La sección "Pricing" expone el modelo de monetización bajo el título "Flexible, Scalable Subscription Plans". Estructura la oferta en tres planes SaaS escalables (Starter, Professional y Enterprise), permitiendo alternar entre facturación mensual y anual con descuento. Cada tarjeta detalla el precio, el perfil de cliente objetivo, un botón directo de acción y un listado de funcionalidades clave que van desde el monitoreo básico de proyectos hasta integraciones avanzadas y soporte 24/7.
 
 <div align="center">
-  <img src="../assets/Chapter-4/plans.png" alt="Paso 4">
+  <img src="../assets/Chapter-4/plan.png" alt="Paso 4">
 </div>
 
 **About team**
@@ -299,9 +343,11 @@ El Footer (pie de página) de la plataforma cierra el sitio con una estructura i
   <img src="../assets/Chapter-4/footer.png" alt="Paso 4">
 </div>
 
-4.4. Web Applications UX/UI Design.
+## 4.4. Web Applications UX/UI Design.
 
-4.4.1. Web Applications Wireframes.
+Esta sección incluye las propuestas visuales y de interacción para las aplicaciones de la experiencia digital privada. Todos los artefactos visuales (Wireframes y Mock-ups) han sido creados en **Figma**, mientras que los diagramas de flujos de interacción (Wireflows y User Flows) han sido elaborados analíticamente en la herramienta **FigJam**.
+
+### 4.4.1. Web Applications Wireframes.
 
 **Home**
 
@@ -368,9 +414,16 @@ Permite administrar usuarios y asignar permisos granulares basados en roles (RBA
   <img src="../assets/Chapter-4/wf-team.png" alt="Team">
 </div>
 
-4.4.2. Web Applications Wireflow Diagrams.
+### 4.4.2. Web Applications Wireflow Diagrams.
 
-4.4.3. Web Applications Mock-ups.
+Los Wireflow Diagrams representan visualmente la navegación y las interacciones que realizan los usuarios dentro de una aplicación para alcanzar un objetivo determinado. Estos diagramas combinan wireframes y flujos de usuario, lo que permite visualizar las pantallas involucradas en cada proceso y la secuencia de acciones necesarias para completar una tarea.
+
+<div align="center">
+  <img src="../assets/Chapter-4/flow.png" alt="Wireflow">
+</div>
+
+
+### 4.4.3. Web Applications Mock-ups.
 
 En esta sección se presentan los mock-ups diseñados para la aplicación web de EcoRoad. Cada pantalla responde a las funcionalidades principales del sistema.
 
@@ -511,20 +564,31 @@ Administración móvil de personal asignado al corredor y gestor de permisos por
 
 Tarjetas de planes de suscripción (Starter Corridor y Enterprise Concession) que detallan costos, capacidades telemáticas e integración normativa.
 <div align="center">
-  <img src="../assets/Chapter-4/sus-mob.png" alt="Team">
+  <img src="../assets/Chapter-4/sub-mob.png" alt="Team">
 </div>
 
-4.4.3. Web Applications User Flow Diagrams.
+### 4.4.4. Web Applications User Flow Diagrams.
 
-4.5. Web Applications Prototyping.
+Un user flow es la representación visual del camino que un usuario sigue dentro de la aplicación EcoRoad para alcanzar un objetivo específico. Estos diagramas permiten verificar que la navegación sea lógica y esté libre de obstáculos para cada uno de los roles: Administrador de la Empresa, Jefe de Gestión Ambiental (User Persona Diego Davalos, segmento de empresas constructoras viales) y Residente de Mantenimiento (User Persona Piero Deza, segmento de empresas de mantenimiento y rehabilitación vial). Cada flujo incluye la ruta ideal (happy path) y las rutas alternativas (unhappy paths), derivadas de los criterios de aceptación de las user stories.
 
-4.6. Domain-Driven Software Architecture.
+Objetivo: El gerente de proyecto desea revisar el estado ambiental de sus proyectos, analizar la evolución de un indicador y generar un informe ambiental. (US14, US23, US24, US26, US38)
+
+Happy Path
+En esta ruta ideal, el gerente de proyecto abre la vista Sign in, ingresa credenciales válidas y presiona “Sign in to Platform”. El sistema lo dirige al Main Dashboard, donde revisa el resumen de sus proyectos activos, sensores, alertas e incidencias. Desde el menú lateral abre Projects y visualiza el listado de proyectos con su estado ambiental, sensores IoT, alertas e incidencias. Selecciona el proyecto Carretera Lima–Canta con “View project” y accede al Project Detail, donde consulta el nivel de riesgo ambiental, los indicadores monitoreados y las incidencias pendientes. Desde allí abre Indicator History, elige el indicador y el rango de fechas, y presiona “Consult” para ver la evolución de las mediciones. Finalmente, abre Environmental Reports, configura el proyecto, el periodo y el contenido, y presiona “Generate report” para obtener el informe, que puede visualizar o descargar en PDF.
+<div align="center">
+  <img src="../assets/Chapter-5/UserFlow1.png" alt="userflow">
+</div>
+
+## 4.5. Web Applications Prototyping.
+La sección de Web Applications Prototyping presenta los prototipos interactivos diseñados en Figma para la versión Desktop y Mobile Web de EcoRoad1more_horiz. Estos prototipos permiten simular la navegación real dentro de la plataforma privada y visualizar cómo los usuarios recorren los principales paths definidos en los User Flow Diagrams34.Las decisiones de interacción tomadas en esta etapa responden a tres criterios fundamentales:Claridad y simplicidad de uso, especialmente considerando que parte de nuestros usuarios (como residentes de mantenimiento y personal operativo en campo) operan en entornos exigentes de obra25.Rapidez de acceso a la información crítica, alineada con la necesidad de monitoreo ambiental en tiempo real (telemetría IoT de calidad de aire, ruido, agua y vibraciones) y la prevención de multas o paralizaciones6more_horiz.Consistencia visual y funcional, asegurando que las interacciones sean predecibles y estén estrictamente alineadas con el Design System y las Style Guidelines de EcoRoad1more_horiz.Criterios que guiaron las decisiones de interacciónArquitectura de Información basada en prioridades del usuarioLa estructura del contenido se organizó priorizando los elementos de mayor consulta para los jefes de gestión ambiental, ingenieros residentes y auditores regulatorios4more_horiz:Resumen de red telemática y KPIs globales312Estado ambiental de proyectos y frentes de obra (semáforo de riesgo)9more_horizAlertas telemáticas de umbrales ECA14more_horizTablero de incidencias socioambientales y acciones correctivas9more_horizHistorial de indicadores (PM10, ruido, agua)17more_horizReportes oficiales de cumplimiento (PDF con firma digital y hash SHA-256)1719Estos componentes se ubicaron en zonas de acceso rápido tanto en la interfaz de escritorio como en la móvil, asegurando rutas de navegación cortas y directas2more_horiz.Navegación clara y consistenteSe optó por un sistema de navegación adaptado al contexto de uso:En Desktop: Una barra lateral fija (Sidebar) en azul petróleo (#264653) que mantiene visibles de forma permanente las secciones clave (Proyectos, Sensores, Alertas, Incidencias, Reportes, Configuración)9more_horiz.En Mobile: Una barra de navegación inferior (Bottom Navigation Bar) para accesos inmediatos con el pulgar a los módulos operativos de campo (Inicio, Alertas e Incidencias), complementada por un menú hamburguesa para secciones secundarias220.Esta decisión refleja la arquitectura de información estructurada y garantiza que las rutas coincidan con los User Flow Diagrams propuestos4more_horiz.Interacciones basadas en patrones familiaresPara reducir la curva de aprendizaje en campo y oficina se utilizaron patrones estandarizados2more_horiz:Tableros tipo Kanban para la gestión secuencial de incidencias (Pendiente, En Progreso, Resuelto, Cerrado)9more_horiz.Tarjetas (cards) e indicadores KPI con codificación semáforo (verde, ámbar, rojo) para evaluar el riesgo ambiental de un vistazo9more_horiz.Acordeones y modales inferiores (Bottom Sheets) para desplegar filtros avanzados y detalles técnicos sin abarrotar la pantalla2.Íconos universales asociados al Ubiquitous Language de la ingeniería civil y ambiental (mapas para proyectos, advertencias para alertas, sensores IoT)1522.Principios de diseño inclusivo y de campoLos prototipos consideran las condiciones operativas extremas en frentes de obra25:Tipografías legibles y de alto contraste: Uso de la familia Inter (incluyendo Inter Black para datos numéricos y métricas de telemetría) y Khula para encabezados223.Contraste adaptado a luz solar directa: Garantía de contraste mínimo WCAG 2.1 AA en todas las combinaciones de la paleta institucional (verde #2E9E7A, azul #264653, crema #F5F1E8, ámbar #E9B44C y rojo #C0392B)2more_horiz.Interacción táctil optimizada: Botones y elementos interactivos con áreas táctiles amplias (Touch Targets de 44x44 px a 48x48 px recomendados) para facilitar la manipulación con una sola mano en campo2.Prototipos UI – Versión DesktopLos prototipos de escritorio muestran una interfaz amplia en grilla de 12 columnas9, optimizada para directores, jefes ambientales y auditores que analizan datos desde una laptop o PC4more_horiz. Entre los elementos destacados:Dashboard principal (Home):Vista general de la red telemática (métricas de proyectos, sensores activos, alertas e incidencias)312.Mapa geolocalizado GIS del corredor vial y tarjetas de alertas recientes fuera de parámetro3more_horiz.Navegación lateral fija (Sidebar):Acceso permanente a Home, Projects, Project Dashboard, Alerts, Incidents, History, Reports y Collaborators12more_horiz.Persistencia visual que mantiene la orientación del usuario en todo momento920.Secciones modulares e informativas:Tarjetas de indicadores con estado ambiental semáforo913.Tablas y gráficos de evolución temporal de contaminantes (ej. PM10 vs. límites normativos ECA)1719.Módulo de generación de informes con firma digital y hash encriptado SHA-2561719.Prototipos UI – Versión Mobile Web BrowserLa versión móvil prioriza la usabilidad en obra bajo principios Mobile-First2, manteniendo la identidad visual pero adaptada a pantallas verticales de una sola columna fluida219.Home simplificado:Resumen al instante del estado ambiental del tramo o frente de trabajo224.Acceso directo a las alertas críticas y tarjetas de incidencias pendientes225.Bottom Navigation Bar:Incluye accesos directos a los módulos operativos clave: Inicio, Alertas e Incidencias2more_horiz.Diseñado para la operabilidad con el pulgar y reducción de carga cognitiva en campo2.Menú hamburguesa:Agrupa secciones secundarias como Collaborators & Permissions (RBAC), Subscription & Licensing o historial extendido, evitando saturar la vista principal226.Interacción táctil optimizada:Controles y botones de captura de evidencia fotográfica ampliados225.Desplazamiento vertical continuo y filtros ocultos en menús desplegables inferiores (Bottom Sheets)2.Relación con los User Flow DiagramsCada prototipo fue diseñado respetando rigurosamente los recorridos definidos en los User Flow Diagrams para los distintos perfiles (como Diego Dávalos, Jefe de Gestión Ambiental, y Piero Deza, Residente de Mantenimiento)427, garantizando que:Las pantallas aparezcan en la secuencia lógica de trabajo (Sign in $\rightarrow$ Dashboard $\rightarrow$ Proyectos $\rightarrow$ Detalle $\rightarrow$ Historial / Alertas / Incidencias $\rightarrow$ Reporte PDF)27.No existan rutas muertas ni pasos innecesarios durante la atención de emergencias o auditorías en obra427.Las tareas principales (consultar telemetría en tiempo real, atender alertas de umbrales, registrar evidencias de campo y generar expedientes de cumplimiento) se completen con la menor cantidad de interacciones posible227.La navegación resulte intuitiva para usuarios con distintos niveles de competencia tecnológica tanto en oficina como en campo
+
+## 4.6. Domain-Driven Software Architecture.
 
 La arquitectura de software de EcoRoad se construye a partir de los resultados obtenidos en el Big Picture EventStorming, que permitió comprender en profundidad los flujos clave del dominio de gestión y cumplimiento ambiental en infraestructura vial, así como las interacciones entre las empresas constructoras, supervisoras y los dispositivos IoT de campo. A partir de este análisis inicial, se desarrolló una visión más estructurada del dominio utilizando los principios de Domain-Driven Design (DDD).
 
 En las siguientes secciones se presenta cada nivel del modelo, explicando la estructura, responsabilidades y comunicación entre los elementos que conforman la arquitectura de EcoRoad.
 
-4.6.1. Design-Level Event Storming.
+### 4.6.1. Design-Level Event Storming.
 
 Para identificar los eventos de dominio y profundizar en el modelado táctico, se realizó una sesión de EventStorming. Esta técnica permite visualizar y comprender el flujo de eventos dentro del dominio, facilitando la identificación de los Bounded Contexts, los aggregates (agregados) como fronteras transaccionales, los comandos, eventos, políticas y vistas de lectura.
 
@@ -585,7 +649,7 @@ Agrupa la consolidación de los datos históricos de monitoreo, alertas e incide
   <img src="../assets/Chapter-4/paso8.jpg" alt="Paso 4">
 </div>
 
-4.6.2. Software Architecture Context Diagram.
+### 4.6.2. Software Architecture Context Diagram.
 
 En este nivel se presenta una vista de alto nivel de la arquitectura, donde el foco está en el sistema de software **EcoRoad** como una “caja negra” y en las interacciones que mantiene con sus usuarios, sus dispositivos de campo y con otros sistemas externos.
 
@@ -604,7 +668,7 @@ En el diagrama se representan las relaciones entre estos elementos, destacando q
 <div align="center"><img src="../assets/Chapter-4/ContextDiagram.png" alt="Software Architecture Context Diagram"></div>
 <br>
 
-4.6.3. Software Architecture Container Diagrams.
+### 4.6.3. Software Architecture Container Diagrams.
 
 En el nivel de contenedores, la atención se desplaza desde “quién usa el sistema” hacia “cómo se organiza internamente el sistema en aplicaciones y fuentes de datos”. El *Container Diagram* muestra los elementos de alto nivel de la arquitectura de **EcoRoad**, sus responsabilidades principales y la forma en que se comunican entre sí y con los sistemas externos.
 
@@ -627,7 +691,7 @@ Esta vista resume la distribución de responsabilidades entre las capas de prese
 <div align="center"><img src="../assets/Chapter-4/ContainerDiagram.png" alt="Incident & Remediation Management Context"></div>
 <br>
 
-4.6.4. Software Architecture Components Diagrams.
+### 4.6.4. Software Architecture Components Diagrams.
 
 En el nivel de componentes se detalla la descomposición interna de los contenedores, mostrando los bloques estructurales que conforman cada uno y las relaciones entre ellos. Dado que la **Single Page Application** y la **Database** son descritas mediante diagramas de clases frontend y de base de datos, en esta sección se pone especial énfasis en el contenedor **API Application**, donde reside la mayor parte de la lógica de negocio y la ingesta de telemetría ambiental.
 
@@ -665,27 +729,35 @@ Se centra en la definición de diagramas de clases, la interacción entre objeto
 
 ### Bounded Context 1 - Suscriptions and Payment:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD1.png)
+El diagrama de clases del módulo comercial (commercial) modela la gestión de cuentas de empresas constructoras (CompanyAccount) y sus respectivas suscripciones (Subscription), permitiendo registrar organizaciones, controlar su estado de activación, y asignar planes de servicio (SubscriptionPlan) bajo estados específicos (SubscriptionStatus) para asegurar el acceso al modelo SaaS de EcoRoad.
 
 ### Bounded Context 2 - Identity and Access Management:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD2.png)
+El diagrama de clases del módulo de identidad y gestión de accesos (identity) estructura el control de usuarios mediante las entidades UserInvitation, User y UserAccess, permitiendo gestionar invitaciones corporativas bajo estados específicos (InvitationStatus), validar perfiles activos y asignar roles operativos (Role) como administradores o supervisores para garantizar la seguridad dentro de EcoRoad.
 
 ### Bounded Context 3 - Project and Road Site Management:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD3.png)
+El diagrama de clases del módulo de gestión de proyectos viales (project) modela la estructura jerárquica de la infraestructura mediante las entidades RoadProject, RoadSection y WorkFront, permitiendo registrar obras, configurar tramos carreteros con sus respectivos kilómetros de inicio y fin, y administrar los frentes de trabajo bajo estados operativos definidos en los enumerados ProjectStatus y WorkFrontStatus.
 
 ### Bounded Context 4 - Monitoring Asset and Deployment:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD4.png)
+El diagrama de clases del módulo de gestión de activos y despliegue (asset) modela el control del hardware mediante las entidades MonitoringPoint, Sensor y la clase intermedia SensorAssignment, permitiendo geolocalizar puntos de control en campo, gestionar el inventario de sensores IoT y vincularlos de forma activa bajo los estados definidos en los enumerados MonitoringPointStatus y SensorStatus.
 
 ### Bounded Context 5 - Environmental Monitoring:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD5.png)
+El diagrama de clases del módulo de monitoreo ambiental (monitoring) modela la captura de telemetría mediante las entidades EnvironmentalMeasurement y ThresholdProfile, permitiendo registrar mediciones provenientes de sensores automáticos o ingresos manuales según el tipo de parámetro (ParameterType), y evaluarlas frente a los umbrales configurados para determinar su nivel de riesgo dentro de EcoRoad.
 
 ### Bounded Context 6 - Alerting and Risk Evaluation:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD6.png)
+El diagrama de clases del módulo de evaluación de alertas y riesgos (alerting) modela el procesamiento y gestión de notificaciones mediante las entidades Alert y DeviationAssessment, permitiendo evaluar las desviaciones de umbrales midiendo su severidad (AlertSeverity) y controlando el ciclo de vida de la alerta (AlertStatus) para notificar oportunamente al personal responsable en EcoRoad.
 
 ### Bounded Context 7 - Incident and Remediation Management:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD7.png)
+El diagrama de clases del módulo de gestión de incidencias (incident) modela el seguimiento y resolución de anomalías ambientales mediante las entidades EnvironmentalIncident, CorrectiveAction y el objeto de valor FieldEvidence, permitiendo administrar el ciclo de vida de la incidencia (IncidentStatus), asignar responsables, registrar acciones correctivas con su respectivo estado (ActionStatus) y adjuntar evidencias documentales o fotográficas para garantizar la trazabilidad en EcoRoad.
 
 ### Bounded Context 8 - Compliance and Reporting:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD8.png)
+El diagrama de clases del módulo de cumplimiento y reportes (compliance) modela la generación de documentos oficiales y el seguimiento del estado ambiental mediante las entidades ComplianceReport y EnvironmentalStatus, permitiendo gestionar el ciclo de vida del reporte a través de los estados definidos en el enumerado ReportStatus (Requested, Generating, Generated, Failed), consolidar datos históricos y leer el estado ambiental global del proyecto para respaldar las auditorías ante las autoridades correspondientes.
 
 ## 4.8. Database Design.
 <a id="4-8-database-design"></a>
@@ -694,25 +766,33 @@ Se centra en la definición de diagramas de clases, la interacción entre objeto
 <a id="4-8-1-database-diagrams"></a>
 
 ### Bounded Context 1 - Suscriptions and Payment:
-![Database Diagram - EcoRoad](../assets/DBDiagram1.jpeg)
+![Database Diagram - EcoRoad](../assets/DBDiagram1.png)
+El diagrama de base de datos relacional del módulo comercial y de suscripciones de EcoRoad vincula la tabla Company_account, encargada de almacenar la información y el estado de las empresas constructoras, con la tabla Subscriptions mediante una clave foránea, permitiendo administrar los planes contratados, sus estados vigentes y las fechas de inicio y fin del servicio.
 
 ### Bounded Context 2 - Identity and Access Management:
-![Database Diagram - EcoRoad](../assets/DBDiagram2.jpeg)
+![Database Diagram - EcoRoad](../assets/DBDiagram2.png)
+El diagrama de base de datos del módulo de identidad y gestión de accesos vincula la tabla User, que almacena la información de los colaboradores, con la tabla User_access mediante una clave foránea para administrar sus roles y permisos, y se integra con la tabla User_invitation y Company_account para controlar la trazabilidad de las invitaciones corporativas emitidas por cada organización.
 
 ### Bounded Context 3 - Project and Road Site Management:
-![Database Diagram - EcoRoad](../assets/DBDiagram3.jpeg)
+![Database Diagram - EcoRoad](../assets/DBDiagram3.png)
+El diagrama de base de datos relacional del módulo de gestión de proyectos viales estructura la jerarquía de la infraestructura mediante la tabla Road_project vinculada a la cuenta de la empresa (Company_account), la cual se desglosa en tramos a través de Road_section (con sus respectivos kilómetros de inicio y fin) y culmina en los frentes de trabajo administrados en la tabla Work_front.
 
 ### Bounded Context 4 - Monitoring Asset and Deployment:
-![Database Diagram - EcoRoad](../assets/DBDiagram4.jpeg)
+![Database Diagram - EcoRoad](../assets/DBDiagram4.png)
+El diagrama de base de datos del módulo de gestión de activos y despliegue vincula la tabla Monitoring_point (asociada al frente de trabajo) con la tabla Sensor mediante la tabla puente Sensor_assignment, permitiendo registrar la ubicación geográfica de los puntos de control y administrar la vinculación activa de los dispositivos IoT en campo.
 
 ### Bounded Context 5 - Environmental Monitoring:
-![Database Diagram - EcoRoad](../assets/DBDiagram5.jpeg)
+![Database Diagram - EcoRoad](../assets/DBDiagram5.png)
+El diagrama de base de datos del módulo de monitoreo ambiental vincula la tabla central Environmental_measurement con Monitoring_point y Sensor para registrar la telemetría continua, relacionándose además con Threshold_profile mediante una clave foránea para evaluar dinámicamente si los valores superan los umbrales de advertencia o estado crítico.
 
 ### Bounded Context 6 - Alerting and Risk Evaluation:
-![Database Diagram - EcoRoad](../assets/DBDiagram6.jpeg)
+![Database Diagram - EcoRoad](../assets/DBDiagram6.png)
+El diagrama de base de datos del módulo de evaluación de alertas y riesgos conecta la tabla Environmental_measurement con Deviation_assessment para analizar las desviaciones frente a los valores permitidos, relacionándose a su vez con la tabla Alert y Monitoring_point para gestionar la emisión, severidad y el estado de las notificaciones críticas.
 
 ### Bounded Context 7 - Incident and Remediation Management:
-![Database Diagram - EcoRoad](../assets/DBDiagram7.jpeg)
+![Database Diagram - EcoRoad](../assets/DBDiagram7.png)
+El diagrama de base de datos del módulo de gestión de incidencias vincula la tabla central Environmental_incident con la tabla User para asignar los responsables, y se conecta con las tablas Corrective_action y Field_evidences mediante claves foráneas para administrar el progreso de las acciones de remediación y registrar las evidencias fotográficas o documentales recopiladas en campo.
 
 ### Bounded Context 8 - Compliance and Reporting:
-![Database Diagram - EcoRoad](../assets/DBDiagram8.jpeg)
+![Database Diagram - EcoRoad](../assets/DBDiagram8.png)
+El diagrama de base de datos del módulo de cumplimiento y reportes relaciona la tabla Road_project con Envitonmental_statuses para monitorear el nivel de cumplimiento ambiental de la obra, y se conecta con Compliance_report mediante claves foráneas para gestionar la generación y almacenamiento de los reportes oficiales solicitados.   
