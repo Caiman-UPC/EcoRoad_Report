@@ -528,6 +528,25 @@ La asignación de roles busca optimizar la ejecución del sprint, favoreciendo l
 Cada líder coordina las tareas relacionadas con su aspecto a través de <strong>Jira Software</strong>, supervisando avances, revisiones de código y validaciones funcionales con sus colaboradores.
 </p>
 
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+<p>
+Durante el Sprint 2, los analíticos de colaboración del repositorio EcoRoad-Frontend evidencian una participación constante de todos los integrantes del equipo sobre el código de la aplicación web EcoRoad. A lo largo del sprint se registran commits frecuentes asociados a la implementación de los módulos de proyectos viales, tramos de carreteras, tablero Kanban de incidencias y visualización de telemetría IoT sobre mapas geolocalizados, así como a las mejoras visuales implementadas con Angular y Angular Material. Esta actividad distribuida confirma que la construcción de la Web Application se realizó de forma incremental, respetando las responsabilidades definidas en el Sprint 2 Goal y la matriz LACX (Project & GIS Dashboard, Alerts & Incident Kanban, Landing Page v1.1 & Deploy), y evitando la concentración del desarrollo en un solo miembro.
+</p>
+
+<img src="../images/overview-sprint2.jpg" alt="overview-sprint2">
+
+<p>
+El Network Graph correspondiente al Sprint 2 muestra un uso activo del flujo de trabajo basado en GitFlow, con ramas de características (features) creadas para la gestión de proyectos viales, el visor GIS de telemetría y el tablero interactivo de incidencias, que luego fueron fusionadas a la rama principal tras las respectivas revisiones de código entre pares. Este patrón de ramas y merges refleja que los líderes de cada aspecto coordinaron el trabajo con sus colaboradores, alineados con las prácticas definidas para el proyecto (feature branches, conventional commits y consolidación en develop/main), reforzando la trazabilidad y la calidad del código entregado durante el sprint.
+</p>
+
+<img src="../images/network-graph-sprint2.jpg" alt="network-graph-sprint2">
+
+<p>
+Finalmente, el gráfico de Visitors del repositorio frontend muestra un incremento sostenido de visitas y vistas de página conforme se acercaban las fechas de integración de vistas y despliegue en Vercel, lo que demuestra que el equipo utilizó activamente el repositorio como punto central para revisar avances, validar flujos interactivos y preparar la Sprint Review. En conjunto, estos analíticos de overview, network graph y visitors confirman que, durante el Sprint 2, todos los miembros del equipo participaron efectivamente en la implementación de la Web Application y en su preparación para la futura integración con los Web Services, cumpliendo con el principio de que cada integrante contribuya a los distintos productos definidos en el proyecto (Landing Page, Web Applications, Web Services) según el alcance de cada sprint.
+</p>
+
+<img src="../images/visitors-sprint2.jpg" alt="visitors-sprint2">
 
 5.3. Validation Interviews.
 
