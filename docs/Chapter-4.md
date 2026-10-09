@@ -419,7 +419,7 @@ Permite administrar usuarios y asignar permisos granulares basados en roles (RBA
 Los Wireflow Diagrams representan visualmente la navegación y las interacciones que realizan los usuarios dentro de una aplicación para alcanzar un objetivo determinado. Estos diagramas combinan wireframes y flujos de usuario, lo que permite visualizar las pantallas involucradas en cada proceso y la secuencia de acciones necesarias para completar una tarea.
 
 <div align="center">
-  <img src="../assets/Chapter-4/flow.png" alt="Reports">
+  <img src="../assets/Chapter-4/flow.png" alt="Wireflow">
 </div>
 
 
