@@ -389,6 +389,23 @@ Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrol
 
 ![visitors-sprint1.png](../assets/img/chapter-V/visitors-sprint1.png)
 
+### 5.2.2. Sprint 2
+
+<p>
+  Durante el Sprint 2, el equipo se enfocó en el desarrollo del módulo frontend de gestión de tareas, 
+  miembros y grupos de la aplicación web EcoRoad. Este sprint se centró en integrar componentes con el 
+  backend mediante servicios REST, crear flujos de navegación funcionales entre vistas y aplicar mejoras 
+  en la interfaz visual con Angular y Angular Material.
+</p>
+
+<p>
+  <strong>Repositorio Frontend:</strong> <a href=""></a>
+</p>
+
+<p>
+  <strong>Backend API (Local):</strong> <a href=""></a>
+</p>
+
 5.3. Validation Interviews.
 
 5.3.1. Diseño de Entrevistas.
