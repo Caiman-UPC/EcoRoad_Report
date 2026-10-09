@@ -267,7 +267,7 @@ El Footer (pie de página) de la plataforma cierra el sitio con una estructura i
 
 
 
-4.3.2. Landing Page Mock-up.
+### 4.3.2. Landing Page Mock-up.
 
 Esta sección presenta los mock-ups de la landing page para versiones web de escritorio y móvil. En ambas se explica la aplicación de los principios de diseño, diseño inclusivo y arquitectura de la información.
 
@@ -415,6 +415,13 @@ Permite administrar usuarios y asignar permisos granulares basados en roles (RBA
 </div>
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
+
+Los Wireflow Diagrams representan visualmente la navegación y las interacciones que realizan los usuarios dentro de una aplicación para alcanzar un objetivo determinado. Estos diagramas combinan wireframes y flujos de usuario, lo que permite visualizar las pantallas involucradas en cada proceso y la secuencia de acciones necesarias para completar una tarea.
+
+<div align="center">
+  <img src="../assets/Chapter-4/flow.png" alt="Reports">
+</div>
+
 
 ### 4.4.3. Web Applications Mock-ups.
 
