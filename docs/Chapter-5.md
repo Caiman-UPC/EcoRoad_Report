@@ -14,14 +14,14 @@ Para la coordinación del proyecto y el seguimiento del trabajo colaborativo se 
 * **Coordinación de código y repositorios:** GitHub
 * **Reuniones virtuales y syncs:** Discord
 * **Comunicación diaria:** WhatsApp
-* **Organización y seguimiento de tareas (Agile):** Zoho Sprints
+* **Organización y seguimiento de tareas (Agile):** Jira
 
 #### Gestión de Requerimientos
 Durante la fase de análisis y estructuración de requerimientos, se empleó UXPressia para diseñar las User Personas, Mapas de Empatía e Impact Maps. Se utilizó Miro para la construcción de escenarios As-Is / To-Be y los tableros de Event Storming.
 
 * **Diseño UX y Mapas de Impacto:** UXPressia
 * **Event Storming y Escenarios:** Miro
-* **Gestión de User Stories:** Zoho Sprints / GitHub Projects
+* **Gestión de User Stories:** Jira / GitHub Projects
 
 #### Diseño de Experiencia e Interfaz del Producto
 Para la concepción visual de la Landing Page y la maquetación preliminar de las interfaces de la plataforma, el equipo empleó Figma. Se elaboraron wireframes y maquetas de alta fidelidad para validar la estructura visual, paleta de colores y la disposición de las secciones informativas antes de su codificación.
@@ -174,7 +174,7 @@ Cualquier push a la rama `main` actualiza automáticamente el sitio desplegado.
     </tr>
     <tr>
       <td>Date</td>
-      <td>14/09/2026</td>
+      <td>21/09/2026</td>
     </tr>
     <tr>
       <td>Time</td>
@@ -260,7 +260,7 @@ Estos aspectos se derivan directamente de los objetivos definidos en el Sprint 1
     <tr><td>Guillen Chavez Eduardo Martín</td><td>C</td><td>L</td></tr>
     <tr><td>Salcedo Muñoz Andy Alfredo Hipolito/td><td>C</td><td>C</td></tr>
     <tr><td>Torres Júarez Alisee Muriel</td><td>C</td><td>C</td></tr>
-    <tr><td>Yarleque Ruiz Cristina Marcela</td><td>C</td><td>C</td></tr>
+    <tr><td>Yarleque Ruiz Cristina Marcela</td><td>C</td><td>L</td></tr>
   </tbody>
 </table>
 
@@ -437,7 +437,7 @@ URL público del Board: `[POR COMPLETAR]`
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |---|---|---|---|---|---|
 | Caiman-UPC/Landing-Page | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` |
-| `[POR COMPLETAR: repositorio frontend]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` |
+| EcoRoad_Frontend| `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
@@ -469,50 +469,14 @@ El despliegue y la documentación OpenAPI de los Web Services corresponden al Sp
 
 `[POR COMPLETAR al cierre del Sprint: explicación de las actividades de despliegue realizadas, con capturas de cada paso.]`
 
-| Producto | Plataforma | Versión | URL |
-|---|---|---|---|
-| Landing Page | GitHub Pages | v1.1.0 | https://caiman-upc.github.io/Landing-Page/ |
-| Frontend Web Application | Vercel | v0.1.0 | `[POR COMPLETAR]` |
+| Producto | Plataforma | Versión | URL                                            |
+|---|---|---|------------------------------------------------|
+| Landing Page | GitHub Pages | v1.1.0 | https://github.com/Caiman-UPC/Landing-Page     |
+| Frontend Web Application | Vercel | v0.1.0 | https://github.com/Caiman-UPC/EcoRoad_Frontend |
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 `[POR COMPLETAR al cierre del Sprint: explicación de la participación de cada miembro en el Landing Page y la Web Application, con capturas de Insights > Contributors, Network y Commits de ambos repositorios.]`
-
-5.3. Validation Interviews.
-
-5.3.1. Diseño de Entrevistas.
-
-5.3.2. Registro de Entrevistas.
-
-5.3.3. Evaluaciones según heurísticas.
-
-## 5.4. Video About-the-Product
-
-El video About-the-Product está dirigido a los visitantes del Landing Page que desean conocer el modelo de negocio y las características principales de EcoRoad, y a los usuarios de la Web Application. Su primera versión se publica en el Sprint 3. Mantiene el tono de comunicación definido para la marca en la sección 4.1.1, dura entre 1 y 3 minutos e incluye al menos una opinión de un participante de las entrevistas de validación por cada segmento objetivo.
-
-
-| | |
-|---|---|
-| Título | EcoRoad: de la medición a la acción en la gestión ambiental de obras viales `[POR COMPLETAR: confirmar]` |
-| Nombre de archivo | `upc-pre-202620-1asi0729-<NRC>-caiman-about-the-product-sprint-3.mp4` |
-| Duración | `[POR COMPLETAR]` |
-| Fecha de grabación | `[POR COMPLETAR]` |
-| URL en Microsoft Stream | `[POR COMPLETAR]` |
-| URL en YouTube | `[POR COMPLETAR]` |
-
-Screenshot del video: `[POR COMPLETAR]`
-
-**Pauta de contenido**
-
-| # | Sección | Contenido | Inicio |
-|---|---|---|---|
-| 1 | Problema | Registro manual y fragmentado de indicadores ambientales en obras viales; detección tardía de incumplimientos ante el MTC y el OEFA. | `[POR COMPLETAR]` |
-| 2 | Solución | EcoRoad conecta la medición con la respuesta: monitorear, alertar, generar la incidencia, asignar la acción correctiva, registrar la evidencia y cerrar. | `[POR COMPLETAR]` |
-| 3 | Producto en uso | Escenas de la Web Application: proyectos sobre el mapa, alertas por nivel de riesgo, tablero de incidencias y reporte de cumplimiento. | `[POR COMPLETAR]` |
-| 4 | Beneficios y testimonios | Beneficios para constructoras y para empresas de mantenimiento y rehabilitación vial, con una opinión por segmento. | `[POR COMPLETAR]` |
-| 5 | Planes y llamada a la acción | Planes de suscripción y alquiler de sensores IoT; invitación a solicitar una demostración desde el Landing Page. | `[POR COMPLETAR]` |
-
-El video se incrusta en la sección Features del Landing Page, en el espacio del reproductor: `[POR COMPLETAR: URL de la sección]`
 
 
 ## Conclusiones
