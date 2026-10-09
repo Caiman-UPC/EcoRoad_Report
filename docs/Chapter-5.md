@@ -310,20 +310,60 @@ En el Sprint 1 se construyó la primera versión navegable del Landing Page con 
 En el Sprint 1 se alcanzó la publicación del Landing Page con ocho secciones navegables desde el header, diseño adaptable a escritorio y móvil, y cambio de idioma entre inglés (por defecto) y español.
 
 
-| Vista | Captura |
-|---|---|
-| Header y navegación | `[POR COMPLETAR: captura]` |
-| Hero | `[POR COMPLETAR: captura]` |
-| Solutions | `[POR COMPLETAR: captura]` |
-| Benefits | `[POR COMPLETAR: captura]` |
-| Features | `[POR COMPLETAR: captura]` |
-| Testimonials | `[POR COMPLETAR: captura]` |
-| Pricing | `[POR COMPLETAR: captura]` |
-| Our Team | `[POR COMPLETAR: captura]` |
-| Contact | `[POR COMPLETAR: captura]` |
-| Footer | `[POR COMPLETAR: captura]` |
-| Vista móvil (600 px) | `[POR COMPLETAR: captura]` |
-| Versión en español | `[POR COMPLETAR: captura]` |
+<table>
+  <thead>
+    <tr>
+      <th>Vista</th>
+      <th>Captura</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Header y navegación</td>
+      <td><img src="assets/Chapter-5/header.png" alt="Header" width="300"></td>
+    </tr>
+    <tr>
+      <td>Hero</td>
+      <td><img src="assets/Chapter-5/hero.png" alt="Hero" width="300"></td>
+    </tr>
+    <tr>
+      <td>Solutions</td>
+      <td><img src="assets/Chapter-5/solutions.png" alt="Solutions" width="300"></td>
+    </tr>
+    <tr>
+      <td>Benefits</td>
+      <td><img src="assets/Chapter-5/benefits.png" alt="Benefits" width="300"></td>
+    </tr>
+    <tr>
+      <td>Features</td>
+      <td><img src="assets/Chapter-5/features.png" alt="Features" width="300"></td>
+    </tr>
+    <tr>
+      <td>Testimonials</td>
+      <td><img src="assets/Chapter-5/tertimonials.png" alt="Testimonials" width="300"></td>
+    </tr>
+    <tr>
+      <td>Pricing</td>
+      <td><img src="assets/Chapter-5/pricing.png" alt="Pricing" width="300"></td>
+    </tr>
+    <tr>
+      <td>Our Team</td>
+      <td><img src="assets/Chapter-5/ourteam.png" alt="Our Team" width="300"></td>
+    </tr>
+    <tr>
+      <td>Contact</td>
+      <td><img src="assets/Chapter-5/contact.png" alt="Contact" width="300"></td>
+    </tr>
+    <tr>
+      <td>Footer</td>
+      <td><img src="assets/Chapter-5/footer.png" alt="Footer" width="300"></td>
+    </tr>
+    <tr>
+      <td>Versión en español</td>
+      <td><img src="assets/Chapter-5/esp.png" alt="Versión en español" width="300"></td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
