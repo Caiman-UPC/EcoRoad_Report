@@ -722,6 +722,7 @@ El diagrama de clases del módulo de evaluación de alertas y riesgos (alerting)
 
 ### Bounded Context 7 - Incident and Remediation Management:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD7.png)
+El diagrama de clases del módulo de gestión de incidencias (incident) modela el seguimiento y resolución de anomalías ambientales mediante las entidades EnvironmentalIncident, CorrectiveAction y el objeto de valor FieldEvidence, permitiendo administrar el ciclo de vida de la incidencia (IncidentStatus), asignar responsables, registrar acciones correctivas con su respectivo estado (ActionStatus) y adjuntar evidencias documentales o fotográficas para garantizar la trazabilidad en EcoRoad.
 
 ### Bounded Context 8 - Compliance and Reporting:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD8.png)
