@@ -474,11 +474,83 @@ El despliegue y la documentación OpenAPI de los Web Services corresponden al Sp
 | Landing Page | GitHub Pages | v1.1.0 | https://caiman-upc.github.io/Landing-Page/ |
 | Frontend Web Application | Vercel | v0.1.0 | `[POR COMPLETAR]` |
 
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+`[POR COMPLETAR al cierre del Sprint: explicación de la participación de cada miembro en el Landing Page y la Web Application, con capturas de Insights > Contributors, Network y Commits de ambos repositorios.]`
+
 5.3. Validation Interviews.
+
+En esta sección se registran las actividades de validación en las que usuarios de los segmentos objetivo interactúan con el Landing Page y la Web Application de EcoRoad.
 
 5.3.1. Diseño de Entrevistas.
 
+Cada sesión dura entre 20 y 30 minutos, se registra en video y sigue tres momentos: presentación y datos del entrevistado, ejecución de tareas pensando en voz alta y preguntas de cierre. Se realizan de 3 a 5 entrevistas por segmento.
+
+**Segmento 1: Empresas constructoras viales** (referencia: User Persona Diego Dávalos, Jefe de Gestión Ambiental)
+
+*Tareas en el Landing Page*
+
+1. Explicar con sus palabras qué ofrece EcoRoad después de ver la sección Hero.
+2. Ubicar la solución que aplica al polvo y al ruido de la maquinaria de sus frentes de trabajo.
+3. Identificar el plan que corresponde a una empresa con varios proyectos simultáneos.
+4. Cambiar el idioma del sitio.
+5. Solicitar una demostración con un especialista.
+
+*User flows en la Web Application*
+
+1. Revisar el estado ambiental de los proyectos y abrir el que se encuentra en estado crítico.
+2. Consultar las alertas de un proyecto y abrir el detalle de una alerta crítica.
+3. Ubicar en el tablero una incidencia pendiente e identificar a su responsable.
+4. Consultar la evolución de un indicador y generar un reporte de cumplimiento.
+
+*Preguntas de cierre*
+
+1. ¿Qué información del Landing Page le dio más confianza y cuál echó en falta?
+2. ¿La Web Application le permitiría detectar un incumplimiento antes que su proceso actual? ¿Por qué?
+3. ¿Qué necesitaría ver en un reporte para presentarlo ante el MTC o el OEFA?
+4. ¿Qué tarea le resultó más difícil de completar?
+
+**Segmento 2: Empresas de mantenimiento y rehabilitación vial** (referencia: User Persona Piero Deza, Residente de Mantenimiento)
+
+*Tareas en el Landing Page*
+
+1. Explicar con sus palabras qué ofrece EcoRoad después de ver la sección Hero.
+2. Abrir el sitio desde un smartphone y llegar a la sección de planes.
+3. Ubicar las condiciones de alquiler de los dispositivos IoT.
+4. Consultar los términos y condiciones del servicio.
+5. Solicitar una demostración con un especialista.
+
+*User flows en la Web Application*
+
+1. Consultar desde un smartphone las incidencias pendientes de su tramo.
+2. Registrar la acción correctiva ejecutada en una incidencia y adjuntar evidencia fotográfica.
+3. Reconocer una alerta para indicar que está siendo atendida.
+4. Registrar manualmente una medición tomada con un equipo portátil.
+
+*Preguntas de cierre*
+
+1. ¿Usaría la aplicación en campo en lugar de las planillas actuales? ¿Qué se lo impediría?
+2. ¿La aplicación es legible y fácil de operar bajo las condiciones de obra?
+3. ¿Qué haría cuando no tiene señal en el tramo?
+4. ¿Qué tarea le resultó más difícil de completar?
+
 5.3.2. Registro de Entrevistas.
+
+Video consolidado de las entrevistas de validación: `[POR COMPLETAR: URL en Microsoft Stream]`
+
+| # | Segmento | Nombres y apellidos | Edad | Distrito | Inicio en el video | Duración |
+|---|---|---|---|---|---|---|
+| 1 | Empresas constructoras viales | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` |
+| 2 | Empresas constructoras viales | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` |
+| 3 | Empresas constructoras viales | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` |
+| 4 | Empresas de mantenimiento y rehabilitación vial | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` |
+| 5 | Empresas de mantenimiento y rehabilitación vial | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` |
+| 6 | Empresas de mantenimiento y rehabilitación vial | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` |
+
+Por cada entrevista se incluye:
+
+- Captura de un cuadro del video: `[POR COMPLETAR]`
+- Resumen: `[POR COMPLETAR: principales apreciaciones del entrevistado sobre cada tarea asignada, qué completó sin ayuda, dónde se detuvo y qué comentó.]`
 
 5.3.3. Evaluaciones según heurísticas.
 
