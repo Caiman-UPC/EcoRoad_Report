@@ -320,47 +320,47 @@ En el Sprint 1 se alcanzó la publicación del Landing Page con ocho secciones n
   <tbody>
     <tr>
       <td>Header y navegación</td>
-      <td><img src="assets/Chapter-5/header.png" alt="Header" width="300"></td>
+      <td><img src="../assets/Chapter-5/header.png" alt="Header" width="300"></td>
     </tr>
     <tr>
       <td>Hero</td>
-      <td><img src="assets/Chapter-5/hero.png" alt="Hero" width="300"></td>
+      <td><img src="../assets/Chapter-5/hero.png" alt="Hero" width="300"></td>
     </tr>
     <tr>
       <td>Solutions</td>
-      <td><img src="assets/Chapter-5/solutions.png" alt="Solutions" width="300"></td>
+      <td><img src="../assets/Chapter-5/solutions.png" alt="Solutions" width="300"></td>
     </tr>
     <tr>
       <td>Benefits</td>
-      <td><img src="assets/Chapter-5/benefits.png" alt="Benefits" width="300"></td>
+      <td><img src="../assets/Chapter-5/benefits.png" alt="Benefits" width="300"></td>
     </tr>
     <tr>
       <td>Features</td>
-      <td><img src="assets/Chapter-5/features.png" alt="Features" width="300"></td>
+      <td><img src="../assets/Chapter-5/features.png" alt="Features" width="300"></td>
     </tr>
     <tr>
       <td>Testimonials</td>
-      <td><img src="assets/Chapter-5/tertimonials.png" alt="Testimonials" width="300"></td>
+      <td><img src="../assets/Chapter-5/tertimonials.png" alt="Testimonials" width="300"></td>
     </tr>
     <tr>
       <td>Pricing</td>
-      <td><img src="assets/Chapter-5/pricing.png" alt="Pricing" width="300"></td>
+      <td><img src="../assets/Chapter-5/pricing.png" alt="Pricing" width="300"></td>
     </tr>
     <tr>
       <td>Our Team</td>
-      <td><img src="assets/Chapter-5/ourteam.png" alt="Our Team" width="300"></td>
+      <td><img src="../assets/Chapter-5/ourteam.png" alt="Our Team" width="300"></td>
     </tr>
     <tr>
       <td>Contact</td>
-      <td><img src="assets/Chapter-5/contact.png" alt="Contact" width="300"></td>
+      <td><img src="../assets/Chapter-5/contact.png" alt="Contact" width="300"></td>
     </tr>
     <tr>
       <td>Footer</td>
-      <td><img src="assets/Chapter-5/footer.png" alt="Footer" width="300"></td>
+      <td><img src="../assets/Chapter-5/footer.png" alt="Footer" width="300"></td>
     </tr>
     <tr>
       <td>Versión en español</td>
-      <td><img src="assets/Chapter-5/esp.png" alt="Versión en español" width="300"></td>
+      <td><img src="../assets/Chapter-5/esp.png" alt="Versión en español" width="300"></td>
     </tr>
   </tbody>
 </table>
@@ -494,16 +494,17 @@ El despliegue y la documentación OpenAPI de los Web Services corresponden al Sp
 - Durante el **Sprint 2**, los analíticos de colaboración del repositorio `Caiman-UPC/EcoRoad_Frontend` (así como del repositorio `Caiman-UPC/Landing-Page`) evidencian una participación constante y distribuida de todos los integrantes del equipo en el desarrollo del producto [1][2]. A lo largo del sprint se registran commits frecuentes asociados a la maquetación del **App Shell**, la implementación de la vista de **Proyectos**, el módulo de **Alertas** con panel de detalle y el **tablero Kanban de Incidencias** (organizado en los estados *Pending*, *In Progress*, *Resolved* y *Closed*), además de la integración con componentes de **Angular** y **Angular Material** con soporte bilingüe (i18n) [3][4]. Esta actividad distribuida confirma que la construcción de la Web Application se realizó de forma incremental, respetando estrictamente las responsabilidades definidas en el **Sprint 2 Goal** y la matriz **LACX** (*Landing Page v1.1 &amp; Deployment*, *App Shell &amp; Projects*, *Alerts &amp; Incidents*), evitando la concentración del desarrollo en un solo miembro [3].
 
 <p align="center">
-  <img src="assets/Chapter-5/gitflow_repo.jpeg" alt="Gitflow Repo" width="600">
+  <img src="../assets/Chapter-5/gitflow_repo.jpeg" alt="Gitflow Repo" width="600">
 </p>
 
 - El **Network Graph** correspondiente al Sprint 2 muestra un uso activo y riguroso del flujo de trabajo basado en **GitFlow**, con ramas de características (`feature/*`) creadas para cada módulo funcional de la aplicación web y del landing page [7][8]. Dichas ramas fueron integradas a la rama `develop` mediante **Pull Requests** previa revisión de código por pares y aplicación de la especificación **Conventional Commits**, para su posterior consolidación en la rama principal (`main`) [7]. Este patrón de ramas y merges refleja que los líderes de cada aspecto (Salcedo Muñoz, Román López y Yarleque Ruiz) coordinaron activamente las tareas con sus colaboradores (Guillen Chavez y Torres Juárez), garantizando un desarrollo colaborativo, ordenado y con alta trazabilidad del código [6][8].
 
 <p align="center">
-  <img src="assets/Chapter-5/gitflow_membes.jpeg" alt="Gitflow Members" width="600">
+  <img src="../assets/Chapter-5/gitflow_membes.jpeg" alt="Gitflow Members" width="600">
 </p>
 
 Finalmente, el gráfico de **Visitors** del repositorio muestra un incremento progresivo de visitas y vistas de página a medida que se acercaban los hitos de integración y despliegue del producto [1][10]. Esto evidencia que el equipo utilizó los repositorios de GitHub como el punto central de coordinación para auditar avances, validar la integración del frontend con los servicios de prueba y preparar la **Sprint Review** [8][10]. En conjunto, los analíticos de **Overview**, **Network Graph** y **Visitors** demuestran que durante el Sprint 2 todos los miembros del equipo contribuyeron de manera efectiva e individual a la entrega de la Web Application y a la actualización del Landing Page, cumpliendo con los objetivos de contribución distribuida del proyecto [1].
+
 ## Conclusiones
 
 ### Conclusiones y recomendaciones
@@ -787,7 +788,7 @@ Finalmente, el gráfico de **Visitors** del repositorio muestra un incremento pr
   <tbody>
     <tr>
       <td><strong>Landing Page (GitHub Pages)</strong></td>
-      <td><a href=""></a></td>
+      <td><a href="https://github.com/Caiman-UPC/Landing-Page.git"></a></td>
     </tr>
     <tr>
       <td><strong>Frontend Web Application (Vercel Prod)</strong></td>
@@ -815,7 +816,7 @@ Finalmente, el gráfico de **Visitors** del repositorio muestra un incremento pr
     </tr>
     <tr>
       <td><strong>Repositorio Project Report</strong></td>
-      <td><a href=""></a></td>
+      <td><a href="https://github.com/Caiman-UPC/EcoRoad_Report.git"></a></td>
     </tr>
   </tbody>
 </table>
