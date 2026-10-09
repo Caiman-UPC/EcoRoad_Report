@@ -425,9 +425,6 @@ El objetivo principal del Sprint 2 es publicar la primera versión de la Fronten
 
 | Producto            | Vista                                 | Captura                                          |
 |---------------------|---------------------------------------|--------------------------------------------------|
-| Landing Page v1.1.0 | Formulario de contacto con validación | `[POR COMPLETAR]`                                |
-| Landing Page v1.1.0 | Menú de navegación en móvil           | `[POR COMPLETAR]`                                |
-| Landing Page v1.1.0 | Terms of Service y Privacy Policy     | `[POR COMPLETAR]`                                |
 | Web Application     | Projects                              | ![projects](../assets/Chapter-5/project-evi.png) |
 | Web Application     | create new project                    | ![new-pro](../assets/Chapter-5/new-pro.png)      |
 | Web Application     | Alerts y panel de detalle             | ![alerts](../assets/Chapter-5/alerts.png)        |
