@@ -705,89 +705,32 @@ Recomendación: Unificar el nombre del plan de entrada y la moneda en el Landing
 
 ## 5.4. Video About-the-Product
 
-<p>
-  El video "About the Product" presenta de manera clara y atractiva la propuesta de valor de EcoRoad, 
-  los problemas que resuelve y cómo funciona la solución para ambos segmentos objetivo.
-</p>
-
-<h4>Información General del Video</h4>
-
-<table border="1" cellpadding="4" cellspacing="0">
-  <tbody>
-    <tr>
-      <td><strong>Título del Video</strong></td>
-      <td>EcoRoad: </td>
-    </tr>
-    <tr>
-      <td><strong>Duración</strong></td>
-      <td>0 minutos 0 segundos</td>
-    </tr>
-    <tr>
-      <td><strong>Fecha de Grabación</strong></td>
-      <td>//2026</td>
-    </tr>
-    <tr>
-      <td><strong>URL YouTube</strong></td>
-      <td><a href=""></a></td>
-    </tr>
-    <tr>
-      <td><strong>URL Microsoft Stream</strong></td>
-      <td><a href=""></a></td>
-    </tr>
-  </tbody>
-</table>
-
-<p><strong>Screenshot del video:</strong></p>
-<img src="../images/AboutTheProduct-image.png" alt="About the Product Video">
-
-<h4>Contenido del Video</h4>
-
-<p>
-  El video está estructurado en las siguientes secciones:
-</p>
-
-<ol>
-  <li>
-    <strong>Introducción (0:00 - 0:00):</strong> Presentación del problema - .
-  </li>
-  <li>
-    <strong>Propuesta de Solución (0:00 - 0:00):</strong> Presentación de EcoRoad como la solución integral 
-    para.
-  </li>
-  <li>
-    <strong>Funcionalidades Principales (0:00 - 0:00):</strong> Demostración de las características clave:
-    <ul>
-      <li>Gestión de </li>
-      <li>Control de</li>
-      <li>Portal </li>
-      <li>Generación de reportes</li>
-    </ul>
-  </li>
-  <li>
-    <strong>Beneficios (0:00 - 0:00):</strong> Énfasis en beneficios para ambos segmentos - .
-  </li>
-  <li>
-    <strong>Llamada a la Acción (0:00 - 0:00):</strong> Invitación a visitar el Landing Page y conocer 
-    más sobre EcoRoad.
-  </li>
-</ol>
+El video About-the-Product está dirigido a los visitantes del Landing Page que desean conocer el modelo de negocio y las características principales de EcoRoad, y a los usuarios de la Web Application. Su primera versión se publica en el Sprint 3. Mantiene el tono de comunicación definido para la marca en la sección 4.1.1, dura entre 1 y 3 minutos e incluye al menos una opinión de un participante de las entrevistas de validación por cada segmento objetivo.
 
 
-<h4>Inscripción en Landing Page</h4>
+| | |
+|---|---|
+| Título | EcoRoad: de la medición a la acción en la gestión ambiental de obras viales `[POR COMPLETAR: confirmar]` |
+| Nombre de archivo | `upc-pre-202620-1asi0729-<NRC>-caiman-about-the-product-sprint-3.mp4` |
+| Duración | `[POR COMPLETAR]` |
+| Fecha de grabación | `[POR COMPLETAR]` |
+| URL en Microsoft Stream | `[POR COMPLETAR]` |
+| URL en YouTube | `[POR COMPLETAR]` |
 
-<p>
-  El video "About the Product" está embebido en el Landing Page en la sección de "Acerca del Producto", 
-  permitiendo que visitantes del sitio vean una introducción visual de EcoRoad antes de registrarse o 
-  solicitar más información.
-</p>
+Screenshot del video: `[POR COMPLETAR]`
 
-<p>
-  <strong>URL del Landing Page donde está el video:</strong> 
-  <a href=""></a>
-</p>
+**Pauta de contenido**
 
+| # | Sección | Contenido | Inicio |
+|---|---|---|---|
+| 1 | Problema | Registro manual y fragmentado de indicadores ambientales en obras viales; detección tardía de incumplimientos ante el MTC y el OEFA. | `[POR COMPLETAR]` |
+| 2 | Solución | EcoRoad conecta la medición con la respuesta: monitorear, alertar, generar la incidencia, asignar la acción correctiva, registrar la evidencia y cerrar. | `[POR COMPLETAR]` |
+| 3 | Producto en uso | Escenas de la Web Application: proyectos sobre el mapa, alertas por nivel de riesgo, tablero de incidencias y reporte de cumplimiento. | `[POR COMPLETAR]` |
+| 4 | Beneficios y testimonios | Beneficios para constructoras y para empresas de mantenimiento y rehabilitación vial, con una opinión por segmento. | `[POR COMPLETAR]` |
+| 5 | Planes y llamada a la acción | Planes de suscripción y alquiler de sensores IoT; invitación a solicitar una demostración desde el Landing Page. | `[POR COMPLETAR]` |
 
----
+El video se incrusta en la sección Features del Landing Page, en el espacio del reproductor: `[POR COMPLETAR: URL de la sección]`
+
 
 ## Conclusiones
 
