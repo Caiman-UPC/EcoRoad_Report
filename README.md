@@ -100,8 +100,68 @@
 | **1.1.23** | 9/10/2026  | Guillen Chavez, Eduardo Martín       | Software Configuration Management - Source Code Management.                                                     |
 | **1.1.24** | 9/10/2026  | Yarleque Ruiz, Cristina Marcela      | Software Configuration Management - Source Code Style Guide & Conventions.                                      |
 
-Project Report Collaboration Insights
+## Project Report Collaboration Insights
 
-Link de los repositorios de la organización: https://github.com/Caiman-UPC
+**Repositorio del Informe:** [https://github.com/Caiman-UPC/EcoRoad-Project-Report](https://github.com/Caiman-UPC/EcoRoad-Project-Report)
 
-Link del repositorio del Informe: https://github.com/Caiman-UPC/EcoRoad_Report.git
+La elaboración de este informe se ha desarrollado de manera colaborativa utilizando GitHub como plataforma de control de versiones y Markdown como lenguaje de marcado. A lo largo de los Sprints 1 y 2, cada miembro del equipo se asignó la redacción de secciones específicas (Lean UX, Arquitectura, User Stories, Sprints) mediante *issues* en Jira, para luego enviar sus aportes a través de *Pull Requests* hacia la rama principal del informe, garantizando que el documento crezca de forma iterativa y sin conflictos.
+
+A continuación, se presentan los analíticos de colaboración que evidencian la participación de todos los integrantes en el repositorio del informe para el hito TB1:
+
+<div align="center">
+  <img src="./assets/insights/report-commits-tb1.png" alt="Commits del Informe TB1">
+  <p><em>Figura: Historial de commits por miembro evidenciando participación equitativa en la redacción del Project Report.</em></p>
+  <img src="./assets/insights/report-contributors-tb1.png" alt="Contributors del Informe TB1">
+  <p><em>Figura: Gráfico de Contributors de GitHub para el repositorio del informe.</em></p>
+</div>
+
+<div style="page-break-after: always;"></div>
+
+## Contenido
+
+* [Student Outcome](#student-outcome)
+* [Capítulo I: Introducción](#capítulo-1)
+  * [1.1. Startup Profile](#1-1-startup-profile)
+  * [1.2. Solution Profile](#1-2-solution-profile)
+  * [1.3. Segmentos Objetivo](#1-3-segmentos-objetivos)
+* [Capítulo II: Requirements Elicitation & Analysis](#capítulo-2)
+  * [2.1. Competidores](#2-1-competidores)
+  * [2.2. Entrevistas](#2-2-entrevistas)
+  * [2.3. Needfinding](#2-3-needfinding)
+  * [2.4. Big Picture Event Storming](#2-4-big-picture)
+  * [2.5. Ubiquitous Language](#2-5-ubiquitous-language)
+* [Capítulo III: Requirements Specification](#capítulo-3)
+  * [3.1. User Stories](#3-1-user-stories)
+  * [3.2. Impact Mapping](#3-2-impact-mapping)
+  * [3.3. Product Backlog](#3-3-product-backlog)
+* [Capítulo IV: Product Design](#capítulo-4)
+  * [4.1. Style Guidelines](#4-1-style-guidelines)
+  * [4.2. Information Architecture](#4-2-information-architecture)
+  * [4.3. Landing Page UI Design](#4-3-landing-page)
+  * [4.4. Web Applications UX/UI Design](#4-4-web-applications)
+  * [4.5. Web Applications Prototyping](#4-5-prototyping)
+  * [4.6. Domain-Driven Software Architecture](#4-6-ddd)
+  * [4.7. Software Object-Oriented Design](#4-7-oop)
+  * [4.8. Database Design](#4-8-database)
+* [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-5)
+  * [5.1. Software Configuration Management](#5-1-scm)
+  * [5.2. Landing Page, Services & Applications Implementation](#5-2-implementation)
+    * [5.2.1. Sprint 1](#5-2-1-sprint-1)
+    * [5.2.2. Sprint 2](#5-2-2-sprint-2)
+* [Conclusiones](#conclusiones)
+* [Bibliografía](#bibliografía)
+* [Anexos](#anexos)
+
+<div style="page-break-after: always;"></div>
+
+## Student Outcome
+
+El curso contribuye al cumplimiento del Student Outcome ABET:
+**ABET - EAC - Student Outcome 3**
+**Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias.
+
+En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET - EAC - Student Outcome 3 durante el hito TB1.
+
+| Criterio específico | Acciones realizadas | Conclusiones |
+| :--- | :--- | :--- |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Guillen Chavez, Eduardo**<br>TB1: Expuso la arquitectura orientada al dominio (DDD) y el modelo de datos ante el equipo y docentes.<br><br>**Román López, Miguel**<br>TB1: Lideró la entrevista con los usuarios finales del Segmento 1, adaptando el lenguaje técnico a un lenguaje operativo.<br><br>**Salcedo Muñoz, Andy**<br>TB1: Explicó el pipeline de despliegue en Vercel durante el video *About The Team*.<br><br>**Torres Juárez, Alisee**<br>TB1: Facilitó la presentación de los Wireflows y Prototipos demostrando el uso de la aplicación a usuarios de prueba.<br><br>**Yarleque Ruiz, Cristina**<br>TB1: Expuso el análisis competitivo y el perfil de la startup en las sesiones de revisión de sprint. | El equipo ha demostrado la capacidad de adaptar su comunicación oral dependiendo de si la audiencia es técnica (docentes, desarrolladores) o de negocio (usuarios de campo, gerentes), logrando validar los prototipos exitosamente durante las entrevistas.
