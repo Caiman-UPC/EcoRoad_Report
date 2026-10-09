@@ -395,12 +395,12 @@ Los aspectos del Sprint 2 se derivan del Sprint Goal:
 - **Alerts & Incidents:** vista Alerts y tablero de Incidents por estado.
 
 | Team Member (Last Name, First Name) | GitHub Username | Landing Page v1.1 & Deployment | App Shell & Projects | Alerts & Incidents |
-|---|---|---|---|---|
-| Salcedo Muñoz, Andy Alfredo Hipolito | | L | C | C |
-| Román López, Miguel Ángel Junior |  | C | L | C |
-| Yarleque Ruiz, Cristina Marcela |  | C | C | L |
-| Guillen Chavez, Eduardo Martín |  | C | C | C |
-| Torres Juárez, Alisee Muriel |  | C | C | C |
+|---|-----------------|---|---|---|
+| Salcedo Muñoz, Andy Alfredo Hipolito | Andy777sdw      | L | C | C |
+| Román López, Miguel Ángel Junior | MiguelRomn      | C | L | C |
+| Yarleque Ruiz, Cristina Marcela | Cris06luna      | C | C | L |
+| Guillen Chavez, Eduardo Martín | Eduardox30-wq   | C | C | C |
+| Torres Juárez, Alisee Muriel | lLisee1         | C | C | C |
 
 L = Leader, C = Collaborator. Cada líder coordina los tasks de su aspecto en Jira Software y revisa los Pull Requests correspondientes.
 
@@ -408,10 +408,6 @@ L = Leader, C = Collaborator. Cada líder coordina los tasks de su aspecto en Ji
 #### 5.2.2.3. Sprint Backlog 2
 
 El objetivo principal del Sprint 2 es publicar la primera versión de la Frontend Web Application con las vistas Projects, Alerts e Incidents, y la versión 1.1.0 del Landing Page.
-
-`[POR COMPLETAR: captura del Board del Sprint 2 en Jira Software]`
-
-URL público del Board: `[POR COMPLETAR]`
 
 | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---|---|
@@ -427,9 +423,6 @@ URL público del Board: `[POR COMPLETAR]`
 | US45 | Consulta de incidencias | T10 | Implement incidents service and filters | Implementar el servicio de incidencias y los filtros por proyecto y responsable. | 5 | Guillen Chavez | To-do |
 | US42 | Consulta de alertas | T11 | Implement alerts view | Implementar el listado de alertas con filtro por nivel de riesgo y por proyecto. | 6 | Yarleque Ruiz | To-do |
 | US42 | Consulta de alertas | T12 | Implement alert detail panel | Mostrar el detalle de la alerta: indicador, valor, tramo, sensor, fecha y hora. | 4 | Torres Juárez | To-do |
-| — | Task adicional | T13 | Prepare local API and sample data | Preparar el API local con datos de muestra de proyectos, alertas e incidencias. | 3 | Guillen Chavez | To-do |
-| — | Task adicional | T14 | Deploy Web Application to Vercel | Configurar el proyecto en Vercel y publicar la primera versión de la Web Application. | 2 | Salcedo Muñoz | To-do |
-
 #### 5.2.2.4. Development Evidence for Sprint Review
 
 `[POR COMPLETAR al cierre del Sprint: resumen de los avances de implementación en el Landing Page v1.1.0 y la Frontend Web Application v0.1.0.]`
