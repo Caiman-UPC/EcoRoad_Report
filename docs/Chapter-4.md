@@ -235,7 +235,7 @@ La sección presenta ejemplos de experiencias basados en casos de éxito de la p
 
 **Pricing**
 
-La sección "Pricing" expone el modelo de monetización bajo el título "Flexible, Scalable Subscription Plans". Estructura la oferta en tres planes SaaS escalables (Base, Professional y Enterprise), permitiendo alternar entre facturación mensual y anual con descuento. Cada tarjeta detalla el precio, el perfil de cliente objetivo, un botón directo de acción y un listado de funcionalidades clave que van desde el monitoreo básico de proyectos hasta integraciones avanzadas y soporte 24/7.
+La sección "Pricing" expone el modelo de monetización bajo el título "Flexible, Scalable Subscription Plans". Estructura la oferta en tres planes SaaS escalables (Starter, Professional y Enterprise), permitiendo alternar entre facturación mensual y anual con descuento. Cada tarjeta detalla el precio, el perfil de cliente objetivo, un botón directo de acción y un listado de funcionalidades clave que van desde el monitoreo básico de proyectos hasta integraciones avanzadas y soporte 24/7.
 
 <div align="center">
   <img src="../assets/Chapter-4/wf-landing-pricing.png" alt="Paso 4">
@@ -313,10 +313,10 @@ La sección presenta ejemplos de experiencias basados en casos de éxito de la p
 
 **Pricing**
 
-La sección "Pricing" expone el modelo de monetización bajo el título "Flexible, Scalable Subscription Plans". Estructura la oferta en tres planes SaaS escalables (Base, Professional y Enterprise), permitiendo alternar entre facturación mensual y anual con descuento. Cada tarjeta detalla el precio, el perfil de cliente objetivo, un botón directo de acción y un listado de funcionalidades clave que van desde el monitoreo básico de proyectos hasta integraciones avanzadas y soporte 24/7.
+La sección "Pricing" expone el modelo de monetización bajo el título "Flexible, Scalable Subscription Plans". Estructura la oferta en tres planes SaaS escalables (Starter, Professional y Enterprise), permitiendo alternar entre facturación mensual y anual con descuento. Cada tarjeta detalla el precio, el perfil de cliente objetivo, un botón directo de acción y un listado de funcionalidades clave que van desde el monitoreo básico de proyectos hasta integraciones avanzadas y soporte 24/7.
 
 <div align="center">
-  <img src="../assets/Chapter-4/plans.png" alt="Paso 4">
+  <img src="../assets/Chapter-4/plan.png" alt="Paso 4">
 </div>
 
 **About team**
@@ -557,7 +557,7 @@ Administración móvil de personal asignado al corredor y gestor de permisos por
 
 Tarjetas de planes de suscripción (Starter Corridor y Enterprise Concession) que detallan costos, capacidades telemáticas e integración normativa.
 <div align="center">
-  <img src="../assets/Chapter-4/sus-mob.png" alt="Team">
+  <img src="../assets/Chapter-4/sub-mob.png" alt="Team">
 </div>
 
 ### 4.4.4. Web Applications User Flow Diagrams.
