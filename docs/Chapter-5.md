@@ -370,125 +370,39 @@ Durante el Sprint 2 el equipo desarrolla la primera versión de la Frontend Web 
 
 #### 5.2.2.1. Sprint Planning 2
 
-<table border="1" cellpadding="4" cellspacing="0">
-  <thead>
-    <tr>
-      <th colspan="2" style="text-align: center;">Sprint Planning Sprint 2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td colspan="2" style="text-align: center;"><strong>Sprint Planning Background</strong></td>
-    </tr>
-    <tr>
-      <td>Date</td>
-      <td>09/10/2026</td>
-    </tr>
-    <tr>
-      <td>Time</td>
-      <td>09:30 p.m.</td>
-    </tr>
-    <tr>
-      <td>Location</td>
-      <td>Discord</td>
-    </tr>
-    <tr>
-      <td>Prepared By</td>
-      <td>Miguel Ángel Junior Román López</td>
-    </tr>
-    <tr>
-      <td>Attendees (to planning meeting)</td>
-      <td>
-        Román López, Miguel Ángel Junior
-        Salcedo Muñoz, Andy Alfredo Hipolito
-        Guillen Chavez, Eduardo Martín
-        Yarleque Ruiz, Cristina Marcela
-        Torres Júarez, Alisee Muriel
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="text-align: center;"><strong>Sprint 1 Review Summary</strong></td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        Se completó el desarrollo y despliegue de la Landing Page, incluyendo todas las secciones planificadas 
-        y la funcionalidad de cambio de idioma.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="text-align: center;"><strong>Sprint 1 Retrospective Summary</strong></td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        El equipo identificó la necesidad de mejorar la comunicación diaria y la asignación de sub-tareas 
-        en Jira para evitar solapamientos. Se acordó utilizar etiquetas más claras por responsable y realizar 
-        revisiones de código colaborativas al cierre de cada día.
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="text-align: center;"><strong>Sprint Goal & User Stories</strong></td>
-    </tr>
-    <tr>
-      <td colspan="2"><strong>Sprint 2 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
-<em>Our goal is to enable project managers and environmental engineers to manage road projects, work fronts, and field crews via a unified web interface connected to EcoRoad's backend services.</em><br><br>
-<em>We believe this provides site residents, environmental supervisors, and operations staff with better visibility and coordination of mitigation activities by centralizing telemetry alerts and compliance records in a single location.</em><br><br>
-<em>This will be confirmed when an engineer or site resident can create, update, and view environmental incidents linked to road sections and assigned personnel—as well as filter them by risk level and status—using the web application, with data stored and retrieved via the backend API.</em>
-      </td>
-    </tr>
-    <tr>
-      <td>Sprint 2 Velocity</td>
-      <td>16 Story Points</td>
-    </tr>
-    <tr>
-      <td>Sum of Story Points</td>
-      <td>16 SP (≈ 64 horas estimadas)</td>
-    </tr>
-  </tbody>
-</table>
+
+| Sprint # | Sprint 2 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 09/10/2026 |
+| Time | 09:30 p.m. |
+| Location | Discord |
+| Prepared By | Román López, Miguel Ángel Junior |
+| Attendees (to planning meeting) | Román López, Miguel Ángel Junior / Salcedo Muñoz, Andy Alfredo Hipolito / Guillen Chavez, Eduardo Martín / Yarleque Ruiz, Cristina Marcela / Torres Juárez, Alisee Muriel |
+| Sprint 1 Review Summary | Se desplegó en GitHub Pages la primera versión del Landing Page con ocho secciones, diseño adaptable y cambio de idioma entre inglés y español. Se completaron 6 de 7 User Stories (15 de 18 Story Points). Quedó pendiente el formulario de contacto (US12). En la revisión se observó además que el menú de navegación no se muestra en pantallas menores a 900 px, que los enlaces legales del footer no tienen destino y que el sitio no incluye atributos ARIA. |
+| Sprint 1 Retrospective Summary | El equipo identificó la necesidad de mejorar la comunicación diaria y la asignación de sub-tareas en Jira para evitar solapamientos. Además, el código se integró en una sola carga sobre `main`, desde una cuenta y sin Conventional Commits, por lo que no quedó trazabilidad del aporte individual. Acuerdos: usar etiquetas por responsable en Jira, trabajar con ramas `feature/*` y Pull Requests hacia `develop` revisados por otro miembro, publicar cada miembro desde su propia cuenta y aplicar Conventional Commits. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | Our focus is on delivering the first navigable version of the EcoRoad Web Application, with the Projects, Alerts and Incidents views, together with an accessible Landing Page that includes a working contact request and the legal documents. We believe it delivers environmental managers and site residents of road construction and maintenance companies a single place to see which projects, alerts and incidents need their attention. This will be confirmed when a user can go from the Landing Page to the Web Application and review the environmental status of the projects, the open alerts and the incidents board in no more than three clicks each, in English and Spanish. |
+| Sprint 2 Velocity | 16 Story Points |
+| Sum of Story Points | 16 Story Points (64 horas estimadas) |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
-<p>
-Para el Sprint 2 se presenta la matriz <strong>Leadership-and-Collaboration Matrix (LACX)</strong>, donde se definen los roles de liderazgo (<strong>L</strong>) y colaboración (<strong>C</strong>) por aspecto técnico y funcional del desarrollo frontend basado en Angular.
-</p>
+Los aspectos del Sprint 2 se derivan del Sprint Goal:
 
-<p>
-Estos aspectos se derivan directamente de los objetivos establecidos en el <em>Sprint 2 Goal</em>, garantizando que cada componente clave del módulo frontend cuente con un responsable principal y con el apoyo colaborativo necesario para su implementación efectiva.
-</p>
+- **Landing Page v1.1 & Deployment:** formulario de contacto, documentos legales, accesibilidad, redirección hacia la Web Application y despliegue de ambos productos.
+- **App Shell & Projects:** estructura base de la aplicación Angular (layout, navegación, i18n) y vista Projects.
+- **Alerts & Incidents:** vista Alerts y tablero de Incidents por estado.
 
-<ul>
-  <li><strong>Integración Frontend–Backend:</strong> Consumo de endpoints, configuración de servicios HTTP y validación de la conexión con la API local.</li>
-  <li><strong>Gestión de Tareas (UI):</strong> Desarrollo de componentes Angular para la visualización, filtrado y navegación entre tareas.</li>
-  <li><strong>Gestión de Miembros y Grupos:</strong> Creación de componentes de detalle y listado de miembros y grupos asociados al proyecto.</li>
-</ul>
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page v1.1 & Deployment | App Shell & Projects | Alerts & Incidents |
+|---|---|---|---|---|
+| Salcedo Muñoz, Andy Alfredo Hipolito | `[POR COMPLETAR]` | L | C | C |
+| Román López, Miguel Ángel Junior | `[POR COMPLETAR]` | C | L | C |
+| Yarleque Ruiz, Cristina Marcela | `[POR COMPLETAR]` | C | C | L |
+| Guillen Chavez, Eduardo Martín | Eduardox30-wq `[POR COMPLETAR: confirmar]` | C | C | C |
+| Torres Juárez, Alisee Muriel | `[POR COMPLETAR]` | C | C | C |
 
-<table border="1" cellpadding="4" cellspacing="0" align="center">
-  <thead>
-    <tr>
-      <th>Team Member (Last Name, First Name)</th>
-      <th>Aspect: API Integration</th>
-      <th>Aspect: Task UI</th>
-      <th>Aspect: Members &amp; Groups</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Yarleque Ruiz, Cristina Marcela</td><td>L</td><td>C</td><td>C</td></tr>
-    <tr><td>Román López, Miguel Ángel Junior</td><td>C</td><td>L</td><td>C</td></tr>
-    <tr><td>Salcedo Muñoz, Andy Alfredo Hipolito</td><td>C</td><td>C</td><td>L</td></tr>
-    <tr><td>Guillen Chavez, Eduardo Martín</td><td>C</td><td>C</td><td>C</td></tr>
-    <tr><td>Torres Júarez, Alisee Muriel</td><td>C</td><td>C</td><td>C</td></tr>
-  </tbody>
-</table>
-
-<ul>
-  <li><strong>L</strong> = Líder del aspecto</li>
-  <li><strong>C</strong> = Colaborador en el aspecto</li>
-</ul>
-
-<p>
-La asignación de roles busca optimizar la ejecución del sprint, favoreciendo la especialización técnica y la cooperación entre los miembros. 
-Cada líder coordina las tareas relacionadas con su aspecto a través de <strong>Jira Software</strong>, supervisando avances, revisiones de código y validaciones funcionales con sus colaboradores.
-</p>
+L = Leader, C = Collaborator. Cada líder coordina los tasks de su aspecto en Jira Software y revisa los Pull Requests correspondientes.
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
