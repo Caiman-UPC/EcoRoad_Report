@@ -726,6 +726,7 @@ El diagrama de clases del módulo de gestión de incidencias (incident) modela e
 
 ### Bounded Context 8 - Compliance and Reporting:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD8.png)
+El diagrama de clases del módulo de cumplimiento y reportes (compliance) modela la generación de documentos oficiales y el seguimiento del estado ambiental mediante las entidades ComplianceReport y EnvironmentalStatus, permitiendo gestionar el ciclo de vida del reporte a través de los estados definidos en el enumerado ReportStatus (Requested, Generating, Generated, Failed), consolidar datos históricos y leer el estado ambiental global del proyecto para respaldar las auditorías ante las autoridades correspondientes.
 
 ## 4.8. Database Design.
 <a id="4-8-database-design"></a>
