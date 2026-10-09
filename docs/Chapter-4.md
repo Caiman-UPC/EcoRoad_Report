@@ -702,6 +702,7 @@ El diagrama de clases del módulo comercial (commercial) modela la gestión de c
 
 ### Bounded Context 2 - Identity and Access Management:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD2.png)
+El diagrama de clases del módulo de identidad y gestión de accesos (identity) estructura el control de usuarios mediante las entidades UserInvitation, User y UserAccess, permitiendo gestionar invitaciones corporativas bajo estados específicos (InvitationStatus), validar perfiles activos y asignar roles operativos (Role) como administradores o supervisores para garantizar la seguridad dentro de EcoRoad.
 
 ### Bounded Context 3 - Project and Road Site Management:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD3.png)
