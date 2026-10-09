@@ -714,6 +714,7 @@ El diagrama de clases del módulo de gestión de activos y despliegue (asset) mo
 
 ### Bounded Context 5 - Environmental Monitoring:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD5.png)
+El diagrama de clases del módulo de monitoreo ambiental (monitoring) modela la captura de telemetría mediante las entidades EnvironmentalMeasurement y ThresholdProfile, permitiendo registrar mediciones provenientes de sensores automáticos o ingresos manuales según el tipo de parámetro (ParameterType), y evaluarlas frente a los umbrales configurados para determinar su nivel de riesgo dentro de EcoRoad.
 
 ### Bounded Context 6 - Alerting and Risk Evaluation:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD6.png)
