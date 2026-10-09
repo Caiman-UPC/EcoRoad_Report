@@ -406,6 +406,84 @@ Finalmente, el gráfico de Visitors evidencia que, conforme avanzaba el desarrol
   <strong>Backend API (Local):</strong> <a href=""></a>
 </p>
 
+#### 5.2.2.1. Sprint Planning 2
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th colspan="2" style="text-align: center;">Sprint Planning Sprint 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr>
+      <td>Date</td>
+      <td>09/10/2026</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td>09:30 p.m.</td>
+    </tr>
+    <tr>
+      <td>Location</td>
+      <td>Discord</td>
+    </tr>
+    <tr>
+      <td>Prepared By</td>
+      <td>Miguel Ángel Junior Román López</td>
+    </tr>
+    <tr>
+      <td>Attendees (to planning meeting)</td>
+      <td>
+        Román López, Miguel Ángel Junior
+        Salcedo Muñoz, Andy Alfredo Hipolito
+        Guillen Chavez, Eduardo Martín
+        Yarleque Ruiz, Cristina Marcela
+        Torres Júarez, Alisee Muriel
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 1 Review Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        Se completó el desarrollo y despliegue de la Landing Page, incluyendo todas las secciones planificadas 
+        y la funcionalidad de cambio de idioma.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint 1 Retrospective Summary</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        El equipo identificó la necesidad de mejorar la comunicación diaria y la asignación de sub-tareas 
+        en Jira para evitar solapamientos. Se acordó utilizar etiquetas más claras por responsable y realizar 
+        revisiones de código colaborativas al cierre de cada día.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Sprint 2 Goal (Outcome–Impact–Customer–Confirmation):</strong><br><br>
+<em>Our goal is to enable project managers and environmental engineers to manage road projects, work fronts, and field crews via a unified web interface connected to EcoRoad's backend services.</em><br><br>
+<em>We believe this provides site residents, environmental supervisors, and operations staff with better visibility and coordination of mitigation activities by centralizing telemetry alerts and compliance records in a single location.</em><br><br>
+<em>This will be confirmed when an engineer or site resident can create, update, and view environmental incidents linked to road sections and assigned personnel—as well as filter them by risk level and status—using the web application, with data stored and retrieved via the backend API.</em>
+      </td>
+    </tr>
+    <tr>
+      <td>Sprint 2 Velocity</td>
+      <td>16 Story Points</td>
+    </tr>
+    <tr>
+      <td>Sum of Story Points</td>
+      <td>16 SP (≈ 64 horas estimadas)</td>
+    </tr>
+  </tbody>
+</table>
+
 5.3. Validation Interviews.
 
 5.3.1. Diseño de Entrevistas.
