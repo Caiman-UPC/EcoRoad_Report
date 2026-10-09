@@ -299,17 +299,16 @@ El seguimiento y la actualización del Sprint Backlog se realizan en **Jira Soft
 
 En el Sprint 1 se construyó la primera versión navegable del Landing Page con las secciones Home (Hero), Solutions, Benefits, Features, Testimonials, Pricing, Our Team y Contact, además del footer, los estilos responsivos y el cambio de idioma. La implementación consta de `index.html`, `assets/styles.css` y `assets/script.js`.
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-|---|---|---|---|---|---|
-| Caiman-UPC/Landing-Page | main | 8a4c8ca | first commit | — | 20/09/2026 |
-| Caiman-UPC/Landing-Page | main | 41eebd8 | Agregando todos los archivos del proyecto | — | 20/09/2026 |
-| Caiman-UPC/Landing-Page | main | a0587f1 | Organizando archivos en la raiz para GitHub Pages | — | 20/09/2026 |
+| Repository | Branch | Commit Id | Commit Message                                    | Commit Message Body | Committed on (Date) |
+|---|---|---|---------------------------------------------------|---|---------------------|
+| Caiman-UPC/Landing-Page | main | 8a4c8ca | first commit                                      | — | 20/09/2026          |
+| Caiman-UPC/Landing-Page | main | 41eebd8 | Add all the information of the project            | — | 01/10/2026          |
+| Caiman-UPC/Landing-Page | main | a0587f1 | Organizando archivos en la raiz para GitHub Pages | — | 05//10/2026         |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
 En el Sprint 1 se alcanzó la publicación del Landing Page con ocho secciones navegables desde el header, diseño adaptable a escritorio y móvil, y cambio de idioma entre inglés (por defecto) y español.
 
-Video de navegación del Landing Page: `[URL en Microsoft Stream]` — Duración: `[POR COMPLETAR]`
 
 | Vista | Captura |
 |---|---|
@@ -349,13 +348,11 @@ URL del despliegue: https://caiman-upc.github.io/Landing-Page/
 `[POR COMPLETAR: captura del sitio desplegado en el navegador con la URL visible]`
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
-El repositorio `Caiman-UPC/Landing-Page` registra en el Sprint 1 tres commits sobre la rama `main`, todos del 20/09/2026 y publicados desde una sola cuenta (Eduardox30-wq). Por ello, los analíticos de GitHub de este Sprint no reflejan el aporte individual de cada miembro. `[POR COMPLETAR: explicar cómo se distribuyó el desarrollo de las secciones entre los miembros y cómo se consolidó en el repositorio.]`
 
-`[POR COMPLETAR: captura de Insights > Contributors]`
+Captura de Insights - Contributors
 
-`[POR COMPLETAR: captura de Insights > Network]`
+![Insights](../assets/Chapter-5/evi.png)
 
-`[POR COMPLETAR: captura de Insights > Commits]`
 
 A partir del Sprint 2, cada miembro publica sus cambios desde su propia cuenta, en ramas `feature/*` integradas a `develop` mediante Pull Request y con mensajes en formato Conventional Commits, de modo que la participación de todos quede registrada en los analíticos de cada repositorio.
 
@@ -364,8 +361,8 @@ A partir del Sprint 2, cada miembro publica sus cambios desde su propia cuenta, 
 Durante el Sprint 2 el equipo desarrolla la primera versión de la Frontend Web Application de EcoRoad (vistas Projects, Alerts e Incidents) y una nueva versión del Landing Page (v1.1.0) con formulario de contacto, documentos legales y mejoras de accesibilidad.
 
 - Repositorio del Landing Page: https://github.com/Caiman-UPC/Landing-Page
-- Repositorio de la Frontend Web Application: `[POR COMPLETAR]`
-- API utilizada por la Web Application en este Sprint (entorno local): `[POR COMPLETAR: URL local]`
+- Repositorio de la Frontend Web Application: https://github.com/Caiman-UPC/EcoRoad_Frontend
+- API utilizada por la Web Application en este Sprint (entorno local): 
 
 
 #### 5.2.2.1. Sprint Planning 2
@@ -423,20 +420,8 @@ El objetivo principal del Sprint 2 es publicar la primera versión de la Fronten
 | US45 | Consulta de incidencias | T10 | Implement incidents service and filters | Implementar el servicio de incidencias y los filtros por proyecto y responsable. | 5 | Guillen Chavez | To-do |
 | US42 | Consulta de alertas | T11 | Implement alerts view | Implementar el listado de alertas con filtro por nivel de riesgo y por proyecto. | 6 | Yarleque Ruiz | To-do |
 | US42 | Consulta de alertas | T12 | Implement alert detail panel | Mostrar el detalle de la alerta: indicador, valor, tramo, sensor, fecha y hora. | 4 | Torres Juárez | To-do |
-#### 5.2.2.4. Development Evidence for Sprint Review
-
-`[POR COMPLETAR al cierre del Sprint: resumen de los avances de implementación en el Landing Page v1.1.0 y la Frontend Web Application v0.1.0.]`
-
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-|---|---|---|---|---|---|
-| Caiman-UPC/Landing-Page | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` |
-| EcoRoad_Frontend| `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
-
-`[POR COMPLETAR al cierre del Sprint: resumen de lo alcanzado.]`
-
-Video de navegación del Landing Page y la Web Application: `[POR COMPLETAR: URL en Microsoft Stream]` — Duración: `[POR COMPLETAR]`
 
 | Producto            | Vista                                 | Captura                                          |
 |---------------------|---------------------------------------|--------------------------------------------------|
