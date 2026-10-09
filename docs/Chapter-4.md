@@ -710,6 +710,7 @@ El diagrama de clases del módulo de gestión de proyectos viales (project) mode
 
 ### Bounded Context 4 - Monitoring Asset and Deployment:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD4.png)
+El diagrama de clases del módulo de gestión de activos y despliegue (asset) modela el control del hardware mediante las entidades MonitoringPoint, Sensor y la clase intermedia SensorAssignment, permitiendo geolocalizar puntos de control en campo, gestionar el inventario de sensores IoT y vincularlos de forma activa bajo los estados definidos en los enumerados MonitoringPointStatus y SensorStatus.
 
 ### Bounded Context 5 - Environmental Monitoring:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD5.png)
