@@ -706,6 +706,7 @@ El diagrama de clases del módulo de identidad y gestión de accesos (identity) 
 
 ### Bounded Context 3 - Project and Road Site Management:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD3.png)
+El diagrama de clases del módulo de gestión de proyectos viales (project) modela la estructura jerárquica de la infraestructura mediante las entidades RoadProject, RoadSection y WorkFront, permitiendo registrar obras, configurar tramos carreteros con sus respectivos kilómetros de inicio y fin, y administrar los frentes de trabajo bajo estados operativos definidos en los enumerados ProjectStatus y WorkFrontStatus.
 
 ### Bounded Context 4 - Monitoring Asset and Deployment:
 ![Class Diagram - EcoRoad](../assets/EcoRoad-CD4.png)
