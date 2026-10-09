@@ -1,10 +1,10 @@
-Capítulo V: Product Implementation, Validation & Deployment
+# Capítulo V: Product Implementation, Validation & Deployment
 
 # Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
 <a id="5-1-software-configuration-management"></a>
-
+En esta sección se describen las decisiones, convenciones y principios adoptados por el equipo Caimán para garantizar la coherencia, trazabilidad y control de versiones durante el ciclo de vida del desarrollo de la solución EcoRoad. Se establecen los lineamientos para la configuración del entorno de desarrollo, gestión del código fuente, convenciones de estilo y configuración de despliegue.
 
 ### 5.1.1. Software Development Environment Configuration
 <a id="5-1-1-software-development-environment-configuration"></a>
