@@ -335,8 +335,14 @@ El alcance del Sprint 1 es el Landing Page, un sitio web estático; por lo tanto
 | No aplica | No hay Web Services en el alcance del Sprint 1. | No aplica |
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
-El sitio fue desplegado exitosamente en GitHub Pages.
-* **URL:** https://caiman-upc.github.io/Landing-Page/
+Durante el Sprint 1 se publicó el Landing Page en GitHub Pages. Las actividades realizadas fueron:
+
+1. Creación de la organización Caiman-UPC y del repositorio `Landing-Page` en GitHub.
+2. Reorganización de los archivos del proyecto en la raíz del repositorio (commit `a0587f1`), requisito para publicar desde `/ (root)`.
+3. Activación de GitHub Pages en **Settings > Pages**, con la rama `main` y la carpeta `/ (root)` como origen.
+4. Verificación del sitio en la URL pública.
+
+URL del despliegue: https://caiman-upc.github.io/Landing-Page/
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
