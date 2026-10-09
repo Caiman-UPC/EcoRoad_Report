@@ -439,6 +439,22 @@ URL público del Board: `[POR COMPLETAR]`
 | Caiman-UPC/Landing-Page | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` |
 | `[POR COMPLETAR: repositorio frontend]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` | `[POR COMPLETAR]` |
 
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+`[POR COMPLETAR al cierre del Sprint: resumen de lo alcanzado.]`
+
+Video de navegación del Landing Page y la Web Application: `[POR COMPLETAR: URL en Microsoft Stream]` — Duración: `[POR COMPLETAR]`
+
+| Producto | Vista | Captura |
+|---|---|---|
+| Landing Page v1.1.0 | Formulario de contacto con validación | `[POR COMPLETAR]` |
+| Landing Page v1.1.0 | Menú de navegación en móvil | `[POR COMPLETAR]` |
+| Landing Page v1.1.0 | Terms of Service y Privacy Policy | `[POR COMPLETAR]` |
+| Web Application | Projects | `[POR COMPLETAR]` |
+| Web Application | Alerts y panel de detalle | `[POR COMPLETAR]` |
+| Web Application | Incidents (tablero por estado) | `[POR COMPLETAR]` |
+| Web Application | Versión en español | `[POR COMPLETAR]` |
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 <p>
